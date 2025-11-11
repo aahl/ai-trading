@@ -69,7 +69,10 @@ jobs:
               },
               "hooks": {
                 "command": "uv",
-                "args": ["run", "mcp-hooks.py"]
+                "args": [
+                  "--directory", "${{ github.workspace }}",
+                  "run", "mcp-hooks.py"
+                ]
               }
             }
           }
