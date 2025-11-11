@@ -24,7 +24,7 @@ jobs:
       - name: Checkout branch
         run: |
           BRANCH_NAME="${{ vars.TRADING_BRANCH || 'trading' }}"
-          git checkout -b "$BRANCH_NAME"
+          git checkout "$BRANCH_NAME" 2>/dev/null || git checkout -b "$BRANCH_NAME"
           echo "TRADING_BRANCH=$BRANCH_NAME" >> $GITHUB_ENV
 
       - name: Install uv
