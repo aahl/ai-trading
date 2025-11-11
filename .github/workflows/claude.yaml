@@ -2,7 +2,7 @@ name: Trading with Claude code
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '1 * * * *'
   workflow_dispatch:
     inputs:
       prompt:
@@ -56,7 +56,7 @@ jobs:
                   "OKX_API_KEY": "${{ secrets.OKX_DEMO_API_KEY }}",
                   "OKX_API_SECRET": "${{ secrets.OKX_DEMO_API_SECRET }}",
                   "OKX_PASSPHRASE": "${{ secrets.OKX_DEMO_PASSPHRASE }}",
-                  "OKX_TRADE_FLAG": "1"
+                  "OKX_TRADE_FLAG": "${{ secrets.OKX_TRADE_FLAG == '0' && '0' || '1' }}"
                 }
               },
               "notify": {
@@ -101,7 +101,7 @@ jobs:
         run: |
           git config --global user.email "claude[bot]@users.noreply.github.com"
           git config --global user.name "claude[bot]"
-          git add -A trading
+          git add -A .
           git status
           git commit -m "📈 Auto Trading Result" || echo "No changes to commit"
-          git push origin "${{ env.TRADING_BRANCH }}"
+          git push -u origin ${{ env.TRADING_BRANCH }}

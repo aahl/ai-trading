@@ -20,6 +20,7 @@
 
 ## 相关链接
 - https://t.me/s/mcpBtc
+- [自动交易工作流配置文件](https://github.com/aahl/ai-trading/blob/main/.github/workflows/claude.yaml)
 - [自动交易工作流运行记录](https://github.com/aahl/ai-trading/actions/workflows/claude.yaml)
 - [智谱免费模型可用于 Claude Code](https://www.bigmodel.cn/invite?icode=EwilDKx13%2FhyODIyL%2BKabHHEaazDlIZGj9HxftzTbt4%3D)
 - [GLM Coding Plan·限时优惠](https://www.bigmodel.cn/claude-code?ic=WTOWFVEJXH)
