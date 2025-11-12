@@ -347,15 +347,27 @@
     {
       "time": "2025-11-12T06:32:37.497787",
       "balance": 126480.2
+    },
+    {
+      "time": "2025-11-12T07:24:51.737345",
+      "balance": 125544.7
     }
   ],
   "assets": {
-    "BTC": 39127.6,
-    "ETH": 13254.5,
-    "SOL": 12060.3,
-    "USDT": 62037.8
+    "BTC": 41105.7,
+    "ETH": 13243.5,
+    "SOL": 10739.8,
+    "USDT": 60455.7
   },
   "trades": [
+    {
+      "time": "2025-11-12T07:24:51.737369",
+      "text": "Buy 2 SOL-USDT at market price"
+    },
+    {
+      "time": "2025-11-12T07:24:51.737365",
+      "text": "Buy 1 SOL-USDT at market price"
+    },
     {
       "time": "2025-11-12T06:32:37.497808",
       "text": "Market analysis completed for BTC, ETH, SOL"
