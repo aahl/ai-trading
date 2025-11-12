@@ -359,15 +359,31 @@
     {
       "time": "2025-11-12T09:28:23.101533",
       "balance": 126510.8
+    },
+    {
+      "time": "2025-11-12T10:24:38.415807",
+      "balance": 126424.0
     }
   ],
   "assets": {
-    "BTC": 0.4,
-    "ETH": 3.8,
-    "SOL": 168.8,
-    "USDT": 57343.4
+    "BTC": 110000.0,
+    "ETH": 3000.0,
+    "SOL": 3000.0,
+    "USDT": 10424.0
   },
   "trades": [
+    {
+      "time": "2025-11-12T10:24:38.415836",
+      "text": "Sell 1.5 ETH, received approximately 5243 USDT"
+    },
+    {
+      "time": "2025-11-12T10:24:38.415834",
+      "text": "Buy 20 SOL, spent approximately 3175 USDT"
+    },
+    {
+      "time": "2025-11-12T10:24:38.415831",
+      "text": "Buy 0.01 BTC, spent approximately 1042 USDT"
+    },
     {
       "time": "2025-11-12T09:28:23.101556",
       "text": "Buy 0.05 BTC at 67500 USDT in BTC-USDT"
