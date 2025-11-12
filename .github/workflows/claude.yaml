@@ -18,8 +18,28 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
+          fetch-depth: 1
+          path: main
+
+      - name: Store main branch
+        run: |
+          cd main
+          rm -rf .git demo.json README.md
+          tar zcvf ../../main.tgz .
+
+      - uses: actions/checkout@v5
+        with:
           fetch-depth: 0
           persist-credentials: true
+
+      - name: Checkout branch
+        run: |
+          BRANCH_NAME="${{ vars.TRADING_BRANCH || 'trading' }}"
+          git checkout "$BRANCH_NAME" 2>/dev/null || git checkout -b "$BRANCH_NAME"
+          git pull
+          tar zxvf ../main.tgz
+          git status
+          echo "TRADING_BRANCH=$BRANCH_NAME" >> $GITHUB_ENV
 
       - name: Install uv
         uses: astral-sh/setup-uv@v6
@@ -95,9 +115,7 @@ jobs:
         run: |
           git config --global user.email "claude[bot]@users.noreply.github.com"
           git config --global user.name "claude[bot]"
-          BRANCH_NAME="${{ vars.TRADING_BRANCH || 'trading' }}"
-          git checkout "$BRANCH_NAME" 2>/dev/null || git checkout -b "$BRANCH_NAME"
           git add -A .
           git status
           git commit -m "📈 Auto Trading Result" || echo "No changes to commit"
-          git push -u origin "$BRANCH_NAME"
+          git push -u origin "${{ env.TRADING_BRANCH }}"
