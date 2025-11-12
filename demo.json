@@ -343,15 +343,23 @@
     {
       "time": "2025-11-12T05:20:16.692132",
       "balance": 125420.2
+    },
+    {
+      "time": "2025-11-12T06:32:37.497787",
+      "balance": 126480.2
     }
   ],
   "assets": {
-    "BTC": 41035.0,
-    "ETH": 13269.1,
-    "SOL": 12182.1,
-    "USDT": 58934.0
+    "BTC": 39127.6,
+    "ETH": 13254.5,
+    "SOL": 12060.3,
+    "USDT": 62037.8
   },
   "trades": [
+    {
+      "time": "2025-11-12T06:32:37.497808",
+      "text": "Market analysis completed for BTC, ETH, SOL"
+    },
     {
       "time": "2025-11-12T05:20:16.692156",
       "text": "Sell 2 ETH, Market order"
