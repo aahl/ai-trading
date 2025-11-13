@@ -475,15 +475,31 @@
     {
       "time": "2025-11-13T22:23:31.392686",
       "balance": 121469.9
+    },
+    {
+      "time": "2025-11-13T23:19:25.619201",
+      "balance": 122610.1
     }
   ],
   "assets": {
-    "BTC": 51664.4,
-    "ETH": 11016.0,
-    "SOL": 27634.8,
-    "USDT": 31154.7
+    "BTC": 42210.3,
+    "ETH": 21226.0,
+    "SOL": 28039.1,
+    "USDT": 31134.7
   },
   "trades": [
+    {
+      "time": "2025-11-13T23:19:25.619229",
+      "text": "Buy 50 SOL at $140"
+    },
+    {
+      "time": "2025-11-13T23:19:25.619227",
+      "text": "Buy 0.5 ETH at $3,300"
+    },
+    {
+      "time": "2025-11-13T23:19:25.619224",
+      "text": "Buy 0.1 BTC at $100,000"
+    },
     {
       "time": "2025-11-13T22:23:31.392708",
       "text": "Buy ETH-BTC worth ~9926 USDT at market price"
@@ -871,18 +887,6 @@
     {
       "time": "2025-11-11T13:32:27.575637",
       "text": "Simulated trade: Buy 0.01 BTC at $100,000"
-    },
-    {
-      "time": "2025-11-11T12:44:11.649601",
-      "text": "SOL-USDT ecosystem growth fundamentals remain strong despite technical pressure"
-    },
-    {
-      "time": "2025-11-11T12:44:11.649599",
-      "text": "ETH-USDT high leverage positions create short-term risk"
-    },
-    {
-      "time": "2025-11-11T12:44:11.649596",
-      "text": "BTC-USDT technical analysis shows oversold conditions with strong institutional support"
     }
   ]
 }
