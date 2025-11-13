@@ -411,15 +411,30 @@
     {
       "time": "2025-11-13T01:23:37.310327",
       "balance": 125833.0
+    },
+    {
+      "time": "2025-11-13T04:26:26.942674",
+      "balance": 125070.0
     }
   ],
   "assets": {
-    "BTC": 55000.0,
-    "ETH": 13600.0,
-    "SOL": 36000.0,
-    "USDT": 19833.0
+    "BTC": 51512.3,
+    "ETH": 9300.4,
+    "SOL": 26808.1
   },
   "trades": [
+    {
+      "time": "2025-11-13T04:26:26.942702",
+      "text": "SOL buy recommendation - MACD crossover and institutional interest"
+    },
+    {
+      "time": "2025-11-13T04:26:26.942700",
+      "text": "ETH sell recommendation - ETF outflows and high liquidation risk"
+    },
+    {
+      "time": "2025-11-13T04:26:26.942696",
+      "text": "BTC hold decision - MACD bullish signal with institutional support"
+    },
     {
       "time": "2025-11-13T01:23:37.310353",
       "text": "Buy 1 ETH-USDT at market price, spent ~3414 USDT"
@@ -807,18 +822,6 @@
     {
       "time": "2025-11-10T11:18:33.930725",
       "text": "Sell 0.05 BTC, took profit ~$5300"
-    },
-    {
-      "time": "2025-11-10T11:06:15.309874",
-      "text": "Buy 10 SOL at $165, Buy 10 SOL at $163, Buy 5 SOL at $162 - Total 25 SOL for $4,025"
-    },
-    {
-      "time": "2025-11-10T09:26:33.453568",
-      "text": "Sold 10 ETH, received 0.4634 ETH in SOL"
-    },
-    {
-      "time": "2025-11-10T09:26:33.453565",
-      "text": "Buy 6.5309 SOL-ETH, avg price 0.04654 ETH"
     }
   ]
 }
