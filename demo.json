@@ -471,14 +471,27 @@
     {
       "time": "2025-11-13T20:22:51.540838",
       "balance": 120476.0
+    },
+    {
+      "time": "2025-11-13T22:23:31.392686",
+      "balance": 121469.9
     }
   ],
   "assets": {
-    "BTC": 67846.9,
-    "ETH": 3547.2,
-    "USDT": 49081.8
+    "BTC": 51664.4,
+    "ETH": 11016.0,
+    "SOL": 27634.8,
+    "USDT": 31154.7
   },
   "trades": [
+    {
+      "time": "2025-11-13T22:23:31.392708",
+      "text": "Buy ETH-BTC worth ~9926 USDT at market price"
+    },
+    {
+      "time": "2025-11-13T22:23:31.392705",
+      "text": "Buy 20 SOL-USDT at market price, spent ~2861 USDT"
+    },
     {
       "time": "2025-11-13T20:22:51.540868",
       "text": "Buy 0.5 SOL, spent 94.99 USDT"
@@ -870,14 +883,6 @@
     {
       "time": "2025-11-11T12:44:11.649596",
       "text": "BTC-USDT technical analysis shows oversold conditions with strong institutional support"
-    },
-    {
-      "time": "2025-11-11T10:23:50.622420",
-      "text": "Buy 20 SOL-USDT at market price, technical bounce play from oversold territory"
-    },
-    {
-      "time": "2025-11-11T10:23:50.622417",
-      "text": "Sell 2.465 ETH-USDT at market price, take profits due to liquidation risk"
     }
   ]
 }
