@@ -415,14 +415,27 @@
     {
       "time": "2025-11-13T04:26:26.942674",
       "balance": 125070.0
+    },
+    {
+      "time": "2025-11-13T05:21:29.154417",
+      "balance": 124739.1
     }
   ],
   "assets": {
-    "BTC": 51512.3,
-    "ETH": 9300.4,
-    "SOL": 26808.1
+    "BTC": 51324.8,
+    "ETH": 9280.6,
+    "SOL": 26682.9,
+    "USDT": 37450.8
   },
   "trades": [
+    {
+      "time": "2025-11-13T05:21:29.154440",
+      "text": "Buy 50 SOL-USDT at 155 USDT"
+    },
+    {
+      "time": "2025-11-13T05:21:29.154437",
+      "text": "Buy 0.5 ETH-USDT at 3450 USDT"
+    },
     {
       "time": "2025-11-13T04:26:26.942702",
       "text": "SOL buy recommendation - MACD crossover and institutional interest"
@@ -814,14 +827,6 @@
     {
       "time": "2025-11-10T12:41:22.039539",
       "text": "Buy 0.5 ETH at $3550, Buy 0.01 BTC at $104500, Buy 10 SOL at $168"
-    },
-    {
-      "time": "2025-11-10T11:18:33.930728",
-      "text": "Buy 5 ETH at market ~$18000"
-    },
-    {
-      "time": "2025-11-10T11:18:33.930725",
-      "text": "Sell 0.05 BTC, took profit ~$5300"
     }
   ]
 }
