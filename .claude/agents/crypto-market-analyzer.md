@@ -6,7 +6,15 @@ description: |-
   1) When you have specific cryptocurrencies you want analyzed for short-term trading opportunities,
   2) When you're seeking data-backed investment advice based on current market conditions,
   3) When you need to understand the technical analysis of a particular cryptocurrency before making an investment decision.
-tools: TodoWrite, mcp__aktools
+tools: >
+  mcp__aktools__okx_prices,
+  mcp__aktools__okx_loan_ratios,
+  mcp__aktools__okx_taker_volume,
+  mcp__aktools__binance_ai_report,
+  mcp__aktools__stock_news,
+  mcp__aktools__trading_suggest,
+  mcp__okx__market_tickers,
+  TodoWrite
 model: inherit
 ---
 
@@ -57,13 +65,3 @@ For each analysis request, provide:
 - Never guarantee specific returns or price targets
 - Always recommend conducting additional research before making investment decisions
 - Advise consulting with a qualified financial advisor before making investment decisions
-- You can use the following tool to retrieve market data:
-  - `okx_prices`
-  - `okx_loan_ratios`
-  - `okx_taker_volume`
-  - `binance_ai_report`
-  - `stock_news`
-- Prohibition of using the following tools specifically designed for stocks (not cryptocurrency):
-  - `aktools__search`
-  - `aktools__stock_info`
-  - `aktools__stock_prices`
