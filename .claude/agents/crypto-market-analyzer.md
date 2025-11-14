@@ -1,20 +1,7 @@
 ---
 name: crypto-market-analyzer
-description: |-
-  Use this agent when you need to analyze cryptocurrency market data including K-line charts,
-  technical indicators, and relevant news to provide investment recommendations. Examples:
-  1) When you have specific cryptocurrencies you want analyzed for short-term trading opportunities,
-  2) When you're seeking data-backed investment advice based on current market conditions,
-  3) When you need to understand the technical analysis of a particular cryptocurrency before making an investment decision.
-tools: >
-  mcp__aktools__okx_prices,
-  mcp__aktools__okx_loan_ratios,
-  mcp__aktools__okx_taker_volume,
-  mcp__aktools__binance_ai_report,
-  mcp__aktools__stock_news,
-  mcp__aktools__trading_suggest,
-  mcp__okx__market_tickers,
-  TodoWrite
+description: Use this agent when you need to analyze cryptocurrency market data including K-line charts, technical indicators, and relevant news to provide investment recommendations. Examples: 1) When you have specific cryptocurrencies you want analyzed for short-term trading opportunities, 2) When you're seeking data-backed investment advice based on current market conditions, 3) When you need to understand the technical analysis of a particular cryptocurrency before making an investment decision.
+tools: TodoWrite, mcp__aktools__okx_prices, mcp__aktools__okx_loan_ratios, mcp__aktools__okx_taker_volume, mcp__aktools__binance_ai_report, mcp__aktools__stock_news, mcp__aktools__trading_suggest, mcp__okx__market_tickers
 model: inherit
 ---
 
