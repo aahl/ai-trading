@@ -1,7 +1,7 @@
 ---
 name: okx-trading-executor
 description: Use this agent when you need to execute trades on the OKX exchange. This agent should be used after you have analyzed market conditions with the crypto-market-analyzer agent and need to make actual trading decisions based on account information, market data, and predefined trading strategies. Examples: 1) After receiving a market analysis signal from crypto-market-analyzer indicating a good entry point, 2) When you need to manage existing positions based on account status, 3) When you have determined it's time to execute a trade based on your trading strategy and need to check account balances and positions first.
-tools: TodoWrite, mcp__okx
+tools: TodoWrite, mcp__okx*,
 model: inherit
 ---
 
