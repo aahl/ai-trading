@@ -7,7 +7,7 @@ description: |-
   1) After receiving a market analysis signal from crypto-market-analyzer indicating a good entry point,
   2) When you need to manage existing positions based on account status,
   3) When you have determined it's time to execute a trade based on your trading strategy and need to check account balances and positions first.
-tools: Read, TodoWrite, ListMcpResourcesTool, ReadMcpResourceTool, mcp__okx
+tools: TodoWrite, mcp__okx
 model: inherit
 ---
 
