@@ -479,15 +479,35 @@
     {
       "time": "2025-11-13T23:19:25.619201",
       "balance": 122610.1
+    },
+    {
+      "time": "2025-11-14T01:18:54.181030",
+      "balance": 121201.1
     }
   ],
   "assets": {
-    "BTC": 42210.3,
-    "ETH": 21226.0,
-    "SOL": 28039.1,
-    "USDT": 31134.7
+    "BTC": 51499.2,
+    "ETH": 22489.6,
+    "SOL": 27693.6,
+    "USDT": 19518.7
   },
   "trades": [
+    {
+      "time": "2025-11-14T01:18:54.181057",
+      "text": "SOL: Hold (70% confidence)"
+    },
+    {
+      "time": "2025-11-14T01:18:54.181056",
+      "text": "ETH: Hold (75% confidence)"
+    },
+    {
+      "time": "2025-11-14T01:18:54.181054",
+      "text": "BTC: Hold (85% confidence)"
+    },
+    {
+      "time": "2025-11-14T01:18:54.181051",
+      "text": "HODL strategy recommended for current positions"
+    },
     {
       "time": "2025-11-13T23:19:25.619229",
       "text": "Buy 50 SOL at $140"
@@ -871,22 +891,6 @@
     {
       "time": "2025-11-11T14:20:27.384905",
       "text": "Buy 0.1 ETH, executed at market price"
-    },
-    {
-      "time": "2025-11-11T14:20:27.384901",
-      "text": "Buy 0.01 BTC, executed at market price"
-    },
-    {
-      "time": "2025-11-11T13:32:27.575642",
-      "text": "No SOL trade - waiting for technical confirmation"
-    },
-    {
-      "time": "2025-11-11T13:32:27.575640",
-      "text": "Simulated trade: Buy 0.1 ETH at $3,500"
-    },
-    {
-      "time": "2025-11-11T13:32:27.575637",
-      "text": "Simulated trade: Buy 0.01 BTC at $100,000"
     }
   ]
 }
