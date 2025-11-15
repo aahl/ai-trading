@@ -607,15 +607,31 @@
     {
       "time": "2025-11-15T14:18:46.389548",
       "balance": 118639.1
+    },
+    {
+      "time": "2025-11-15T15:19:32.937222",
+      "balance": 118544.3
     }
   ],
   "assets": {
-    "BTC": 0.1,
-    "ETH": 0.5,
-    "SOL": 2.0,
-    "USDT": 100000.0
+    "BTC": 52151.9,
+    "ETH": 30464.9,
+    "SOL": 23334.9,
+    "USDT": 12592.7
   },
   "trades": [
+    {
+      "time": "2025-11-15T15:19:32.937247",
+      "text": "SOL-USD strong fundamentals with DApp revenue growth; ETF inflows 14-day $382M; whale accumulation"
+    },
+    {
+      "time": "2025-11-15T15:19:32.937245",
+      "text": "ETH-USD strong whale accumulation at 3097-3200 zone; ETF outflows but chain demand strong"
+    },
+    {
+      "time": "2025-11-15T15:19:32.937242",
+      "text": "BTC-USD price near key support at 92,000; MACD bullish crossover; institution buying vs ETF outflows"
+    },
     {
       "time": "2025-11-15T14:18:46.389574",
       "text": "Buy SOL - Strong fundamentals at oversold levels"
@@ -1003,18 +1019,6 @@
     {
       "time": "2025-11-13T08:30:48.800896",
       "text": "Buy 50 SOL at $155 limit order"
-    },
-    {
-      "time": "2025-11-13T08:30:48.800893",
-      "text": "Sell 0.3 BTC at $103,200 limit order"
-    },
-    {
-      "time": "2025-11-13T06:32:27.107310",
-      "text": "Sell 0.1 ETH at market price - executed successfully (Order ID: 3037114961690628096)"
-    },
-    {
-      "time": "2025-11-13T05:21:29.154440",
-      "text": "Buy 50 SOL-USDT at 155 USDT"
     }
   ]
 }
