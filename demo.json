@@ -603,6 +603,10 @@
     {
       "time": "2025-11-15T13:27:19.304323",
       "balance": 118373.1
+    },
+    {
+      "time": "2025-11-15T14:18:46.389548",
+      "balance": 118639.1
     }
   ],
   "assets": {
@@ -612,6 +616,18 @@
     "USDT": 100000.0
   },
   "trades": [
+    {
+      "time": "2025-11-15T14:18:46.389574",
+      "text": "Buy SOL - Strong fundamentals at oversold levels"
+    },
+    {
+      "time": "2025-11-15T14:18:46.389572",
+      "text": "Sell ETH - Bearish indicators and ETF outflows"
+    },
+    {
+      "time": "2025-11-15T14:18:46.389569",
+      "text": "Hold BTC - Mixed signals with whale accumulation vs bearish technicals"
+    },
     {
       "time": "2025-11-15T13:27:19.304346",
       "text": "Analysis completed - market conditions unfavorable for new entries, exiting positions to reduce losses"
@@ -999,18 +1015,6 @@
     {
       "time": "2025-11-13T05:21:29.154440",
       "text": "Buy 50 SOL-USDT at 155 USDT"
-    },
-    {
-      "time": "2025-11-13T05:21:29.154437",
-      "text": "Buy 0.5 ETH-USDT at 3450 USDT"
-    },
-    {
-      "time": "2025-11-13T04:26:26.942702",
-      "text": "SOL buy recommendation - MACD crossover and institutional interest"
-    },
-    {
-      "time": "2025-11-13T04:26:26.942700",
-      "text": "ETH sell recommendation - ETF outflows and high liquidation risk"
     }
   ]
 }
