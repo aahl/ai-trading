@@ -631,15 +631,23 @@
     {
       "time": "2025-11-15T21:17:26.253609",
       "balance": 117873.7
+    },
+    {
+      "time": "2025-11-15T23:17:55.383592",
+      "balance": 117649.0
     }
   ],
   "assets": {
-    "BTC": 51727.0,
-    "ETH": 30435.5,
-    "SOL": 23097.1,
-    "USDT": 12592.5
+    "BTC": 51734.2,
+    "ETH": 30341.5,
+    "SOL": 22981.6,
+    "USDT": 12600.3
   },
   "trades": [
+    {
+      "time": "2025-11-15T23:17:55.383612",
+      "text": "分析完成：BTC观望，ETH建议买入2个($6,340)，SOL观望"
+    },
     {
       "time": "2025-11-15T21:17:26.253631",
       "text": "No new trades executed - Risk management strategy due to contradictory signals and frozen funds"
@@ -1035,10 +1043,6 @@
     {
       "time": "2025-11-13T14:24:30.332276",
       "text": "Buy 1 SOL-ETH, anticipating ETH outperformance against SOL"
-    },
-    {
-      "time": "2025-11-13T13:37:09.870496",
-      "text": "Buy 228.70 SOL, spent ~$1000 USDT"
     }
   ]
 }
