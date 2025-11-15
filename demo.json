@@ -599,15 +599,23 @@
     {
       "time": "2025-11-15T11:17:35.561742",
       "balance": 11801.9
+    },
+    {
+      "time": "2025-11-15T13:27:19.304323",
+      "balance": 118373.1
     }
   ],
   "assets": {
-    "BTC": 5147.2,
-    "ETH": 2588.9,
-    "SOL": 2254.5,
-    "USDT": 1811.3
+    "BTC": 0.1,
+    "ETH": 0.5,
+    "SOL": 2.0,
+    "USDT": 100000.0
   },
   "trades": [
+    {
+      "time": "2025-11-15T13:27:19.304346",
+      "text": "Analysis completed - market conditions unfavorable for new entries, exiting positions to reduce losses"
+    },
     {
       "time": "2025-11-15T11:17:35.561767",
       "text": "Buy 1 ETH for current market price"
@@ -1003,10 +1011,6 @@
     {
       "time": "2025-11-13T04:26:26.942700",
       "text": "ETH sell recommendation - ETF outflows and high liquidation risk"
-    },
-    {
-      "time": "2025-11-13T04:26:26.942696",
-      "text": "BTC hold decision - MACD bullish signal with institutional support"
     }
   ]
 }
