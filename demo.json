@@ -623,15 +623,31 @@
     {
       "time": "2025-11-15T19:16:39.624826",
       "balance": 118819.4
+    },
+    {
+      "time": "2025-11-15T20:21:13.963320",
+      "balance": 118162.0
     }
   ],
   "assets": {
-    "BTC": 4807.6,
-    "ETH": 4822.5,
-    "SOL": 717.1,
-    "USDT": 12591.8
+    "BTC": 52034.8,
+    "ETH": 30612.0,
+    "SOL": 23356.8,
+    "USDT": 12591.7
   },
   "trades": [
+    {
+      "time": "2025-11-15T20:21:13.963348",
+      "text": "ETH-USDT HOLD: Mixed signals - 65% confidence due to institutional selling pressure"
+    },
+    {
+      "time": "2025-11-15T20:21:13.963346",
+      "text": "SOL-USDT BUY: High risk/reward buy at 70% confidence at 5-month low"
+    },
+    {
+      "time": "2025-11-15T20:21:13.963343",
+      "text": "BTC-USDT BUY: Technical buy signal at 85% confidence with MACD bullish cross"
+    },
     {
       "time": "2025-11-15T19:16:39.624855",
       "text": "SOL-USDT buy limit 2 at $140 (insufficient margin)"
@@ -1019,18 +1035,6 @@
     {
       "time": "2025-11-13T13:37:09.870494",
       "text": "Buy 2.4539 ETH, spent ~$2000 USDT"
-    },
-    {
-      "time": "2025-11-13T13:37:09.870491",
-      "text": "Buy 0.3524 BTC, spent ~$5000 USDT"
-    },
-    {
-      "time": "2025-11-13T12:44:36.578082",
-      "text": "Buy 30 SOL, spent 4595.7 USDT"
-    },
-    {
-      "time": "2025-11-13T12:44:36.578077",
-      "text": "Buy 30 SOL, spent 4595.7 USDT"
     }
   ]
 }
