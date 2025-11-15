@@ -627,15 +627,23 @@
     {
       "time": "2025-11-15T20:21:13.963320",
       "balance": 118162.0
+    },
+    {
+      "time": "2025-11-15T21:17:26.253609",
+      "balance": 117873.7
     }
   ],
   "assets": {
-    "BTC": 52034.8,
-    "ETH": 30612.0,
-    "SOL": 23356.8,
-    "USDT": 12591.7
+    "BTC": 51727.0,
+    "ETH": 30435.5,
+    "SOL": 23097.1,
+    "USDT": 12592.5
   },
   "trades": [
+    {
+      "time": "2025-11-15T21:17:26.253631",
+      "text": "No new trades executed - Risk management strategy due to contradictory signals and frozen funds"
+    },
     {
       "time": "2025-11-15T20:21:13.963348",
       "text": "ETH-USDT HOLD: Mixed signals - 65% confidence due to institutional selling pressure"
@@ -1031,10 +1039,6 @@
     {
       "time": "2025-11-13T13:37:09.870496",
       "text": "Buy 228.70 SOL, spent ~$1000 USDT"
-    },
-    {
-      "time": "2025-11-13T13:37:09.870494",
-      "text": "Buy 2.4539 ETH, spent ~$2000 USDT"
     }
   ]
 }
