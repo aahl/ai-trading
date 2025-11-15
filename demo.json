@@ -595,15 +595,27 @@
     {
       "time": "2025-11-15T10:18:15.344398",
       "balance": 117735.4
+    },
+    {
+      "time": "2025-11-15T11:17:35.561742",
+      "balance": 11801.9
     }
   ],
   "assets": {
-    "BTC": 51829.2,
-    "ETH": 30120.1,
-    "SOL": 23022.8,
-    "USDT": 12716.3
+    "BTC": 5147.2,
+    "ETH": 2588.9,
+    "SOL": 2254.5,
+    "USDT": 1811.3
   },
   "trades": [
+    {
+      "time": "2025-11-15T11:17:35.561767",
+      "text": "Buy 1 ETH for current market price"
+    },
+    {
+      "time": "2025-11-15T11:17:35.561764",
+      "text": "Buy 100 SOL for $140.96"
+    },
     {
       "time": "2025-11-15T10:18:15.344428",
       "text": "Risk assessment: High volatility expected across all assets with technical indicators mixed"
@@ -995,14 +1007,6 @@
     {
       "time": "2025-11-13T04:26:26.942696",
       "text": "BTC hold decision - MACD bullish signal with institutional support"
-    },
-    {
-      "time": "2025-11-13T01:23:37.310353",
-      "text": "Buy 1 ETH-USDT at market price, spent ~3414 USDT"
-    },
-    {
-      "time": "2025-11-13T01:23:37.310351",
-      "text": "Buy 0.1 BTC-USDT at limit price 102000 USDT, used 10,200 USDT margin"
     }
   ]
 }
