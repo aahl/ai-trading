@@ -647,15 +647,27 @@
     {
       "time": "2025-11-16T06:27:08.658404",
       "balance": 118601.0
+    },
+    {
+      "time": "2025-11-16T07:18:16.478068",
+      "balance": 118462.6
     }
   ],
   "assets": {
-    "BTC": 51951.3,
-    "ETH": 30711.6,
-    "SOL": 23346.0,
-    "USDT": 12592.0
+    "BTC": 51899.8,
+    "ETH": 30681.8,
+    "SOL": 23288.0,
+    "USDT": 12593.0
   },
   "trades": [
+    {
+      "time": "2025-11-16T07:18:16.478093",
+      "text": "Sell 10 SOL-ETH (SOL to ETH conversion)"
+    },
+    {
+      "time": "2025-11-16T07:18:16.478090",
+      "text": "Buy 0.5 ETH-BTC (ETH trading pair conversion)"
+    },
     {
       "time": "2025-11-16T06:27:08.658431",
       "text": "Analysis: BTC showing bottom signals, ETH gaining support, SOL relatively weak"
@@ -1047,14 +1059,6 @@
     {
       "time": "2025-11-13T18:28:16.691699",
       "text": "Buy 0.5 ETH at 3,330 USDT"
-    },
-    {
-      "time": "2025-11-13T18:28:16.691696",
-      "text": "Buy 0.05 BTC at 98,500 USDT"
-    },
-    {
-      "time": "2025-11-13T17:22:01.465685",
-      "text": "Sell 50% SOL position, received $11,200.00"
     }
   ]
 }
