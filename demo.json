@@ -679,15 +679,27 @@
     {
       "time": "2025-11-16T20:23:27.809493",
       "balance": 115084.0
+    },
+    {
+      "time": "2025-11-16T21:17:09.996216",
+      "balance": 114312.6
     }
   ],
   "assets": {
-    "BTC": 0.0,
-    "ETH": 0.0,
-    "SOL": 0.1,
-    "USDT": 8693.4
+    "BTC": 12117.9,
+    "ETH": 79835.8,
+    "SOL": 14476.0,
+    "USDT": 7882.9
   },
   "trades": [
+    {
+      "time": "2025-11-16T21:17:09.996240",
+      "text": "Buy 300 USDT SOL at market price"
+    },
+    {
+      "time": "2025-11-16T21:17:09.996237",
+      "text": "Buy 500 USDT ETH at market price"
+    },
     {
       "time": "2025-11-16T20:23:27.809513",
       "text": "Buy 0.000322 ETH at 3096.847 USDT, Buy 0.072833 SOL at 137.3 USDT"
@@ -1079,14 +1091,6 @@
     {
       "time": "2025-11-14T01:18:54.181057",
       "text": "SOL: Hold (70% confidence)"
-    },
-    {
-      "time": "2025-11-14T01:18:54.181056",
-      "text": "ETH: Hold (75% confidence)"
-    },
-    {
-      "time": "2025-11-14T01:18:54.181054",
-      "text": "BTC: Hold (85% confidence)"
     }
   ]
 }
