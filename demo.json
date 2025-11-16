@@ -675,15 +675,23 @@
     {
       "time": "2025-11-16T17:18:07.847345",
       "balance": 113886.8
+    },
+    {
+      "time": "2025-11-16T20:23:27.809493",
+      "balance": 115084.0
     }
   ],
   "assets": {
-    "BTC": 11236.3,
-    "ETH": 78911.1,
-    "SOL": 12756.5,
-    "USDT": 10982.9
+    "BTC": 0.0,
+    "ETH": 0.0,
+    "SOL": 0.1,
+    "USDT": 8693.4
   },
   "trades": [
+    {
+      "time": "2025-11-16T20:23:27.809513",
+      "text": "Buy 0.000322 ETH at 3096.847 USDT, Buy 0.072833 SOL at 137.3 USDT"
+    },
     {
       "time": "2025-11-16T17:18:07.847371",
       "text": "Buy 10 SOL at 135 USDT"
@@ -1079,10 +1087,6 @@
     {
       "time": "2025-11-14T01:18:54.181054",
       "text": "BTC: Hold (85% confidence)"
-    },
-    {
-      "time": "2025-11-14T01:18:54.181051",
-      "text": "HODL strategy recommended for current positions"
     }
   ]
 }
