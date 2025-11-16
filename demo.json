@@ -635,15 +635,23 @@
     {
       "time": "2025-11-15T23:17:55.383592",
       "balance": 117649.0
+    },
+    {
+      "time": "2025-11-16T03:19:22.788824",
+      "balance": 118215.4
     }
   ],
   "assets": {
-    "BTC": 51734.2,
-    "ETH": 30341.5,
-    "SOL": 22981.6,
-    "USDT": 12600.3
+    "BTC": 51902.0,
+    "ETH": 30604.2,
+    "SOL": 23117.7,
+    "USDT": 12591.5
   },
   "trades": [
+    {
+      "time": "2025-11-16T03:19:22.788849",
+      "text": "Market analysis completed - no trades executed due to account restrictions"
+    },
     {
       "time": "2025-11-15T23:17:55.383612",
       "text": "分析完成：BTC观望，ETH建议买入2个($6,340)，SOL观望"
@@ -1039,10 +1047,6 @@
     {
       "time": "2025-11-13T14:24:30.332280",
       "text": "Buy 0.001 ETH-BTC, betting on ETH relative strength"
-    },
-    {
-      "time": "2025-11-13T14:24:30.332276",
-      "text": "Buy 1 SOL-ETH, anticipating ETH outperformance against SOL"
     }
   ]
 }
