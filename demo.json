@@ -643,14 +643,35 @@
     {
       "time": "2025-11-16T05:21:01.243455",
       "balance": 100000.0
+    },
+    {
+      "time": "2025-11-16T06:27:08.658404",
+      "balance": 118601.0
     }
   ],
   "assets": {
-    "BTC": 50000.0,
-    "ETH": 30000.0,
-    "USDT": 20000.0
+    "BTC": 51951.3,
+    "ETH": 30711.6,
+    "SOL": 23346.0,
+    "USDT": 12592.0
   },
   "trades": [
+    {
+      "time": "2025-11-16T06:27:08.658431",
+      "text": "Analysis: BTC showing bottom signals, ETH gaining support, SOL relatively weak"
+    },
+    {
+      "time": "2025-11-16T06:27:08.658430",
+      "text": "SOL: Long position at 150.69, current price 141.95, loss: -13.29%"
+    },
+    {
+      "time": "2025-11-16T06:27:08.658428",
+      "text": "ETH: Long position at 3,242.51, current price 3,200.00, loss: -4.77%"
+    },
+    {
+      "time": "2025-11-16T06:27:08.658425",
+      "text": "BTC: Long position at 100,210.59, current price 95,875.20, loss: -5.31%"
+    },
     {
       "time": "2025-11-16T05:21:01.243485",
       "text": "SOL: 极端谨慎，极端卖压19681 vs 6872，等待企稳"
@@ -1034,22 +1055,6 @@
     {
       "time": "2025-11-13T17:22:01.465685",
       "text": "Sell 50% SOL position, received $11,200.00"
-    },
-    {
-      "time": "2025-11-13T17:22:01.465683",
-      "text": "Buy 2 ETH at $2,980.00, spent $5,960.00"
-    },
-    {
-      "time": "2025-11-13T17:22:01.465680",
-      "text": "Buy 0.5 BTC at $68,634.00, spent $34,317.00"
-    },
-    {
-      "time": "2025-11-13T16:25:01.054087",
-      "text": "Buy BTC-USDT: $2000 market order"
-    },
-    {
-      "time": "2025-11-13T16:25:01.054083",
-      "text": "Buy ETH-USDT: $500 market order"
     }
   ]
 }
