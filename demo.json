@@ -699,15 +699,35 @@
     {
       "time": "2025-11-17T08:49:03.633588",
       "balance": 117883.4
+    },
+    {
+      "time": "2025-11-17T10:44:56.651478",
+      "balance": 118163.7
     }
   ],
   "assets": {
-    "BTC": 0.3,
-    "ETH": 10.1,
-    "SOL": 46.4,
-    "USDT": 309.8
+    "BTC": 32941.0,
+    "ETH": 78412.6,
+    "SOL": 6581.9,
+    "USDT": 228.2
   },
   "trades": [
+    {
+      "time": "2025-11-17T10:44:56.651505",
+      "text": "Short 10 SOL at market price (SOL-ETH)"
+    },
+    {
+      "time": "2025-11-17T10:44:56.651504",
+      "text": "Buy 0.05 ETH at market price (ETH-BTC)"
+    },
+    {
+      "time": "2025-11-17T10:44:56.651502",
+      "text": "Short 0.1 SOL at market price (SOL-USDT)"
+    },
+    {
+      "time": "2025-11-17T10:44:56.651499",
+      "text": "Buy 0.001 BTC at market price (BTC-USDT)"
+    },
     {
       "time": "2025-11-17T08:49:03.633613",
       "text": "Buy 0.007087 SOL at 141.09 USDT"
@@ -1091,22 +1111,6 @@
     {
       "time": "2025-11-14T10:24:02.605899",
       "text": "Buy 0.05 ETH at $4000"
-    },
-    {
-      "time": "2025-11-14T09:22:46.633397",
-      "text": "Sell 1 ETH at market price, Buy 5 SOL at market price"
-    },
-    {
-      "time": "2025-11-14T08:29:50.463253",
-      "text": "Buy 3 SOL at $142"
-    },
-    {
-      "time": "2025-11-14T08:29:50.463250",
-      "text": "Buy 0.03 BTC at $97,000"
-    },
-    {
-      "time": "2025-11-14T07:44:44.942529",
-      "text": "ETH-BTC买入交易执行完成：15%仓位，利用相对价值机会"
     }
   ]
 }
