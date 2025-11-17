@@ -703,15 +703,35 @@
     {
       "time": "2025-11-17T10:44:56.651478",
       "balance": 118163.7
+    },
+    {
+      "time": "2025-11-17T13:01:45.884813",
+      "balance": 117692.9
     }
   ],
   "assets": {
-    "BTC": 32941.0,
-    "ETH": 78412.6,
-    "SOL": 6581.9,
-    "USDT": 228.2
+    "BTC": 23236.4,
+    "ETH": 32542.9,
+    "SOL": 6586.8,
+    "USDT": 0.5
   },
   "trades": [
+    {
+      "time": "2025-11-17T13:01:45.884839",
+      "text": "Sell 0.1 BTC to fund ETH-BTC trade"
+    },
+    {
+      "time": "2025-11-17T13:01:45.884837",
+      "text": "Buy 2.606832 ETH at 0.03345 BTC (cost: 0.0871 BTC)"
+    },
+    {
+      "time": "2025-11-17T13:01:45.884835",
+      "text": "Buy 0.072991 SOL at $141.90 (cost: $10.36)"
+    },
+    {
+      "time": "2025-11-17T13:01:45.884832",
+      "text": "Buy 0.067814 ETH at $3,183.69 (cost: $215.93)"
+    },
     {
       "time": "2025-11-17T10:44:56.651505",
       "text": "Short 10 SOL at market price (SOL-ETH)"
@@ -1095,22 +1115,6 @@
     {
       "time": "2025-11-14T12:37:30.170451",
       "text": "Sold 100 SOL at market price, reduced exposure to bearish pressure"
-    },
-    {
-      "time": "2025-11-14T12:37:30.170448",
-      "text": "Sold 2 ETH at market price, took profit amid bearish technical signals"
-    },
-    {
-      "time": "2025-11-14T11:07:11.431706",
-      "text": "No trades executed - HOLD/NEUTRAL market decision based on mixed signals: bearish technical indicators (negative MACD, RSI near oversold) but bullish fundamentals (whale accumulation, development progress). Current ETH-USDT price: $3,156.34. Monitoring key support $3,080-$3,110 and resistance $3,250 levels for future trading opportunities."
-    },
-    {
-      "time": "2025-11-14T10:24:02.605903",
-      "text": "Sell 10 SOL at $141"
-    },
-    {
-      "time": "2025-11-14T10:24:02.605899",
-      "text": "Buy 0.05 ETH at $4000"
     }
   ]
 }
