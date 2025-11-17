@@ -2,7 +2,7 @@ name: Trading with Claude code
 
 on:
   schedule:
-    - cron: '1 * * * *'
+    - cron: '1 */2 * * *'
   workflow_dispatch:
     inputs:
       prompt:
