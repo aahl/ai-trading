@@ -747,15 +747,51 @@
     {
       "time": "2025-11-18T18:47:23.307756",
       "balance": 116772.0
+    },
+    {
+      "time": "2025-11-18T22:48:28.322238",
+      "balance": 115354.7
+    },
+    {
+      "time": "2025-11-18T22:48:52.726712",
+      "balance": 115354.7
     }
   ],
   "assets": {
-    "BTC": 13631.0,
-    "ETH": 99344.6,
-    "SOL": 0.0,
+    "BTC": 13598.3,
+    "ETH": 97959.9,
+    "SOL": 1.0,
     "USDT": 3796.4
   },
   "trades": [
+    {
+      "time": "2025-11-18T22:48:52.726737",
+      "text": "Integration quality: EXCELLENT"
+    },
+    {
+      "time": "2025-11-18T22:48:52.726737",
+      "text": "AI confidence score: 75% for BTC buy signal"
+    },
+    {
+      "time": "2025-11-18T22:48:52.726735",
+      "text": "ETH market analysis: Strong whale accumulation detected"
+    },
+    {
+      "time": "2025-11-18T22:48:52.726734",
+      "text": "BTC market analysis: MACD bullish crossover detected"
+    },
+    {
+      "time": "2025-11-18T22:48:52.726732",
+      "text": "Complete workflow integration test executed successfully"
+    },
+    {
+      "time": "2025-11-18T22:48:28.322267",
+      "text": "BTC buy signal generated at 75% confidence"
+    },
+    {
+      "time": "2025-11-18T22:48:28.322264",
+      "text": "Test trade executed for comprehensive integration test"
+    },
     {
       "time": "2025-11-18T18:47:23.307784",
       "text": "Bought 0.031592 ETH at $3,165.34, spent $100.00"
@@ -1127,34 +1163,6 @@
     {
       "time": "2025-11-15T15:19:32.937242",
       "text": "BTC-USD price near key support at 92,000; MACD bullish crossover; institution buying vs ETF outflows"
-    },
-    {
-      "time": "2025-11-15T14:18:46.389574",
-      "text": "Buy SOL - Strong fundamentals at oversold levels"
-    },
-    {
-      "time": "2025-11-15T14:18:46.389572",
-      "text": "Sell ETH - Bearish indicators and ETF outflows"
-    },
-    {
-      "time": "2025-11-15T14:18:46.389569",
-      "text": "Hold BTC - Mixed signals with whale accumulation vs bearish technicals"
-    },
-    {
-      "time": "2025-11-15T13:27:19.304346",
-      "text": "Analysis completed - market conditions unfavorable for new entries, exiting positions to reduce losses"
-    },
-    {
-      "time": "2025-11-15T11:17:35.561767",
-      "text": "Buy 1 ETH for current market price"
-    },
-    {
-      "time": "2025-11-15T11:17:35.561764",
-      "text": "Buy 100 SOL for $140.96"
-    },
-    {
-      "time": "2025-11-15T10:18:15.344428",
-      "text": "Risk assessment: High volatility expected across all assets with technical indicators mixed"
     }
   ]
 }
