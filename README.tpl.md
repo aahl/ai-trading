@@ -1,8 +1,6 @@
-# 📈 #AI模拟盘 自动交易报告
+# 📈 AI模拟盘 自动交易报告
 
 本项目利用 Github Action 定时运行 Claude Code，并结合MCP工具，实现在欧易模拟盘环境下自动交易。
-
-**交易对限制**: BTC-USDT, ETH-USDT, SOL-USDT, ETH-BTC, SOL-BTC, SOL-ETH
 
 ```mermaid
 {mermaid}
