@@ -743,15 +743,31 @@
     {
       "time": "2025-11-18T16:45:35.093358",
       "balance": 116419.1
+    },
+    {
+      "time": "2025-11-18T18:47:23.307756",
+      "balance": 116772.0
     }
   ],
   "assets": {
-    "BTC": 13424.2,
-    "ETH": 98901.7,
-    "SOL": 2427.9,
-    "USDT": 1665.3
+    "BTC": 13631.0,
+    "ETH": 99344.6,
+    "SOL": 0.0,
+    "USDT": 3796.4
   },
   "trades": [
+    {
+      "time": "2025-11-18T18:47:23.307784",
+      "text": "Bought 0.031592 ETH at $3,165.34, spent $100.00"
+    },
+    {
+      "time": "2025-11-18T18:47:23.307782",
+      "text": "Bought 0.00214146 BTC at $93,393.90, spent $200.00"
+    },
+    {
+      "time": "2025-11-18T18:47:23.307779",
+      "text": "Sold 17.254 SOL at $141.10/141.07, received $2,434.29"
+    },
     {
       "time": "2025-11-18T16:45:35.093386",
       "text": "Sell 0.5205 SOL for 0.04525 ETH"
@@ -1139,18 +1155,6 @@
     {
       "time": "2025-11-15T10:18:15.344428",
       "text": "Risk assessment: High volatility expected across all assets with technical indicators mixed"
-    },
-    {
-      "time": "2025-11-15T10:18:15.344425",
-      "text": "Account position: Well diversified across major cryptocurrencies with total equity of $117,735.37"
-    },
-    {
-      "time": "2025-11-15T10:18:15.344420",
-      "text": "Analyzed market trends: BTC showing short-term bounce signal, ETH experiencing whale accumulation vs institutional selling, SOL facing technical weakness"
-    },
-    {
-      "time": "2025-11-15T09:21:20.627839",
-      "text": "Buy 0.3 ETH at 1500 USDT, spent 450 USDT"
     }
   ]
 }
