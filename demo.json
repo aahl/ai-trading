@@ -759,15 +759,27 @@
     {
       "time": "2025-11-19T02:13:36.354278",
       "balance": 115197.5
+    },
+    {
+      "time": "2025-11-19T03:29:19.084939",
+      "balance": 114476.1
     }
   ],
   "assets": {
-    "BTC": 0.1,
-    "ETH": 31.4,
-    "SOL": 0.0,
-    "USDT": 3797.2
+    "BTC": 16975.7,
+    "ETH": 30450.2,
+    "SOL": 14.0,
+    "USDT": 1469.7
   },
   "trades": [
+    {
+      "time": "2025-11-19T03:29:19.084981",
+      "text": "Buy 0.744545 SOL at $140.68, spent $105"
+    },
+    {
+      "time": "2025-11-19T03:29:19.084975",
+      "text": "Buy 0.02384007 BTC at $92,262.6, spent $2,200"
+    },
     {
       "time": "2025-11-19T02:13:36.354310",
       "text": "Market analysis completed: BTC Hold 75%, ETH Hold 70%, SOL Buy 85%, SOL-BTC invalid, SOL-BTC Buy 80%, SOL-ETH Buy 75%"
@@ -1159,14 +1171,6 @@
     {
       "time": "2025-11-15T18:27:45.748641",
       "text": "AI Analysis Complete: BTC Hold (75%), ETH Buy (65%), SOL Buy (70%) - Insufficient balance for execution"
-    },
-    {
-      "time": "2025-11-15T16:24:16.632059",
-      "text": "ETH-USDT: BUY recommended at $3,168 (0.1 ETH) - insufficient USDT available"
-    },
-    {
-      "time": "2025-11-15T16:24:16.632056",
-      "text": "BTC-USDT: BUY recommended at $96,250 (0.05 BTC) - insufficient USDT available"
     }
   ]
 }
