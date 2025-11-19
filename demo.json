@@ -755,15 +755,31 @@
     {
       "time": "2025-11-18T22:48:52.726712",
       "balance": 115354.7
+    },
+    {
+      "time": "2025-11-19T02:13:36.354278",
+      "balance": 115197.5
     }
   ],
   "assets": {
-    "BTC": 13598.3,
-    "ETH": 97959.9,
-    "SOL": 1.0,
-    "USDT": 3796.4
+    "BTC": 0.1,
+    "ETH": 31.4,
+    "SOL": 0.0,
+    "USDT": 3797.2
   },
   "trades": [
+    {
+      "time": "2025-11-19T02:13:36.354310",
+      "text": "Market analysis completed: BTC Hold 75%, ETH Hold 70%, SOL Buy 85%, SOL-BTC invalid, SOL-BTC Buy 80%, SOL-ETH Buy 75%"
+    },
+    {
+      "time": "2025-11-19T02:13:36.354308",
+      "text": "Buy 13.3 SOL at 0.0453 ETH, spent 602.49 ETH"
+    },
+    {
+      "time": "2025-11-19T02:13:36.354304",
+      "text": "Buy 10.6 SOL at $140.35, spent $1,487.71"
+    },
     {
       "time": "2025-11-18T22:48:52.726737",
       "text": "Integration quality: EXCELLENT"
@@ -1151,18 +1167,6 @@
     {
       "time": "2025-11-15T16:24:16.632056",
       "text": "BTC-USDT: BUY recommended at $96,250 (0.05 BTC) - insufficient USDT available"
-    },
-    {
-      "time": "2025-11-15T15:19:32.937247",
-      "text": "SOL-USD strong fundamentals with DApp revenue growth; ETF inflows 14-day $382M; whale accumulation"
-    },
-    {
-      "time": "2025-11-15T15:19:32.937245",
-      "text": "ETH-USD strong whale accumulation at 3097-3200 zone; ETF outflows but chain demand strong"
-    },
-    {
-      "time": "2025-11-15T15:19:32.937242",
-      "text": "BTC-USD price near key support at 92,000; MACD bullish crossover; institution buying vs ETF outflows"
     }
   ]
 }

@@ -94,26 +94,6 @@ xychart
         with open("./README.md", "w", encoding="utf-8") as file:
             file.write(content)
 
-    # Try to send Telegram notification
-    try:
-        from telegram_notification_system import send_trading_notification
-
-        # Load current trading data to send notification
-        with open(path, "r", encoding="utf-8") as file:
-            trading_data = json.load(file)
-
-        # Send trading notification (this will use environment variables for Telegram)
-        notification_result = send_trading_notification(trading_data)
-
-        if notification_result.get("success"):
-            _LOGGER.info("Trading notification sent successfully")
-        else:
-            _LOGGER.warning(f"Failed to send trading notification: {notification_result.get('error', 'Unknown error')}")
-    except ImportError:
-        _LOGGER.warning("Telegram notification system not available")
-    except Exception as e:
-        _LOGGER.error(f"Error sending trading notification: {e}")
-
     return {
         "path": os.path.abspath(path),
         "mermaid_image": "https://mermaid.ink/img/" + base64.urlsafe_b64encode(mermaid.encode()).decode() + "?theme=dark",
