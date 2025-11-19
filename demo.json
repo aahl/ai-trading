@@ -779,15 +779,23 @@
     {
       "time": "2025-11-19T14:34:46.962139",
       "balance": 113223.4
+    },
+    {
+      "time": "2025-11-19T18:50:54.846167",
+      "balance": 110151.3
     }
   ],
   "assets": {
-    "BTC": 40994.7,
-    "ETH": 23615.5,
-    "SOL": 2988.9,
-    "USDT": 37286.2
+    "BTC": 10900.5,
+    "ETH": 5375.0,
+    "SOL": 397.6,
+    "USDT": 22000.0
   },
   "trades": [
+    {
+      "time": "2025-11-19T18:50:54.846189",
+      "text": "Buy 0.115 BTC at 92000 USDT, Buy 1.52 ETH at 3200 USDT"
+    },
     {
       "time": "2025-11-19T14:34:46.962165",
       "text": "Sell 3 ETH at 0.03331 BTC for 0.09993 BTC"
@@ -1183,10 +1191,6 @@
     {
       "time": "2025-11-16T03:19:22.788849",
       "text": "Market analysis completed - no trades executed due to account restrictions"
-    },
-    {
-      "time": "2025-11-15T23:17:55.383612",
-      "text": "分析完成：BTC观望，ETH建议买入2个($6,340)，SOL观望"
     }
   ]
 }
