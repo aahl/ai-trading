@@ -1,0 +1,6 @@
+# 加密货币交易AI依赖
+asyncio
+json
+logging
+datetime
+pathlib
