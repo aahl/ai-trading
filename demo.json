@@ -771,15 +771,27 @@
     {
       "time": "2025-11-19T08:48:50.886383",
       "balance": 113954.3
+    },
+    {
+      "time": "2025-11-19T10:44:10.485717",
+      "balance": 114275.8
     }
   ],
   "assets": {
-    "BTC": 15527.9,
-    "ETH": 78519.2,
-    "SOL": 3450.2,
-    "USDT": 16466.2
+    "BTC": 30851.2,
+    "ETH": 57194.2,
+    "SOL": 2745.1,
+    "USDT": 23485.3
   },
   "trades": [
+    {
+      "time": "2025-11-19T10:44:10.485741",
+      "text": "Position rebalanced across BTC, ETH, SOL"
+    },
+    {
+      "time": "2025-11-19T10:44:10.485738",
+      "text": "Auto trading completed successfully - 4 orders executed"
+    },
     {
       "time": "2025-11-19T08:48:50.886403",
       "text": "Sell 5.35 ETH @ $3,080.88, Buy 15 SOL @ $137 avg"
@@ -1171,14 +1183,6 @@
     {
       "time": "2025-11-15T20:21:13.963346",
       "text": "SOL-USDT BUY: High risk/reward buy at 70% confidence at 5-month low"
-    },
-    {
-      "time": "2025-11-15T20:21:13.963343",
-      "text": "BTC-USDT BUY: Technical buy signal at 85% confidence with MACD bullish cross"
-    },
-    {
-      "time": "2025-11-15T19:16:39.624855",
-      "text": "SOL-USDT buy limit 2 at $140 (insufficient margin)"
     }
   ]
 }
