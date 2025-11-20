@@ -791,15 +791,47 @@
     {
       "time": "2025-11-19T22:30:26.246287",
       "balance": 112360.7
+    },
+    {
+      "time": "2025-11-20T03:32:58.518030",
+      "balance": 114562.1
     }
   ],
   "assets": {
-    "BTC": 49920.4,
-    "ETH": 35772.1,
-    "SOL": 4702.9,
-    "USDT": 21965.4
+    "BTC": 9289.5,
+    "ETH": 1521.5,
+    "SOL": 1436.9,
+    "USDT": 21988.0
   },
   "trades": [
+    {
+      "time": "2025-11-20T03:32:58.518062",
+      "text": "Set take-profit for 0.5 ETH-USDT at $3,200"
+    },
+    {
+      "time": "2025-11-20T03:32:58.518061",
+      "text": "Set take-profit for 0.01 BTC-USDT at $95,000"
+    },
+    {
+      "time": "2025-11-20T03:32:58.518060",
+      "text": "Set stop-loss for 0.01 BTC-USDT at $91,937"
+    },
+    {
+      "time": "2025-11-20T03:32:58.518059",
+      "text": "Placed buy order for 30 SOL-ETH at 0.042 ETH for long position"
+    },
+    {
+      "time": "2025-11-20T03:32:58.518057",
+      "text": "Sold 2 ETH-BTC at 0.044 BTC for short position"
+    },
+    {
+      "time": "2025-11-20T03:32:58.518055",
+      "text": "Placed limit sell order for 10 SOL-USDT at $145"
+    },
+    {
+      "time": "2025-11-20T03:32:58.518052",
+      "text": "Sold 20 SOL-USDT at market price for profit taking"
+    },
     {
       "time": "2025-11-19T22:30:26.246318",
       "text": "Buy 0.5 ETH at 2850 USDT (Order ID: 3056440034666749952)"
@@ -1171,34 +1203,6 @@
     {
       "time": "2025-11-16T11:17:51.943818",
       "text": "Sell 50 SOL at $140.9, order ID: 3046386506954973184"
-    },
-    {
-      "time": "2025-11-16T09:21:03.464852",
-      "text": "Sell 2 SOL-USDT at $140.23"
-    },
-    {
-      "time": "2025-11-16T09:21:03.464850",
-      "text": "Buy 0.5 ETH-BTC at 0.03413"
-    },
-    {
-      "time": "2025-11-16T09:21:03.464847",
-      "text": "Buy 0.05 BTC-USDT at $40,000"
-    },
-    {
-      "time": "2025-11-16T07:18:16.478093",
-      "text": "Sell 10 SOL-ETH (SOL to ETH conversion)"
-    },
-    {
-      "time": "2025-11-16T07:18:16.478090",
-      "text": "Buy 0.5 ETH-BTC (ETH trading pair conversion)"
-    },
-    {
-      "time": "2025-11-16T06:27:08.658431",
-      "text": "Analysis: BTC showing bottom signals, ETH gaining support, SOL relatively weak"
-    },
-    {
-      "time": "2025-11-16T06:27:08.658430",
-      "text": "SOL: Long position at 150.69, current price 141.95, loss: -13.29%"
     }
   ]
 }
