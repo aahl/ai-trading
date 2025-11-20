@@ -831,15 +831,27 @@
     {
       "time": "2025-11-20T20:37:03.262977",
       "balance": 110942.3
+    },
+    {
+      "time": "2025-11-20T22:32:54.211683",
+      "balance": 112588.4
     }
   ],
   "assets": {
-    "BTC": 65173.1,
-    "ETH": 29722.2,
-    "SOL": 15622.4,
-    "USDT": 424.6
+    "BTC": 66034.7,
+    "ETH": 30265.5,
+    "SOL": 15883.6,
+    "USDT": 404.7
   },
   "trades": [
+    {
+      "time": "2025-11-20T22:32:54.211715",
+      "text": "Buy 0.5 ETH at $2902.06"
+    },
+    {
+      "time": "2025-11-20T22:32:54.211711",
+      "text": "Buy 1 ETH at $2901.62"
+    },
     {
       "time": "2025-11-20T20:37:03.263007",
       "text": "Bought 0.149432 SOL for long-term position"
@@ -1231,14 +1243,6 @@
     {
       "time": "2025-11-17T08:49:03.633610",
       "text": "Buy 0.000156 ETH at 3,188.96 USDT"
-    },
-    {
-      "time": "2025-11-17T06:53:59.546587",
-      "text": "ETH-BTC sell order executed successfully"
-    },
-    {
-      "time": "2025-11-17T06:53:59.546585",
-      "text": "BTC-USDT buy order executed successfully"
     }
   ]
 }
