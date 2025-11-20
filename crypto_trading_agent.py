@@ -266,9 +266,33 @@ def main():
     if result["success"]:
         logger.info("交易成功完成")
         print(json.dumps(result, indent=2, ensure_ascii=False))
+        return result
     else:
         logger.error(f"交易失败: {result['error']}")
         print(f"错误: {result['error']}")
+        return result
+
+
+def run_single_cycle():
+    """
+    运行单个交易周期（用于测试和演示）
+    """
+    try:
+        agent = CryptoTradingAgent()
+        logger.info("🚀 开始AI交易周期...")
+
+        result = agent.run_trading_cycle()
+
+        if result["success"]:
+            logger.info("✅ 交易周期执行成功")
+            return result
+        else:
+            logger.error(f"❌ 交易周期执行失败: {result['error']}")
+            return result
+
+    except Exception as e:
+        logger.error(f"💥 执行交易周期时发生异常: {e}")
+        return {"success": False, "error": str(e)}
 
 
 if __name__ == "__main__":
