@@ -811,15 +811,27 @@
     {
       "time": "2025-11-20T10:42:31.864455",
       "balance": 115845.1
+    },
+    {
+      "time": "2025-11-20T13:15:49.029127",
+      "balance": 117000.1
     }
   ],
   "assets": {
-    "BTC": 63091.0,
-    "ETH": 27906.2,
-    "SOL": 5666.9,
-    "USDT": 1254.0
+    "BTC": 67839.9,
+    "ETH": 31130.0,
+    "USDT": 11666.4,
+    "SOL": 6363.9
   },
   "trades": [
+    {
+      "time": "2025-11-20T13:15:49.029153",
+      "text": "Buy 5 SOL, spent 20.00 ETH"
+    },
+    {
+      "time": "2025-11-20T13:15:49.029149",
+      "text": "Buy 0.05 BTC, spent 4598.74 USDT"
+    },
     {
       "time": "2025-11-20T10:42:31.864480",
       "text": "Sell 5 ETH, received 15045.30 USDT"
@@ -1211,14 +1223,6 @@
     {
       "time": "2025-11-17T01:21:09.789386",
       "text": "Buy 0.00064 ETH-USDT, spent 2 USDT"
-    },
-    {
-      "time": "2025-11-16T22:18:03.665182",
-      "text": "Sell 50 SOL via market order for ~6800 USDT"
-    },
-    {
-      "time": "2025-11-16T22:18:03.665179",
-      "text": "Buy 0.5 ETH via market order for ~1536 USDT"
     }
   ]
 }
