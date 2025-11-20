@@ -799,15 +799,43 @@
     {
       "time": "2025-11-20T04:39:07.091212",
       "balance": 116522.4
+    },
+    {
+      "time": "2025-11-20T06:54:28.606268",
+      "balance": 116264.7
     }
   ],
   "assets": {
-    "BTC": 54553.6,
-    "ETH": 34734.5,
-    "SOL": 5675.4,
-    "USDT": 21559.0
+    "BTC": 54344.7,
+    "ETH": 28814.7,
+    "USDT": 18851.9,
+    "SOL": 2660.7
   },
   "trades": [
+    {
+      "time": "2025-11-20T06:54:28.606306",
+      "text": "Sell 1.5 ETH at 0.044 BTC"
+    },
+    {
+      "time": "2025-11-20T06:54:28.606305",
+      "text": "Sell 1 ETH at $3200.00"
+    },
+    {
+      "time": "2025-11-20T06:54:28.606304",
+      "text": "Buy 10 SOL at $130.00"
+    },
+    {
+      "time": "2025-11-20T06:54:28.606302",
+      "text": "Buy 8 SOL at $134.00"
+    },
+    {
+      "time": "2025-11-20T06:54:28.606300",
+      "text": "Buy 15 SOL at $135.00"
+    },
+    {
+      "time": "2025-11-20T06:54:28.606296",
+      "text": "Buy 0.1 BTC at $91828.00"
+    },
     {
       "time": "2025-11-20T04:39:07.091235",
       "text": "Buy 0.05 BTC at market price, Buy 0.1 ETH at market price, Sell 5 SOL at market price, Place limit sell order for 10 SOL-ETH at 3.2"
@@ -1183,30 +1211,6 @@
     {
       "time": "2025-11-16T16:23:02.742963",
       "text": "Buy 0.32401 ETH at $3087.00, spent $1000 USDT"
-    },
-    {
-      "time": "2025-11-16T16:23:02.742959",
-      "text": "Buy 0.01061 BTC at $94282.10, spent $1000 USDT"
-    },
-    {
-      "time": "2025-11-16T14:17:36.722585",
-      "text": "Sell 6.28 SOL, earned $8794 at $139.73"
-    },
-    {
-      "time": "2025-11-16T14:17:36.722580",
-      "text": "Buy 0.0314 BTC, spent $3000 at $95451.1"
-    },
-    {
-      "time": "2025-11-16T12:38:43.504207",
-      "text": "Buy 20 SOL-USDT, spent 1020 USDT"
-    },
-    {
-      "time": "2025-11-16T12:38:43.504204",
-      "text": "Buy 10 SOL-USDT, spent 510 USDT"
-    },
-    {
-      "time": "2025-11-16T11:17:51.943821",
-      "text": "Buy 0.05 ETH at $3100, order ID: 3046387327025291264"
     }
   ]
 }
