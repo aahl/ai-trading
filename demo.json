@@ -859,15 +859,55 @@
     {
       "time": "2025-11-21T14:30:32.675684",
       "balance": 106327.0
+    },
+    {
+      "time": "2025-11-21T16:41:41.712889",
+      "balance": 106201.3
     }
   ],
   "assets": {
-    "BTC": 1.0,
-    "ETH": 0.5,
-    "SOL": 117.8,
-    "USDT": 11557.1
+    "BTC": 81624.7,
+    "ETH": 61.5,
+    "SOL": 14805.2,
+    "USDT": 9709.9
   },
   "trades": [
+    {
+      "time": "2025-11-21T16:41:41.712961",
+      "text": "USDT position: $9,709.91"
+    },
+    {
+      "time": "2025-11-21T16:41:41.712959",
+      "text": "ETH position: 0.023 ETH ($61.51)"
+    },
+    {
+      "time": "2025-11-21T16:41:41.712957",
+      "text": "SOL position: 117.79 SOL ($14,805.22)"
+    },
+    {
+      "time": "2025-11-21T16:41:41.712956",
+      "text": "BTC position: 0.977 BTC ($81,624.69)"
+    },
+    {
+      "time": "2025-11-21T16:41:41.712954",
+      "text": "Account total equity: $106,201.33"
+    },
+    {
+      "time": "2025-11-21T16:41:41.712952",
+      "text": "Trading strategy: BTC-USDT 20-25% allocation, relative value trades 10-18%"
+    },
+    {
+      "time": "2025-11-21T16:41:41.712950",
+      "text": "ETH-BTC and SOL-BTC identified as sell signals (70-75% confidence)"
+    },
+    {
+      "time": "2025-11-21T16:41:41.712947",
+      "text": "BTC-USDT identified as strong buy signal (75% confidence)"
+    },
+    {
+      "time": "2025-11-21T16:41:41.712942",
+      "text": "Market analysis completed for BTC-USDT, ETH-USDT, SOL-USDT, ETH-BTC, SOL-BTC, SOL-ETH"
+    },
     {
       "time": "2025-11-21T14:30:32.675713",
       "text": "Buy 0.01 BTC at limit price $84,000, cost $840"
@@ -1231,42 +1271,6 @@
     {
       "time": "2025-11-18T13:05:52.445711",
       "text": "Sell 10 SOL-USDT at market price"
-    },
-    {
-      "time": "2025-11-18T08:54:21.483995",
-      "text": "Buy 10 SOL at 0.25 USDT"
-    },
-    {
-      "time": "2025-11-18T08:54:21.483993",
-      "text": "Buy 2 ETH at 2500 USDT"
-    },
-    {
-      "time": "2025-11-18T08:54:21.483990",
-      "text": "Buy 0.1 BTC at 45000 USDT"
-    },
-    {
-      "time": "2025-11-18T04:38:53.541356",
-      "text": "Buy 5 SOL-ETH, executed successfully"
-    },
-    {
-      "time": "2025-11-18T04:38:53.541355",
-      "text": "Buy 0.1 ETH-BTC, spent 0.053 BTC"
-    },
-    {
-      "time": "2025-11-18T04:38:53.541353",
-      "text": "Buy 5 ETH-USDT, spent $4.70"
-    },
-    {
-      "time": "2025-11-18T04:38:53.541349",
-      "text": "Buy 1 BTC-USDT, spent $1.00"
-    },
-    {
-      "time": "2025-11-18T03:37:29.913979",
-      "text": "Buy 0.075397 SOL, spent 10 USDT"
-    },
-    {
-      "time": "2025-11-18T03:37:29.913976",
-      "text": "Sell 5 SOL, received 663.5 USDT"
     }
   ]
 }
