@@ -879,14 +879,31 @@
     {
       "time": "2025-11-22T03:16:29.374249",
       "balance": 107463.4
+    },
+    {
+      "time": "2025-11-22T04:36:00.479619",
+      "balance": 106527.7
     }
   ],
   "assets": {
-    "BTC": 1660.0,
-    "SOL": 1830.0,
-    "USDT": 9723.4
+    "BTC": 81842.4,
+    "ETH": 148.5,
+    "SOL": 16095.1,
+    "USDT": 8441.7
   },
   "trades": [
+    {
+      "time": "2025-11-22T04:36:00.479643",
+      "text": "Buy 10 SOL at $126.5 limit order - Order ID: 3062972678279798784"
+    },
+    {
+      "time": "2025-11-22T04:36:00.479641",
+      "text": "Buy 1 ETH at $2,739.36 market order - Order ID: 3062972244387438592"
+    },
+    {
+      "time": "2025-11-22T04:36:00.479638",
+      "text": "Buy 0.05 BTC at $80,000 limit order - Order ID: 3062971496425594880"
+    },
     {
       "time": "2025-11-22T03:16:29.374273",
       "text": "Buy 15 SOL at $122, spent $1830 USDT"
@@ -1274,18 +1291,6 @@
     {
       "time": "2025-11-18T22:48:52.726737",
       "text": "Integration quality: EXCELLENT"
-    },
-    {
-      "time": "2025-11-18T22:48:52.726737",
-      "text": "AI confidence score: 75% for BTC buy signal"
-    },
-    {
-      "time": "2025-11-18T22:48:52.726735",
-      "text": "ETH market analysis: Strong whale accumulation detected"
-    },
-    {
-      "time": "2025-11-18T22:48:52.726734",
-      "text": "BTC market analysis: MACD bullish crossover detected"
     }
   ]
 }
