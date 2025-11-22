@@ -907,15 +907,47 @@
     {
       "time": "2025-11-22T16:34:34.308316",
       "balance": 107267.6
+    },
+    {
+      "time": "2025-11-22T18:40:44.867529",
+      "balance": 107270.1
+    },
+    {
+      "time": "2025-11-22T18:46:01.693488",
+      "balance": 107301.8
     }
   ],
   "assets": {
-    "BTC": 71608.0,
-    "ETH": 7650.0,
-    "SOL": 8150.0,
-    "USDT": 1078.0
+    "BTC": 89519.6,
+    "ETH": 9621.7,
+    "SOL": 8160.3,
+    "USDT": 0.1
   },
   "trades": [
+    {
+      "time": "2025-11-22T18:46:01.693520",
+      "text": "78% Confidence BUY Signal for BTC-USDT"
+    },
+    {
+      "time": "2025-11-22T18:46:01.693518",
+      "text": "SOL-USDT Profit Taking Alert"
+    },
+    {
+      "time": "2025-11-22T18:46:01.693516",
+      "text": "ETH-USDT Hold Recommendation Generated"
+    },
+    {
+      "time": "2025-11-22T18:46:01.693514",
+      "text": "AI Analysis: MACD Bullish Signal Detected"
+    },
+    {
+      "time": "2025-11-22T18:46:01.693510",
+      "text": "BTC-USDT Market Analysis Complete"
+    },
+    {
+      "time": "2025-11-22T18:40:44.867554",
+      "text": "Test trade: BTC-USDT buy signal detected"
+    },
     {
       "time": "2025-11-22T16:34:34.308343",
       "text": "Buy 0.018255 SOL, spent 23 USDT"
@@ -1291,30 +1323,6 @@
     {
       "time": "2025-11-20T03:32:58.518060",
       "text": "Set stop-loss for 0.01 BTC-USDT at $91,937"
-    },
-    {
-      "time": "2025-11-20T03:32:58.518059",
-      "text": "Placed buy order for 30 SOL-ETH at 0.042 ETH for long position"
-    },
-    {
-      "time": "2025-11-20T03:32:58.518057",
-      "text": "Sold 2 ETH-BTC at 0.044 BTC for short position"
-    },
-    {
-      "time": "2025-11-20T03:32:58.518055",
-      "text": "Placed limit sell order for 10 SOL-USDT at $145"
-    },
-    {
-      "time": "2025-11-20T03:32:58.518052",
-      "text": "Sold 20 SOL-USDT at market price for profit taking"
-    },
-    {
-      "time": "2025-11-19T22:30:26.246318",
-      "text": "Buy 0.5 ETH at 2850 USDT (Order ID: 3056440034666749952)"
-    },
-    {
-      "time": "2025-11-19T22:30:26.246315",
-      "text": "Buy 10 SOL at 130 USDT (Order ID: 3056439951451758592)"
     }
   ]
 }
