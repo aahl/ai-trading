@@ -919,15 +919,35 @@
     {
       "time": "2025-11-22T20:30:43.390226",
       "balance": 107425.5
+    },
+    {
+      "time": "2025-11-22T22:28:09.206557",
+      "balance": 107339.6
     }
   ],
   "assets": {
-    "BTC": 89939.5,
-    "ETH": 9360.0,
-    "SOL": 8125.9,
-    "USDT": 0.1
+    "BTC": 81383.3,
+    "ETH": 9384.5,
+    "SOL": 8127.2,
+    "USDT": 8444.6
   },
   "trades": [
+    {
+      "time": "2025-11-22T22:28:09.206582",
+      "text": "Sold 0.1 BTC at market price to free up capital"
+    },
+    {
+      "time": "2025-11-22T22:28:09.206581",
+      "text": "Buy 0.003931 SOL at $127.19, cost $0.50 USDT"
+    },
+    {
+      "time": "2025-11-22T22:28:09.206578",
+      "text": "Buy 0.00001181 BTC at $84,615, cost $1.00 USDT"
+    },
+    {
+      "time": "2025-11-22T22:28:09.206575",
+      "text": "Buy 0.000905 ETH at $2,759.86, cost $2.50 USDT"
+    },
     {
       "time": "2025-11-22T20:30:43.390250",
       "text": "ETH-BTC trade executed at 0.0324937 BTC per ETH"
@@ -1311,22 +1331,6 @@
     {
       "time": "2025-11-20T06:54:28.606302",
       "text": "Buy 8 SOL at $134.00"
-    },
-    {
-      "time": "2025-11-20T06:54:28.606300",
-      "text": "Buy 15 SOL at $135.00"
-    },
-    {
-      "time": "2025-11-20T06:54:28.606296",
-      "text": "Buy 0.1 BTC at $91828.00"
-    },
-    {
-      "time": "2025-11-20T04:39:07.091235",
-      "text": "Buy 0.05 BTC at market price, Buy 0.1 ETH at market price, Sell 5 SOL at market price, Place limit sell order for 10 SOL-ETH at 3.2"
-    },
-    {
-      "time": "2025-11-20T03:32:58.518062",
-      "text": "Set take-profit for 0.5 ETH-USDT at $3,200"
     }
   ]
 }
