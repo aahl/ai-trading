@@ -887,15 +887,35 @@
     {
       "time": "2025-11-22T06:39:43.480647",
       "balance": 107529.5
+    },
+    {
+      "time": "2025-11-22T08:35:59.797998",
+      "balance": 110941.0
     }
   ],
   "assets": {
-    "BTC": 1.0,
-    "ETH": 0.1,
-    "SOL": 0.2,
-    "USDT": 107425.4
+    "BTC": 78000.0,
+    "ETH": 8500.0,
+    "SOL": 8050.0,
+    "USDT": 16391.0
   },
   "trades": [
+    {
+      "time": "2025-11-22T08:35:59.798024",
+      "text": "SOL-ETH conversion canceled due to slippage"
+    },
+    {
+      "time": "2025-11-22T08:35:59.798023",
+      "text": "Buy 3.028 ETH from 0.1 BTC at 0.03245 BTC/ETH"
+    },
+    {
+      "time": "2025-11-22T08:35:59.798021",
+      "text": "Sell 63.9 SOL at $125.77 for $8041"
+    },
+    {
+      "time": "2025-11-22T08:35:59.798018",
+      "text": "Buy 0.39 ETH from USDT at $2724.8"
+    },
     {
       "time": "2025-11-22T06:39:43.480672",
       "text": "Buy 0.2 SOL limit order at $125, pending $25"
@@ -1279,22 +1299,6 @@
     {
       "time": "2025-11-19T06:57:41.918349",
       "text": "Buy 0.2 SOL, spent ~$27.84"
-    },
-    {
-      "time": "2025-11-19T06:57:41.918344",
-      "text": "Buy 0.001 BTC, spent ~$90.47"
-    },
-    {
-      "time": "2025-11-19T03:29:19.084981",
-      "text": "Buy 0.744545 SOL at $140.68, spent $105"
-    },
-    {
-      "time": "2025-11-19T03:29:19.084975",
-      "text": "Buy 0.02384007 BTC at $92,262.6, spent $2,200"
-    },
-    {
-      "time": "2025-11-19T02:13:36.354310",
-      "text": "Market analysis completed: BTC Hold 75%, ETH Hold 70%, SOL Buy 85%, SOL-BTC invalid, SOL-BTC Buy 80%, SOL-ETH Buy 75%"
     }
   ]
 }
