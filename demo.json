@@ -915,15 +915,27 @@
     {
       "time": "2025-11-22T18:46:01.693488",
       "balance": 107301.8
+    },
+    {
+      "time": "2025-11-22T20:30:43.390226",
+      "balance": 107425.5
     }
   ],
   "assets": {
-    "BTC": 89519.6,
-    "ETH": 9621.7,
-    "SOL": 8160.3,
+    "BTC": 89939.5,
+    "ETH": 9360.0,
+    "SOL": 8125.9,
     "USDT": 0.1
   },
   "trades": [
+    {
+      "time": "2025-11-22T20:30:43.390250",
+      "text": "ETH-BTC trade executed at 0.0324937 BTC per ETH"
+    },
+    {
+      "time": "2025-11-22T20:30:43.390247",
+      "text": "Sold 0.013 ETH for 0.0004224 BTC (ETH-BTC pair)"
+    },
     {
       "time": "2025-11-22T18:46:01.693520",
       "text": "78% Confidence BUY Signal for BTC-USDT"
@@ -1315,14 +1327,6 @@
     {
       "time": "2025-11-20T03:32:58.518062",
       "text": "Set take-profit for 0.5 ETH-USDT at $3,200"
-    },
-    {
-      "time": "2025-11-20T03:32:58.518061",
-      "text": "Set take-profit for 0.01 BTC-USDT at $95,000"
-    },
-    {
-      "time": "2025-11-20T03:32:58.518060",
-      "text": "Set stop-loss for 0.01 BTC-USDT at $91,937"
     }
   ]
 }
