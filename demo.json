@@ -883,15 +883,31 @@
     {
       "time": "2025-11-22T04:36:00.479619",
       "balance": 106527.7
+    },
+    {
+      "time": "2025-11-22T06:39:43.480647",
+      "balance": 107529.5
     }
   ],
   "assets": {
-    "BTC": 81842.4,
-    "ETH": 148.5,
-    "SOL": 16095.1,
-    "USDT": 8441.7
+    "BTC": 1.0,
+    "ETH": 0.1,
+    "SOL": 0.2,
+    "USDT": 107425.4
   },
   "trades": [
+    {
+      "time": "2025-11-22T06:39:43.480672",
+      "text": "Buy 0.2 SOL limit order at $125, pending $25"
+    },
+    {
+      "time": "2025-11-22T06:39:43.480670",
+      "text": "Buy 0.05 ETH limit order at $2,700, pending $135"
+    },
+    {
+      "time": "2025-11-22T06:39:43.480667",
+      "text": "Buy 0.001 BTC at $84,642.7, spent $84.64"
+    },
     {
       "time": "2025-11-22T04:36:00.479643",
       "text": "Buy 10 SOL at $126.5 limit order - Order ID: 3062972678279798784"
@@ -1279,18 +1295,6 @@
     {
       "time": "2025-11-19T02:13:36.354310",
       "text": "Market analysis completed: BTC Hold 75%, ETH Hold 70%, SOL Buy 85%, SOL-BTC invalid, SOL-BTC Buy 80%, SOL-ETH Buy 75%"
-    },
-    {
-      "time": "2025-11-19T02:13:36.354308",
-      "text": "Buy 13.3 SOL at 0.0453 ETH, spent 602.49 ETH"
-    },
-    {
-      "time": "2025-11-19T02:13:36.354304",
-      "text": "Buy 10.6 SOL at $140.35, spent $1,487.71"
-    },
-    {
-      "time": "2025-11-18T22:48:52.726737",
-      "text": "Integration quality: EXCELLENT"
     }
   ]
 }
