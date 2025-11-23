@@ -2,8 +2,10 @@
 """
 加密货币交易AI代理
 - 交易对: BTC-USDT, ETH-USDT, SOL-USDT, ETH-BTC, SOL-BTC, SOL-ETH
-- 市场分析与交易执行
-- 结果保存与Telegram推送
+- 分析交易对市场行情 (Subagent: crypto-market-analyzer)
+- 根据行情完成交易动作 (Subagent: okx-trading-executor)
+- 保存交易结果 (Tool: save_trading_result)
+- 将分析、持仓、交易结果以 markdown 格式发送到 Telegram
 """
 
 import asyncio
@@ -35,151 +37,270 @@ class CryptoTradingAgent:
         分析市场行情
         使用 crypto-market-analyzer 代理进行市场分析
         """
-        logger.info("开始市场分析...")
+        logger.info("📊 开始市场行情分析...")
 
-        # 分析主要交易对的市场情况
         market_analysis = {
             "timestamp": datetime.now().isoformat(),
             "pairs_analysis": {},
+            "summary": {},
             "recommendations": []
         }
 
-        # 使用Task工具进行批量市场分析，提高效率
         try:
-            # 创建并发任务分析所有交易对
-            analysis_tasks = []
+            # 对每个交易对进行详细的市场分析
             for pair in self.SUPPORTED_PAIRS:
-                task = Task(
-                    description=f"市场分析 {pair}",
-                    prompt=f"""分析交易对 {pair} 的市场行情，包括：
-1. 当前价格和价格趋势
-2. 主要技术指标（RSI、MACD、移动平均线等）
-3. 交易量和交易量变化
-4. 市场情绪分析
-5. 提供明确的买入、卖出或持有建议，并给出理由
+                logger.info(f"🔍 分析交易对: {pair}")
 
-请使用 crypto-market-analyzer 代理进行分析，重点关注 {pair} 的技术面和市场面分析。""",
-                    subagent_type="crypto-market-analyzer",
-                    model="sonnet"  # 使用更快的模型进行市场分析
-                )
-                analysis_tasks.append(task)
-
-            # 批量执行分析任务
-            results = analysis_tasks
-
-            # 处理分析结果
-            for i, result in enumerate(results):
-                pair = self.SUPPORTED_PAIRS[i]
                 try:
-                    market_analysis["pairs_analysis"][pair] = result if result else {
-                        "error": "No analysis result",
-                        "pair": pair
-                    }
-                except Exception as e:
-                    logger.error(f"处理 {pair} 分析结果时出错: {e}")
-                    market_analysis["pairs_analysis"][pair] = {
-                        "error": str(e),
-                        "pair": pair
-                    }
-
-        except Exception as e:
-            logger.error(f"市场分析过程中出错: {e}")
-            # 回退到单对分析
-            for pair in self.SUPPORTED_PAIRS:
-                try:
+                    # 使用crypto-market-analyzer进行深入分析
                     result = Task(
                         description=f"市场分析 {pair}",
-                        prompt=f"分析交易对 {pair} 的市场行情，包括价格趋势、技术指标、交易量分析等。提供买入、卖出或持有的建议。",
+                        prompt=f"""请对交易对 {pair} 进行全面的市场行情分析：
+
+**分析要求**：
+1. 当前价格和价格趋势分析（包括短期、中期、长期趋势）
+2. 技术指标分析：
+   - RSI（相对强弱指数）- 判断超买超卖
+   - MACD（指数平滑移动平均线）- 判断趋势变化
+   - 移动平均线（MA5、MA10、MA20、MA50）- 支撑阻力位
+   - 布林带（Bollinger Bands）- 波动性和价格通道
+   - KDJ随机指标 - 短期交易信号
+
+3. 交易量分析：
+   - 当前交易量水平
+   - 交易量变化趋势
+   - 量价关系分析
+
+4. 市场情绪分析：
+   - 多空情绪占比
+   - 资金流向
+   - 市场热度指标
+
+5. 支撑阻力位：
+   - 关键支撑位
+   - 关键阻力位
+   - 突破位分析
+
+6. 交易建议：
+   - 明确的交易方向：买入(BUY)、卖出(SELL)、持有(HOLD)
+   - 置信度评分（0-1之间的数值）
+   - 详细的分析依据和理由
+   - 建议的风险控制措施
+
+**输出格式要求**：
+- 提供结构化的分析结果
+- 包含具体的数值和指标
+- 给出明确的交易建议和置信度
+
+请使用 crypto-market-analyzer 代理进行专业分析。""",
                         subagent_type="crypto-market-analyzer"
                     )
-                    market_analysis["pairs_analysis"][pair] = result
-                except Exception as pair_error:
-                    logger.error(f"分析 {pair} 时出错: {pair_error}")
+
+                    if result:
+                        market_analysis["pairs_analysis"][pair] = {
+                            "analysis": result,
+                            "timestamp": datetime.now().isoformat()
+                        }
+                        logger.info(f"✅ {pair} 分析完成")
+                    else:
+                        logger.warning(f"⚠️ {pair} 分析结果为空")
+                        market_analysis["pairs_analysis"][pair] = {
+                            "error": "No analysis result",
+                            "timestamp": datetime.now().isoformat()
+                        }
+
+                except Exception as e:
+                    logger.error(f"❌ 分析 {pair} 时出错: {e}")
                     market_analysis["pairs_analysis"][pair] = {
-                        "error": str(pair_error),
-                        "pair": pair
+                        "error": str(e),
+                        "timestamp": datetime.now().isoformat()
                     }
 
+            # 生成分析摘要
+            market_analysis["summary"] = self._generate_analysis_summary(market_analysis)
+
+        except Exception as e:
+            logger.error(f"❌ 市场分析过程出错: {e}")
+
         return market_analysis
+
+    def _generate_analysis_summary(self, analysis: Dict[str, Any]) -> Dict[str, Any]:
+        """生成分析摘要"""
+        try:
+            summary = {
+                "total_pairs": len(self.SUPPORTED_PAIRS),
+                "analyzed_pairs": 0,
+                "buy_signals": 0,
+                "sell_signals": 0,
+                "hold_signals": 0,
+                "high_confidence_trades": [],
+                "market_conditions": "Normal"
+            }
+
+            for pair, pair_data in analysis["pairs_analysis"].items():
+                if "error" not in pair_data:
+                    summary["analyzed_pairs"] += 1
+
+                    # 解析交易建议
+                    analysis_text = pair_data.get("analysis", "")
+                    if isinstance(analysis_text, str):
+                        text_lower = analysis_text.lower()
+
+                        # 统计交易信号
+                        if any(word in text_lower for word in ["buy", "买入", "long", "做多", "bullish"]):
+                            summary["buy_signals"] += 1
+                        elif any(word in text_lower for word in ["sell", "卖出", "short", "做空", "bearish"]):
+                            summary["sell_signals"] += 1
+                        else:
+                            summary["hold_signals"] += 1
+
+                        # 识别高置信度交易
+                        confidence_keywords = ["high confidence", "high_confidence", "高置信度", "强信号", "strong signal"]
+                        if any(keyword in text_lower for keyword in confidence_keywords):
+                            summary["high_confidence_trades"].append(pair)
+
+            # 判断市场状态
+            total_signals = summary["buy_signals"] + summary["sell_signals"] + summary["hold_signals"]
+            if total_signals > 0:
+                buy_ratio = summary["buy_signals"] / total_signals
+                sell_ratio = summary["sell_signals"] / total_signals
+
+                if buy_ratio > 0.6:
+                    summary["market_conditions"] = "Bullish"
+                elif sell_ratio > 0.6:
+                    summary["market_conditions"] = "Bearish"
+                elif buy_ratio > 0.4 and sell_ratio > 0.4:
+                    summary["market_conditions"] = "Volatile"
+                else:
+                    summary["market_conditions"] = "Consolidating"
+
+            return summary
+
+        except Exception as e:
+            logger.error(f"❌ 生成分析摘要时出错: {e}")
+            return {}
 
     def execute_trades(self, analysis: Dict[str, Any]) -> List[Dict[str, Any]]:
         """
         根据市场分析执行交易
         使用 okx-trading-executor 代理进行交易执行
         """
-        logger.info("开始执行交易...")
+        logger.info("💼 开始执行交易...")
 
         executed_trades = []
-        trades_to_execute = []
+        high_confidence_trades = []
 
-        # 首先收集所有需要执行的交易
-        for pair, pair_analysis in analysis["pairs_analysis"].items():
-            if "error" in pair_analysis:
+        # 识别高置信度交易机会
+        for pair, pair_data in analysis["pairs_analysis"].items():
+            if "error" in pair_data:
                 continue
 
             try:
-                # 提取交易建议
-                recommendation = pair_analysis.get("recommendation", {})
-                action = recommendation.get("action", "hold")
-                confidence = recommendation.get("confidence", 0.5)  # 获取置信度
+                analysis_text = pair_data.get("analysis", "")
 
-                # 只执行高置信度的交易（置信度 > 0.7）
-                if action != "hold" and confidence > 0.7:
-                    trades_to_execute.append({
-                        "pair": pair,
-                        "action": action,
-                        "analysis": pair_analysis,
-                        "confidence": confidence,
-                        "timestamp": datetime.now().isoformat()
-                    })
-                    logger.info(f"计划执行交易 {pair}: {action} (置信度: {confidence:.2f})")
+                # 检查是否有买入/卖出信号和高置信度
+                if isinstance(analysis_text, str):
+                    text_lower = analysis_text.lower()
+
+                    # 识别交易信号
+                    has_buy_signal = any(word in text_lower for word in ["buy", "买入", "long", "做多", "bullish"])
+                    has_sell_signal = any(word in text_lower for word in ["sell", "卖出", "short", "做空", "bearish"])
+
+                    # 识别置信度指标
+                    confidence_keywords = [
+                        "high confidence", "high_confidence", "高置信度", "强信号", "strong signal",
+                        "confidence", "置信度", "confident", "确信"
+                    ]
+                    has_high_confidence = any(keyword in text_lower for keyword in confidence_keywords)
+
+                    # 识别具体置信度数值
+                    confidence_score = 0.5  # 默认置信度
+                    import re
+                    confidence_patterns = [
+                        r'confidence[:\s]*([\d.]+)', r'置信度[:\s]*([\d.]+)',
+                        r'confidence[:\s]*(\d+)%', r'置信度[:\s]*(\d+)%'
+                    ]
+                    for pattern in confidence_patterns:
+                        match = re.search(pattern, text_lower)
+                        if match:
+                            try:
+                                score = float(match.group(1))
+                                if score > 1 and score <= 100:  # 百分比格式
+                                    confidence_score = score / 100
+                                else:
+                                    confidence_score = min(score, 1.0)  # 直接使用0-1格式
+                                break
+                            except ValueError:
+                                continue
+
+                    # 只执行高置信度的交易
+                    if ((has_buy_signal or has_sell_signal) and confidence_score > 0.7):
+                        action = "buy" if has_buy_signal else "sell"
+                        high_confidence_trades.append({
+                            "pair": pair,
+                            "action": action,
+                            "confidence": confidence_score,
+                            "analysis": analysis_text[:200] + "..." if len(analysis_text) > 200 else analysis_text,
+                            "timestamp": datetime.now().isoformat()
+                        })
+                        logger.info(f"🎯 发现高置信度交易机会: {pair} {action} (置信度: {confidence_score:.2f})")
 
             except Exception as e:
-                logger.error(f"处理 {pair} 交易建议时出错: {e}")
+                logger.error(f"❌ 处理 {pair} 交易建议时出错: {e}")
 
-        # 批量执行交易
-        for trade in trades_to_execute:
+        # 执行高置信度交易
+        for trade in high_confidence_trades:
             try:
+                logger.info(f"🚀 执行交易: {trade['pair']} {trade['action']} (置信度: {trade['confidence']:.2f})")
+
                 result = Task(
                     description=f"执行交易 {trade['pair']}",
                     prompt=f"""
-                    基于以下市场分析，执行交易操作：
+基于以下市场分析，执行交易操作：
 
-                    交易对: {trade['pair']}
-                    建议: {trade['action']}
-                    置信度: {trade['confidence']:.2f}
-                    分析详情: {json.dumps(trade['analysis'], ensure_ascii=False, indent=2)}
+**交易详情**:
+- 交易对: {trade['pair']}
+- 交易方向: {trade['action']}
+- 置信度: {trade['confidence']:.2f}
+- 分析依据: {trade['analysis']}
 
-                    执行要求：
-                    1. 这是模拟环境，请确保只进行小额测试交易
-                    2. 根据置信度调整交易数量（高置信度可适当增加交易量）
-                    3. 考虑当前账户余额和风险控制
-                    4. 如果执行成功，记录交易详情到 self.trades 列表
+**执行要求**:
+1. **模拟环境**: 这是模拟交易环境，请只进行小额测试交易
+2. **风险控制**: 根据置信度设置合理的交易量和止盈止损
+   - 置信度 0.7-0.8: 小额测试交易（0.01-0.1个标准手）
+   - 置信度 0.8-0.9: 中等交易量（0.1-0.5个标准手）
+   - 置信度 0.9以上: 较大交易量（0.5-1个标准手）
+3. **账户管理**: 考虑当前账户余额和风险控制
+4. **止损设置**: 设置合理的止损点位（建议2-5%）
+5. **止盈设置**: 设置合理的止盈点位（建议5-10%）
+6. **交易记录**: 交易成功后记录交易详情到系统
 
-                    请使用 okx-trading-executor 代理进行交易执行。
-                    """,
-                    subagent_type="okx-trading-executor",
-                    model="haiku"  # 使用快速模型进行交易执行
+**执行优先级**:
+- 高置信度交易优先执行
+- 流动性好的交易对优先
+- 避免过度交易，单次交易风险控制在总资金的1-2%
+
+请使用 okx-trading-executor 代理进行交易执行，确保执行模拟交易而非实盘交易。
+""",
+                    subagent_type="okx-trading-executor"
                 )
 
-                # 记录成功的交易
                 executed_trade = {
                     "pair": trade['pair'],
                     "action": trade['action'],
                     "confidence": trade['confidence'],
+                    "analysis": trade['analysis'],
                     "result": result,
                     "timestamp": datetime.now().isoformat()
                 }
 
                 executed_trades.append(executed_trade)
+                self.trades.append(f"{trade['action'].upper()} {trade['pair']} (置信度: {trade['confidence']:.2f})")
 
-                # 添加到交易记录
-                self.trades.append(f"{trade['action'].upper()} {trade['pair']}")
-
-                logger.info(f"执行交易 {trade['pair']}: {trade['action']} (置信度: {trade['confidence']:.2f})")
+                logger.info(f"✅ 交易执行完成: {trade['pair']} {trade['action']} (置信度: {trade['confidence']:.2f})")
 
             except Exception as e:
-                logger.error(f"执行 {trade['pair']} 交易时出错: {e}")
+                logger.error(f"❌ 执行 {trade['pair']} 交易时出错: {e}")
                 executed_trades.append({
                     "pair": trade['pair'],
                     "action": trade['action'],
@@ -188,7 +309,7 @@ class CryptoTradingAgent:
                     "timestamp": datetime.now().isoformat()
                 })
 
-        logger.info(f"交易执行完成，共执行 {len(executed_trades)} 笔交易")
+        logger.info(f"📊 交易执行完成，共执行 {len(executed_trades)} 笔交易")
         return executed_trades
 
     def save_trading_result(self, balance: float, assets: Dict[str, float] = None) -> str:
@@ -265,154 +386,168 @@ class CryptoTradingAgent:
                 "error": str(e)
             }
 
-    def send_telegram_report(self, analysis: Dict[str, Any], image_url: str = None):
+    def send_telegram_report(self, analysis: Dict[str, Any], image_url: str = None) -> bool:
         """
         发送Telegram报告
-        使用 mcp__notify__tg_send_message 或 mcp__notify__tg_send_photo
+        以"📈 #AI模拟盘 自动交易报告"为标题
         """
-        logger.info("发送Telegram交易报告...")
+        logger.info("📱 发送Telegram交易报告...")
 
         try:
-            # 生成报告内容
-            report_content = self.generate_report_content(analysis)
+            # 检查Telegram工具是否可用
+            self.telegram_tools_available = self._check_telegram_tools()
 
-            # 添加Telegram markdown格式支持
+            if not self.telegram_tools_available:
+                logger.warning("⚠️ Telegram工具不可用，跳过报告发送")
+                return False
+
+            # 生成报告内容
+            report_content = self.generate_telegram_report(analysis)
+
+            # 设置Telegram markdown格式
             mcp__notify__tg_markdown_rule()
 
             if image_url:
-                # 发送图片消息
+                # 发送图片消息，使用mermaid图表
                 mcp__notify__tg_send_photo(
                     photo=image_url,
                     caption=report_content,
                     parse_mode="MarkdownV2"
                 )
-                logger.info("已发送Telegram图片报告")
+                logger.info("✅ 已发送Telegram图片报告")
+                return True
             else:
                 # 发送文本消息
                 mcp__notify__tg_send_message(
                     text=report_content,
                     parse_mode="MarkdownV2"
                 )
-                logger.info("已发送Telegram文本报告")
+                logger.info("✅ 已发送Telegram文本报告")
+                return True
 
         except Exception as e:
-            logger.error(f"发送Telegram报告时出错: {e}")
+            logger.error(f"❌ 发送Telegram报告时出错: {e}")
             # 回退到简单文本消息
             try:
                 fallback_message = "📈 #AI模拟盘 自动交易报告\n\n⚠️ 报告生成时出现错误，请稍后重试。"
                 mcp__notify__tg_send_message(text=fallback_message)
-                logger.info("已发送Telegram回退消息")
+                logger.info("✅ 已发送Telegram回退消息")
+                return True
             except Exception as fallback_error:
-                logger.error(f"发送Telegram回退消息也失败: {fallback_error}")
+                logger.error(f"❌ 发送Telegram回退消息也失败: {fallback_error}")
+                return False
 
-    def generate_report_content(self, analysis: Dict[str, Any]) -> str:
+    def generate_telegram_report(self, analysis: Dict[str, Any]) -> str:
         """
-        生成详细的报告内容，包含市场分析和交易建议
+        生成Telegram格式的报告内容，以"📈 #AI模拟盘 自动交易报告"为标题
         """
-        report_lines = [
-            "📈 *#AI模拟盘 自动交易报告*",
-            "",
-            f"📅 ***分析时间***: {analysis.get('timestamp', datetime.now().isoformat())}",
-            "",
-            "📊 ***交易对分析***:",
-        ]
-
-        # 统计买入、卖出、持有数量
-        buy_count = 0
-        sell_count = 0
-        hold_count = 0
-        high_confidence_trades = []
-
-        for pair, pair_analysis in analysis["pairs_analysis"].items():
-            if "error" not in pair_analysis:
-                recommendation = pair_analysis.get("recommendation", {})
-                action = recommendation.get("action", "hold")
-                confidence = recommendation.get("confidence", 0)
-
-                # 统计交易建议
-                if action == "buy":
-                    buy_count += 1
-                    if confidence > 0.8:
-                        high_confidence_trades.append((pair, confidence, "买入"))
-                elif action == "sell":
-                    sell_count += 1
-                    if confidence > 0.8:
-                        high_confidence_trades.append((pair, confidence, "卖出"))
-                else:
-                    hold_count += 1
-
-                # 根据建议添加emoji和详细信息
-                action_emoji = {
-                    "buy": "🟢",
-                    "sell": "🔴",
-                    "hold": "⚪"
-                }.get(action, "❓")
-
-                confidence_emoji = "🔥" if confidence > 0.8 else "⚡" if confidence > 0.6 else "📊"
-
-                report_lines.append(f"*{pair}*: {action_emoji} {action.upper()} {confidence_emoji}")
-                report_lines.append(f"   置信度: {confidence:.2f}")
-
-                # 添加简要分析
-                if "summary" in pair_analysis:
-                    summary = pair_analysis["summary"][:100] + "..." if len(pair_analysis["summary"]) > 100 else pair_analysis["summary"]
-                    report_lines.append(f"   分析: {summary}")
-                report_lines.append("")
-
-        # 添加统计信息
-        report_lines.extend([
-            "📈 ***交易统计***:",
-            f"   🟢 买入建议: {buy_count}",
-            f"   🔴 卖出建议: {sell_count}",
-            f"   ⚪ 持有建议: {hold_count}",
-        ])
-
-        # 添加高置信度交易
-        if high_confidence_trades:
-            report_lines.extend([
-                "",
-                "🔥 ***高置信度交易建议***:",
-            ])
-            for pair, confidence, action in high_confidence_trades:
-                report_lines.append(f"*{pair}*: {action} (置信度: {confidence:.2f})")
-
-        # 添加交易记录
-        if self.trades:
-            report_lines.extend([
-                "",
-                "💼 ***最近交易记录***:",
-            ])
-            for i, trade in enumerate(self.trades[-5:]):  # 显示最近5笔交易
-                report_lines.append(f"{i+1}. {trade}")
-
-        # 添加账户信息
         try:
-            account_info = self.get_account_info()
-            if account_info["success"]:
-                total_balance = account_info["total_balance"]
-                assets = account_info["assets"]
+            report_lines = [
+                "📈 *#AI模拟盘 自动交易报告*",
+                "",
+                f"📅 ***分析时间***: {analysis.get('timestamp', datetime.now().isoformat())}",
+                ""
+            ]
 
+            # 添加分析摘要
+            summary = analysis.get("summary", {})
+            if summary:
                 report_lines.extend([
-                    "",
-                    "💰 ***当前账户状态***:",
-                    f"   总余额: ${total_balance:,.2f}",
+                    "📊 ***分析摘要***:",
+                    f"   🎯 分析交易对: {summary.get('analyzed_pairs', 0)}/{summary.get('total_pairs', 0)}",
+                    f"   🟢 买入信号: {summary.get('buy_signals', 0)}",
+                    f"   🔴 卖出信号: {summary.get('sell_signals', 0)}",
+                    f"   ⚪ 持有信号: {summary.get('hold_signals', 0)}",
+                    f"   🌍 市场状态: {summary.get('market_conditions', 'Normal')}",
+                    ""
                 ])
 
-                if assets:
-                    report_lines.append("   资产分布:")
-                    for currency, amount in assets.items():
-                        report_lines.append(f"     {currency}: {amount}")
+            # 添加各交易对详细分析
+            report_lines.extend(["🔍 ***交易对分析***:", ""])
+
+            for pair, pair_data in analysis["pairs_analysis"].items():
+                if "error" in pair_data:
+                    report_lines.append(f"*{pair}*: ❌ 分析失败")
+                    report_lines.append(f"   错误: {pair_data['error']}")
+                else:
+                    analysis_text = pair_data.get("analysis", "")
+                    if isinstance(analysis_text, str):
+                        # 提取关键信息
+                        text_lower = analysis_text.lower()
+
+                        # 判断交易建议
+                        if any(word in text_lower for word in ["buy", "买入", "long", "做多", "bullish"]):
+                            action_emoji = "🟢"
+                            action_text = "买入"
+                        elif any(word in text_lower for word in ["sell", "卖出", "short", "做空", "bearish"]):
+                            action_emoji = "🔴"
+                            action_text = "卖出"
+                        else:
+                            action_emoji = "⚪"
+                            action_text = "持有"
+
+                        # 判断置信度
+                        confidence_text = ""
+                        if any(word in text_lower for word in ["high confidence", "high_confidence", "高置信度", "强信号", "strong signal"]):
+                            confidence_text = "🔥 高置信度"
+                        elif any(word in text_lower for word in ["medium confidence", "中等置信度"]):
+                            confidence_text = "⚡ 中等置信度"
+                        else:
+                            confidence_text = "📊 一般置信度"
+
+                        report_lines.append(f"*{pair}*: {action_emoji} {action_text}")
+                        report_lines.append(f"   {confidence_text}")
+
+                        # 添加简要分析
+                        if len(analysis_text) > 50:
+                            brief_analysis = analysis_text[:100] + "..." if len(analysis_text) > 100 else analysis_text
+                            report_lines.append(f"   分析: {brief_analysis}")
+
+                report_lines.append("")
+
+            # 添加账户信息
+            try:
+                account_info = self.get_account_info()
+                if account_info["success"]:
+                    total_balance = account_info["total_balance"]
+                    assets = account_info["assets"]
+
+                    report_lines.extend([
+                        "💰 ***当前账户状态***:",
+                        f"   总余额: ${total_balance:,.2f}",
+                    ])
+
+                    if assets:
+                        report_lines.append("   资产分布:")
+                        for currency, amount in assets.items():
+                            report_lines.append(f"     {currency}: {amount}")
+                    report_lines.append("")
+            except Exception as e:
+                logger.warning(f"获取账户信息失败: {e}")
+
+            # 添加交易记录
+            if self.trades:
+                report_lines.extend([
+                    "💼 ***最近交易记录***:",
+                ])
+                for i, trade in enumerate(self.trades[-5:]):
+                    report_lines.append(f"{i+1}. {trade}")
+                report_lines.append("")
+
+            # 添加风险提示和说明
+            report_lines.extend([
+                "*💡 说明*: 这是模拟交易环境，所有交易均为测试性质。",
+                "*⚠️ 风险提示*: 加密货币交易存在高风险，请谨慎投资。",
+                "*🔒 安全提示*: 本系统使用模拟环境进行交易测试。",
+                "",
+                "*🤖 AI交易代理* - 自动化加密货币交易系统"
+            ])
+
+            return "\n".join(report_lines)
+
         except Exception as e:
-            logger.warning(f"获取账户信息失败: {e}")
-
-        report_lines.extend([
-            "",
-            "*💡 说明*: 这是模拟交易环境，所有交易均为测试性质。",
-            "*⚠️ 风险提示*: 加密货币交易存在高风险，请谨慎投资。",
-            "*🔒 安全提示*: 本系统使用模拟环境进行交易测试。"
-        ])
-
-        return "\n".join(report_lines)
+            logger.error(f"❌ 生成Telegram报告时出错: {e}")
+            return "📈 #AI模拟盘 自动交易报告\n\n⚠️ 报告生成时出现错误，请稍后重试。"
 
     def run_trading_cycle(self):
         """
@@ -586,7 +721,7 @@ def main():
     """
     import argparse
 
-    parser = argparse.ArgumentParser(description="加密货币交易AI代理")
+    parser = argparse.ArgumentParser(description="AI加密货币交易代理")
     parser.add_argument("--cycles", type=int, default=1, help="执行多个交易周期")
     parser.add_argument("--multi-analysis", action="store_true", help="运行多周期综合分析")
     parser.add_argument("--test", action="store_true", help="测试模式，不执行实际交易")
@@ -605,20 +740,41 @@ def main():
         result = run_test_mode(agent)
     else:
         # 标准模式
-        logger.info("🚀 启动标准交易模式...")
+        logger.info("🚀 启动AI交易模式...")
         if args.cycles > 1:
             result = agent.run_multi_cycle_analysis(cycles=args.cycles)
         else:
             result = agent.run_trading_cycle()
 
     if result.get("success"):
-        logger.info("✅ 交易代理执行完成")
+        logger.info("✅ AI交易代理执行完成")
         print(json.dumps(result, indent=2, ensure_ascii=False))
         return result
     else:
-        logger.error(f"❌ 交易代理执行失败: {result.get('error', '未知错误')}")
+        logger.error(f"❌ AI交易代理执行失败: {result.get('error', '未知错误')}")
         print(f"错误: {result.get('error', '未知错误')}")
         return result
+
+def run_single_cycle():
+    """
+    运行单个交易周期（用于快速测试和演示）
+    """
+    try:
+        agent = CryptoTradingAgent()
+        logger.info("🚀 开始AI交易周期...")
+
+        result = agent.run_trading_cycle()
+
+        if result["success"]:
+            logger.info("✅ AI交易周期执行成功")
+            return result
+        else:
+            logger.error(f"❌ AI交易周期执行失败: {result['error']}")
+            return result
+
+    except Exception as e:
+        logger.error(f"💥 执行AI交易周期时发生异常: {e}")
+        return {"success": False, "error": str(e)}
 
 
 def run_test_mode(agent: CryptoTradingAgent) -> Dict[str, Any]:
