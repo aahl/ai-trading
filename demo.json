@@ -959,6 +959,10 @@
     {
       "time": "2025-11-23T20:31:25.860861",
       "balance": 110917.6
+    },
+    {
+      "time": "2025-11-24T02:11:19.742899",
+      "balance": 110896.9
     }
   ],
   "assets": {
@@ -967,6 +971,14 @@
     "USDT": 623.5
   },
   "trades": [
+    {
+      "time": "2025-11-24T02:11:19.742926",
+      "text": "Executed trading strategy based on market analysis: BTC and SOL buy signals"
+    },
+    {
+      "time": "2025-11-24T02:11:19.742922",
+      "text": "Hold ETH based on market analysis (confidence 55/100)"
+    },
     {
       "time": "2025-11-23T20:31:25.860892",
       "text": "Sell 0.5 ETH, gained approximately 1415.15 USDT"
@@ -1358,14 +1370,6 @@
     {
       "time": "2025-11-20T22:32:54.211711",
       "text": "Buy 1 ETH at $2901.62"
-    },
-    {
-      "time": "2025-11-20T20:37:03.263007",
-      "text": "Bought 0.149432 SOL for long-term position"
-    },
-    {
-      "time": "2025-11-20T20:37:03.263003",
-      "text": "Optimized ETH sell order at $3150"
     }
   ]
 }
