@@ -1015,15 +1015,27 @@
     {
       "time": "2025-11-25T14:35:29.316925",
       "balance": 112613.4
+    },
+    {
+      "time": "2025-11-25T16:44:28.905912",
+      "balance": 111828.7
     }
   ],
   "assets": {
-    "BTC": 27135.2,
-    "ETH": 8027.4,
-    "SOL": 9752.4,
-    "USDT": 67195.0
+    "BTC": 27897.0,
+    "ETH": 9036.2,
+    "SOL": 11480.0,
+    "USDT": 63415.5
   },
   "trades": [
+    {
+      "time": "2025-11-25T16:44:28.905958",
+      "text": "Bought 1 ETH-USDT, order ID: 3073137187778732032"
+    },
+    {
+      "time": "2025-11-25T16:44:28.905953",
+      "text": "Sold 16.8 SOL-USDT, order ID: 3073137031951949824"
+    },
     {
       "time": "2025-11-25T14:35:29.316952",
       "text": "Buy additional SOL, spent 1000 USDT"
@@ -1415,14 +1427,6 @@
     {
       "time": "2025-11-21T16:41:41.712956",
       "text": "BTC position: 0.977 BTC ($81,624.69)"
-    },
-    {
-      "time": "2025-11-21T16:41:41.712954",
-      "text": "Account total equity: $106,201.33"
-    },
-    {
-      "time": "2025-11-21T16:41:41.712952",
-      "text": "Trading strategy: BTC-USDT 20-25% allocation, relative value trades 10-18%"
     }
   ]
 }
