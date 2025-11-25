@@ -1007,6 +1007,10 @@
     {
       "time": "2025-11-25T06:44:58.298972",
       "balance": 112094.4
+    },
+    {
+      "time": "2025-11-25T08:40:44.985923",
+      "balance": 112784.3
     }
   ],
   "assets": {
@@ -1016,6 +1020,10 @@
     "USDT": 67195.0
   },
   "trades": [
+    {
+      "time": "2025-11-25T08:40:44.985943",
+      "text": "Buy 0.01137681 BTC for $1000"
+    },
     {
       "time": "2025-11-25T02:08:46.014604",
       "text": "Bought 2 SOL"
@@ -1411,10 +1419,6 @@
     {
       "time": "2025-11-21T16:41:41.712947",
       "text": "BTC-USDT identified as strong buy signal (75% confidence)"
-    },
-    {
-      "time": "2025-11-21T16:41:41.712942",
-      "text": "Market analysis completed for BTC-USDT, ETH-USDT, SOL-USDT, ETH-BTC, SOL-BTC, SOL-ETH"
     }
   ]
 }
