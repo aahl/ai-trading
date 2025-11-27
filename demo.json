@@ -1075,15 +1075,27 @@
     {
       "time": "2025-11-27T12:59:33.180169",
       "balance": 114208.2
+    },
+    {
+      "time": "2025-11-27T14:30:18.836643",
+      "balance": 114301.8
     }
   ],
   "assets": {
-    "BTC": 52568.5,
-    "ETH": 11753.0,
-    "SOL": 17699.1,
-    "USDT": 32774.2
+    "BTC": 52283.8,
+    "ETH": 11739.9,
+    "SOL": 22511.3,
+    "USDT": 27766.7
   },
   "trades": [
+    {
+      "time": "2025-11-27T14:30:18.836686",
+      "text": "Buy 0.000556 ETH at 2998.41 USDT, spent 1.67 USDT"
+    },
+    {
+      "time": "2025-11-27T14:30:18.836682",
+      "text": "Buy 0.000556 ETH at 2999.08 USDT, spent 1.67 USDT"
+    },
     {
       "time": "2025-11-27T12:59:33.180196",
       "text": "Buy 35.43 SOL for 5000 USDT at average price 141.12"
@@ -1475,14 +1487,6 @@
     {
       "time": "2025-11-22T08:35:59.798018",
       "text": "Buy 0.39 ETH from USDT at $2724.8"
-    },
-    {
-      "time": "2025-11-22T06:39:43.480672",
-      "text": "Buy 0.2 SOL limit order at $125, pending $25"
-    },
-    {
-      "time": "2025-11-22T06:39:43.480670",
-      "text": "Buy 0.05 ETH limit order at $2,700, pending $135"
     }
   ]
 }
