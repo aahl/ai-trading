@@ -1115,6 +1115,10 @@
     {
       "time": "2025-11-28T08:42:07.368501",
       "balance": 114298.9
+    },
+    {
+      "time": "2025-11-28T12:57:10.999674",
+      "balance": 114745.4
     }
   ],
   "assets": {
@@ -1124,6 +1128,10 @@
     "USDT": 11985.5
   },
   "trades": [
+    {
+      "time": "2025-11-28T12:57:10.999702",
+      "text": "Monitoring market conditions for BTC, ETH, SOL"
+    },
     {
       "time": "2025-11-28T08:42:07.368540",
       "text": "Buy 5 SOL at 138 USDT (Order ID: 3080862962535632896)"
@@ -1519,10 +1527,6 @@
     {
       "time": "2025-11-22T18:46:01.693514",
       "text": "AI Analysis: MACD Bullish Signal Detected"
-    },
-    {
-      "time": "2025-11-22T18:46:01.693510",
-      "text": "BTC-USDT Market Analysis Complete"
     }
   ]
 }
