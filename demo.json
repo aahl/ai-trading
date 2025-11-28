@@ -1119,15 +1119,31 @@
     {
       "time": "2025-11-28T12:57:10.999674",
       "balance": 114745.4
+    },
+    {
+      "time": "2025-11-28T18:44:18.401031",
+      "balance": 113746.1
     }
   ],
   "assets": {
-    "BTC": 72440.1,
-    "ETH": 15833.0,
-    "SOL": 14040.3,
-    "USDT": 11985.5
+    "BTC": 77911.5,
+    "ETH": 15913.0,
+    "SOL": 14427.4,
+    "USDT": 5594.2
   },
   "trades": [
+    {
+      "time": "2025-11-28T18:44:18.401064",
+      "text": "Placed buy order for 0.658 ETH at 3,038.25 USDT (~2,000 USDT)"
+    },
+    {
+      "time": "2025-11-28T18:44:18.401062",
+      "text": "Placed buy order for 0.022 BTC at 90,839.90 USDT (~2,000 USDT)"
+    },
+    {
+      "time": "2025-11-28T18:44:18.401059",
+      "text": "Sold 20 SOL for ~2,740 USDT"
+    },
     {
       "time": "2025-11-28T12:57:10.999702",
       "text": "Monitoring market conditions for BTC, ETH, SOL"
@@ -1515,18 +1531,6 @@
     {
       "time": "2025-11-22T18:46:01.693520",
       "text": "78% Confidence BUY Signal for BTC-USDT"
-    },
-    {
-      "time": "2025-11-22T18:46:01.693518",
-      "text": "SOL-USDT Profit Taking Alert"
-    },
-    {
-      "time": "2025-11-22T18:46:01.693516",
-      "text": "ETH-USDT Hold Recommendation Generated"
-    },
-    {
-      "time": "2025-11-22T18:46:01.693514",
-      "text": "AI Analysis: MACD Bullish Signal Detected"
     }
   ]
 }
