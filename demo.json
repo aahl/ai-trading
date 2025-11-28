@@ -1123,6 +1123,10 @@
     {
       "time": "2025-11-28T18:44:18.401031",
       "balance": 113746.1
+    },
+    {
+      "time": "2025-11-28T22:29:34.972873",
+      "balance": 113858.9
     }
   ],
   "assets": {
@@ -1132,6 +1136,10 @@
     "USDT": 5594.2
   },
   "trades": [
+    {
+      "time": "2025-11-28T22:29:34.972893",
+      "text": "Placed limit order to buy 0.003 BTC at $89,200"
+    },
     {
       "time": "2025-11-28T18:44:18.401064",
       "text": "Placed buy order for 0.658 ETH at 3,038.25 USDT (~2,000 USDT)"
@@ -1527,10 +1535,6 @@
     {
       "time": "2025-11-22T20:30:43.390247",
       "text": "Sold 0.013 ETH for 0.0004224 BTC (ETH-BTC pair)"
-    },
-    {
-      "time": "2025-11-22T18:46:01.693520",
-      "text": "78% Confidence BUY Signal for BTC-USDT"
     }
   ]
 }
