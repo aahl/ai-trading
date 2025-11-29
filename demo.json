@@ -1167,6 +1167,10 @@
     {
       "time": "2025-11-29T18:41:12.497378",
       "balance": 112834.7
+    },
+    {
+      "time": "2025-11-29T22:31:10.278821",
+      "balance": 107322.4
     }
   ],
   "assets": {
@@ -1176,6 +1180,10 @@
     "USDT": 20366.0
   },
   "trades": [
+    {
+      "time": "2025-11-29T22:31:10.278846",
+      "text": "Buy 0.073746 SOL for $10 at $135.6 per SOL"
+    },
     {
       "time": "2025-11-29T18:41:12.497397",
       "text": "Buy 41 SOL at 135.15 USDT, spent 5541.15 USDT"
@@ -1571,10 +1579,6 @@
     {
       "time": "2025-11-23T17:12:09.451928",
       "text": "ETH market buy order executed: $50 worth, increasing ETH balance from 4.9288 to 4.9467"
-    },
-    {
-      "time": "2025-11-23T14:28:24.071389",
-      "text": "Buy 0.010484 ETH at $2,829.98, spent $29.66"
     }
   ]
 }
