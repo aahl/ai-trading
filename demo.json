@@ -1127,15 +1127,51 @@
     {
       "time": "2025-11-28T22:29:34.972873",
       "balance": 113858.9
+    },
+    {
+      "time": "2025-11-29T03:22:13.402980",
+      "balance": 10000.0
+    },
+    {
+      "time": "2025-11-29T03:27:29.183030",
+      "balance": 114148.5
+    },
+    {
+      "time": "2025-11-29T03:30:23.204728",
+      "balance": 113674.3
     }
   ],
   "assets": {
-    "BTC": 77911.5,
-    "ETH": 15913.0,
-    "SOL": 14427.4,
-    "USDT": 5594.2
+    "BTC": 83812.0,
+    "ETH": 17842.0,
+    "SOL": 11735.8,
+    "USDT": 284.5
   },
   "trades": [
+    {
+      "time": "2025-11-29T03:30:23.204751",
+      "text": "Maintained portfolio: 0.9235 BTC, 5.8954 ETH, 85.6153 SOL"
+    },
+    {
+      "time": "2025-11-29T03:27:29.183060",
+      "text": "Maintained SOL position: 85.6153 SOL"
+    },
+    {
+      "time": "2025-11-29T03:27:29.183059",
+      "text": "Maintained ETH position: 5.8954 ETH"
+    },
+    {
+      "time": "2025-11-29T03:27:29.183057",
+      "text": "Maintained BTC position: 0.9235 BTC"
+    },
+    {
+      "time": "2025-11-29T03:22:13.403004",
+      "text": "Buy 0.15 BTC, spent 13.73 USDT"
+    },
+    {
+      "time": "2025-11-29T03:22:13.403001",
+      "text": "Sell 0.1 SOL, gained 13.73 USDT"
+    },
     {
       "time": "2025-11-28T22:29:34.972893",
       "text": "Placed limit order to buy 0.003 BTC at $89,200"
@@ -1511,30 +1547,6 @@
     {
       "time": "2025-11-23T02:25:51.607922",
       "text": "Buy 0.04 BTC @ $84,000, limit order pending"
-    },
-    {
-      "time": "2025-11-22T22:28:09.206582",
-      "text": "Sold 0.1 BTC at market price to free up capital"
-    },
-    {
-      "time": "2025-11-22T22:28:09.206581",
-      "text": "Buy 0.003931 SOL at $127.19, cost $0.50 USDT"
-    },
-    {
-      "time": "2025-11-22T22:28:09.206578",
-      "text": "Buy 0.00001181 BTC at $84,615, cost $1.00 USDT"
-    },
-    {
-      "time": "2025-11-22T22:28:09.206575",
-      "text": "Buy 0.000905 ETH at $2,759.86, cost $2.50 USDT"
-    },
-    {
-      "time": "2025-11-22T20:30:43.390250",
-      "text": "ETH-BTC trade executed at 0.0324937 BTC per ETH"
-    },
-    {
-      "time": "2025-11-22T20:30:43.390247",
-      "text": "Sold 0.013 ETH for 0.0004224 BTC (ETH-BTC pair)"
     }
   ]
 }
