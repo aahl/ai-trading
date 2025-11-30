@@ -1159,6 +1159,10 @@
     {
       "time": "2025-11-30T06:42:50.658167",
       "balance": 113509.8
+    },
+    {
+      "time": "2025-11-30T08:35:54.927673",
+      "balance": 113702.5
     }
   ],
   "assets": {
@@ -1168,6 +1172,10 @@
     "USDT": 35879.6
   },
   "trades": [
+    {
+      "time": "2025-11-30T08:35:54.927693",
+      "text": "Buy 0.055 BTC at 90,500 USDT, worth ~4,977.5 USDT"
+    },
     {
       "time": "2025-11-30T06:42:50.658200",
       "text": "Bought 10 SOL with part of the remaining USDT"
@@ -1563,10 +1571,6 @@
     {
       "time": "2025-11-23T20:31:25.860888",
       "text": "Buy 5 SOL, spent approximately 662.60 USDT"
-    },
-    {
-      "time": "2025-11-23T18:37:12.559205",
-      "text": "Buy 1.4 SOL at $131.50, spent ~$184.10 USDT"
     }
   ]
 }
