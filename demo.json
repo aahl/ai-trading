@@ -1171,15 +1171,31 @@
     {
       "time": "2025-11-29T22:31:10.278821",
       "balance": 107322.4
+    },
+    {
+      "time": "2025-11-30T06:42:50.658167",
+      "balance": 113509.8
     }
   ],
   "assets": {
-    "BTC": 65623.2,
-    "ETH": 14679.4,
-    "SOL": 11739.3,
-    "USDT": 20366.0
+    "BTC": 49604.5,
+    "ETH": 16278.9,
+    "SOL": 11740.6,
+    "USDT": 35879.6
   },
   "trades": [
+    {
+      "time": "2025-11-30T06:42:50.658200",
+      "text": "Bought 10 SOL with part of the remaining USDT"
+    },
+    {
+      "time": "2025-11-30T06:42:50.658198",
+      "text": "Bought 0.4 ETH with part of the proceeds"
+    },
+    {
+      "time": "2025-11-30T06:42:50.658195",
+      "text": "Sold 0.2 BTC for approximately $18,179"
+    },
     {
       "time": "2025-11-29T22:31:10.278846",
       "text": "Buy 0.073746 SOL for $10 at $135.6 per SOL"
@@ -1567,18 +1583,6 @@
     {
       "time": "2025-11-23T18:37:12.559205",
       "text": "Buy 1.4 SOL at $131.50, spent ~$184.10 USDT"
-    },
-    {
-      "time": "2025-11-23T17:12:09.451934",
-      "text": "SOL position maintained: no additional orders placed as recommended"
-    },
-    {
-      "time": "2025-11-23T17:12:09.451932",
-      "text": "BTC limit buy order placed: 0.01 BTC at $85,500 (unfilled)"
-    },
-    {
-      "time": "2025-11-23T17:12:09.451928",
-      "text": "ETH market buy order executed: $50 worth, increasing ETH balance from 4.9288 to 4.9467"
     }
   ]
 }
