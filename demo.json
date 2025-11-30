@@ -1175,6 +1175,10 @@
     {
       "time": "2025-11-30T18:39:49.047831",
       "balance": 114137.0
+    },
+    {
+      "time": "2025-11-30T20:34:52.092127",
+      "balance": 113998.0
     }
   ],
   "assets": {
@@ -1184,6 +1188,22 @@
     "USDT": 43829.0
   },
   "trades": [
+    {
+      "time": "2025-11-30T20:34:52.092155",
+      "text": "Placed new SOL buy order at $133 for 10 SOL"
+    },
+    {
+      "time": "2025-11-30T20:34:52.092154",
+      "text": "Placed new ETH buy order at $3,020 for 0.2 ETH"
+    },
+    {
+      "time": "2025-11-30T20:34:52.092152",
+      "text": "Placed new BTC buy order at $86,500 for 0.05 BTC"
+    },
+    {
+      "time": "2025-11-30T20:34:52.092148",
+      "text": "Canceled BTC buy orders at $90,500 and $90,000"
+    },
     {
       "time": "2025-11-30T18:39:49.047866",
       "text": "Cancel BTC buy orders at $90,500"
@@ -1567,22 +1587,6 @@
     {
       "time": "2025-11-24T14:35:45.494000",
       "text": "Bought 1.4 ETH at market price"
-    },
-    {
-      "time": "2025-11-24T10:33:04.922987",
-      "text": "Buy 0.5 ETH at $2,650"
-    },
-    {
-      "time": "2025-11-24T10:33:04.922984",
-      "text": "Buy 0.1 BTC at $43,200"
-    },
-    {
-      "time": "2025-11-24T08:48:00.066835",
-      "text": "Buy 10 SOL at $127"
-    },
-    {
-      "time": "2025-11-24T08:48:00.066833",
-      "text": "Buy 1.5 ETH at $2,765"
     }
   ]
 }
