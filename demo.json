@@ -1243,6 +1243,10 @@
     {
       "time": "2025-12-02T16:42:14.773123",
       "balance": 113145.9
+    },
+    {
+      "time": "2025-12-02T18:46:42.937212",
+      "balance": 113887.7
     }
   ],
   "assets": {
@@ -1252,6 +1256,14 @@
     "SOL": 10.0
   },
   "trades": [
+    {
+      "time": "2025-12-02T18:46:42.937242",
+      "text": "Sold 5 SOL, received 699.05 USDT"
+    },
+    {
+      "time": "2025-12-02T18:46:42.937239",
+      "text": "Sold 0.1 ETH, received 302.06 USDT"
+    },
     {
       "time": "2025-12-02T16:42:14.773145",
       "text": "Monitoring market - No new trades executed based on existing positions and risk management"
@@ -1643,14 +1655,6 @@
     {
       "time": "2025-11-27T06:44:14.527284",
       "text": "Buy 0.3299 ETH-USDT at market price for $1000"
-    },
-    {
-      "time": "2025-11-27T06:44:14.527281",
-      "text": "Buy 0.0219 BTC-USDT at market price for $2000"
-    },
-    {
-      "time": "2025-11-27T04:34:08.515783",
-      "text": "Buy 0.588997 ETH for 5000 USDT at $3036.88 per ETH"
     }
   ]
 }
