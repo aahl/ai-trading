@@ -8,6 +8,9 @@ on:
       prompt:
         description: Prompt for Claude code
         default: ''
+      model:
+        description: Model for Claude code
+        default: ''
 
 jobs:
   trading:
@@ -96,9 +99,9 @@ jobs:
         timeout-minutes: 30
         env:
           ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL || vars.ANTHROPIC_BASE_URL }}
-          ANTHROPIC_DEFAULT_OPUS_MODEL: ${{ vars.ANTHROPIC_DEFAULT_OPUS_MODEL || vars.CLAUDE_DEFAULT_MODEL }}
-          ANTHROPIC_DEFAULT_HAIKU_MODEL: ${{ vars.ANTHROPIC_DEFAULT_HAIKU_MODEL || vars.CLAUDE_DEFAULT_MODEL }}
-          ANTHROPIC_DEFAULT_SONNET_MODEL: ${{ vars.ANTHROPIC_DEFAULT_SONNET_MODEL || vars.CLAUDE_DEFAULT_MODEL }}
+          ANTHROPIC_DEFAULT_OPUS_MODEL: ${{ inputs.model || vars.ANTHROPIC_DEFAULT_OPUS_MODEL || vars.CLAUDE_DEFAULT_MODEL }}
+          ANTHROPIC_DEFAULT_HAIKU_MODEL: ${{ inputs.model || vars.ANTHROPIC_DEFAULT_HAIKU_MODEL || vars.CLAUDE_DEFAULT_MODEL }}
+          ANTHROPIC_DEFAULT_SONNET_MODEL: ${{ inputs.model || vars.ANTHROPIC_DEFAULT_SONNET_MODEL || vars.CLAUDE_DEFAULT_MODEL }}
         with:
           prompt: ${{ inputs.prompt || secrets.TRADING_PROMPT || vars.TRADING_PROMPT }}
           show_full_output: ${{ vars.CLAUDE_FULL_OUTPUT || 'false' }}
