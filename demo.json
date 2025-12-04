@@ -1299,15 +1299,31 @@
     {
       "time": "2025-12-04T16:47:42.626555",
       "balance": 113663.6
+    },
+    {
+      "time": "2025-12-04T18:50:39.795677",
+      "balance": 112661.0
     }
   ],
   "assets": {
-    "BTC": 60903.4,
-    "ETH": 11600.3,
-    "SOL": 36305.1,
-    "USDT": 4854.7
+    "BTC": 64259.0,
+    "ETH": 12082.0,
+    "SOL": 35826.0,
+    "USDT": 494.0
   },
   "trades": [
+    {
+      "time": "2025-12-04T18:50:39.795711",
+      "text": "Strategy: Increased BTC allocation from 56.1% to 57.0% for potential rebound"
+    },
+    {
+      "time": "2025-12-04T18:50:39.795709",
+      "text": "Average execution price: 0.03411 BTC/ETH"
+    },
+    {
+      "time": "2025-12-04T18:50:39.795706",
+      "text": "Converted 0.3 ETH to 0.010233 BTC based on BTC oversold signal"
+    },
     {
       "time": "2025-12-04T16:47:42.626633",
       "text": "SOL order failed due to insufficient USDT balance"
@@ -1695,18 +1711,6 @@
     {
       "time": "2025-11-29T10:29:26.034169",
       "text": "Buy 5 SOL with USDT"
-    },
-    {
-      "time": "2025-11-29T10:29:26.034165",
-      "text": "Sell 0.2 BTC for USDT"
-    },
-    {
-      "time": "2025-11-29T08:38:05.006341",
-      "text": "Placed limit order to buy SOL-USDT at 135 (1 SOL)"
-    },
-    {
-      "time": "2025-11-29T08:38:05.006338",
-      "text": "Placed limit order to buy BTC-USDT at 88000 (0.01 BTC)"
     }
   ]
 }
