@@ -1295,15 +1295,31 @@
     {
       "time": "2025-12-04T13:07:04.866789",
       "balance": 113958.7
+    },
+    {
+      "time": "2025-12-04T16:47:42.626555",
+      "balance": 113663.6
     }
   ],
   "assets": {
-    "BTC": 61179.7,
-    "ETH": 9585.0,
-    "SOL": 39260.6,
-    "USDT": 3986.2
+    "BTC": 60903.4,
+    "ETH": 11600.3,
+    "SOL": 36305.1,
+    "USDT": 4854.7
   },
   "trades": [
+    {
+      "time": "2025-12-04T16:47:42.626633",
+      "text": "SOL order failed due to insufficient USDT balance"
+    },
+    {
+      "time": "2025-12-04T16:47:42.626631",
+      "text": "Place limit order: Buy 0.5 ETH at 3,170 USDT (Order ID: 3099233476882731008)"
+    },
+    {
+      "time": "2025-12-04T16:47:42.626627",
+      "text": "Place limit order: Buy 0.03 BTC at 92,500 USDT (Order ID: 3099232942528401408)"
+    },
     {
       "time": "2025-12-04T13:07:04.866813",
       "text": "Placed limit sell order: 20 SOL at $143.5 for hedging strategy"
@@ -1691,18 +1707,6 @@
     {
       "time": "2025-11-29T08:38:05.006338",
       "text": "Placed limit order to buy BTC-USDT at 88000 (0.01 BTC)"
-    },
-    {
-      "time": "2025-11-29T08:38:05.006335",
-      "text": "Sold 1 ETH-USDT"
-    },
-    {
-      "time": "2025-11-29T03:30:23.204751",
-      "text": "Maintained portfolio: 0.9235 BTC, 5.8954 ETH, 85.6153 SOL"
-    },
-    {
-      "time": "2025-11-29T03:27:29.183060",
-      "text": "Maintained SOL position: 85.6153 SOL"
     }
   ]
 }
