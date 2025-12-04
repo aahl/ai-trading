@@ -1303,15 +1303,27 @@
     {
       "time": "2025-12-04T18:50:39.795677",
       "balance": 112661.0
+    },
+    {
+      "time": "2025-12-04T20:36:27.456638",
+      "balance": 112467.0
     }
   ],
   "assets": {
-    "BTC": 64259.0,
-    "ETH": 12082.0,
-    "SOL": 35826.0,
-    "USDT": 494.0
+    "BTC": 64341.0,
+    "ETH": 12425.0,
+    "SOL": 35607.0,
+    "USDT": 94.0
   },
   "trades": [
+    {
+      "time": "2025-12-04T20:36:27.456663",
+      "text": "SOL-ETH swap order cancelled due to price slippage"
+    },
+    {
+      "time": "2025-12-04T20:36:27.456660",
+      "text": "Buy 0.128048 ETH with 400 USDT at $3,123.83"
+    },
     {
       "time": "2025-12-04T18:50:39.795711",
       "text": "Strategy: Increased BTC allocation from 56.1% to 57.0% for potential rebound"
@@ -1703,14 +1715,6 @@
     {
       "time": "2025-11-29T13:08:45.683437",
       "text": "Canceled SOL limit buy order at $135"
-    },
-    {
-      "time": "2025-11-29T13:08:45.683433",
-      "text": "Canceled BTC limit buy order at $88,000"
-    },
-    {
-      "time": "2025-11-29T10:29:26.034169",
-      "text": "Buy 5 SOL with USDT"
     }
   ]
 }
