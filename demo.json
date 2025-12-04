@@ -1291,15 +1291,23 @@
     {
       "time": "2025-12-04T10:38:19.455351",
       "balance": 114516.7
+    },
+    {
+      "time": "2025-12-04T13:07:04.866789",
+      "balance": 113958.7
     }
   ],
   "assets": {
-    "BTC": 59822.2,
-    "ETH": 9654.3,
-    "SOL": 39493.4,
-    "USDT": 3986.0
+    "BTC": 61179.7,
+    "ETH": 9585.0,
+    "SOL": 39260.6,
+    "USDT": 3986.2
   },
   "trades": [
+    {
+      "time": "2025-12-04T13:07:04.866813",
+      "text": "Placed limit sell order: 20 SOL at $143.5 for hedging strategy"
+    },
     {
       "time": "2025-12-04T10:38:19.455385",
       "text": "Buy 0.833351 ETH with 2664 USDT at 3196.73"
@@ -1695,10 +1703,6 @@
     {
       "time": "2025-11-29T03:27:29.183060",
       "text": "Maintained SOL position: 85.6153 SOL"
-    },
-    {
-      "time": "2025-11-29T03:27:29.183059",
-      "text": "Maintained ETH position: 5.8954 ETH"
     }
   ]
 }
