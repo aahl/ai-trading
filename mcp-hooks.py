@@ -73,7 +73,7 @@ def save_trading_result(
     with open(path, "w", encoding="utf-8") as file:
         json.dump(data, file, indent=2, ensure_ascii=False)
 
-    line = ",".join([str(round(x["balance"])) for x in data["balances"]])
+    line = ",".join([str(round(x["balance"])) for x in data["balances"][-300:]])
     mermaid = f"""
 xychart
     title "模拟盘余额"
