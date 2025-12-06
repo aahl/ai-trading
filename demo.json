@@ -1351,15 +1351,23 @@
     {
       "time": "2025-12-06T06:49:14.393281",
       "balance": 108597.7
+    },
+    {
+      "time": "2025-12-06T08:37:07.481851",
+      "balance": 108187.3
     }
   ],
   "assets": {
-    "BTC": 67959.2,
-    "ETH": 20647.4,
-    "SOL": 19505.8,
-    "USDT": 603.2
+    "BTC": 67454.7,
+    "ETH": 150.6,
+    "SOL": 19365.5,
+    "USDT": 21216.5
   },
   "trades": [
+    {
+      "time": "2025-12-06T08:37:07.481875",
+      "text": "Buy 0.5 ETH using BTC at 0.034 ETH-BTC rate"
+    },
     {
       "time": "2025-12-06T06:49:14.393308",
       "text": "Placed ETH protective sell order: 6.7892 ETH at $2,960 for stop-loss (Order ID: 3103827134189670400)"
@@ -1755,10 +1763,6 @@
     {
       "time": "2025-11-30T20:34:52.092148",
       "text": "Canceled BTC buy orders at $90,500 and $90,000"
-    },
-    {
-      "time": "2025-11-30T18:39:49.047866",
-      "text": "Cancel BTC buy orders at $90,500"
     }
   ]
 }
