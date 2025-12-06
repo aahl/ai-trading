@@ -1355,15 +1355,31 @@
     {
       "time": "2025-12-06T08:37:07.481851",
       "balance": 108187.3
+    },
+    {
+      "time": "2025-12-06T14:35:46.464184",
+      "balance": 108900.3
     }
   ],
   "assets": {
-    "BTC": 67454.7,
-    "ETH": 150.6,
-    "SOL": 19365.5,
-    "USDT": 21216.5
+    "BTC": 66483.7,
+    "ETH": 1676.2,
+    "SOL": 19525.4,
+    "USDT": 21215.0
   },
   "trades": [
+    {
+      "time": "2025-12-06T14:35:46.464209",
+      "text": "Total new orders: $11,465 USDT"
+    },
+    {
+      "time": "2025-12-06T14:35:46.464207",
+      "text": "Placed limit buy order for 40 SOL at $130 (total $5,200)"
+    },
+    {
+      "time": "2025-12-06T14:35:46.464204",
+      "text": "Placed limit buy order for 0.07 BTC at $89,500 (total $6,265)"
+    },
     {
       "time": "2025-12-06T08:37:07.481875",
       "text": "Buy 0.5 ETH using BTC at 0.034 ETH-BTC rate"
@@ -1751,18 +1767,6 @@
     {
       "time": "2025-11-30T20:34:52.092155",
       "text": "Placed new SOL buy order at $133 for 10 SOL"
-    },
-    {
-      "time": "2025-11-30T20:34:52.092154",
-      "text": "Placed new ETH buy order at $3,020 for 0.2 ETH"
-    },
-    {
-      "time": "2025-11-30T20:34:52.092152",
-      "text": "Placed new BTC buy order at $86,500 for 0.05 BTC"
-    },
-    {
-      "time": "2025-11-30T20:34:52.092148",
-      "text": "Canceled BTC buy orders at $90,500 and $90,000"
     }
   ]
 }
