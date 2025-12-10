@@ -1475,15 +1475,31 @@
     {
       "time": "2025-12-10T20:38:24.574475",
       "balance": 114527.7
+    },
+    {
+      "time": "2025-12-10T22:34:36.808664",
+      "balance": 112912.2
     }
   ],
   "assets": {
-    "BTC": 70523.4,
-    "ETH": 11108.1,
-    "SOL": 14131.6,
-    "USDT": 18764.6
+    "USDT": 9858.3,
+    "BTC": 78743.9,
+    "ETH": 9226.9,
+    "SOL": 15083.2
   },
   "trades": [
+    {
+      "time": "2025-12-10T22:34:36.808691",
+      "text": "Set SOL buy order at $135.5 for 5 SOL"
+    },
+    {
+      "time": "2025-12-10T22:34:36.808689",
+      "text": "Set ETH buy order at $3,250 for 0.3 ETH"
+    },
+    {
+      "time": "2025-12-10T22:34:36.808686",
+      "text": "Set BTC sell order at $92,500 for 0.1 BTC"
+    },
     {
       "time": "2025-12-10T20:38:24.574502",
       "text": "Placed limit buy order for 0.1 BTC at $92,000 (dip buying)"
@@ -1871,18 +1887,6 @@
     {
       "time": "2025-12-04T04:44:49.467444",
       "text": "卖出7.4枚ETH，获得21460 USDT"
-    },
-    {
-      "time": "2025-12-04T02:12:13.131043",
-      "text": "Buy 11.36 ETH using 0.325 BTC at price $3,208 (0.0286 BTC/ETH)"
-    },
-    {
-      "time": "2025-12-03T22:33:47.795219",
-      "text": "Place limit sell order for 50 SOL at $143.50"
-    },
-    {
-      "time": "2025-12-03T22:33:47.795216",
-      "text": "Buy 0.01075586 BTC with 1000 USDT at $92,972.52"
     }
   ]
 }
