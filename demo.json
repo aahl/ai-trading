@@ -1439,15 +1439,27 @@
     {
       "time": "2025-12-09T22:31:19.875111",
       "balance": 113315.0
+    },
+    {
+      "time": "2025-12-10T02:13:47.698532",
+      "balance": 112758.7
     }
   ],
   "assets": {
-    "BTC": 60840.9,
-    "ETH": 20135.3,
-    "SOL": 9792.2,
-    "USDT": 22546.7
+    "BTC": 75083.0,
+    "ETH": 15073.0,
+    "SOL": 9723.0,
+    "USDT": 12950.0
   },
   "trades": [
+    {
+      "time": "2025-12-10T02:13:47.698557",
+      "text": "Placed limit order: Sell 15 SOL for 0.043 ETH per SOL"
+    },
+    {
+      "time": "2025-12-10T02:13:47.698554",
+      "text": "Sold 1.5 ETH for 0.05364 BTC at market price"
+    },
     {
       "time": "2025-12-09T22:31:19.875136",
       "text": "Portfolio value: $113,315 (up 1.15% from last session)"
@@ -1839,14 +1851,6 @@
     {
       "time": "2025-12-02T22:33:13.079417",
       "text": "Placed limit buy order for 1 ETH at $2,950"
-    },
-    {
-      "time": "2025-12-02T22:33:13.079412",
-      "text": "Placed limit buy order for 0.1 BTC at $91,000"
-    },
-    {
-      "time": "2025-12-02T20:38:05.570638",
-      "text": "Sell 5 SOL"
     }
   ]
 }
