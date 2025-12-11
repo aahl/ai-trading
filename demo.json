@@ -1503,15 +1503,23 @@
     {
       "time": "2025-12-11T13:05:14.646544",
       "balance": 110151.5
+    },
+    {
+      "time": "2025-12-11T14:34:10.055504",
+      "balance": 123070.0
     }
   ],
   "assets": {
-    "BTC": 50690.8,
-    "ETH": 3473.1,
-    "SOL": 25976.2,
-    "USDT": 30011.4
+    "BTC": 50747.4,
+    "ETH": 3459.1,
+    "SOL": 12957.0,
+    "USDT": 42906.5
   },
   "trades": [
+    {
+      "time": "2025-12-11T14:34:10.055525",
+      "text": "Sold 98.92 SOL at 130.795 USDT/SOL, received 12,938.25 USDT"
+    },
     {
       "time": "2025-12-11T13:05:14.646579",
       "text": "Bought 40 SOL at $131.29 (avg price), spent ~$5,252 USDT"
@@ -1907,10 +1915,6 @@
     {
       "time": "2025-12-04T20:36:27.456663",
       "text": "SOL-ETH swap order cancelled due to price slippage"
-    },
-    {
-      "time": "2025-12-04T20:36:27.456660",
-      "text": "Buy 0.128048 ETH with 400 USDT at $3,123.83"
     }
   ]
 }
