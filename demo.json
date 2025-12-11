@@ -1499,15 +1499,27 @@
     {
       "time": "2025-12-11T10:38:02.202993",
       "balance": 110177.6
+    },
+    {
+      "time": "2025-12-11T13:05:14.646544",
+      "balance": 110151.5
     }
   ],
   "assets": {
-    "BTC": 68807.9,
-    "ETH": 3461.5,
-    "SOL": 20637.6,
-    "USDT": 17270.6
+    "BTC": 50690.8,
+    "ETH": 3473.1,
+    "SOL": 25976.2,
+    "USDT": 30011.4
   },
   "trades": [
+    {
+      "time": "2025-12-11T13:05:14.646579",
+      "text": "Bought 40 SOL at $131.29 (avg price), spent ~$5,252 USDT"
+    },
+    {
+      "time": "2025-12-11T13:05:14.646575",
+      "text": "Sold 0.2 BTC at $90,051 (avg price), received ~$18,010 USDT"
+    },
     {
       "time": "2025-12-11T10:38:02.203027",
       "text": "Placed limit buy order: 20 SOL at $122"
@@ -1899,14 +1911,6 @@
     {
       "time": "2025-12-04T20:36:27.456660",
       "text": "Buy 0.128048 ETH with 400 USDT at $3,123.83"
-    },
-    {
-      "time": "2025-12-04T18:50:39.795711",
-      "text": "Strategy: Increased BTC allocation from 56.1% to 57.0% for potential rebound"
-    },
-    {
-      "time": "2025-12-04T18:50:39.795709",
-      "text": "Average execution price: 0.03411 BTC/ETH"
     }
   ]
 }
