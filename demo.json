@@ -1491,15 +1491,27 @@
     {
       "time": "2025-12-11T06:46:38.513879",
       "balance": 110334.6
+    },
+    {
+      "time": "2025-12-11T08:45:11.686700",
+      "balance": 110032.6
     }
   ],
   "assets": {
-    "BTC": 68877.8,
-    "ETH": 9879.0,
-    "SOL": 15720.0,
-    "USDT": 15857.8
+    "BTC": 68689.5,
+    "ETH": 9829.5,
+    "SOL": 15655.6,
+    "USDT": 15858.0
   },
   "trades": [
+    {
+      "time": "2025-12-11T08:45:11.686729",
+      "text": "Placed limit buy orders for 57 SOL at prices 130-131.5 USDT"
+    },
+    {
+      "time": "2025-12-11T08:45:11.686726",
+      "text": "Sold 2 ETH at avg price 3186.07 USDT, received 6372.14 USDT"
+    },
     {
       "time": "2025-12-11T06:46:38.513904",
       "text": "当前挂单：SOL限价126.5美元买入17.39枚"
@@ -1891,14 +1903,6 @@
     {
       "time": "2025-12-04T16:47:42.626631",
       "text": "Place limit order: Buy 0.5 ETH at 3,170 USDT (Order ID: 3099233476882731008)"
-    },
-    {
-      "time": "2025-12-04T16:47:42.626627",
-      "text": "Place limit order: Buy 0.03 BTC at 92,500 USDT (Order ID: 3099232942528401408)"
-    },
-    {
-      "time": "2025-12-04T13:07:04.866813",
-      "text": "Placed limit sell order: 20 SOL at $143.5 for hedging strategy"
     }
   ]
 }
