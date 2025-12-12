@@ -1555,15 +1555,27 @@
     {
       "time": "2025-12-12T18:44:49.570912",
       "balance": 110176.5
+    },
+    {
+      "time": "2025-12-12T20:35:24.145712",
+      "balance": 109579.1
     }
   ],
   "assets": {
-    "BTC": 54044.8,
-    "ETH": 30561.6,
-    "USDT": 12853.0,
-    "SOL": 12717.1
+    "BTC": 53757.6,
+    "ETH": 30385.8,
+    "SOL": 12582.7,
+    "USDT": 12852.9
   },
   "trades": [
+    {
+      "time": "2025-12-12T20:35:24.145760",
+      "text": "Buy 0.07 ETH with ~257 USDT"
+    },
+    {
+      "time": "2025-12-12T20:35:24.145755",
+      "text": "Sell 20 SOL at market price"
+    },
     {
       "time": "2025-12-12T18:44:49.570957",
       "text": "SOL-ETH limit order at 0.043 cancelled due to slippage protection"
@@ -1955,14 +1967,6 @@
     {
       "time": "2025-12-07T18:46:16.640479",
       "text": "卖出30枚SOL，获得4080 USDT"
-    },
-    {
-      "time": "2025-12-07T16:40:55.440092",
-      "text": "Buy 0.5 ETH using BTC at price 0.033 BTC/ETH, Order ID: 3107917410659209216"
-    },
-    {
-      "time": "2025-12-06T14:35:46.464209",
-      "text": "Total new orders: $11,465 USDT"
     }
   ]
 }
