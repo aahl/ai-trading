@@ -1615,15 +1615,23 @@
     {
       "time": "2025-12-14T06:43:12.735538",
       "balance": 113444.5
+    },
+    {
+      "time": "2025-12-14T08:38:29.625795",
+      "balance": 113683.5
     }
   ],
   "assets": {
-    "BTC": 53634.0,
-    "ETH": 54377.6,
-    "USDT": 3844.4,
-    "SOL": 1588.5
+    "BTC": 53671.6,
+    "ETH": 54845.9,
+    "SOL": 2096.0,
+    "USDT": 162.2
   },
   "trades": [
+    {
+      "time": "2025-12-14T08:38:29.625825",
+      "text": "Buy 3.750374 SOL, spent 500 USDT at $133.32"
+    },
     {
       "time": "2025-12-14T06:43:12.735622",
       "text": "Holding BTC position of 0.595 BTC"
@@ -2019,10 +2027,6 @@
     {
       "time": "2025-12-09T22:31:19.875134",
       "text": "Holding existing limit orders: ETH buy at $3,250 & $3,225, BTC buy at $92,000"
-    },
-    {
-      "time": "2025-12-09T22:31:19.875131",
-      "text": "No new trades executed - Market conditions overbought"
     }
   ]
 }
