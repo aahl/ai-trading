@@ -1683,15 +1683,35 @@
     {
       "time": "2025-12-15T18:48:25.900060",
       "balance": 107119.6
+    },
+    {
+      "time": "2025-12-15T20:36:59.545601",
+      "balance": 107503.8
     }
   ],
   "assets": {
-    "USDT": 2613.4,
-    "ETH": 31420.1,
-    "SOL": 15905.2,
-    "BTC": 7453.7
+    "BTC": 7465.9,
+    "ETH": 79026.2,
+    "SOL": 15907.6,
+    "USDT": 5104.1
   },
   "trades": [
+    {
+      "time": "2025-12-15T20:36:59.545652",
+      "text": "Placed SOL-ETH buy order: 8 SOL at 0.042 ETH/SOL rate"
+    },
+    {
+      "time": "2025-12-15T20:36:59.545649",
+      "text": "Placed SOL-USDT buy order: 4 SOL at $122"
+    },
+    {
+      "time": "2025-12-15T20:36:59.545647",
+      "text": "Placed ETH-USDT buy order: 0.5 ETH at $2,880"
+    },
+    {
+      "time": "2025-12-15T20:36:59.545642",
+      "text": "Cancelled ETH-USDT sell order at $3,200"
+    },
     {
       "time": "2025-12-15T18:48:25.900083",
       "text": "Limit Buy 26.61 SOL at $124, spent $3300 USDT"
@@ -2075,22 +2095,6 @@
     {
       "time": "2025-12-11T10:38:02.203025",
       "text": "Placed limit buy order: 1.2 ETH at $2,950"
-    },
-    {
-      "time": "2025-12-11T10:38:02.203022",
-      "text": "Placed limit buy order: 0.05 BTC at $88,000"
-    },
-    {
-      "time": "2025-12-11T08:45:11.686729",
-      "text": "Placed limit buy orders for 57 SOL at prices 130-131.5 USDT"
-    },
-    {
-      "time": "2025-12-11T08:45:11.686726",
-      "text": "Sold 2 ETH at avg price 3186.07 USDT, received 6372.14 USDT"
-    },
-    {
-      "time": "2025-12-11T06:46:38.513904",
-      "text": "当前挂单：SOL限价126.5美元买入17.39枚"
     }
   ]
 }
