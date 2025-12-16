@@ -1695,15 +1695,27 @@
     {
       "time": "2025-12-16T02:13:39.146539",
       "balance": 108259.2
+    },
+    {
+      "time": "2025-12-16T06:48:55.891847",
+      "balance": 108459.7
     }
   ],
   "assets": {
-    "USDT": 13170.5,
-    "BTC": 7469.8,
-    "ETH": 79086.6,
-    "SOL": 8532.3
+    "BTC": 7511.8,
+    "ETH": 83994.2,
+    "SOL": 8609.0,
+    "USDT": 8343.1
   },
   "trades": [
+    {
+      "time": "2025-12-16T06:48:55.891872",
+      "text": "Buy 12 SOL at $127.09, spent 1,525.08 USDT"
+    },
+    {
+      "time": "2025-12-16T06:48:55.891868",
+      "text": "Buy 0.6 ETH at $2,942.31, spent 1,765.39 USDT"
+    },
     {
       "time": "2025-12-16T02:13:39.146567",
       "text": "Place limit order: Buy 0.01 BTC at 85000 USDT (support level)"
@@ -2095,14 +2107,6 @@
     {
       "time": "2025-12-11T16:44:36.502232",
       "text": "Buy 76.34 SOL at 131 USDT, spent 10000.54 USDT"
-    },
-    {
-      "time": "2025-12-11T16:44:36.502229",
-      "text": "Buy 4.71 ETH at 3180 USDT, spent 14977.8 USDT"
-    },
-    {
-      "time": "2025-12-11T14:34:10.055525",
-      "text": "Sold 98.92 SOL at 130.795 USDT/SOL, received 12,938.25 USDT"
     }
   ]
 }
