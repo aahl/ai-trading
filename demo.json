@@ -1795,15 +1795,27 @@
     {
       "time": "2025-12-21T07:07:16.734850",
       "balance": 108593.4
+    },
+    {
+      "time": "2025-12-21T08:38:30.194653",
+      "balance": 108756.2
     }
   ],
   "assets": {
-    "BTC": 60059.0,
-    "ETH": 10.0,
-    "SOL": 7447.2,
-    "USDT": 41087.3
+    "BTC": 60181.5,
+    "ETH": 10034.9,
+    "SOL": 4937.0,
+    "USDT": 33602.8
   },
   "trades": [
+    {
+      "time": "2025-12-21T08:38:30.194685",
+      "text": "Bought 20 SOL at market price"
+    },
+    {
+      "time": "2025-12-21T08:38:30.194680",
+      "text": "Sold 1.5 ETH at market price"
+    },
     {
       "time": "2025-12-21T07:07:16.734884",
       "text": "Placed SELL limit order for 20 SOL at $125.50 (Order ID: 3147351861730217984)"
@@ -2195,14 +2207,6 @@
     {
       "time": "2025-12-13T20:36:39.633528",
       "text": "买入价值2800 USDT的BTC"
-    },
-    {
-      "time": "2025-12-13T18:40:43.172422",
-      "text": "Sold 10.72 SOL for 1422.008 USDT at $132.65 per SOL"
-    },
-    {
-      "time": "2025-12-13T18:40:43.172419",
-      "text": "Bought 3.217796 ETH with 10000 USDT at $3,107.72 per ETH"
     }
   ]
 }
