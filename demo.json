@@ -1839,15 +1839,36 @@
     {
       "time": "2025-12-22T14:32:32.090143",
       "balance": 110969.9
+    },
+    {
+      "time": "2025-12-22T16:41:29.448586",
+      "balance": 110496.5
     }
   ],
   "assets": {
-    "BTC": 81581.9,
-    "ETH": 12649.3,
-    "SOL": 1239.2,
-    "USDT": 1169.0
+    "BTC": 81250.0,
+    "ETH": 6040.0,
+    "SOL": 5000.0,
+    "USDT": 15453.0,
+    "OTHERS": 2753.4
   },
   "trades": [
+    {
+      "time": "2025-12-22T16:41:29.448622",
+      "text": "Place ETH take-profit at 3,225 USDT"
+    },
+    {
+      "time": "2025-12-22T16:41:29.448621",
+      "text": "Place ETH stop-loss at 2,960 USDT"
+    },
+    {
+      "time": "2025-12-22T16:41:29.448619",
+      "text": "Sell 2.916 SOL at 127.56 USDT, total 372 USDT"
+    },
+    {
+      "time": "2025-12-22T16:41:29.448616",
+      "text": "Buy 2 ETH at 3,010 USDT, total 6,020 USDT"
+    },
     {
       "time": "2025-12-22T14:32:32.090166",
       "text": "Sold 2.289 ETH at $3,058.12, received $7,000.58 USDT"
@@ -2231,22 +2252,6 @@
     {
       "time": "2025-12-14T18:41:21.885594",
       "text": "Bought 114.957 SOL for 15000 USDT at avg price $130.48"
-    },
-    {
-      "time": "2025-12-14T16:38:15.697777",
-      "text": "Sell 6.04 ETH at $3,086.05, got $18,639.75 USDT"
-    },
-    {
-      "time": "2025-12-14T16:38:15.697774",
-      "text": "Sell 0.172 BTC at $89,004.45, got $15,308.77 USDT"
-    },
-    {
-      "time": "2025-12-14T14:27:26.096405",
-      "text": "Buy 1.5 ETH at 3150 USDT, spent 4725 USDT"
-    },
-    {
-      "time": "2025-12-14T12:58:58.284598",
-      "text": "Bought 1.976 SOL at $131.55 for $260"
     }
   ]
 }
