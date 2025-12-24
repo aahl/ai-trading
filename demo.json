@@ -1899,15 +1899,23 @@
     {
       "time": "2025-12-24T08:45:53.989315",
       "balance": 107746.5
+    },
+    {
+      "time": "2025-12-24T10:33:40.720203",
+      "balance": 107951.0
     }
   ],
   "assets": {
-    "BTC": 78615.4,
-    "ETH": 16446.0,
-    "SOL": 12406.7,
-    "USDT": 278.5
+    "BTC": 78968.2,
+    "ETH": 16531.7,
+    "SOL": 12451.0,
+    "USDT": 0.1
   },
   "trades": [
+    {
+      "time": "2025-12-24T10:33:40.720223",
+      "text": "Sold 30 SOL for ETH based on market analysis - SOL confidence 35/100, ETH confidence 65/100"
+    },
     {
       "time": "2025-12-24T08:45:53.989352",
       "text": "限价买入0.027 ETH，价格2925 USDT，使用79 USDT"
@@ -2303,10 +2311,6 @@
     {
       "time": "2025-12-15T18:48:25.900080",
       "text": "Limit Buy 0.856 ETH at $2910, spent $2491 USDT"
-    },
-    {
-      "time": "2025-12-15T16:45:03.907753",
-      "text": "Buy 2 SOL at $126.05, spent 252.10 USDT"
     }
   ]
 }
