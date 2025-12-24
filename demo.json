@@ -1911,15 +1911,31 @@
     {
       "time": "2025-12-24T16:40:32.213020",
       "balance": 108268.4
+    },
+    {
+      "time": "2025-12-24T18:45:27.578154",
+      "balance": 108321.8
     }
   ],
   "assets": {
-    "BTC": 101786.8,
-    "SOL": 6400.8,
-    "USDT": 79.9,
-    "ETH": 0.9
+    "BTC": 101864.0,
+    "SOL": 6456.1,
+    "ETH": 0.9,
+    "USDT": 0.7
   },
   "trades": [
+    {
+      "time": "2025-12-24T18:45:27.578233",
+      "text": "SOL未实现盈利: +$17.83 (+0.27%)"
+    },
+    {
+      "time": "2025-12-24T18:45:27.578231",
+      "text": "BTC未实现盈利: +$271.13 (+0.31%)"
+    },
+    {
+      "time": "2025-12-24T18:45:27.578227",
+      "text": "无新交易执行 - 保持BTC和SOL持仓"
+    },
     {
       "time": "2025-12-24T16:40:32.213048",
       "text": "Placed limit order to buy 0.65 SOL at $122 (Order ID: 3157201083887521792) - Status: Live"
@@ -2307,18 +2323,6 @@
     {
       "time": "2025-12-15T20:36:59.545652",
       "text": "Placed SOL-ETH buy order: 8 SOL at 0.042 ETH/SOL rate"
-    },
-    {
-      "time": "2025-12-15T20:36:59.545649",
-      "text": "Placed SOL-USDT buy order: 4 SOL at $122"
-    },
-    {
-      "time": "2025-12-15T20:36:59.545647",
-      "text": "Placed ETH-USDT buy order: 0.5 ETH at $2,880"
-    },
-    {
-      "time": "2025-12-15T20:36:59.545642",
-      "text": "Cancelled ETH-USDT sell order at $3,200"
     }
   ]
 }
