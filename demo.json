@@ -1903,15 +1903,23 @@
     {
       "time": "2025-12-24T10:33:40.720203",
       "balance": 107951.0
+    },
+    {
+      "time": "2025-12-24T13:01:34.324780",
+      "balance": 108405.9
     }
   ],
   "assets": {
-    "BTC": 78968.2,
-    "ETH": 16531.7,
-    "SOL": 12451.0,
+    "BTC": 1.1,
+    "ETH": 0.0,
+    "SOL": 102.1,
     "USDT": 0.1
   },
   "trades": [
+    {
+      "time": "2025-12-24T13:01:34.324801",
+      "text": "Converted 5.646 ETH to 0.18925312 BTC at 0.03355341 BTC/ETH"
+    },
     {
       "time": "2025-12-24T10:33:40.720223",
       "text": "Sold 30 SOL for ETH based on market analysis - SOL confidence 35/100, ETH confidence 65/100"
@@ -2307,10 +2315,6 @@
     {
       "time": "2025-12-15T18:48:25.900083",
       "text": "Limit Buy 26.61 SOL at $124, spent $3300 USDT"
-    },
-    {
-      "time": "2025-12-15T18:48:25.900080",
-      "text": "Limit Buy 0.856 ETH at $2910, spent $2491 USDT"
     }
   ]
 }
