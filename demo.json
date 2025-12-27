@@ -2027,15 +2027,35 @@
     {
       "time": "2025-12-27T10:31:17.434408",
       "balance": 108508.5
+    },
+    {
+      "time": "2025-12-27T14:34:34.677041",
+      "balance": 108612.7
     }
   ],
   "assets": {
-    "BTC": 74861.1,
-    "ETH": 21928.6,
-    "SOL": 9807.1,
-    "USDT": 1911.7
+    "BTC": 74732.7,
+    "ETH": 21551.6,
+    "SOL": 10416.8,
+    "USDT": 1911.6
   },
   "trades": [
+    {
+      "time": "2025-12-27T14:34:34.677075",
+      "text": "取消ETH $2,800买单"
+    },
+    {
+      "time": "2025-12-27T14:34:34.677073",
+      "text": "新增BTC限价卖单：0.05 BTC @ $88,800"
+    },
+    {
+      "time": "2025-12-27T14:34:34.677070",
+      "text": "新增SOL限价买单：15 SOL @ $122"
+    },
+    {
+      "time": "2025-12-27T14:34:34.677066",
+      "text": "新增ETH限价卖单：1.5 ETH @ $2,920"
+    },
     {
       "time": "2025-12-27T10:31:17.434436",
       "text": "Placed limit order to buy 8 SOL at 0.0235 ETH/SOL"
@@ -2419,22 +2439,6 @@
     {
       "time": "2025-12-19T04:41:59.330938",
       "text": "Market sold 11 SOL"
-    },
-    {
-      "time": "2025-12-19T04:41:59.330937",
-      "text": "Cancelled SOL limit buy order at 117"
-    },
-    {
-      "time": "2025-12-19T04:41:59.330936",
-      "text": "Placed BTC limit buy order 0.025 BTC at 87000"
-    },
-    {
-      "time": "2025-12-19T04:41:59.330934",
-      "text": "Placed BTC limit buy order 0.025 BTC at 86500"
-    },
-    {
-      "time": "2025-12-19T04:41:59.330930",
-      "text": "Cancelled BTC limit buy order at 84500"
     }
   ]
 }
