@@ -2039,15 +2039,43 @@
     {
       "time": "2025-12-27T18:42:22.852703",
       "balance": 108746.2
+    },
+    {
+      "time": "2025-12-27T20:38:24.793325",
+      "balance": 108790.1
     }
   ],
   "assets": {
-    "BTC": 74826.7,
-    "ETH": 18596.9,
-    "SOL": 10457.4,
-    "USDT": 4865.3
+    "BTC": 74834.0,
+    "ETH": 18621.1,
+    "SOL": 10470.2,
+    "USDT": 4864.9
   },
   "trades": [
+    {
+      "time": "2025-12-27T20:38:24.793363",
+      "text": "Place SOL sell order at 124.8 USDT for 15 SOL"
+    },
+    {
+      "time": "2025-12-27T20:38:24.793361",
+      "text": "Place BTC buy order at 87,200 USDT for 0.004 BTC"
+    },
+    {
+      "time": "2025-12-27T20:38:24.793359",
+      "text": "Place SOL-ETH buy order at 0.0242"
+    },
+    {
+      "time": "2025-12-27T20:38:24.793357",
+      "text": "Cancel SOL-ETH buy order at 0.0235"
+    },
+    {
+      "time": "2025-12-27T20:38:24.793355",
+      "text": "Cancel BTC sell order at 89,200 USDT"
+    },
+    {
+      "time": "2025-12-27T20:38:24.793351",
+      "text": "Cancel BTC sell order at 90,500 USDT"
+    },
     {
       "time": "2025-12-27T18:42:22.852729",
       "text": "Buy 0.000119 ETH at $2,926.58 (Market Order) - Order ID: 3166146308978774016"
@@ -2423,30 +2451,6 @@
     {
       "time": "2025-12-21T12:58:36.617655",
       "text": "Buy 1.87942 ETH with 5616.94 USDT at 2988.66 USDT/ETH"
-    },
-    {
-      "time": "2025-12-21T10:33:57.767661",
-      "text": "Limit buy order placed: 80.6 SOL at 124 USDT"
-    },
-    {
-      "time": "2025-12-21T10:33:57.767658",
-      "text": "Limit buy order placed: 0.227 BTC at 88,000 USDT"
-    },
-    {
-      "time": "2025-12-21T08:38:30.194685",
-      "text": "Bought 20 SOL at market price"
-    },
-    {
-      "time": "2025-12-21T08:38:30.194680",
-      "text": "Sold 1.5 ETH at market price"
-    },
-    {
-      "time": "2025-12-21T07:07:16.734884",
-      "text": "Placed SELL limit order for 20 SOL at $125.50 (Order ID: 3147351861730217984)"
-    },
-    {
-      "time": "2025-12-21T07:07:16.734880",
-      "text": "Placed BUY limit order for 3.36 ETH at $2,975 (Order ID: 3147349964126425088)"
     }
   ]
 }
