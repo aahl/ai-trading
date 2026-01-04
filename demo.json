@@ -2119,15 +2119,31 @@
     {
       "time": "2026-01-04T04:57:46.749734",
       "balance": 113599.7
+    },
+    {
+      "time": "2026-01-04T06:45:18.782153",
+      "balance": 113551.9
     }
   ],
   "assets": {
-    "USDT": 43196.1,
-    "ETH": 39612.2,
-    "BTC": 30791.3,
+    "BTC": 45402.1,
+    "ETH": 39571.2,
+    "USDT": 28578.5,
     "SOL": 0.0
   },
   "trades": [
+    {
+      "time": "2026-01-04T06:45:18.782190",
+      "text": "Failed to short SOL: insufficient balance"
+    },
+    {
+      "time": "2026-01-04T06:45:18.782188",
+      "text": "Held ETH position: 12.58 ETH (no action taken)"
+    },
+    {
+      "time": "2026-01-04T06:45:18.782185",
+      "text": "Placed sell order: 0.2 BTC at 91,500 USDT (partial profit taking)"
+    },
     {
       "time": "2026-01-04T04:57:46.749774",
       "text": "Buy 0.16 BTC at $91,416, spent ~$14,626.56"
@@ -2515,18 +2531,6 @@
     {
       "time": "2025-12-24T10:33:40.720223",
       "text": "Sold 30 SOL for ETH based on market analysis - SOL confidence 35/100, ETH confidence 65/100"
-    },
-    {
-      "time": "2025-12-24T08:45:53.989352",
-      "text": "限价买入0.027 ETH，价格2925 USDT，使用79 USDT"
-    },
-    {
-      "time": "2025-12-24T08:45:53.989349",
-      "text": "限价买入0.0023 BTC，价格86,800 USDT，使用200 USDT"
-    },
-    {
-      "time": "2025-12-24T06:48:47.430807",
-      "text": "Buy 0.826 SOL at $121.48, spent 100.34 USDT"
     }
   ]
 }
