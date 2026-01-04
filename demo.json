@@ -2123,15 +2123,23 @@
     {
       "time": "2026-01-04T06:45:18.782153",
       "balance": 113551.9
+    },
+    {
+      "time": "2026-01-04T08:40:20.866774",
+      "balance": 113406.9
     }
   ],
   "assets": {
-    "BTC": 45402.1,
-    "ETH": 39571.2,
-    "USDT": 28578.5,
+    "USDT": 13466.0,
+    "ETH": 39455.0,
+    "BTC": 32867.0,
     "SOL": 0.0
   },
   "trades": [
+    {
+      "time": "2026-01-04T08:40:20.866803",
+      "text": "Buy 0.063 BTC, spent 5771 USDT"
+    },
     {
       "time": "2026-01-04T06:45:18.782190",
       "text": "Failed to short SOL: insufficient balance"
@@ -2527,10 +2535,6 @@
     {
       "time": "2025-12-24T13:01:34.324801",
       "text": "Converted 5.646 ETH to 0.18925312 BTC at 0.03355341 BTC/ETH"
-    },
-    {
-      "time": "2025-12-24T10:33:40.720223",
-      "text": "Sold 30 SOL for ETH based on market analysis - SOL confidence 35/100, ETH confidence 65/100"
     }
   ]
 }
