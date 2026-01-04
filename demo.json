@@ -2151,15 +2151,31 @@
     {
       "time": "2026-01-04T20:34:07.683228",
       "balance": 113300.4
+    },
+    {
+      "time": "2026-01-04T22:35:31.175466",
+      "balance": 113342.5
     }
   ],
   "assets": {
-    "BTC": 34539.1,
-    "ETH": 44472.9,
-    "SOL": 11653.3,
-    "USDT": 22635.1
+    "BTC": 34529.2,
+    "ETH": 44509.5,
+    "SOL": 11670.1,
+    "USDT": 22633.7
   },
   "trades": [
+    {
+      "time": "2026-01-04T22:35:31.175496",
+      "text": "Total investment: 14000 USDT in new orders"
+    },
+    {
+      "time": "2026-01-04T22:35:31.175494",
+      "text": "Placed 3 SOL buy orders totaling 45 SOL at 132-134 USDT"
+    },
+    {
+      "time": "2026-01-04T22:35:31.175491",
+      "text": "Placed 3 ETH buy orders totaling 2.556 ETH at 3120-3140 USDT"
+    },
     {
       "time": "2026-01-04T20:34:07.683258",
       "text": "HOLD strategy executed - No new trades made"
@@ -2547,18 +2563,6 @@
     {
       "time": "2025-12-25T13:00:46.490096",
       "text": "Buy 0.007 ETH at $2,930 (limit order)"
-    },
-    {
-      "time": "2025-12-25T10:35:24.812161",
-      "text": "Buy 2 SOL at $121.73, spent $243.46 USDT"
-    },
-    {
-      "time": "2025-12-25T08:40:33.137372",
-      "text": "Buy 0.068 ETH at 2925 USDT, spent 199.5 USDT"
-    },
-    {
-      "time": "2025-12-25T06:48:36.401721",
-      "text": "Bought 0.679842 ETH at 2,941.86 USDT per ETH for ~2,000 USDT"
     }
   ]
 }
