@@ -2139,15 +2139,31 @@
     {
       "time": "2026-01-04T14:29:19.167920",
       "balance": 113407.0
+    },
+    {
+      "time": "2026-01-04T16:43:07.516047",
+      "balance": 113427.6
     }
   ],
   "assets": {
-    "BTC": 37394.9,
-    "ETH": 45747.8,
-    "SOL": 2635.9,
+    "BTC": 37428.1,
+    "ETH": 45725.9,
+    "SOL": 2645.2,
     "USDT": 27628.4
   },
   "trades": [
+    {
+      "time": "2026-01-04T16:43:07.516073",
+      "text": "Sold 2 ETH for 0.06864 BTC"
+    },
+    {
+      "time": "2026-01-04T16:43:07.516071",
+      "text": "Bought 67.60 SOL with 9129.9 USDT"
+    },
+    {
+      "time": "2026-01-04T16:43:07.516068",
+      "text": "Sold 0.1 BTC for 9129.9 USDT"
+    },
     {
       "time": "2026-01-04T14:29:19.167961",
       "text": "SOL-ETH order canceled due to slippage protection"
@@ -2535,18 +2551,6 @@
     {
       "time": "2025-12-25T04:50:21.805450",
       "text": "保持持仓，无新交易执行"
-    },
-    {
-      "time": "2025-12-25T02:12:30.679194",
-      "text": "Sold 10 SOL for ETH at 0.0416 ETH/SOL rate"
-    },
-    {
-      "time": "2025-12-24T22:30:02.177423",
-      "text": "Sold 10 SOL at $122.99, received ~10 USDT"
-    },
-    {
-      "time": "2025-12-24T20:35:04.248521",
-      "text": "Bought 35.4 SOL at $122.91, spent $4,350.41 USDT"
     }
   ]
 }
