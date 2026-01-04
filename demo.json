@@ -2135,15 +2135,27 @@
     {
       "time": "2026-01-04T12:59:18.311411",
       "balance": 113317.6
+    },
+    {
+      "time": "2026-01-04T14:29:19.167920",
+      "balance": 113407.0
     }
   ],
   "assets": {
-    "BTC": 37353.8,
-    "ETH": 45713.1,
-    "SOL": 618.2,
-    "USDT": 29632.5
+    "BTC": 37394.9,
+    "ETH": 45747.8,
+    "SOL": 2635.9,
+    "USDT": 27628.4
   },
   "trades": [
+    {
+      "time": "2026-01-04T14:29:19.167961",
+      "text": "SOL-ETH order canceled due to slippage protection"
+    },
+    {
+      "time": "2026-01-04T14:29:19.167956",
+      "text": "Placed buy order: 0.1 ETH for BTC at 0.034 BTC/ETH"
+    },
     {
       "time": "2026-01-04T12:59:18.311430",
       "text": "Buy 4.60857 SOL at 134.33 USDT, spent 618.71 USDT"
@@ -2535,14 +2547,6 @@
     {
       "time": "2025-12-24T20:35:04.248521",
       "text": "Bought 35.4 SOL at $122.91, spent $4,350.41 USDT"
-    },
-    {
-      "time": "2025-12-24T20:35:04.248517",
-      "text": "Sold 0.05 BTC at $87,247.73, received $4,362.39 USDT"
-    },
-    {
-      "time": "2025-12-24T18:45:27.578233",
-      "text": "SOL未实现盈利: +$17.83 (+0.27%)"
     }
   ]
 }
