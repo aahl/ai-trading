@@ -2159,15 +2159,31 @@
     {
       "time": "2026-01-05T02:35:28.466101",
       "balance": 114819.6
+    },
+    {
+      "time": "2026-01-05T05:05:09.073768",
+      "balance": 114381.8
     }
   ],
   "assets": {
-    "BTC": 35099.2,
-    "ETH": 50736.1,
-    "SOL": 13844.5,
-    "USDT": 15139.7
+    "BTC": 35029.0,
+    "ETH": 50399.8,
+    "SOL": 13813.9,
+    "USDT": 15139.1
   },
   "trades": [
+    {
+      "time": "2026-01-05T05:05:09.073799",
+      "text": "ETH order failed due to insufficient USDT balance"
+    },
+    {
+      "time": "2026-01-05T05:05:09.073797",
+      "text": "Placed limit order: Buy 2 SOL at $128"
+    },
+    {
+      "time": "2026-01-05T05:05:09.073794",
+      "text": "Placed limit order: Buy 0.001 BTC at $90,500"
+    },
     {
       "time": "2026-01-05T02:35:28.466129",
       "text": "Placed SOL buy orders at 132 and 133 USD"
@@ -2555,18 +2571,6 @@
     {
       "time": "2025-12-26T02:13:24.511977",
       "text": "Buy 0.306502 ETH at $2,936.35, spent 900 USDT"
-    },
-    {
-      "time": "2025-12-25T22:32:36.426040",
-      "text": "Sell 10 SOL, got 1230.2 USDT"
-    },
-    {
-      "time": "2025-12-25T22:32:36.426037",
-      "text": "Buy 0.545554 ETH, spent 1604 USDT"
-    },
-    {
-      "time": "2025-12-25T20:37:27.375553",
-      "text": "[{\"action\":\"Sell\",\"symbol\":\"SOL\",\"amount\":0.044175805,\"price\":123,\"value\":5.43,\"side\":\"short\",\"order_id\":\"3160580003009662976\"}]"
     }
   ]
 }
