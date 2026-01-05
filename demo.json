@@ -2155,15 +2155,39 @@
     {
       "time": "2026-01-04T22:35:31.175466",
       "balance": 113342.5
+    },
+    {
+      "time": "2026-01-05T02:35:28.466101",
+      "balance": 114819.6
     }
   ],
   "assets": {
-    "BTC": 34529.2,
-    "ETH": 44509.5,
-    "SOL": 11670.1,
-    "USDT": 22633.7
+    "BTC": 35099.2,
+    "ETH": 50736.1,
+    "SOL": 13844.5,
+    "USDT": 15139.7
   },
   "trades": [
+    {
+      "time": "2026-01-05T02:35:28.466129",
+      "text": "Placed SOL buy orders at 132 and 133 USD"
+    },
+    {
+      "time": "2026-01-05T02:35:28.466128",
+      "text": "Placed ETH buy orders at 3,120 and 2,920 USD"
+    },
+    {
+      "time": "2026-01-05T02:35:28.466127",
+      "text": "Placed BTC buy order: 0.01 BTC at 91,500 USD"
+    },
+    {
+      "time": "2026-01-05T02:35:28.466125",
+      "text": "Cancelled BTC buy order at 86,000 USD"
+    },
+    {
+      "time": "2026-01-05T02:35:28.466122",
+      "text": "Cancelled 2 ETH-BTC orders (0.034 and 0.0265 BTC)"
+    },
     {
       "time": "2026-01-04T22:35:31.175496",
       "text": "Total investment: 14000 USDT in new orders"
@@ -2543,26 +2567,6 @@
     {
       "time": "2025-12-25T20:37:27.375553",
       "text": "[{\"action\":\"Sell\",\"symbol\":\"SOL\",\"amount\":0.044175805,\"price\":123,\"value\":5.43,\"side\":\"short\",\"order_id\":\"3160580003009662976\"}]"
-    },
-    {
-      "time": "2025-12-25T20:37:27.375550",
-      "text": "[{\"action\":\"Buy\",\"symbol\":\"BTC\",\"amount\":0.01257,\"price\":87500,\"value\":1099.875,\"side\":\"long\",\"order_id\":\"31605736240100149888\",\"tp_order_id\":\"3160574828849139712\",\"tp_price\":89500}]"
-    },
-    {
-      "time": "2025-12-25T18:41:45.823495",
-      "text": "Buy 0.5418 ETH at 2953 USDT/ETH, spent 1600 USDT"
-    },
-    {
-      "time": "2025-12-25T16:40:06.889165",
-      "text": "Sell 25 SOL at $124.11, received 3102.75 USDT"
-    },
-    {
-      "time": "2025-12-25T13:00:46.490099",
-      "text": "Sell 35 SOL at market price"
-    },
-    {
-      "time": "2025-12-25T13:00:46.490096",
-      "text": "Buy 0.007 ETH at $2,930 (limit order)"
     }
   ]
 }
