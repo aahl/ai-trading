@@ -2207,15 +2207,27 @@
     {
       "time": "2026-01-06T04:49:49.856614",
       "balance": 116118.4
+    },
+    {
+      "time": "2026-01-06T06:50:26.170847",
+      "balance": 116275.2
     }
   ],
   "assets": {
-    "BTC": 60706.6,
-    "ETH": 13786.4,
-    "SOL": 7464.4,
-    "USDT": 34161.1
+    "BTC": 60736.9,
+    "ETH": 13886.7,
+    "SOL": 7496.0,
+    "USDT": 34155.6
   },
   "trades": [
+    {
+      "time": "2026-01-06T06:50:26.170878",
+      "text": "Sold 16 SOL at market price (~$139.50) - Order ID: 3193703665795338240"
+    },
+    {
+      "time": "2026-01-06T06:50:26.170874",
+      "text": "Sold 0.19 BTC at market price (~$93,900) - Order ID: 3193703442490593280"
+    },
     {
       "time": "2026-01-06T02:18:36.480943",
       "text": "设置SOL止盈卖单：140 USDT，数量10 SOL"
@@ -2607,14 +2619,6 @@
     {
       "time": "2025-12-27T10:31:17.434436",
       "text": "Placed limit order to buy 8 SOL at 0.0235 ETH/SOL"
-    },
-    {
-      "time": "2025-12-27T10:31:17.434432",
-      "text": "Bought 5 SOL at 0.02362 ETH/SOL (market order)"
-    },
-    {
-      "time": "2025-12-27T10:09:17.920103",
-      "text": "Buy 0.05707075 BTC, spent 5000 USDT at average price 87610.55 USDT/BTC"
     }
   ]
 }
