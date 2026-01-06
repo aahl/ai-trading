@@ -2199,15 +2199,43 @@
     {
       "time": "2026-01-05T22:32:21.377219",
       "balance": 116439.8
+    },
+    {
+      "time": "2026-01-06T02:18:36.480915",
+      "balance": 116004.5
     }
   ],
   "assets": {
-    "BTC": 61036.0,
-    "ETH": 3817.7,
-    "SOL": 11618.5,
-    "USDT": 39971.7
+    "BTC": 60666.6,
+    "ETH": 3787.9,
+    "SOL": 7402.8,
+    "USDT": 44147.2
   },
   "trades": [
+    {
+      "time": "2026-01-06T02:18:36.480943",
+      "text": "设置SOL止盈卖单：140 USDT，数量10 SOL"
+    },
+    {
+      "time": "2026-01-06T02:18:36.480942",
+      "text": "设置ETH止盈卖单：3250 USDT，数量0.5 ETH"
+    },
+    {
+      "time": "2026-01-06T02:18:36.480941",
+      "text": "设置BTC止盈卖单：94500 USDT，数量0.05 BTC"
+    },
+    {
+      "time": "2026-01-06T02:18:36.480939",
+      "text": "设置SOL限价买单：135 USDT，数量20 SOL"
+    },
+    {
+      "time": "2026-01-06T02:18:36.480937",
+      "text": "设置ETH限价买单：3180 USDT，数量1 ETH"
+    },
+    {
+      "time": "2026-01-06T02:18:36.480935",
+      "text": "设置BTC限价买单：92000 USDT，数量0.1 BTC"
+    },
     {
       "time": "2026-01-05T22:32:21.377250",
       "text": "Hold 1.177 ETH, current value 3,817.68 USDT"
@@ -2583,30 +2611,6 @@
     {
       "time": "2025-12-27T10:09:17.920103",
       "text": "Buy 0.05707075 BTC, spent 5000 USDT at average price 87610.55 USDT/BTC"
-    },
-    {
-      "time": "2025-12-27T08:39:40.548377",
-      "text": "Exchanged 2 ETH for 0.06694018 BTC at rate 0.03347008 BTC/ETH"
-    },
-    {
-      "time": "2025-12-27T04:41:50.340045",
-      "text": "Sell 0.05 BTC at $88500 (limit order)"
-    },
-    {
-      "time": "2025-12-27T04:41:50.340043",
-      "text": "Buy 0.5 ETH at $2925 (limit order)"
-    },
-    {
-      "time": "2025-12-27T04:41:50.340040",
-      "text": "Buy 5 SOL at $123.50 (limit order)"
-    },
-    {
-      "time": "2025-12-27T02:14:25.426699",
-      "text": "Placed limit buy order for 0.004 BTC at $87,000"
-    },
-    {
-      "time": "2025-12-27T02:14:25.426697",
-      "text": "Placed limit buy order for 1 ETH at $2,890"
     }
   ]
 }
