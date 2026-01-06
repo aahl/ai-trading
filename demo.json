@@ -2231,15 +2231,27 @@
     {
       "time": "2026-01-06T18:44:40.758336",
       "balance": 114641.7
+    },
+    {
+      "time": "2026-01-06T20:36:20.100837",
+      "balance": 115467.8
     }
   ],
   "assets": {
-    "BTC": 46073.3,
-    "ETH": 30253.7,
-    "SOL": 29082.4,
-    "USDT": 9232.2
+    "BTC": 46385.1,
+    "ETH": 30482.9,
+    "SOL": 29369.0,
+    "USDT": 9230.8
   },
   "trades": [
+    {
+      "time": "2026-01-06T20:36:20.100872",
+      "text": "Placed limit buy order: 15 SOL at $136.5"
+    },
+    {
+      "time": "2026-01-06T20:36:20.100868",
+      "text": "Placed limit buy order: 0.3 ETH at $3,195"
+    },
     {
       "time": "2026-01-06T18:44:40.758363",
       "text": "保持持仓，无新交易操作"
@@ -2631,14 +2643,6 @@
     {
       "time": "2025-12-27T20:38:24.793359",
       "text": "Place SOL-ETH buy order at 0.0242"
-    },
-    {
-      "time": "2025-12-27T20:38:24.793357",
-      "text": "Cancel SOL-ETH buy order at 0.0235"
-    },
-    {
-      "time": "2025-12-27T20:38:24.793355",
-      "text": "Cancel BTC sell order at 89,200 USDT"
     }
   ]
 }
