@@ -2271,15 +2271,27 @@
     {
       "time": "2026-01-07T20:38:18.299759",
       "balance": 112733.1
+    },
+    {
+      "time": "2026-01-07T22:33:50.357056",
+      "balance": 113194.5
     }
   ],
   "assets": {
-    "BTC": 44728.4,
-    "ETH": 46865.9,
-    "SOL": 19635.3,
-    "USDT": 1503.5
+    "BTC": 44784.5,
+    "ETH": 47624.1,
+    "SOL": 20788.7,
+    "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-01-07T22:33:50.357086",
+      "text": "Buy 0.143919 ETH, spent 455 USDT at 3161.48"
+    },
+    {
+      "time": "2026-01-07T22:33:50.357083",
+      "text": "Buy 7.318608 SOL, spent 1000 USDT at 136.64"
+    },
     {
       "time": "2026-01-07T20:38:18.299783",
       "text": "Buy 0.184284 SOL at $135.66, spent 25 USDT"
@@ -2671,14 +2683,6 @@
     {
       "time": "2025-12-29T05:19:56.039018",
       "text": "Hold positions - market is overbought, waiting for correction"
-    },
-    {
-      "time": "2025-12-29T02:30:49.961939",
-      "text": "Place limit order: 0.005 BTC @ $86000"
-    },
-    {
-      "time": "2025-12-29T02:30:49.961938",
-      "text": "Place limit order: 1 ETH @ $2900"
     }
   ]
 }
