@@ -2287,14 +2287,31 @@
     {
       "time": "2026-01-08T08:44:07.710955",
       "balance": 112159.1
+    },
+    {
+      "time": "2026-01-08T10:37:10.183884",
+      "balance": 111873.5
     }
   ],
   "assets": {
-    "BTC": 35404.2,
-    "ETH": 56114.5,
-    "SOL": 20640.3
+    "BTC": 35338.2,
+    "ETH": 56304.1,
+    "SOL": 18514.1,
+    "USDT": 1717.2
   },
   "trades": [
+    {
+      "time": "2026-01-08T10:37:10.183937",
+      "text": "Placed ETH-USDT buy order (0.5 ETH at $3050)"
+    },
+    {
+      "time": "2026-01-08T10:37:10.183935",
+      "text": "Cancelled BTC-USDT sell order (0.05 BTC at $93000)"
+    },
+    {
+      "time": "2026-01-08T10:37:10.183931",
+      "text": "Cancelled SOL-ETH sell order (15 SOL at 0.023 ETH/SOL)"
+    },
     {
       "time": "2026-01-08T08:44:07.710991",
       "text": "Placed limit order: Buy 0.1 ETH for USDT at $3,120"
@@ -2682,18 +2699,6 @@
     {
       "time": "2026-01-04T03:21:04.388196",
       "text": "Buy 0.22 BTC at 90500 USDT, spent 19910 USDT"
-    },
-    {
-      "time": "2025-12-30T06:47:52.629171",
-      "text": "Pending order: Buy 2.5 ETH at 2920 USDT (7300 USDT)"
-    },
-    {
-      "time": "2025-12-30T06:47:52.629166",
-      "text": "Buy 2.6 ETH at 2950 USDT, spent 7670 USDT"
-    },
-    {
-      "time": "2025-12-29T20:36:02.564181",
-      "text": "Buy 2 ETH at $2,920, spent 5,840 USDT"
     }
   ]
 }
