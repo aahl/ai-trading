@@ -2295,15 +2295,27 @@
     {
       "time": "2026-01-08T13:11:01.654180",
       "balance": 111265.4
+    },
+    {
+      "time": "2026-01-08T14:39:51.517527",
+      "balance": 110774.6
     }
   ],
   "assets": {
-    "BTC": 0.4,
-    "ETH": 18.1,
-    "SOL": 137.5,
-    "USDT": 1719.4
+    "BTC": 35120.2,
+    "ETH": 55551.9,
+    "SOL": 18385.4,
+    "USDT": 1717.2
   },
   "trades": [
+    {
+      "time": "2026-01-08T14:39:51.517559",
+      "text": "Sold 20 SOL at market price (~$133.88)"
+    },
+    {
+      "time": "2026-01-08T14:39:51.517556",
+      "text": "Sold 0.1 BTC at market price (~$89,679)"
+    },
     {
       "time": "2026-01-08T13:11:01.654213",
       "text": "做空SOL 5 SOL at 136 USDT"
@@ -2695,14 +2707,6 @@
     {
       "time": "2026-01-04T06:45:18.782190",
       "text": "Failed to short SOL: insufficient balance"
-    },
-    {
-      "time": "2026-01-04T06:45:18.782188",
-      "text": "Held ETH position: 12.58 ETH (no action taken)"
-    },
-    {
-      "time": "2026-01-04T06:45:18.782185",
-      "text": "Placed sell order: 0.2 BTC at 91,500 USDT (partial profit taking)"
     }
   ]
 }
