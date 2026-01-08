@@ -2279,15 +2279,23 @@
     {
       "time": "2026-01-08T02:15:27.190304",
       "balance": 113844.4
+    },
+    {
+      "time": "2026-01-08T06:51:02.258097",
+      "balance": 111977.5
     }
   ],
   "assets": {
-    "BTC": 44926.0,
-    "ETH": 47979.4,
-    "SOL": 20938.9,
+    "BTC": 35339.0,
+    "ETH": 56017.1,
+    "SOL": 20621.2,
     "USDT": 0.2
   },
   "trades": [
+    {
+      "time": "2026-01-08T06:51:02.258128",
+      "text": "Buy 0.00139 SOL at $135.38, spent 0.19 USDT"
+    },
     {
       "time": "2026-01-08T02:15:27.190351",
       "text": "SOL-BTC pair not available on OKX - trade skipped"
@@ -2683,10 +2691,6 @@
     {
       "time": "2025-12-29T13:04:58.377097",
       "text": "Buy 2.731 ETH at 2,929 USDT (Limit Order)"
-    },
-    {
-      "time": "2025-12-29T08:45:00.371989",
-      "text": "Placed limit order to buy 0.034 BTC at $88,000 (pending)"
     }
   ]
 }
