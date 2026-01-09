@@ -2319,15 +2319,27 @@
     {
       "time": "2026-01-09T02:15:55.350306",
       "balance": 112801.6
+    },
+    {
+      "time": "2026-01-09T04:49:21.374951",
+      "balance": 112510.6
     }
   ],
   "assets": {
-    "BTC": 0.4,
-    "ETH": 17.8,
-    "SOL": 138.4,
-    "USDT": 577.6
+    "BTC": 36971.4,
+    "ETH": 56147.7,
+    "SOL": 19314.1,
+    "USDT": 77.5
   },
   "trades": [
+    {
+      "time": "2026-01-09T04:49:21.374985",
+      "text": "Sell 40 SOL for USDT"
+    },
+    {
+      "time": "2026-01-09T04:49:21.374981",
+      "text": "Buy 0.224658 ETH with 700 USDT"
+    },
     {
       "time": "2026-01-09T02:15:55.350360",
       "text": "买入 35.88345 SOL，花费 5000 USDT（平均价格 139.34 USDT）"
@@ -2719,14 +2731,6 @@
     {
       "time": "2026-01-04T16:43:07.516068",
       "text": "Sold 0.1 BTC for 9129.9 USDT"
-    },
-    {
-      "time": "2026-01-04T14:29:19.167961",
-      "text": "SOL-ETH order canceled due to slippage protection"
-    },
-    {
-      "time": "2026-01-04T14:29:19.167956",
-      "text": "Placed buy order: 0.1 ETH for BTC at 0.034 BTC/ETH"
     }
   ]
 }
