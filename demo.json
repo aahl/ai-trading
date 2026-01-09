@@ -2327,15 +2327,39 @@
     {
       "time": "2026-01-09T06:46:55.034742",
       "balance": 112725.7
+    },
+    {
+      "time": "2026-01-09T08:46:06.198588",
+      "balance": 111458.2
+    },
+    {
+      "time": "2026-01-09T08:46:44.020912",
+      "balance": 111458.0
     }
   ],
   "assets": {
-    "BTC": 37010.6,
-    "ETH": 60552.7,
-    "SOL": 15162.4,
-    "USDT": 0.0
+    "BTC": 18362.0,
+    "ETH": 59851.0,
+    "SOL": 15093.0,
+    "USDT": 18173.7
   },
   "trades": [
+    {
+      "time": "2026-01-09T08:46:44.020933",
+      "text": "Bought 0.957992 SOL with 132.5 USDT at $138.31"
+    },
+    {
+      "time": "2026-01-09T08:46:44.020931",
+      "text": "Sold 0.203 BTC at $90,268.69, received 18,324.54 USDT"
+    },
+    {
+      "time": "2026-01-09T08:46:06.198625",
+      "text": "Bought 0.958 SOL at $138.31, spent $132.5 USDT"
+    },
+    {
+      "time": "2026-01-09T08:46:06.198622",
+      "text": "Sold 0.203 BTC at $90,268.69, received $18,324.54 USDT"
+    },
     {
       "time": "2026-01-09T06:46:55.034773",
       "text": "Buy 1.363984 ETH at $3,123.93, spent $4,261.00"
@@ -2719,22 +2743,6 @@
     {
       "time": "2026-01-04T22:35:31.175494",
       "text": "Placed 3 SOL buy orders totaling 45 SOL at 132-134 USDT"
-    },
-    {
-      "time": "2026-01-04T22:35:31.175491",
-      "text": "Placed 3 ETH buy orders totaling 2.556 ETH at 3120-3140 USDT"
-    },
-    {
-      "time": "2026-01-04T20:34:07.683258",
-      "text": "HOLD strategy executed - No new trades made"
-    },
-    {
-      "time": "2026-01-04T18:42:09.255957",
-      "text": "Buy 1.597648 ETH, spent 5000 USDT at price 3129.60"
-    },
-    {
-      "time": "2026-01-04T16:43:07.516073",
-      "text": "Sold 2 ETH for 0.06864 BTC"
     }
   ]
 }
