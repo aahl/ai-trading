@@ -2355,14 +2355,22 @@
     {
       "time": "2026-01-09T20:34:39.052440",
       "balance": 110592.6
+    },
+    {
+      "time": "2026-01-09T22:30:20.161300",
+      "balance": 110490.4
     }
   ],
   "assets": {
-    "BTC": 41379.3,
-    "ETH": 48026.4,
-    "SOL": 21187.0
+    "BTC": 47.5,
+    "ETH": 41.8,
+    "SOL": 21.2
   },
   "trades": [
+    {
+      "time": "2026-01-09T22:30:20.161348",
+      "text": "Sold 2 ETH for BTC at market price"
+    },
     {
       "time": "2026-01-09T20:34:39.052471",
       "text": "Sold 5 SOL for 0.06435 ETH"
@@ -2758,10 +2766,6 @@
     {
       "time": "2026-01-05T05:05:09.073799",
       "text": "ETH order failed due to insufficient USDT balance"
-    },
-    {
-      "time": "2026-01-05T05:05:09.073797",
-      "text": "Placed limit order: Buy 2 SOL at $128"
     }
   ]
 }
