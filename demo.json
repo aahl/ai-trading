@@ -2363,15 +2363,23 @@
     {
       "time": "2026-01-10T02:10:52.328565",
       "balance": 108796.4
+    },
+    {
+      "time": "2026-01-10T04:42:25.964566",
+      "balance": 108505.5
     }
   ],
   "assets": {
-    "BTC": 53770.2,
-    "ETH": 36500.3,
-    "SOL": 18525.9,
+    "BTC": 44603.0,
+    "ETH": 45449.0,
+    "SOL": 18453.4,
     "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-01-10T04:42:25.964593",
+      "text": "Buy 2.933411 ETH with 0.1 BTC at price 0.03409 BTC/ETH"
+    },
     {
       "time": "2026-01-10T02:10:52.328597",
       "text": "Sold 2 ETH for BTC"
@@ -2767,10 +2775,6 @@
     {
       "time": "2026-01-05T06:56:35.997358",
       "text": "Maintained SOL position: 101.91 SOL"
-    },
-    {
-      "time": "2026-01-05T06:56:35.997356",
-      "text": "Placed limit order for 1.38 ETH at $3,140 (pending execution)"
     }
   ]
 }
