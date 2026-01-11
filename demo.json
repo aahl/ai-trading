@@ -2431,15 +2431,35 @@
     {
       "time": "2026-01-11T10:32:53.178441",
       "balance": 108822.6
+    },
+    {
+      "time": "2026-01-11T12:59:42.356538",
+      "balance": 109162.1
     }
   ],
   "assets": {
-    "BTC": 49719.0,
-    "ETH": 19295.2,
-    "SOL": 33002.8,
-    "USDT": 6805.6
+    "BTC": 49862.9,
+    "ETH": 19358.7,
+    "SOL": 33135.0,
+    "USDT": 6805.5
   },
   "trades": [
+    {
+      "time": "2026-01-11T12:59:42.356578",
+      "text": "Existing limit sell order: 30 SOL-ETH at 0.044"
+    },
+    {
+      "time": "2026-01-11T12:59:42.356577",
+      "text": "Placed limit sell order: 20 SOL at $138"
+    },
+    {
+      "time": "2026-01-11T12:59:42.356574",
+      "text": "Placed limit sell order: 1 ETH at $3,120"
+    },
+    {
+      "time": "2026-01-11T12:59:42.356571",
+      "text": "Placed limit sell order: 0.05 BTC at $91,000"
+    },
     {
       "time": "2026-01-11T10:32:53.178472",
       "text": "Sold 50 SOL at market price"
@@ -2823,22 +2843,6 @@
     {
       "time": "2026-01-06T20:36:20.100872",
       "text": "Placed limit buy order: 15 SOL at $136.5"
-    },
-    {
-      "time": "2026-01-06T20:36:20.100868",
-      "text": "Placed limit buy order: 0.3 ETH at $3,195"
-    },
-    {
-      "time": "2026-01-06T18:44:40.758363",
-      "text": "保持持仓，无新交易操作"
-    },
-    {
-      "time": "2026-01-06T16:45:37.390118",
-      "text": "挂买单10 SOL，价格138 USDT"
-    },
-    {
-      "time": "2026-01-06T16:45:37.390114",
-      "text": "卖出0.1 BTC，市价成交"
     }
   ]
 }
