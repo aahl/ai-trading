@@ -2415,15 +2415,39 @@
     {
       "time": "2026-01-11T04:55:24.882885",
       "balance": 108751.9
+    },
+    {
+      "time": "2026-01-11T06:49:02.178249",
+      "balance": 108643.8
+    },
+    {
+      "time": "2026-01-11T06:49:54.937401",
+      "balance": 108644.0
     }
   ],
   "assets": {
-    "BTC": 45224.9,
-    "ETH": 23720.6,
-    "SOL": 39746.4,
-    "USDT": 59.9
+    "BTC": 45025.0,
+    "ETH": 23855.0,
+    "SOL": 39704.0,
+    "USDT": 60.0
   },
   "trades": [
+    {
+      "time": "2026-01-11T06:49:54.937422",
+      "text": "Place limit order to sell 30 SOL for ETH at 0.044 ETH/SOL"
+    },
+    {
+      "time": "2026-01-11T06:49:54.937420",
+      "text": "Buy 0.05 ETH-BTC at market price 0.03414 BTC/ETH"
+    },
+    {
+      "time": "2026-01-11T06:49:02.178273",
+      "text": "Place limit sell order for 30 SOL at 0.044 ETH/SOL"
+    },
+    {
+      "time": "2026-01-11T06:49:02.178270",
+      "text": "Buy 0.05 ETH for BTC via ETH-BTC pair at avg price 0.03414 BTC/ETH"
+    },
     {
       "time": "2026-01-11T04:55:24.882932",
       "text": "Bought 45 SOL at $136.21, spent $6,129.45 USDT"
@@ -2807,22 +2831,6 @@
     {
       "time": "2026-01-06T10:37:42.408022",
       "text": "持有SOL 37.831枚，当前价值5217.46 USDT"
-    },
-    {
-      "time": "2026-01-06T10:37:42.408019",
-      "text": "持有ETH 4.775枚，当前价值15410.38 USDT"
-    },
-    {
-      "time": "2026-01-06T10:37:42.408015",
-      "text": "持有BTC 0.457枚，当前价值42752.80 USDT"
-    },
-    {
-      "time": "2026-01-06T06:50:26.170878",
-      "text": "Sold 16 SOL at market price (~$139.50) - Order ID: 3193703665795338240"
-    },
-    {
-      "time": "2026-01-06T06:50:26.170874",
-      "text": "Sold 0.19 BTC at market price (~$93,900) - Order ID: 3193703442490593280"
     }
   ]
 }
