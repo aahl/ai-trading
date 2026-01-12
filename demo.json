@@ -2459,15 +2459,35 @@
     {
       "time": "2026-01-12T02:27:37.132116",
       "balance": 110262.2
+    },
+    {
+      "time": "2026-01-12T06:53:01.546785",
+      "balance": 110546.2
     }
   ],
   "assets": {
-    "BTC": 27361.1,
-    "ETH": 27338.1,
-    "SOL": 23047.4,
-    "USDT": 32515.6
+    "BTC": 27419.3,
+    "ETH": 33781.3,
+    "SOL": 20256.5,
+    "USDT": 29089.0
   },
   "trades": [
+    {
+      "time": "2026-01-12T06:53:01.546811",
+      "text": "Placed limit buy order: 20 SOL at $140.50 (support buyback)"
+    },
+    {
+      "time": "2026-01-12T06:53:01.546810",
+      "text": "Placed limit buy order: 2.5 ETH at $3,125 (dip buying)"
+    },
+    {
+      "time": "2026-01-12T06:53:01.546808",
+      "text": "Placed limit sell order: 0.0747 BTC at $92,300 (25% profit taking)"
+    },
+    {
+      "time": "2026-01-12T06:53:01.546805",
+      "text": "Placed limit sell order: 25 SOL at $143.50 (take profit)"
+    },
     {
       "time": "2026-01-12T02:27:37.132149",
       "text": "Sell 20 SOL at $142.5, received $2850 USDT"
@@ -2851,22 +2871,6 @@
     {
       "time": "2026-01-07T18:47:53.689849",
       "text": "Cancelled BTC buy order at $90,500"
-    },
-    {
-      "time": "2026-01-07T16:54:51.465506",
-      "text": "Sell 0.09482 ETH at 3,164 USDT, order pending"
-    },
-    {
-      "time": "2026-01-07T16:54:51.465503",
-      "text": "Sell 0.003284 BTC at 91,345 USDT, received 300 USDT"
-    },
-    {
-      "time": "2026-01-07T14:38:09.044170",
-      "text": "Placed limit order: Buy 0.08 SOL at $137 (Order ID: 3197544858891325440)"
-    },
-    {
-      "time": "2026-01-07T14:38:09.044168",
-      "text": "Placed limit order: Buy 0.004 BTC at $91,800 (Order ID: 3197543257673830400)"
     }
   ]
 }
