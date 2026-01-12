@@ -2475,15 +2475,27 @@
     {
       "time": "2026-01-12T14:37:19.639928",
       "balance": 109053.4
+    },
+    {
+      "time": "2026-01-12T16:38:06.350047",
+      "balance": 110606.3
     }
   ],
   "assets": {
-    "BTC": 18009.1,
-    "ETH": 51075.8,
-    "SOL": 24730.7,
-    "USDT": 15237.7
+    "BTC": 19224.9,
+    "ETH": 36112.2,
+    "SOL": 26090.4,
+    "USDT": 29178.8
   },
   "trades": [
+    {
+      "time": "2026-01-12T16:38:06.350099",
+      "text": "Bought 0.01 BTC at market price"
+    },
+    {
+      "time": "2026-01-12T16:38:06.350094",
+      "text": "Bought 5 SOL at market price"
+    },
     {
       "time": "2026-01-12T14:37:19.639959",
       "text": "Placed buy order: 50 SOL at $138.5"
@@ -2875,14 +2887,6 @@
     {
       "time": "2026-01-08T02:15:27.190351",
       "text": "SOL-BTC pair not available on OKX - trade skipped"
-    },
-    {
-      "time": "2026-01-08T02:15:27.190348",
-      "text": "Accumulated ETH based on oversold RSI levels (33.13)"
-    },
-    {
-      "time": "2026-01-08T02:15:27.190344",
-      "text": "Traded 0.1 BTC for 2.873226 ETH at 0.0348040742043968 BTC/ETH"
     }
   ]
 }
