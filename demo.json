@@ -2495,15 +2495,51 @@
     {
       "time": "2026-01-13T02:12:33.800574",
       "balance": 109071.1
+    },
+    {
+      "time": "2026-01-13T06:54:01.826846",
+      "balance": 110342.3
+    },
+    {
+      "time": "2026-01-13T06:54:46.737872",
+      "balance": 110342.3
     }
   ],
   "assets": {
-    "BTC": 15392.6,
-    "ETH": 49612.8,
-    "SOL": 43580.8,
-    "USDT": 484.9
+    "BTC": 9416.9,
+    "ETH": 41544.5,
+    "SOL": 44855.7,
+    "USDT": 14426.0
   },
   "trades": [
+    {
+      "time": "2026-01-13T06:54:46.737894",
+      "text": "Portfolio gain: $203.64"
+    },
+    {
+      "time": "2026-01-13T06:54:46.737893",
+      "text": "Converted 0.05 BTC to 1.5 ETH (favorable ETH/BTC ratio)"
+    },
+    {
+      "time": "2026-01-13T06:54:46.737891",
+      "text": "Converted 3 ETH to 67 SOL (capitalizing on SOL momentum)"
+    },
+    {
+      "time": "2026-01-13T06:54:01.826882",
+      "text": "Bought 1.5 ETH with USDT"
+    },
+    {
+      "time": "2026-01-13T06:54:01.826881",
+      "text": "Sold 0.05 BTC for USDT"
+    },
+    {
+      "time": "2026-01-13T06:54:01.826879",
+      "text": "Bought 67 SOL with USDT"
+    },
+    {
+      "time": "2026-01-13T06:54:01.826876",
+      "text": "Sold 3 ETH for USDT"
+    },
     {
       "time": "2026-01-13T02:12:33.800605",
       "text": "Buy 40 SOL at $138.74, spent $5549.60 USDT"
@@ -2875,34 +2911,6 @@
     {
       "time": "2026-01-08T22:31:29.100389",
       "text": "Buy 1.6 ETH at 3120 USDT, spent 4992 USDT"
-    },
-    {
-      "time": "2026-01-08T22:31:29.100386",
-      "text": "Buy 0.04999994 BTC at 91231.40 USDT, spent 4561.57 USDT"
-    },
-    {
-      "time": "2026-01-08T18:46:20.516581",
-      "text": "Sold 2.5 ETH at market price"
-    },
-    {
-      "time": "2026-01-08T14:39:51.517559",
-      "text": "Sold 20 SOL at market price (~$133.88)"
-    },
-    {
-      "time": "2026-01-08T14:39:51.517556",
-      "text": "Sold 0.1 BTC at market price (~$89,679)"
-    },
-    {
-      "time": "2026-01-08T13:11:01.654213",
-      "text": "做空SOL 5 SOL at 136 USDT"
-    },
-    {
-      "time": "2026-01-08T13:11:01.654210",
-      "text": "做空ETH 0.5 ETH at 3150 USDT"
-    },
-    {
-      "time": "2026-01-08T10:37:10.183937",
-      "text": "Placed ETH-USDT buy order (0.5 ETH at $3050)"
     }
   ]
 }
