@@ -2555,15 +2555,34 @@
     {
       "time": "2026-01-14T08:41:49.014011",
       "balance": 114587.9
+    },
+    {
+      "time": "2026-01-14T10:37:09.230838",
+      "balance": 114231.1
     }
   ],
   "assets": {
-    "BTC": 26896.3,
-    "ETH": 38553.6,
-    "SOL": 41921.3,
-    "USDT": 7216.8
+    "BTC": 31614.5,
+    "ETH": 40738.5,
+    "SOL": 41878.1
   },
   "trades": [
+    {
+      "time": "2026-01-14T10:37:09.230878",
+      "text": "SOL: +3.28% unrealized profit"
+    },
+    {
+      "time": "2026-01-14T10:37:09.230877",
+      "text": "ETH: +4.17% unrealized profit"
+    },
+    {
+      "time": "2026-01-14T10:37:09.230875",
+      "text": "BTC: +2.58% unrealized profit"
+    },
+    {
+      "time": "2026-01-14T10:37:09.230871",
+      "text": "Market analysis completed - All positions showing profits"
+    },
     {
       "time": "2026-01-14T08:41:49.014035",
       "text": "Buy 1.5 ETH with USDT"
@@ -2947,22 +2966,6 @@
     {
       "time": "2026-01-10T08:37:30.370442",
       "text": "{'action': 'BUY', 'symbol': 'SOL', 'amount': '10', 'price': '136', 'value': '1360 USDT', 'reason': 'SOL生态系统强劲，机构采用加速，摩根士丹利提交ETF申请'}"
-    },
-    {
-      "time": "2026-01-10T08:37:30.370435",
-      "text": "{'action': 'BUY', 'symbol': 'BTC', 'amount': '0.1', 'price': '90600', 'value': '9060 USDT', 'reason': 'BTC巨鲸增持，MACD看涨交叉，宏观数据支撑'}"
-    },
-    {
-      "time": "2026-01-10T06:41:52.333567",
-      "text": "Sold 0.1 BTC at 90545.98 USDT"
-    },
-    {
-      "time": "2026-01-10T06:41:52.333566",
-      "text": "Sold 2 ETH at 3087.92 USDT"
-    },
-    {
-      "time": "2026-01-10T06:41:52.333562",
-      "text": "Sold 10 SOL at 136.03 USDT"
     }
   ]
 }
