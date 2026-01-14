@@ -2575,15 +2575,27 @@
     {
       "time": "2026-01-14T18:45:46.522522",
       "balance": 115160.4
+    },
+    {
+      "time": "2026-01-14T20:33:11.168737",
+      "balance": 116423.1
     }
   ],
   "assets": {
-    "BTC": 32128.2,
-    "ETH": 39305.6,
-    "SOL": 39327.3,
-    "USDT": 4399.2
+    "BTC": 34415.3,
+    "ETH": 40856.9,
+    "SOL": 39712.0,
+    "USDT": 1438.8
   },
   "trades": [
+    {
+      "time": "2026-01-14T20:33:11.168765",
+      "text": "Buy 0.3 ETH with market order"
+    },
+    {
+      "time": "2026-01-14T20:33:11.168762",
+      "text": "Buy 0.02 BTC with market order"
+    },
     {
       "time": "2026-01-14T18:45:46.522551",
       "text": "SOL: +4.11% (24h), Bullish technical setup with active ecosystem"
@@ -2975,14 +2987,6 @@
     {
       "time": "2026-01-10T18:40:12.271334",
       "text": "Buy 3.5 ETH at $3093.31, spent $10,826.59"
-    },
-    {
-      "time": "2026-01-10T18:40:12.271330",
-      "text": "Buy 80 SOL at $136.26, spent $10,900.8"
-    },
-    {
-      "time": "2026-01-10T16:35:18.302175",
-      "text": "Sold 6.3 ETH at 3094.33 USDT, received 19474.25 USDT"
     }
   ]
 }
