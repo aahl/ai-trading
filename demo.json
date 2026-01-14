@@ -2559,14 +2559,27 @@
     {
       "time": "2026-01-14T10:37:09.230838",
       "balance": 114231.1
+    },
+    {
+      "time": "2026-01-14T13:05:06.617085",
+      "balance": 113973.3
     }
   ],
   "assets": {
-    "BTC": 31614.5,
-    "ETH": 40738.5,
-    "SOL": 41878.1
+    "BTC": 31624.5,
+    "ETH": 30690.5,
+    "SOL": 34589.3,
+    "USDT": 17069.0
   },
   "trades": [
+    {
+      "time": "2026-01-14T13:05:06.617111",
+      "text": "Sold 3 ETH at 3,292.62 USDT (avg price) for 9,877.86 USDT"
+    },
+    {
+      "time": "2026-01-14T13:05:06.617108",
+      "text": "Sold 50 SOL at 144.35 USDT (avg price) for 7,217.48 USDT"
+    },
     {
       "time": "2026-01-14T10:37:09.230878",
       "text": "SOL: +3.28% unrealized profit"
@@ -2958,14 +2971,6 @@
     {
       "time": "2026-01-10T10:33:13.768190",
       "text": "Bought 21.96 SOL at $136.49 for $3,000 USDT"
-    },
-    {
-      "time": "2026-01-10T10:33:13.768185",
-      "text": "Sold 0.0986 BTC at $90,756.40 for $8,948.58 USDT"
-    },
-    {
-      "time": "2026-01-10T08:37:30.370442",
-      "text": "{'action': 'BUY', 'symbol': 'SOL', 'amount': '10', 'price': '136', 'value': '1360 USDT', 'reason': 'SOL生态系统强劲，机构采用加速，摩根士丹利提交ETF申请'}"
     }
   ]
 }
