@@ -2611,15 +2611,27 @@
     {
       "time": "2026-01-15T13:07:05.480035",
       "balance": 115358.0
+    },
+    {
+      "time": "2026-01-15T14:35:24.499318",
+      "balance": 115031.9
     }
   ],
   "assets": {
-    "BTC": 41013.6,
-    "ETH": 25146.4,
-    "SOL": 36107.6,
-    "USDT": 13090.4
+    "BTC": 40813.5,
+    "ETH": 29008.0,
+    "SOL": 28837.4,
+    "USDT": 16373.0
   },
   "trades": [
+    {
+      "time": "2026-01-15T14:35:24.499342",
+      "text": "Sell 49.94 SOL for 7221 USDT"
+    },
+    {
+      "time": "2026-01-15T14:35:24.499339",
+      "text": "Buy 1.75 ETH with 3926 USDT"
+    },
     {
       "time": "2026-01-15T13:07:05.480065",
       "text": "Sold 20 SOL at limit price 144.66, received 2893.2 USDT"
@@ -3011,14 +3023,6 @@
     {
       "time": "2026-01-11T12:59:42.356577",
       "text": "Placed limit sell order: 20 SOL at $138"
-    },
-    {
-      "time": "2026-01-11T12:59:42.356574",
-      "text": "Placed limit sell order: 1 ETH at $3,120"
-    },
-    {
-      "time": "2026-01-11T12:59:42.356571",
-      "text": "Placed limit sell order: 0.05 BTC at $91,000"
     }
   ]
 }
