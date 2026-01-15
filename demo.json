@@ -2627,15 +2627,31 @@
     {
       "time": "2026-01-15T18:51:08.030214",
       "balance": 113688.2
+    },
+    {
+      "time": "2026-01-15T20:36:15.470003",
+      "balance": 113609.9
     }
   ],
   "assets": {
-    "BTC": 30983.3,
-    "ETH": 25081.1,
-    "SOL": 13410.8,
+    "BTC": 30808.2,
+    "ETH": 25160.0,
+    "SOL": 13428.7,
     "USDT": 44213.0
   },
   "trades": [
+    {
+      "time": "2026-01-15T20:36:15.470037",
+      "text": "Buy 1 SOL at 141 USDT (Order pending)"
+    },
+    {
+      "time": "2026-01-15T20:36:15.470035",
+      "text": "Buy 0.1 ETH at 3280 USDT (Order pending)"
+    },
+    {
+      "time": "2026-01-15T20:36:15.470032",
+      "text": "Buy 0.01 BTC at 95000 USDT (Order pending)"
+    },
     {
       "time": "2026-01-15T18:51:08.030243",
       "text": "Bought 4.09 ETH with 13420 USDT"
@@ -3023,18 +3039,6 @@
     {
       "time": "2026-01-11T20:32:18.984283",
       "text": "Bought 2 ETH at $3,103.35 for $6,206.70"
-    },
-    {
-      "time": "2026-01-11T20:32:18.984277",
-      "text": "Sold 0.2 BTC at $90,499.66 for $18,099.93"
-    },
-    {
-      "time": "2026-01-11T18:40:29.136718",
-      "text": "Buy order placed for 1.5 ETH at $3,100 (pending)"
-    },
-    {
-      "time": "2026-01-11T18:40:29.136715",
-      "text": "Sold 40 SOL at $139.53"
     }
   ]
 }
