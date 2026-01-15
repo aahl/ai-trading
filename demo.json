@@ -2631,15 +2631,31 @@
     {
       "time": "2026-01-15T20:36:15.470003",
       "balance": 113609.9
+    },
+    {
+      "time": "2026-01-15T22:32:54.077362",
+      "balance": 113929.6
     }
   ],
   "assets": {
-    "BTC": 30808.2,
-    "ETH": 25160.0,
-    "SOL": 13428.7,
-    "USDT": 44213.0
+    "BTC": 30935.1,
+    "ETH": 25618.0,
+    "SOL": 13493.2,
+    "USDT": 43883.4
   },
   "trades": [
+    {
+      "time": "2026-01-15T22:32:54.077403",
+      "text": "Sold 0.1 BTC at 95735.29 USDT (market order)"
+    },
+    {
+      "time": "2026-01-15T22:32:54.077401",
+      "text": "Sold 1 ETH at 3310.08 USDT (limit order filled)"
+    },
+    {
+      "time": "2026-01-15T22:32:54.077397",
+      "text": "Sold 5 SOL at 142.39 USDT (filled at 142.39)"
+    },
     {
       "time": "2026-01-15T20:36:15.470037",
       "text": "Buy 1 SOL at 141 USDT (Order pending)"
@@ -3027,18 +3043,6 @@
     {
       "time": "2026-01-12T02:27:37.132146",
       "text": "Buy 2 ETH at $3140, spent $6280 USDT"
-    },
-    {
-      "time": "2026-01-11T22:30:19.891832",
-      "text": "Buy 0.000815 ETH, spent 2.54 USDT"
-    },
-    {
-      "time": "2026-01-11T22:30:19.891829",
-      "text": "Buy 0.495808 SOL, spent 68.60 USDT"
-    },
-    {
-      "time": "2026-01-11T20:32:18.984283",
-      "text": "Bought 2 ETH at $3,103.35 for $6,206.70"
     }
   ]
 }
