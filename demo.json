@@ -2639,15 +2639,31 @@
     {
       "time": "2026-01-16T02:21:38.100097",
       "balance": 113672.3
+    },
+    {
+      "time": "2026-01-16T04:51:46.713461",
+      "balance": 113585.4
     }
   ],
   "assets": {
-    "USDT": 43215.1,
-    "BTC": 30822.6,
-    "ETH": 25499.1,
-    "SOL": 14135.6
+    "BTC": 30782.1,
+    "ETH": 25425.0,
+    "SOL": 14167.1,
+    "USDT": 43211.2
   },
   "trades": [
+    {
+      "time": "2026-01-16T04:51:46.713495",
+      "text": "Placed limit buy order for 5 SOL at 140 USDT"
+    },
+    {
+      "time": "2026-01-16T04:51:46.713493",
+      "text": "Placed limit buy order for 0.5 ETH at 3,220 USDT"
+    },
+    {
+      "time": "2026-01-16T04:51:46.713489",
+      "text": "Placed limit buy order for 0.05 BTC at 93,500 USDT"
+    },
     {
       "time": "2026-01-16T02:21:38.100141",
       "text": "Buy 10 SOL with 1422.42 USDT"
@@ -3035,18 +3051,6 @@
     {
       "time": "2026-01-12T08:45:39.359593",
       "text": "Buy 3 ETH at $3100"
-    },
-    {
-      "time": "2026-01-12T06:53:01.546811",
-      "text": "Placed limit buy order: 20 SOL at $140.50 (support buyback)"
-    },
-    {
-      "time": "2026-01-12T06:53:01.546810",
-      "text": "Placed limit buy order: 2.5 ETH at $3,125 (dip buying)"
-    },
-    {
-      "time": "2026-01-12T06:53:01.546808",
-      "text": "Placed limit sell order: 0.0747 BTC at $92,300 (25% profit taking)"
     }
   ]
 }
