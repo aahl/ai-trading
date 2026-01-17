@@ -2691,15 +2691,31 @@
     {
       "time": "2026-01-17T06:47:45.791647",
       "balance": 113809.8
+    },
+    {
+      "time": "2026-01-17T08:37:29.535299",
+      "balance": 113847.7
     }
   ],
   "assets": {
-    "BTC": 34853.2,
-    "ETH": 52861.9,
-    "SOL": 17473.4,
-    "USDT": 8621.2
+    "BTC": 34814.6,
+    "ETH": 52940.8,
+    "SOL": 17492.4,
+    "USDT": 2152.6
   },
   "trades": [
+    {
+      "time": "2026-01-17T08:37:29.535326",
+      "text": "Buy 14.940335 SOL at $144.14, spent $2,153.50 USDT"
+    },
+    {
+      "time": "2026-01-17T08:37:29.535324",
+      "text": "Buy 0.914919 ETH at $3,295.81, spent $3,015.40 USDT"
+    },
+    {
+      "time": "2026-01-17T08:37:29.535320",
+      "text": "Buy 0.03615555 BTC at $95,326.98, spent $3,446.60 USDT"
+    },
     {
       "time": "2026-01-17T06:47:45.791694",
       "text": "Set stop-loss at 94,752 USDT and take-profit at 98,000 USDT for BTC position"
@@ -3087,18 +3103,6 @@
     {
       "time": "2026-01-13T08:45:47.280876",
       "text": "Bought 0.13023732 BTC at $92,139.48 for $12,000 USDT"
-    },
-    {
-      "time": "2026-01-13T08:45:47.280873",
-      "text": "Sold 90 SOL at $141.22 for $12,709.87 USDT"
-    },
-    {
-      "time": "2026-01-13T08:45:10.607749",
-      "text": "Bought 0.13023732 BTC at avg price $92,139.48, spent $12,000 USDT (after fee)"
-    },
-    {
-      "time": "2026-01-13T08:45:10.607746",
-      "text": "Sold 90 SOL at avg price $141.22, received $12,709.87 USDT (after fee)"
     }
   ]
 }
