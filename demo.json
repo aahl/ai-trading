@@ -2687,15 +2687,31 @@
     {
       "time": "2026-01-17T04:42:51.606601",
       "balance": 113783.6
+    },
+    {
+      "time": "2026-01-17T06:47:45.791647",
+      "balance": 113809.8
     }
   ],
   "assets": {
-    "BTC": 34844.7,
-    "ETH": 52814.9,
-    "SOL": 17502.5,
-    "USDT": 8621.5
+    "BTC": 34853.2,
+    "ETH": 52861.9,
+    "SOL": 17473.4,
+    "USDT": 8621.2
   },
   "trades": [
+    {
+      "time": "2026-01-17T06:47:45.791694",
+      "text": "Set stop-loss at 94,752 USDT and take-profit at 98,000 USDT for BTC position"
+    },
+    {
+      "time": "2026-01-17T06:47:45.791691",
+      "text": "Placed order to buy 2.9 ETH with BTC at 0.0345 ratio"
+    },
+    {
+      "time": "2026-01-17T06:47:45.791684",
+      "text": "Buy 0.09 BTC at 95,240.9 USDT"
+    },
     {
       "time": "2026-01-17T04:42:51.606631",
       "text": "Buy 0.099013 ETH at $3288.1, spent 325.56 USDT"
@@ -3083,18 +3099,6 @@
     {
       "time": "2026-01-13T08:45:10.607746",
       "text": "Sold 90 SOL at avg price $141.22, received $12,709.87 USDT (after fee)"
-    },
-    {
-      "time": "2026-01-13T06:54:46.737894",
-      "text": "Portfolio gain: $203.64"
-    },
-    {
-      "time": "2026-01-13T06:54:46.737893",
-      "text": "Converted 0.05 BTC to 1.5 ETH (favorable ETH/BTC ratio)"
-    },
-    {
-      "time": "2026-01-13T06:54:46.737891",
-      "text": "Converted 3 ETH to 67 SOL (capitalizing on SOL momentum)"
     }
   ]
 }
