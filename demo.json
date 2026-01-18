@@ -2743,15 +2743,31 @@
     {
       "time": "2026-01-18T10:31:38.109705",
       "balance": 113908.5
+    },
+    {
+      "time": "2026-01-18T12:57:42.180096",
+      "balance": 113876.7
     }
   ],
   "assets": {
-    "BTC": 67875.0,
-    "ETH": 27612.7,
-    "SOL": 8035.4,
-    "USDT": 10385.4
+    "BTC": 67838.7,
+    "ETH": 28120.2,
+    "SOL": 5902.9,
+    "USDT": 12015.0
   },
   "trades": [
+    {
+      "time": "2026-01-18T12:57:42.180131",
+      "text": "Placed limit buy order for 0.05 BTC at 94500 USDT"
+    },
+    {
+      "time": "2026-01-18T12:57:42.180129",
+      "text": "Sold 15 SOL for ~2130 USDT"
+    },
+    {
+      "time": "2026-01-18T12:57:42.180126",
+      "text": "Bought 0.15 ETH with 500 USDT"
+    },
     {
       "time": "2026-01-18T10:31:38.109729",
       "text": "Buy 0.05 ETH, spent 0.0017455 BTC"
@@ -3139,18 +3155,6 @@
     {
       "time": "2026-01-14T10:37:09.230878",
       "text": "SOL: +3.28% unrealized profit"
-    },
-    {
-      "time": "2026-01-14T10:37:09.230877",
-      "text": "ETH: +4.17% unrealized profit"
-    },
-    {
-      "time": "2026-01-14T10:37:09.230875",
-      "text": "BTC: +2.58% unrealized profit"
-    },
-    {
-      "time": "2026-01-14T10:37:09.230871",
-      "text": "Market analysis completed - All positions showing profits"
     }
   ]
 }
