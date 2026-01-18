@@ -2763,15 +2763,39 @@
     {
       "time": "2026-01-18T20:33:48.950494",
       "balance": 114422.4
+    },
+    {
+      "time": "2026-01-18T22:33:26.461112",
+      "balance": 114384.2
+    },
+    {
+      "time": "2026-01-18T22:34:08.221297",
+      "balance": 114384.2
     }
   ],
   "assets": {
-    "BTC": 68180.2,
-    "ETH": 35202.7,
-    "SOL": 6316.4,
-    "USDT": 4723.1
+    "BTC": 68288.7,
+    "ETH": 35153.9,
+    "SOL": 6319.4,
+    "USDT": 4624.3
   },
   "trades": [
+    {
+      "time": "2026-01-18T22:34:08.221323",
+      "text": "买入0.000221 ETH，花费0.74 USDT，成交价3,346.91"
+    },
+    {
+      "time": "2026-01-18T22:34:08.221321",
+      "text": "买入0.00104756 BTC，花费100 USDT，成交价95,459.46"
+    },
+    {
+      "time": "2026-01-18T22:33:26.461148",
+      "text": "Buy 0.000221 ETH, spent 0.74 USDT"
+    },
+    {
+      "time": "2026-01-18T22:33:26.461145",
+      "text": "Buy 0.00104756 BTC, spent 100 USDT"
+    },
     {
       "time": "2026-01-18T20:33:48.950530",
       "text": "Existing orders maintained: BTC buy at $94,500, BTC sell at $98,000, ETH-BTC buy, SOL-ETH sell"
@@ -3155,22 +3179,6 @@
     {
       "time": "2026-01-14T18:45:46.522551",
       "text": "SOL: +4.11% (24h), Bullish technical setup with active ecosystem"
-    },
-    {
-      "time": "2026-01-14T18:45:46.522549",
-      "text": "ETH: +7.57% (24h), Strong momentum but MACD shows bearish crossover"
-    },
-    {
-      "time": "2026-01-14T18:45:46.522547",
-      "text": "BTC: +3.5% (24h), RSI overbought at 73.83"
-    },
-    {
-      "time": "2026-01-14T18:45:46.522545",
-      "text": "Hold current positions - No new trades executed"
-    },
-    {
-      "time": "2026-01-14T16:44:46.445338",
-      "text": "Bought 0.033786 SOL at $147.99"
     }
   ]
 }
