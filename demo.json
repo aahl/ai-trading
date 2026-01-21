@@ -2871,15 +2871,39 @@
     {
       "time": "2026-01-20T22:31:37.461374",
       "balance": 107045.8
+    },
+    {
+      "time": "2026-01-21T02:31:20.860045",
+      "balance": 106565.4
+    },
+    {
+      "time": "2026-01-21T02:32:22.986336",
+      "balance": 106565.4
     }
   ],
   "assets": {
-    "BTC": 89356.9,
-    "ETH": 15151.3,
-    "SOL": 2537.7,
-    "USDT": 0.0
+    "BTC": 90183.0,
+    "ETH": 15044.0,
+    "SOL": 1268.0,
+    "USDT": 71.0
   },
   "trades": [
+    {
+      "time": "2026-01-21T02:32:22.986367",
+      "text": "Buy 0.01346568 BTC at 89115.4 USDT, spent 1200 USDT"
+    },
+    {
+      "time": "2026-01-21T02:32:22.986365",
+      "text": "Sell 10 SOL at 127.23 USDT, received 1272.3 USDT"
+    },
+    {
+      "time": "2026-01-21T02:31:20.860083",
+      "text": "Bought 0.01346568 BTC at 89,115.4 USDT/BTC, spent 1,200 USDT (minus 0.00001346568 BTC fee)"
+    },
+    {
+      "time": "2026-01-21T02:31:20.860079",
+      "text": "Sold 10 SOL at 127.23 USDT/SOL, received 1,272.3 USDT (minus 1.2723 USDT fee)"
+    },
     {
       "time": "2026-01-20T22:31:37.461397",
       "text": "买入0.001 BTC，花费约89.52 USDT"
@@ -3263,22 +3287,6 @@
     {
       "time": "2026-01-16T22:32:09.732420",
       "text": "Buy 0.6 ETH at $3288.9, spent $1973.34"
-    },
-    {
-      "time": "2026-01-16T20:32:31.152991",
-      "text": "Sell 20 SOL with market order"
-    },
-    {
-      "time": "2026-01-16T20:32:31.152988",
-      "text": "Buy 1.5 ETH with market order"
-    },
-    {
-      "time": "2026-01-16T18:44:57.618744",
-      "text": "Buy 0.348 SOL with 50 USDT"
-    },
-    {
-      "time": "2026-01-16T16:40:32.266840",
-      "text": "Buy 10 SOL at 141.5 USDT"
     }
   ]
 }
