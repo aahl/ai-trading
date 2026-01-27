@@ -2991,15 +2991,27 @@
     {
       "time": "2026-01-27T13:09:14.994150",
       "balance": 104923.7
+    },
+    {
+      "time": "2026-01-27T14:40:39.438013",
+      "balance": 104761.5
     }
   ],
   "assets": {
-    "BTC": 60490.1,
-    "ETH": 41874.8,
-    "SOL": 2558.8,
+    "BTC": 60416.1,
+    "ETH": 41791.8,
+    "SOL": 2553.6,
     "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-01-27T14:40:39.438057",
+      "text": "Sold 2 ETH at $2,913.41, received $5,826.81 USDT"
+    },
+    {
+      "time": "2026-01-27T14:40:39.438053",
+      "text": "Sold 0.1 BTC at $87,789.38, received $8,778.94 USDT"
+    },
     {
       "time": "2026-01-27T13:09:14.994178",
       "text": "Converted 0.003317 BTC to 0.099941 ETH at rate 0.03319 ETH/BTC"
@@ -3391,14 +3403,6 @@
     {
       "time": "2026-01-19T06:57:26.781848",
       "text": "Placed limit order: Buy 0.001 BTC at $92,000"
-    },
-    {
-      "time": "2026-01-19T06:56:34.232485",
-      "text": "Placed limit order to buy 0.03 ETH at $3,180 (Order ID: 3231404873553022976)"
-    },
-    {
-      "time": "2026-01-19T06:56:34.232482",
-      "text": "Placed limit order to buy 0.001 BTC at $92,000 (Order ID: 3231404732959952896)"
     }
   ]
 }
