@@ -3047,15 +3047,31 @@
     {
       "time": "2026-01-28T18:49:30.701060",
       "balance": 107000.9
+    },
+    {
+      "time": "2026-01-28T20:42:52.137656",
+      "balance": 106717.4
     }
   ],
   "assets": {
-    "BTC": 100866.4,
-    "ETH": 0.1,
-    "SOL": 6124.9,
-    "USDT": 9.5
+    "BTC": 100597.4,
+    "SOL": 3607.8,
+    "USDT": 2512.1,
+    "ETH": 0.1
   },
   "trades": [
+    {
+      "time": "2026-01-28T20:42:52.137713",
+      "text": "Attempted to trade ETH-BTC but amount too small"
+    },
+    {
+      "time": "2026-01-28T20:42:52.137711",
+      "text": "Attempted to buy 0.1 BTC with USDT but insufficient balance"
+    },
+    {
+      "time": "2026-01-28T20:42:52.137694",
+      "text": "Sold 20 SOL at market price"
+    },
     {
       "time": "2026-01-28T18:49:30.701091",
       "text": "Buy 0.00010646 BTC, spent 9.54 USDT"
@@ -3442,18 +3458,6 @@
     },
     {
       "time": "2026-01-20T08:46:47.502728",
-      "text": "Sold 10 SOL for 1288.8 USDT at 128.88 USDT/SOL"
-    },
-    {
-      "time": "2026-01-20T08:46:14.312403",
-      "text": "Bought 0.00010887 BTC for 9.9 USDT at 90933 USDT/BTC"
-    },
-    {
-      "time": "2026-01-20T08:46:14.312401",
-      "text": "Sold 2 ETH for 0.06808 BTC at 0.03404 BTC/ETH"
-    },
-    {
-      "time": "2026-01-20T08:46:14.312398",
       "text": "Sold 10 SOL for 1288.8 USDT at 128.88 USDT/SOL"
     }
   ]
