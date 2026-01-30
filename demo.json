@@ -3075,15 +3075,31 @@
     {
       "time": "2026-01-30T07:02:49.484282",
       "balance": 100016.9
+    },
+    {
+      "time": "2026-01-30T10:50:56.853337",
+      "balance": 100113.2
     }
   ],
   "assets": {
-    "BTC": 42528.5,
-    "ETH": 3397.8,
-    "SOL": 4744.8,
-    "USDT": 49345.7
+    "BTC": 42543.1,
+    "ETH": 3412.4,
+    "SOL": 4819.9,
+    "USDT": 49337.8
   },
   "trades": [
+    {
+      "time": "2026-01-30T10:50:56.853373",
+      "text": "AI分析: SOL-买入信号(70分) MACD底背离，企稳迹象"
+    },
+    {
+      "time": "2026-01-30T10:50:56.853371",
+      "text": "AI分析: ETH-买入信号(75分) RSI超卖，短期回调到位"
+    },
+    {
+      "time": "2026-01-30T10:50:56.853367",
+      "text": "AI分析: BTC-买入信号(85分) RSI超卖，KDJ低位，MACD即将金叉"
+    },
     {
       "time": "2026-01-30T07:02:49.484333",
       "text": "No new trades executed due to strong bearish market signals across all trading pairs"
@@ -3471,18 +3487,6 @@
     {
       "time": "2026-01-20T20:49:42.271762",
       "text": "Sold 5 SOL for USDT"
-    },
-    {
-      "time": "2026-01-20T20:49:42.271758",
-      "text": "Sold 1 ETH for BTC via ETH-BTC pair"
-    },
-    {
-      "time": "2026-01-20T18:59:21.191110",
-      "text": "Sold 10.0 SOL for ETH at 0.04975 ETH/SOL"
-    },
-    {
-      "time": "2026-01-20T18:59:21.191107",
-      "text": "Sold 2.0 ETH for BTC at 0.03342 BTC/ETH"
     }
   ]
 }
