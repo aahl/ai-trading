@@ -3131,14 +3131,23 @@
     {
       "time": "2026-02-08T10:39:47.463694",
       "balance": 83896.2
+    },
+    {
+      "time": "2026-02-08T13:09:36.425807",
+      "balance": 84839.0
     }
   ],
   "assets": {
-    "BTC": 0.6,
-    "ETH": 12.2,
-    "SOL": 127.5
+    "BTC": 41244.9,
+    "ETH": 19492.7,
+    "SOL": 11202.0,
+    "USDT": 12909.5
   },
   "trades": [
+    {
+      "time": "2026-02-08T13:09:36.425828",
+      "text": "No new trades - holding positions due to overbought market conditions"
+    },
     {
       "time": "2026-02-08T10:39:47.463719",
       "text": "Buy 3 ETH at market price ~$2,096"
@@ -3534,10 +3543,6 @@
     {
       "time": "2026-01-24T20:31:18.441052",
       "text": "Sell 0.1 BTC at market price"
-    },
-    {
-      "time": "2026-01-24T18:42:01.714504",
-      "text": "Market order executed successfully"
     }
   ]
 }
