@@ -3119,15 +3119,47 @@
     {
       "time": "2026-02-08T07:02:31.812516",
       "balance": 83335.8
+    },
+    {
+      "time": "2026-02-08T08:44:39.624084",
+      "balance": 84448.0
+    },
+    {
+      "time": "2026-02-08T08:44:58.859027",
+      "balance": 84449.0
     }
   ],
   "assets": {
-    "BTC": 40187.7,
-    "ETH": 17131.5,
-    "SOL": 19835.8,
-    "USDT": 6180.7
+    "BTC": 58440.4,
+    "ETH": 19111.3,
+    "SOL": 11272.9,
+    "USDT": 4084.3
   },
   "trades": [
+    {
+      "time": "2026-02-08T08:44:58.859050",
+      "text": "Sell 100 SOL at $88.44, received 8,844 USDT"
+    },
+    {
+      "time": "2026-02-08T08:44:58.859049",
+      "text": "Buy 9.18 ETH at $2,110.50, spent 19,400 USDT"
+    },
+    {
+      "time": "2026-02-08T08:44:58.859047",
+      "text": "Buy 0.0014 BTC at $70,444.50, spent 100 USDT"
+    },
+    {
+      "time": "2026-02-08T08:44:39.624110",
+      "text": "Sell 100 SOL for ~8844 USDT"
+    },
+    {
+      "time": "2026-02-08T08:44:39.624108",
+      "text": "Buy ~9.18 ETH for ~2000 USDT"
+    },
+    {
+      "time": "2026-02-08T08:44:39.624105",
+      "text": "Buy 0.0014 BTC for ~100 USDT"
+    },
     {
       "time": "2026-02-08T07:02:31.812540",
       "text": "Buy 100 SOL at market price"
@@ -3503,30 +3535,6 @@
     {
       "time": "2026-01-24T18:42:01.714500",
       "text": "Buy ETH with 0.1 BTC using ETH-BTC trading pair"
-    },
-    {
-      "time": "2026-01-24T16:36:08.857828",
-      "text": "Sell 11.9918 SOL for 0.51685 ETH"
-    },
-    {
-      "time": "2026-01-24T16:36:08.857825",
-      "text": "Buy 0.09993 ETH with 0.00331 BTC"
-    },
-    {
-      "time": "2026-01-24T14:30:14.734155",
-      "text": "Buy 0.1 ETH with BTC at price 0.03305 BTC/ETH"
-    },
-    {
-      "time": "2026-01-21T19:01:05.849629",
-      "text": "Placed limit order: Buy 2 SOL with ETH at 0.0432 ETH/SOL"
-    },
-    {
-      "time": "2026-01-21T19:01:05.849628",
-      "text": "Placed limit order: Buy 5 SOL with ETH at 0.0435 ETH/SOL"
-    },
-    {
-      "time": "2026-01-21T19:01:05.849625",
-      "text": "Placed limit order: Buy 0.5 ETH with BTC at 0.03294 BTC/ETH"
     }
   ]
 }
