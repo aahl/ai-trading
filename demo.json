@@ -3135,15 +3135,27 @@
     {
       "time": "2026-02-08T13:09:36.425807",
       "balance": 84839.0
+    },
+    {
+      "time": "2026-02-08T14:38:24.405141",
+      "balance": 85065.0
     }
   ],
   "assets": {
-    "BTC": 41244.9,
-    "ETH": 19492.7,
-    "SOL": 11202.0,
+    "BTC": 0.5,
+    "ETH": 9.2,
+    "SOL": 102.5,
     "USDT": 12909.5
   },
   "trades": [
+    {
+      "time": "2026-02-08T14:38:24.405167",
+      "text": "Sell 25 SOL @ 88.5 USDT"
+    },
+    {
+      "time": "2026-02-08T14:38:24.405164",
+      "text": "Sell 0.05 BTC @ 71500 USDT"
+    },
     {
       "time": "2026-02-08T13:09:36.425828",
       "text": "No new trades - holding positions due to overbought market conditions"
@@ -3535,14 +3547,6 @@
     {
       "time": "2026-01-24T22:28:35.134663",
       "text": "无新交易执行，保持现有持仓"
-    },
-    {
-      "time": "2026-01-24T20:31:18.441055",
-      "text": "Buy 50 SOL at market price"
-    },
-    {
-      "time": "2026-01-24T20:31:18.441052",
-      "text": "Sell 0.1 BTC at market price"
     }
   ]
 }
