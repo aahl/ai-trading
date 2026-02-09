@@ -3159,15 +3159,27 @@
     {
       "time": "2026-02-09T02:50:59.155327",
       "balance": 84346.9
+    },
+    {
+      "time": "2026-02-09T10:48:48.885179",
+      "balance": 81253.7
     }
   ],
   "assets": {
-    "BTC": 37543.3,
-    "ETH": 17074.3,
-    "SOL": 10091.6,
-    "USDT": 19637.7
+    "BTC": 36459.5,
+    "ETH": 14597.5,
+    "SOL": 14772.8,
+    "USDT": 17424.0
   },
   "trades": [
+    {
+      "time": "2026-02-09T10:48:48.885203",
+      "text": "Buy 12.054001 SOL, spent 1000 USDT"
+    },
+    {
+      "time": "2026-02-09T10:48:48.885200",
+      "text": "Buy 0.991168 ETH, spent 2000 USDT"
+    },
     {
       "time": "2026-02-09T02:50:59.155349",
       "text": "Market analysis: BTC shows bearish momentum with Mayer Multiple at 0.6 (potential bottom), ETH institutional buying continues but technicals bearish, SOL oversold with strong ecosystem growth"
@@ -3559,14 +3571,6 @@
     {
       "time": "2026-01-26T13:06:50.514523",
       "text": "Buy 0.688377 ETH for 2000 USDT at avg price 2905.38"
-    },
-    {
-      "time": "2026-01-26T10:38:21.631875",
-      "text": "Sold 10 SOL at 122.41 USDT for 1,224.1 USDT"
-    },
-    {
-      "time": "2026-01-26T10:38:21.631873",
-      "text": "Sold 2.6 ETH at 2,896.4 USDT for 7,530.64 USDT"
     }
   ]
 }

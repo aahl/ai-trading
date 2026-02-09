@@ -55,6 +55,7 @@ jobs:
           uv tool install -U mcp-notify
           uv tool install -U mcp-okx
           uv tool list
+          npx skills add aahl/skills -y -g --all -a claude-code
 
       - name: Create MCP Config
         run: |
