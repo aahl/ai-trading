@@ -3207,15 +3207,27 @@
     {
       "time": "2026-02-10T07:18:17.415889",
       "balance": 82581.9
+    },
+    {
+      "time": "2026-02-10T09:07:01.140106",
+      "balance": 82983.4
     }
   ],
   "assets": {
-    "BTC": 61739.8,
-    "ETH": 7873.9,
-    "SOL": 12968.0,
+    "BTC": 62013.0,
+    "ETH": 7948.5,
+    "SOL": 13021.8,
     "USDT": 0.2
   },
   "trades": [
+    {
+      "time": "2026-02-10T09:07:01.140135",
+      "text": "Could not execute SOL trade - SOL-BTC pair not available"
+    },
+    {
+      "time": "2026-02-10T09:07:01.140132",
+      "text": "Buy ETH using 0.01 BTC in ETH-BTC market order (Order ID: 3295447768773427200)"
+    },
     {
       "time": "2026-02-10T07:18:17.415917",
       "text": "Buy 0.0009 ETH at $2006.61, spent 1.806 USDT - ETH showing strong buy signal with RSI at 27.30 (oversold) and institutional accumulation"
@@ -3607,14 +3619,6 @@
     {
       "time": "2026-01-27T16:42:07.918333",
       "text": "Bought 15.8 SOL at 126.6 USDT for 2000 USDT"
-    },
-    {
-      "time": "2026-01-27T16:42:07.918330",
-      "text": "Sold 3.7 ETH at 2991.16 USDT for 11067.28 USDT"
-    },
-    {
-      "time": "2026-01-27T14:40:39.438057",
-      "text": "Sold 2 ETH at $2,913.41, received $5,826.81 USDT"
     }
   ]
 }
