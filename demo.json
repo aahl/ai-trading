@@ -3227,15 +3227,31 @@
     {
       "time": "2026-02-10T17:14:01.432783",
       "balance": 82688.2
+    },
+    {
+      "time": "2026-02-10T19:18:49.762539",
+      "balance": 82200.5
     }
   ],
   "assets": {
-    "BTC": 39423.8,
-    "ETH": 4778.7,
-    "SOL": 15771.5,
-    "USDT": 22714.2
+    "BTC": 39300.3,
+    "ETH": 3697.4,
+    "SOL": 14713.6,
+    "USDT": 23513.1
   },
   "trades": [
+    {
+      "time": "2026-02-10T19:18:49.762566",
+      "text": "Bought 0.01 BTC at market price (~$688.7 USDT)"
+    },
+    {
+      "time": "2026-02-10T19:18:49.762564",
+      "text": "Sold 0.5 ETH at market price (~$1,005.57 USDT)"
+    },
+    {
+      "time": "2026-02-10T19:18:49.762561",
+      "text": "Sold 10 SOL at market price (~$828.7 USDT)"
+    },
     {
       "time": "2026-02-10T17:14:01.432819",
       "text": "Sell 2 ETH at 2024.61 USDT, received 4049.22 USDT"
@@ -3623,18 +3639,6 @@
     {
       "time": "2026-01-28T08:44:19.574940",
       "text": "卖出0.1 ETH，获得0.00336 BTC"
-    },
-    {
-      "time": "2026-01-28T08:44:19.574937",
-      "text": "买入0.00487736 BTC，花费434.57 USDT"
-    },
-    {
-      "time": "2026-01-28T06:49:38.501256",
-      "text": "Bought 0.1 BTC at market price"
-    },
-    {
-      "time": "2026-01-28T06:49:38.501254",
-      "text": "Bought 5 SOL at market price"
     }
   ]
 }
