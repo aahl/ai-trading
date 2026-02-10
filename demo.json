@@ -3203,15 +3203,23 @@
     {
       "time": "2026-02-10T05:45:21.300874",
       "balance": 83355.9
+    },
+    {
+      "time": "2026-02-10T07:18:17.415889",
+      "balance": 82581.9
     }
   ],
   "assets": {
-    "BTC": 62089.6,
-    "ETH": 8069.0,
-    "SOL": 13195.4,
-    "USDT": 2.0
+    "BTC": 61739.8,
+    "ETH": 7873.9,
+    "SOL": 12968.0,
+    "USDT": 0.2
   },
   "trades": [
+    {
+      "time": "2026-02-10T07:18:17.415917",
+      "text": "Buy 0.0009 ETH at $2006.61, spent 1.806 USDT - ETH showing strong buy signal with RSI at 27.30 (oversold) and institutional accumulation"
+    },
     {
       "time": "2026-02-10T05:45:21.300903",
       "text": "Total equity increased from $83,671 to $83,356"
@@ -3607,10 +3615,6 @@
     {
       "time": "2026-01-27T14:40:39.438057",
       "text": "Sold 2 ETH at $2,913.41, received $5,826.81 USDT"
-    },
-    {
-      "time": "2026-01-27T14:40:39.438053",
-      "text": "Sold 0.1 BTC at $87,789.38, received $8,778.94 USDT"
     }
   ]
 }
