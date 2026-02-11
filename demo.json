@@ -3267,15 +3267,28 @@
     {
       "time": "2026-02-11T15:04:30.534606",
       "balance": 79469.7
+    },
+    {
+      "time": "2026-02-11T17:18:08.372133",
+      "balance": 9192.6
     }
   ],
   "assets": {
-    "BTC": 42974.0,
-    "ETH": 14943.2,
-    "SOL": 18339.9,
-    "USDT": 3212.7
+    "USDT": 9192.6
   },
   "trades": [
+    {
+      "time": "2026-02-11T17:18:08.372156",
+      "text": "Placed Short SOL-USDT: 2.5 SOL at $80, TP $74, SL $82"
+    },
+    {
+      "time": "2026-02-11T17:18:08.372154",
+      "text": "Placed Short ETH-USDT: 0.2 ETH at $1,940,TP $1,850, SL $1,975"
+    },
+    {
+      "time": "2026-02-11T17:18:08.372151",
+      "text": "Placed Short BTC-USDT: 0.025 BTC at $69,200, TP $65,500, SL $70,500"
+    },
     {
       "time": "2026-02-11T15:04:30.534629",
       "text": "Sold 2 ETH at $1,942.39 for $3,884.80 USDT"
@@ -3663,18 +3676,6 @@
     {
       "time": "2026-01-30T10:50:56.853371",
       "text": "AI分析: ETH-买入信号(75分) RSI超卖，短期回调到位"
-    },
-    {
-      "time": "2026-01-30T10:50:56.853367",
-      "text": "AI分析: BTC-买入信号(85分) RSI超卖，KDJ低位，MACD即将金叉"
-    },
-    {
-      "time": "2026-01-30T07:02:49.484333",
-      "text": "No new trades executed due to strong bearish market signals across all trading pairs"
-    },
-    {
-      "time": "2026-01-30T03:12:54.074289",
-      "text": "Sell 0.41878 BTC @ 82144.64 USDT for 34414.81 USDT"
     }
   ]
 }
