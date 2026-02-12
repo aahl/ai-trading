@@ -3315,15 +3315,39 @@
     {
       "time": "2026-02-12T19:15:57.238160",
       "balance": 78138.9
+    },
+    {
+      "time": "2026-02-12T20:50:17.458112",
+      "balance": 78037.4
+    },
+    {
+      "time": "2026-02-12T20:50:49.609438",
+      "balance": 78293.1
     }
   ],
   "assets": {
-    "BTC": 43321.4,
-    "ETH": 16663.5,
-    "SOL": 9502.3,
-    "USDT": 8651.7
+    "BTC": 0.8,
+    "ETH": 8.7,
+    "SOL": 123.1,
+    "USDT": 88.2
   },
   "trades": [
+    {
+      "time": "2026-02-12T20:50:49.609463",
+      "text": "创建限价卖单: 4.35 ETH @ 1920 USDT"
+    },
+    {
+      "time": "2026-02-12T20:50:49.609460",
+      "text": "买入 0.11931089 BTC, 花费 7800 USDT"
+    },
+    {
+      "time": "2026-02-12T20:50:17.458149",
+      "text": "Placed limit sell order for 4.35 ETH at 1920 USDT/ETH"
+    },
+    {
+      "time": "2026-02-12T20:50:17.458146",
+      "text": "Bought 0.119 BTC with 7800 USDT at ~65375 USDT/BTC"
+    },
     {
       "time": "2026-02-12T19:15:57.238195",
       "text": "BUY 10 SOL at $77.00 limit order placed (Order ID: 3302472267410702336)"
@@ -3707,22 +3731,6 @@
     {
       "time": "2026-02-08T13:09:36.425828",
       "text": "No new trades - holding positions due to overbought market conditions"
-    },
-    {
-      "time": "2026-02-08T10:39:47.463719",
-      "text": "Buy 3 ETH at market price ~$2,096"
-    },
-    {
-      "time": "2026-02-08T08:44:58.859050",
-      "text": "Sell 100 SOL at $88.44, received 8,844 USDT"
-    },
-    {
-      "time": "2026-02-08T08:44:58.859049",
-      "text": "Buy 9.18 ETH at $2,110.50, spent 19,400 USDT"
-    },
-    {
-      "time": "2026-02-08T08:44:58.859047",
-      "text": "Buy 0.0014 BTC at $70,444.50, spent 100 USDT"
     }
   ]
 }
