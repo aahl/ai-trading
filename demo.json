@@ -3343,15 +3343,35 @@
     {
       "time": "2026-02-13T05:27:09.826195",
       "balance": 79214.3
+    },
+    {
+      "time": "2026-02-13T07:09:00.909374",
+      "balance": 79371.9
+    },
+    {
+      "time": "2026-02-13T07:10:08.708247",
+      "balance": 79278.9
     }
   ],
   "assets": {
-    "BTC": 54856.2,
-    "ETH": 12273.7,
-    "SOL": 10418.6,
-    "USDT": 1665.7
+    "BTC": 41634.0,
+    "ETH": 9362.0,
+    "SOL": 7436.5,
+    "USDT": 20846.4
   },
   "trades": [
+    {
+      "time": "2026-02-13T07:10:08.708272",
+      "text": "Sold 40 SOL for ~$3,160 USDT"
+    },
+    {
+      "time": "2026-02-13T07:10:08.708270",
+      "text": "Sold 2.0 ETH for ~$3,900 USDT"
+    },
+    {
+      "time": "2026-02-13T07:10:08.708267",
+      "text": "Sold 0.2 BTC for ~$13,320 USDT"
+    },
     {
       "time": "2026-02-13T05:27:09.826221",
       "text": "Hold BTC position - Institutions buying dips with SAFU fund purchasing, maintain current holdings"
@@ -3739,18 +3759,6 @@
     {
       "time": "2026-02-09T11:05:14.296419",
       "text": "Buy 1 ETH at $2,029.28"
-    },
-    {
-      "time": "2026-02-09T11:05:14.296415",
-      "text": "Buy 0.1 BTC at $68,546.3"
-    },
-    {
-      "time": "2026-02-09T10:48:48.885203",
-      "text": "Buy 12.054001 SOL, spent 1000 USDT"
-    },
-    {
-      "time": "2026-02-09T10:48:48.885200",
-      "text": "Buy 0.991168 ETH, spent 2000 USDT"
     }
   ]
 }
