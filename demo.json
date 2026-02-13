@@ -3327,15 +3327,47 @@
     {
       "time": "2026-02-12T22:42:23.088122",
       "balance": 78681.9
+    },
+    {
+      "time": "2026-02-13T02:56:44.883983",
+      "balance": 150000.0
+    },
+    {
+      "time": "2026-02-13T03:02:28.576718",
+      "balance": 79720.1
+    },
+    {
+      "time": "2026-02-13T03:03:05.211853",
+      "balance": 79720.1
     }
   ],
   "assets": {
-    "BTC": 6594.3,
-    "ETH": 2102.8,
-    "USDT": 4000.2,
-    "total": 12697.3
+    "BTC": 55188.7,
+    "ETH": 12338.3,
+    "SOL": 10527.3,
+    "USDT": 1665.7
   },
   "trades": [
+    {
+      "time": "2026-02-13T03:03:05.211871",
+      "text": "Bought 1.024968 ETH with 0.03 BTC (~$2,000) based on strong buy signal"
+    },
+    {
+      "time": "2026-02-13T03:02:28.576738",
+      "text": "Bought 1.024968 ETH with 0.03 BTC (approx $2,000) based on strong buy signal"
+    },
+    {
+      "time": "2026-02-13T02:56:44.884053",
+      "text": "Analyzed SOL price data with market sentiment"
+    },
+    {
+      "time": "2026-02-13T02:56:44.884051",
+      "text": "Analyzed ETH price data with technical indicators"
+    },
+    {
+      "time": "2026-02-13T02:56:44.884047",
+      "text": "Analyzed BTC price data showing recent downtrend"
+    },
     {
       "time": "2026-02-12T22:42:23.088183",
       "text": "Buy 1.09 ETH spent 2,102.82 USDT"
@@ -3715,26 +3747,6 @@
     {
       "time": "2026-02-08T22:38:00.212113",
       "text": "Buy 50 SOL at 86 USDT, spent 4300 USDT"
-    },
-    {
-      "time": "2026-02-08T20:39:43.999823",
-      "text": "Buy 11.42 SOL, spent 1000 USDT at price $87.53"
-    },
-    {
-      "time": "2026-02-08T20:39:14.054846",
-      "text": "Buy 11.42 SOL at $87.53, spent 1000 USDT"
-    },
-    {
-      "time": "2026-02-08T16:42:13.393682",
-      "text": "Buy 150 SOL, accumulate at support level"
-    },
-    {
-      "time": "2026-02-08T16:42:13.393679",
-      "text": "Sell 3 ETH, take profit from rally"
-    },
-    {
-      "time": "2026-02-08T14:38:24.405167",
-      "text": "Sell 25 SOL @ 88.5 USDT"
     }
   ]
 }
