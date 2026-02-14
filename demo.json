@@ -3399,14 +3399,31 @@
     {
       "time": "2026-02-14T08:44:51.953549",
       "balance": 83385.6
+    },
+    {
+      "time": "2026-02-14T10:38:50.018738",
+      "balance": 83378.4
     }
   ],
   "assets": {
-    "USDT": 17392.3,
-    "ETH": 116.3,
-    "SOL": 43.0
+    "BTC": 36733.9,
+    "ETH": 22309.6,
+    "USDT": 17390.6,
+    "SOL": 6944.4
   },
   "trades": [
+    {
+      "time": "2026-02-14T10:38:50.018774",
+      "text": "[2026-02-14T10:37:11.861235] Placed sell order for 10 SOL at $150 USDT per SOL"
+    },
+    {
+      "time": "2026-02-14T10:38:50.018772",
+      "text": "[2026-02-14T10:37:11.861235] Placed sell order for 2 ETH at $2,500 USDT per ETH"
+    },
+    {
+      "time": "2026-02-14T10:38:50.018769",
+      "text": "[2026-02-14T10:37:11.861235] Placed sell order for 0.3 BTC at $69,800 USDT per BTC"
+    },
     {
       "time": "2026-02-14T07:00:16.775593",
       "text": "Bought 4.869889 ETH at avg price $2053.43, spent 10000 USDT"
@@ -3794,18 +3811,6 @@
     {
       "time": "2026-02-10T11:05:08.171211",
       "text": "Placed sell order: 2 SOL for ETH at 0.0235 ETH/SOL"
-    },
-    {
-      "time": "2026-02-10T11:05:08.171207",
-      "text": "Placed sell order: 0.001 BTC at 69500 USDT"
-    },
-    {
-      "time": "2026-02-10T09:07:01.140135",
-      "text": "Could not execute SOL trade - SOL-BTC pair not available"
-    },
-    {
-      "time": "2026-02-10T09:07:01.140132",
-      "text": "Buy ETH using 0.01 BTC in ETH-BTC market order (Order ID: 3295447768773427200)"
     }
   ]
 }
