@@ -3415,14 +3415,26 @@
     {
       "time": "2026-02-14T18:56:28.945243",
       "balance": 83919.6
+    },
+    {
+      "time": "2026-02-14T22:34:53.293417",
+      "balance": 84037.0
     }
   ],
   "assets": {
-    "BTC": 17606.7,
-    "ETH": 41175.5,
-    "SOL": 11627.6
+    "ETH": 7155.0,
+    "BTC": 70.0,
+    "USDT": 10889.6
   },
   "trades": [
+    {
+      "time": "2026-02-14T22:34:53.293448",
+      "text": "Bought 0.001 BTC for approximately 69.98 USDT"
+    },
+    {
+      "time": "2026-02-14T22:34:53.293444",
+      "text": "Bought 3.42 ETH for approximately 7155 USDT"
+    },
     {
       "time": "2026-02-14T18:56:28.945273",
       "text": "Bought 3.34 ETH using 0.1 BTC (ETH-BTC cross pair trade)"
@@ -3814,14 +3826,6 @@
     {
       "time": "2026-02-10T13:44:11.004742",
       "text": "Bought 20 SOL at market price (≈$84.60)"
-    },
-    {
-      "time": "2026-02-10T13:44:11.004738",
-      "text": "Sold 0.5 BTC at market price (≈$68,900)"
-    },
-    {
-      "time": "2026-02-10T11:05:08.171214",
-      "text": "Strategy: Defensive positioning with selective sell orders at resistance levels"
     }
   ]
 }
