@@ -3383,15 +3383,31 @@
     {
       "time": "2026-02-14T02:43:47.175013",
       "balance": 82633.0
+    },
+    {
+      "time": "2026-02-14T05:14:16.883388",
+      "balance": 82670.2
+    },
+    {
+      "time": "2026-02-14T05:14:54.553871",
+      "balance": 82670.2
     }
   ],
   "assets": {
-    "BTC": 36338.5,
-    "ETH": 11949.8,
-    "SOL": 11057.1,
-    "USDT": 23287.7
+    "BTC": 36329.8,
+    "ETH": 11972.1,
+    "SOL": 6821.6,
+    "USDT": 27546.7
   },
   "trades": [
+    {
+      "time": "2026-02-14T05:14:54.553891",
+      "text": "Sold 20 SOL at 84.94 USDT for 1,697.10 USDT net proceeds"
+    },
+    {
+      "time": "2026-02-14T05:14:16.883410",
+      "text": "Sold 20 SOL at 84.94 USDT for 1,698.80 USDT (net 1,697.10 after 1.70 fee)"
+    },
     {
       "time": "2026-02-13T22:43:11.477249",
       "text": "Sold 43.4 SOL at 84.59 USDT, received 3671.21 USDT (after fee)"
@@ -3783,14 +3799,6 @@
     {
       "time": "2026-02-10T07:18:17.415917",
       "text": "Buy 0.0009 ETH at $2006.61, spent 1.806 USDT - ETH showing strong buy signal with RSI at 27.30 (oversold) and institutional accumulation"
-    },
-    {
-      "time": "2026-02-10T05:45:21.300903",
-      "text": "Total equity increased from $83,671 to $83,356"
-    },
-    {
-      "time": "2026-02-10T05:45:21.300902",
-      "text": "BTC balance increased from 0.866 to 0.896 BTC"
     }
   ]
 }
