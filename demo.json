@@ -3407,15 +3407,23 @@
     {
       "time": "2026-02-14T14:38:28.947909",
       "balance": 83464.0
+    },
+    {
+      "time": "2026-02-14T16:42:09.448351",
+      "balance": 83579.0
     }
   ],
   "assets": {
-    "BTC": 24524.2,
-    "ETH": 32199.0,
-    "SOL": 13230.0,
-    "USDT": 13510.8
+    "BTC": 24511.7,
+    "ETH": 32215.1,
+    "SOL": 13341.7,
+    "USDT": 13510.4
   },
   "trades": [
+    {
+      "time": "2026-02-14T16:42:09.448382",
+      "text": "Sold 20 SOL for 0.9019 ETH at 0.045096 rate"
+    },
     {
       "time": "2026-02-14T10:38:50.018774",
       "text": "[2026-02-14T10:37:11.861235] Placed sell order for 10 SOL at $150 USDT per SOL"
@@ -3811,10 +3819,6 @@
     {
       "time": "2026-02-10T11:05:08.171213",
       "text": "Market analysis shows bearish signals for all three coins"
-    },
-    {
-      "time": "2026-02-10T11:05:08.171211",
-      "text": "Placed sell order: 2 SOL for ETH at 0.0235 ETH/SOL"
     }
   ]
 }
