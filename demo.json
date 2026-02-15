@@ -3459,15 +3459,27 @@
     {
       "time": "2026-02-15T16:42:27.378016",
       "balance": 82162.8
+    },
+    {
+      "time": "2026-02-15T18:52:39.934346",
+      "balance": 80934.5
     }
   ],
   "assets": {
-    "BTC": 29563.4,
-    "ETH": 34330.8,
-    "SOL": 16329.4,
-    "USDT": 1939.2
+    "BTC": 26408.0,
+    "ETH": 36461.0,
+    "SOL": 16126.5,
+    "USDT": 1939.0
   },
   "trades": [
+    {
+      "time": "2026-02-15T18:52:39.934375",
+      "text": "Sold 15 SOL for ETH"
+    },
+    {
+      "time": "2026-02-15T18:52:39.934372",
+      "text": "Purchased 1.5 ETH using BTC"
+    },
     {
       "time": "2026-02-15T16:42:27.378050",
       "text": "Buy 1.406563 ETH at $2005.74 average price, spent $2821.03 USDT"
@@ -3859,14 +3871,6 @@
     {
       "time": "2026-02-11T07:16:34.025468",
       "text": "Buy 0.1 ETH using BTC in ETH-BTC pair"
-    },
-    {
-      "time": "2026-02-11T05:42:53.956730",
-      "text": "Bought 0.14585 ETH at avg price $1,977.54, spent $288.48"
-    },
-    {
-      "time": "2026-02-11T05:42:53.956727",
-      "text": "Bought 0.15 BTC at avg price $67,536.91, spent $10,130.54"
     }
   ]
 }
