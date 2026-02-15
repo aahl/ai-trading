@@ -3435,15 +3435,39 @@
     {
       "time": "2026-02-15T10:39:32.751243",
       "balance": 83652.5
+    },
+    {
+      "time": "2026-02-15T13:13:33.088316",
+      "balance": 82654.7
+    },
+    {
+      "time": "2026-02-15T13:14:25.837082",
+      "balance": 82655.0
     }
   ],
   "assets": {
-    "BTC": 24838.8,
-    "ETH": 32341.8,
-    "SOL": 5082.8,
-    "USDT": 21389.0
+    "USDT": 17.0,
+    "BTC": 26293.0,
+    "ETH": 31729.0,
+    "SOL": 7666.0
   },
   "trades": [
+    {
+      "time": "2026-02-15T13:14:25.837104",
+      "text": "Bought 30.131698 SOL at average price $88.08 spending 2,654 USDT"
+    },
+    {
+      "time": "2026-02-15T13:14:25.837102",
+      "text": "Bought 0.02547344 BTC at average price $69,444.88 spending 1,769 USDT"
+    },
+    {
+      "time": "2026-02-15T13:13:33.088339",
+      "text": "Buy 30.131698 SOL at avg price $88.08, spent 2654 USDT"
+    },
+    {
+      "time": "2026-02-15T13:13:33.088336",
+      "text": "Buy 0.02547344 BTC at avg price $69,444.88, spent 1769 USDT"
+    },
     {
       "time": "2026-02-15T10:39:32.751266",
       "text": "Buy 0.1 BTC at $70,314.6, spent 7,031.46 USDT"
@@ -3827,22 +3851,6 @@
     {
       "time": "2026-02-10T22:53:44.331829",
       "text": "Buy 149.99 SOL, spent USDT12366.79 (Avg price: $82.74)"
-    },
-    {
-      "time": "2026-02-10T20:55:57.362052",
-      "text": "Sell 0.05 BTC at market price"
-    },
-    {
-      "time": "2026-02-10T20:55:57.362048",
-      "text": "Sell 60 SOL at market price"
-    },
-    {
-      "time": "2026-02-10T19:18:49.762566",
-      "text": "Bought 0.01 BTC at market price (~$688.7 USDT)"
-    },
-    {
-      "time": "2026-02-10T19:18:49.762564",
-      "text": "Sold 0.5 ETH at market price (~$1,005.57 USDT)"
     }
   ]
 }
