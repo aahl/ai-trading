@@ -3431,15 +3431,23 @@
     {
       "time": "2026-02-15T07:03:14.845156",
       "balance": 84142.5
+    },
+    {
+      "time": "2026-02-15T10:39:32.751243",
+      "balance": 83652.5
     }
   ],
   "assets": {
-    "BTC": 17833.5,
-    "ETH": 32778.5,
-    "SOL": 5100.5,
-    "USDT": 28422.0
+    "BTC": 24838.8,
+    "ETH": 32341.8,
+    "SOL": 5082.8,
+    "USDT": 21389.0
   },
   "trades": [
+    {
+      "time": "2026-02-15T10:39:32.751266",
+      "text": "Buy 0.1 BTC at $70,314.6, spent 7,031.46 USDT"
+    },
     {
       "time": "2026-02-15T07:03:14.845215",
       "text": "Sold 10 SOL at $89.44 for $894.4 (profit-taking on overbought conditions)"
@@ -3835,10 +3843,6 @@
     {
       "time": "2026-02-10T19:18:49.762564",
       "text": "Sold 0.5 ETH at market price (~$1,005.57 USDT)"
-    },
-    {
-      "time": "2026-02-10T19:18:49.762561",
-      "text": "Sold 10 SOL at market price (~$828.7 USDT)"
     }
   ]
 }
