@@ -3479,15 +3479,47 @@
     {
       "time": "2026-02-16T05:42:30.391728",
       "balance": 80468.5
+    },
+    {
+      "time": "2026-02-16T07:25:30.628369",
+      "balance": 80989.4
+    },
+    {
+      "time": "2026-02-16T07:26:35.790900",
+      "balance": 80989.0
     }
   ],
   "assets": {
-    "BTC": 36105.9,
-    "ETH": 26185.8,
-    "SOL": 16971.9,
-    "USDT": 1204.8
+    "BTC": 22542.0,
+    "ETH": 16630.0,
+    "SOL": 40663.0,
+    "USDT": 1154.0
   },
   "trades": [
+    {
+      "time": "2026-02-16T07:26:35.790923",
+      "text": "Increased SOL position from 200.67 to 476.56 coins (SOL recommended to hold)"
+    },
+    {
+      "time": "2026-02-16T07:26:35.790922",
+      "text": "Converted 5 ETH to ~115 SOL (ETH bearish per analysis)"
+    },
+    {
+      "time": "2026-02-16T07:26:35.790920",
+      "text": "Converted 0.2 BTC to ~161 SOL (BTC bearish per analysis)"
+    },
+    {
+      "time": "2026-02-16T07:25:30.628395",
+      "text": "Total SOL purchased: 276 SOL"
+    },
+    {
+      "time": "2026-02-16T07:25:30.628393",
+      "text": "Sold 5 ETH, bought approx. 155 SOL (order ID: 3312637788743540736)"
+    },
+    {
+      "time": "2026-02-16T07:25:30.628389",
+      "text": "Sold 0.2 BTC, bought approx. 161 SOL (order ID: 3312636691513614336)"
+    },
     {
       "time": "2026-02-16T05:42:30.391755",
       "text": "Buy 0.5 ETH at market price (~$1950)"
@@ -3863,30 +3895,6 @@
     {
       "time": "2026-02-11T17:18:08.372151",
       "text": "Placed Short BTC-USDT: 0.025 BTC at $69,200, TP $65,500, SL $70,500"
-    },
-    {
-      "time": "2026-02-11T15:04:30.534629",
-      "text": "Sold 2 ETH at $1,942.39 for $3,884.80 USDT"
-    },
-    {
-      "time": "2026-02-11T15:04:30.534626",
-      "text": "Sold 50 SOL at $80.03 for $4,001.50 USDT"
-    },
-    {
-      "time": "2026-02-11T13:29:58.692463",
-      "text": "[2026-02-11] Bought 2 SOL using 162 USDT"
-    },
-    {
-      "time": "2026-02-11T13:29:58.692461",
-      "text": "[2026-02-11] Bought 0.1 ETH using 195 USDT"
-    },
-    {
-      "time": "2026-02-11T13:29:58.692458",
-      "text": "[2026-02-11] Bought 0.01 BTC using 670 USDT"
-    },
-    {
-      "time": "2026-02-11T11:00:17.758446",
-      "text": "Placed buy order: 10 SOL at $80.50 (Order ID: 3298574343534546944)"
     }
   ]
 }
