@@ -3495,15 +3495,31 @@
     {
       "time": "2026-02-16T14:55:31.069520",
       "balance": 80191.1
+    },
+    {
+      "time": "2026-02-16T16:59:37.052905",
+      "balance": 80155.2
     }
   ],
   "assets": {
-    "SOL": 43213.6,
-    "USDT": 14745.0,
-    "ETH": 13299.9,
-    "BTC": 8932.6
+    "SOL": 43239.4,
+    "USDT": 35929.8,
+    "ETH": 986.0,
+    "BTC": 0.0
   },
   "trades": [
+    {
+      "time": "2026-02-16T16:59:37.052935",
+      "text": "Holding 515.1468 SOL valued at $43,239.37"
+    },
+    {
+      "time": "2026-02-16T16:59:37.052933",
+      "text": "Sold 6.252424 ETH at avg price $1,972.16 for $12,332.56 (Fee: -$12.33)"
+    },
+    {
+      "time": "2026-02-16T16:59:37.052930",
+      "text": "Sold 0.13087686 BTC at avg price $67,874.70 for $8,887.05 (Fee: -$8.88)"
+    },
     {
       "time": "2026-02-16T14:55:31.069545",
       "text": "Bought 2.027 ETH at 1973.33 USDT per ETH, spent 4000 USDT"
@@ -3891,18 +3907,6 @@
     {
       "time": "2026-02-11T20:51:36.094014",
       "text": "Placed SOL buy order: 50 SOL at 75 USDT"
-    },
-    {
-      "time": "2026-02-11T20:51:36.094012",
-      "text": "Placed BTC buy order: 0.1 BTC at 65000 USDT"
-    },
-    {
-      "time": "2026-02-11T20:51:36.094008",
-      "text": "Cancelled BTC sell order at 69200 USDT"
-    },
-    {
-      "time": "2026-02-11T19:16:22.852762",
-      "text": "Sold 20 SOL at $80.09 for $1,601.80 USDT"
     }
   ]
 }
