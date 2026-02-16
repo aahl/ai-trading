@@ -3491,15 +3491,27 @@
     {
       "time": "2026-02-16T09:01:34.309986",
       "balance": 81066.7
+    },
+    {
+      "time": "2026-02-16T14:55:31.069520",
+      "balance": 80191.1
     }
   ],
   "assets": {
-    "BTC": 16399.1,
-    "ETH": 17240.0,
-    "SOL": 41193.0,
-    "USDT": 6234.6
+    "SOL": 43213.6,
+    "USDT": 14745.0,
+    "ETH": 13299.9,
+    "BTC": 8932.6
   },
   "trades": [
+    {
+      "time": "2026-02-16T14:55:31.069545",
+      "text": "Bought 2.027 ETH at 1973.33 USDT per ETH, spent 4000 USDT"
+    },
+    {
+      "time": "2026-02-16T14:55:31.069542",
+      "text": "Sold 0.1 BTC at 68383.38 USDT, received 6838.34 USDT after fee"
+    },
     {
       "time": "2026-02-16T09:01:34.310019",
       "text": "Bought $500 worth of SOL (strong ecosystem fundamentals despite price decline)"
@@ -3891,14 +3903,6 @@
     {
       "time": "2026-02-11T19:16:22.852762",
       "text": "Sold 20 SOL at $80.09 for $1,601.80 USDT"
-    },
-    {
-      "time": "2026-02-11T19:16:22.852760",
-      "text": "Sold 1 ETH at $1,953.01 for $1,953.01 USDT"
-    },
-    {
-      "time": "2026-02-11T19:16:22.852757",
-      "text": "Sold 0.1 BTC at $67,623.7 for $6,762.37 USDT"
     }
   ]
 }
