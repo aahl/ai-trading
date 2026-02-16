@@ -3487,15 +3487,31 @@
     {
       "time": "2026-02-16T07:26:35.790900",
       "balance": 80989.0
+    },
+    {
+      "time": "2026-02-16T09:01:34.309986",
+      "balance": 81066.7
     }
   ],
   "assets": {
-    "BTC": 22542.0,
-    "ETH": 16630.0,
-    "SOL": 40663.0,
-    "USDT": 1154.0
+    "BTC": 16399.1,
+    "ETH": 17240.0,
+    "SOL": 41193.0,
+    "USDT": 6234.6
   },
   "trades": [
+    {
+      "time": "2026-02-16T09:01:34.310019",
+      "text": "Bought $500 worth of SOL (strong ecosystem fundamentals despite price decline)"
+    },
+    {
+      "time": "2026-02-16T09:01:34.310016",
+      "text": "Bought $600 worth of ETH (showing RSI recovery and relative strength)"
+    },
+    {
+      "time": "2026-02-16T09:01:34.310012",
+      "text": "Sold 0.09 BTC (~$6,190) to reduce exposure to bearish BTC momentum"
+    },
     {
       "time": "2026-02-16T07:26:35.790923",
       "text": "Increased SOL position from 200.67 to 476.56 coins (SOL recommended to hold)"
@@ -3883,18 +3899,6 @@
     {
       "time": "2026-02-11T19:16:22.852757",
       "text": "Sold 0.1 BTC at $67,623.7 for $6,762.37 USDT"
-    },
-    {
-      "time": "2026-02-11T17:18:08.372156",
-      "text": "Placed Short SOL-USDT: 2.5 SOL at $80, TP $74, SL $82"
-    },
-    {
-      "time": "2026-02-11T17:18:08.372154",
-      "text": "Placed Short ETH-USDT: 0.2 ETH at $1,940,TP $1,850, SL $1,975"
-    },
-    {
-      "time": "2026-02-11T17:18:08.372151",
-      "text": "Placed Short BTC-USDT: 0.025 BTC at $69,200, TP $65,500, SL $70,500"
     }
   ]
 }
