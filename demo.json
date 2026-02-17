@@ -3519,15 +3519,40 @@
     {
       "time": "2026-02-17T07:16:24.591118",
       "balance": 81106.0
+    },
+    {
+      "time": "2026-02-17T09:04:21.288854",
+      "balance": 81118.8
+    },
+    {
+      "time": "2026-02-17T09:05:13.974271",
+      "balance": 81118.8
     }
   ],
   "assets": {
-    "USDT": 11907.6,
-    "BTC": 9991.9,
-    "ETH": 22850.7,
-    "SOL": 36355.8
+    "BTC": 9982.0,
+    "ETH": 22880.0,
+    "SOL": 29129.0,
+    "USDT": 19137.9,
+    "PENDING_ETH": 9885.0
   },
   "trades": [
+    {
+      "time": "2026-02-17T09:05:13.974294",
+      "text": "Placed limit order to buy 5 ETH at $1,977"
+    },
+    {
+      "time": "2026-02-17T09:05:13.974292",
+      "text": "Sold 84 SOL at $86.09 for $7,231.56 USDT"
+    },
+    {
+      "time": "2026-02-17T09:04:21.288883",
+      "text": "Placed limit buy order for 5 ETH at $1,977"
+    },
+    {
+      "time": "2026-02-17T09:04:21.288880",
+      "text": "Sold 84 SOL at $86.09 for $7,231.56 USDT"
+    },
     {
       "time": "2026-02-17T07:16:24.591143",
       "text": "Placed limit buy order for 4.635 ETH at $1,950"
@@ -3911,22 +3936,6 @@
     {
       "time": "2026-02-12T13:32:38.135012",
       "text": "Bought 0.000503 ETH for $1.00 at avg price $1986.31"
-    },
-    {
-      "time": "2026-02-12T13:32:38.135009",
-      "text": "Bought 0.001006 ETH for $2.00 at avg price $1987.9"
-    },
-    {
-      "time": "2026-02-12T10:57:21.065020",
-      "text": "Sell 50 SOL at $82.02 (total: $4101.18)"
-    },
-    {
-      "time": "2026-02-12T10:57:21.065017",
-      "text": "Buy 0.217687 ETH at $1993 (total: $433.85)"
-    },
-    {
-      "time": "2026-02-12T07:14:30.339892",
-      "text": "Placed limit buy order for 1.5 ETH at $1,950"
     }
   ]
 }
