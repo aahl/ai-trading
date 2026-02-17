@@ -3531,15 +3531,39 @@
     {
       "time": "2026-02-17T10:56:50.230348",
       "balance": 80471.1
+    },
+    {
+      "time": "2026-02-17T13:26:43.151230",
+      "balance": 80631.4
     }
   ],
   "assets": {
-    "BTC": 3141.1,
-    "ETH": 32552.9,
-    "SOL": 29757.7,
-    "USDT": 15019.4
+    "BTC": 3152.5,
+    "ETH": 32760.9,
+    "SOL": 29697.9,
+    "USDT": 15020.2
   },
   "trades": [
+    {
+      "time": "2026-02-17T13:26:43.151266",
+      "text": "Placed limit order for 1 ETH at $1960"
+    },
+    {
+      "time": "2026-02-17T13:26:43.151265",
+      "text": "Placed limit order for 0.05 BTC at $67000"
+    },
+    {
+      "time": "2026-02-17T13:26:43.151263",
+      "text": "Bought 1 ETH at $1960 (limit order)"
+    },
+    {
+      "time": "2026-02-17T13:26:43.151262",
+      "text": "Sold 5 SOL for 0.0984 ETH (avg price 0.044224)"
+    },
+    {
+      "time": "2026-02-17T13:26:43.151258",
+      "text": "Bought 0.011742 SOL at $85.16"
+    },
     {
       "time": "2026-02-17T10:56:50.230385",
       "text": "Bought 11.761938 SOL at $85.02, Total: $1000 USDT"
@@ -3919,26 +3943,6 @@
     {
       "time": "2026-02-12T20:50:17.458146",
       "text": "Bought 0.119 BTC with 7800 USDT at ~65375 USDT/BTC"
-    },
-    {
-      "time": "2026-02-12T19:15:57.238195",
-      "text": "BUY 10 SOL at $77.00 limit order placed (Order ID: 3302472267410702336)"
-    },
-    {
-      "time": "2026-02-12T17:08:58.761683",
-      "text": "Bought 500 USDT worth of SOL"
-    },
-    {
-      "time": "2026-02-12T17:08:58.761679",
-      "text": "Sold 2 ETH for BTC at market price"
-    },
-    {
-      "time": "2026-02-12T14:59:15.693582",
-      "text": "Market buy 15 SOL at ~$81.42 average"
-    },
-    {
-      "time": "2026-02-12T14:59:15.693556",
-      "text": "Market buy 2 ETH at ~$1,985 average"
     }
   ]
 }
