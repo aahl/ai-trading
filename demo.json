@@ -3639,15 +3639,27 @@
     {
       "time": "2026-02-20T16:54:39.245503",
       "balance": 79603.0
+    },
+    {
+      "time": "2026-02-20T19:02:22.819988",
+      "balance": 79988.5
     }
   ],
   "assets": {
-    "BTC": 24386.2,
-    "ETH": 34649.1,
-    "SOL": 14211.6,
-    "USDT": 6356.1
+    "BTC": 0.4,
+    "ETH": 18.3,
+    "SOL": 168.5,
+    "USDT": 5086.4
   },
   "trades": [
+    {
+      "time": "2026-02-20T19:02:22.820013",
+      "text": "Buy 0.642821 ETH for 1271 USDT at 1977.22"
+    },
+    {
+      "time": "2026-02-20T19:02:22.820010",
+      "text": "Buy 0.01869936 BTC for 1271 USDT at 67970.23"
+    },
     {
       "time": "2026-02-20T16:54:39.245536",
       "text": "Sell 72 SOL at $84.26 (received $6,066.72 USDT)"
@@ -4039,14 +4051,6 @@
     {
       "time": "2026-02-15T14:46:51.639377",
       "text": "Buy 100 SOL at $87.54 (Market order)"
-    },
-    {
-      "time": "2026-02-15T14:41:41.676693",
-      "text": "Attempted to buy SOL with 10,000 USDT but hit price limit"
-    },
-    {
-      "time": "2026-02-15T13:14:25.837104",
-      "text": "Bought 30.131698 SOL at average price $88.08 spending 2,654 USDT"
     }
   ]
 }
