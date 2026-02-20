@@ -3647,15 +3647,47 @@
     {
       "time": "2026-02-20T20:43:20.918088",
       "balance": 79652.5
+    },
+    {
+      "time": "2026-02-20T22:37:23.355938",
+      "balance": 79812.9
+    },
+    {
+      "time": "2026-02-20T22:37:46.082275",
+      "balance": 79812.9
     }
   ],
   "assets": {
-    "BTC": 25639.5,
-    "ETH": 36924.0,
-    "SOL": 14294.4,
-    "USDT": 2794.7
+    "BTC": 25756.7,
+    "ETH": 36997.8,
+    "SOL": 14264.0,
+    "USDT": 2794.4
   },
   "trades": [
+    {
+      "time": "2026-02-20T22:37:46.082300",
+      "text": "Placed limit buy order for 10 SOL at 84 USDT"
+    },
+    {
+      "time": "2026-02-20T22:37:46.082299",
+      "text": "Placed limit buy order for 0.1 ETH at 1950 USDT"
+    },
+    {
+      "time": "2026-02-20T22:37:46.082297",
+      "text": "Placed limit buy order for 0.01 BTC at 67000 USDT"
+    },
+    {
+      "time": "2026-02-20T22:37:23.355964",
+      "text": "Placed limit buy order for 10 SOL at 84 USDT"
+    },
+    {
+      "time": "2026-02-20T22:37:23.355962",
+      "text": "Placed limit buy order for 0.1 ETH at 1950 USDT"
+    },
+    {
+      "time": "2026-02-20T22:37:23.355959",
+      "text": "Placed limit buy order for 0.01 BTC at 67000 USDT"
+    },
     {
       "time": "2026-02-20T20:43:20.918123",
       "text": "Buy 0.508 ETH for $1000 USDT at $1968.13"
@@ -4031,30 +4063,6 @@
     {
       "time": "2026-02-16T02:51:04.603280",
       "text": "Sold 50 SOL for 50.05 USDT at price 85.68"
-    },
-    {
-      "time": "2026-02-16T02:51:04.603277",
-      "text": "Converted 2 ETH to 0.05716 BTC at rate 0.02858"
-    },
-    {
-      "time": "2026-02-15T22:37:33.712843",
-      "text": "Active orders: SOL-USDT buy at $85 (9.23 SOL), ETH-BTC sell at 0.065 (0.5 ETH), SOL-USDT buy at $77 (15 SOL)"
-    },
-    {
-      "time": "2026-02-15T22:37:33.712840",
-      "text": "Placed limit buy order for 9.23 SOL at $85.00 (Order ID: 3311574643644047360)"
-    },
-    {
-      "time": "2026-02-15T18:52:39.934375",
-      "text": "Sold 15 SOL for ETH"
-    },
-    {
-      "time": "2026-02-15T18:52:39.934372",
-      "text": "Purchased 1.5 ETH using BTC"
-    },
-    {
-      "time": "2026-02-15T16:42:27.378050",
-      "text": "Buy 1.406563 ETH at $2005.74 average price, spent $2821.03 USDT"
     }
   ]
 }
