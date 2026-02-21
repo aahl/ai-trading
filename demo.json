@@ -3687,15 +3687,31 @@
     {
       "time": "2026-02-21T16:42:12.629686",
       "balance": 80314.1
+    },
+    {
+      "time": "2026-02-21T18:49:30.189889",
+      "balance": 80599.5
     }
   ],
   "assets": {
-    "BTC": 36379.5,
-    "ETH": 33637.8,
-    "SOL": 6965.1,
-    "USDT": 3331.7
+    "BTC": 36513.3,
+    "ETH": 33744.3,
+    "SOL": 6986.6,
+    "USDT": 3331.6
   },
   "trades": [
+    {
+      "time": "2026-02-21T18:49:30.189923",
+      "text": "Bought 7 SOL at market price"
+    },
+    {
+      "time": "2026-02-21T18:49:30.189921",
+      "text": "Bought 1 ETH at market price"
+    },
+    {
+      "time": "2026-02-21T18:49:30.189918",
+      "text": "Bought 0.01 BTC at market price"
+    },
     {
       "time": "2026-02-21T16:42:12.629718",
       "text": "Buy 0.94 ETH at 1988.45 USDT, spent 1869.14 USDT"
@@ -4083,18 +4099,6 @@
     {
       "time": "2026-02-16T16:59:37.052935",
       "text": "Holding 515.1468 SOL valued at $43,239.37"
-    },
-    {
-      "time": "2026-02-16T16:59:37.052933",
-      "text": "Sold 6.252424 ETH at avg price $1,972.16 for $12,332.56 (Fee: -$12.33)"
-    },
-    {
-      "time": "2026-02-16T16:59:37.052930",
-      "text": "Sold 0.13087686 BTC at avg price $67,874.70 for $8,887.05 (Fee: -$8.88)"
-    },
-    {
-      "time": "2026-02-16T14:55:31.069545",
-      "text": "Bought 2.027 ETH at 1973.33 USDT per ETH, spent 4000 USDT"
     }
   ]
 }
