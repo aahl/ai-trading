@@ -3671,15 +3671,39 @@
     {
       "time": "2026-02-21T10:36:46.986972",
       "balance": 79994.8
+    },
+    {
+      "time": "2026-02-21T13:07:14.984358",
+      "balance": 80014.7
+    },
+    {
+      "time": "2026-02-21T13:07:38.998403",
+      "balance": 80014.7
     }
   ],
   "assets": {
-    "BTC": 33927.0,
-    "ETH": 37051.1,
-    "SOL": 8150.9,
-    "USDT": 865.8
+    "BTC": 34113.7,
+    "ETH": 27618.1,
+    "SOL": 5191.2,
+    "USDT": 13091.7
   },
   "trades": [
+    {
+      "time": "2026-02-21T13:07:38.998434",
+      "text": "Sold 30 SOL at avg price $85.35, received 2560.50 USDT"
+    },
+    {
+      "time": "2026-02-21T13:07:38.998432",
+      "text": "Sold 5 ETH at avg price $1975.19, received 9875.94 USDT"
+    },
+    {
+      "time": "2026-02-21T13:07:14.984393",
+      "text": "Sold 30 SOL at avg price $85.35, received 2560.50 USDT"
+    },
+    {
+      "time": "2026-02-21T13:07:14.984390",
+      "text": "Sold 5 ETH at avg price $1975.19, received 9875.94 USDT"
+    },
     {
       "time": "2026-02-21T10:36:46.987009",
       "text": "Sold 5 SOL for ETH"
@@ -4063,22 +4087,6 @@
     {
       "time": "2026-02-16T09:01:34.310012",
       "text": "Sold 0.09 BTC (~$6,190) to reduce exposure to bearish BTC momentum"
-    },
-    {
-      "time": "2026-02-16T07:26:35.790923",
-      "text": "Increased SOL position from 200.67 to 476.56 coins (SOL recommended to hold)"
-    },
-    {
-      "time": "2026-02-16T07:26:35.790922",
-      "text": "Converted 5 ETH to ~115 SOL (ETH bearish per analysis)"
-    },
-    {
-      "time": "2026-02-16T07:26:35.790920",
-      "text": "Converted 0.2 BTC to ~161 SOL (BTC bearish per analysis)"
-    },
-    {
-      "time": "2026-02-16T07:25:30.628395",
-      "text": "Total SOL purchased: 276 SOL"
     }
   ]
 }
