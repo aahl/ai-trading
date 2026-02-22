@@ -3707,15 +3707,27 @@
     {
       "time": "2026-02-22T05:21:27.567896",
       "balance": 79689.1
+    },
+    {
+      "time": "2026-02-22T07:02:10.273198",
+      "balance": 79818.9
     }
   ],
   "assets": {
-    "BTC": 36024.5,
-    "ETH": 36204.9,
-    "SOL": 7458.1,
-    "USDT": 1.6
+    "BTC": 35093.5,
+    "ETH": 32462.0,
+    "SOL": 12263.4,
+    "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-02-22T07:02:10.273224",
+      "text": "Bought 0.5 ETH using BTC (ETH-BTC pair)"
+    },
+    {
+      "time": "2026-02-22T07:02:10.273221",
+      "text": "Bought 10 SOL using ETH (SOL-ETH pair)"
+    },
     {
       "time": "2026-02-22T05:21:27.567935",
       "text": "📊 Reason: Bearish signals - MACD negative, price below Bollinger middle band, continuous ETF outflows"
@@ -4107,14 +4119,6 @@
     {
       "time": "2026-02-17T07:16:24.591143",
       "text": "Placed limit buy order for 4.635 ETH at $1,950"
-    },
-    {
-      "time": "2026-02-17T07:16:24.591140",
-      "text": "Sold 105 SOL at $86.10 to lock in profits"
-    },
-    {
-      "time": "2026-02-16T22:42:22.897485",
-      "text": "Buy 23.2369 SOL, spent 2000 USDT at 86.07 USDT/SOL"
     }
   ]
 }
