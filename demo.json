@@ -3699,15 +3699,39 @@
     {
       "time": "2026-02-21T22:34:48.453577",
       "balance": 79965.5
+    },
+    {
+      "time": "2026-02-22T05:21:07.015772",
+      "balance": 79689.1
+    },
+    {
+      "time": "2026-02-22T05:21:27.567896",
+      "balance": 79689.1
     }
   ],
   "assets": {
-    "BTC": 36188.3,
-    "ETH": 36263.5,
-    "SOL": 7512.1,
+    "BTC": 36024.5,
+    "ETH": 36204.9,
+    "SOL": 7458.1,
     "USDT": 1.6
   },
   "trades": [
+    {
+      "time": "2026-02-22T05:21:27.567935",
+      "text": "📊 Reason: Bearish signals - MACD negative, price below Bollinger middle band, continuous ETF outflows"
+    },
+    {
+      "time": "2026-02-22T05:21:27.567934",
+      "text": "💰 Total received: 3946.06 USDT (after 3.95 USDT fee)"
+    },
+    {
+      "time": "2026-02-22T05:21:27.567932",
+      "text": "📉 ETH SELL: Sold 2 ETH at 1973.03 USDT (market price)"
+    },
+    {
+      "time": "2026-02-22T05:21:07.015808",
+      "text": "Sold 2 ETH at market price 1973.03 USDT, received 3946.06 USDT (fee: 3.95 USDT)"
+    },
     {
       "time": "2026-02-21T22:34:48.453620",
       "text": "Bought 0.344 ETH at $1,975.43 using $680 USDT"
@@ -4091,22 +4115,6 @@
     {
       "time": "2026-02-16T22:42:22.897485",
       "text": "Buy 23.2369 SOL, spent 2000 USDT at 86.07 USDT/SOL"
-    },
-    {
-      "time": "2026-02-16T22:42:22.897483",
-      "text": "Buy 1.003905 ETH, spent 2000 USDT at 1992.22 USDT/ETH"
-    },
-    {
-      "time": "2026-02-16T22:41:57.603190",
-      "text": "Buy 23.2369 SOL for 2000 USDT at avg price 86.07"
-    },
-    {
-      "time": "2026-02-16T22:41:57.603186",
-      "text": "Buy 1.003905 ETH for 2000 USDT at avg price 1992.22"
-    },
-    {
-      "time": "2026-02-16T20:44:08.322781",
-      "text": "Bought 0.146 BTC at ~$68,268, spent $9,991"
     }
   ]
 }
