@@ -3711,15 +3711,47 @@
     {
       "time": "2026-02-22T07:02:10.273198",
       "balance": 79818.9
+    },
+    {
+      "time": "2026-02-22T08:45:20.768757",
+      "balance": 79691.7
+    },
+    {
+      "time": "2026-02-22T08:45:40.872740",
+      "balance": 79691.7
     }
   ],
   "assets": {
-    "BTC": 35093.5,
-    "ETH": 32462.0,
-    "SOL": 12263.4,
-    "USDT": 0.0
+    "BTC": 34382.8,
+    "ETH": 28463.6,
+    "SOL": 12233.5,
+    "USDT": 4611.8
   },
   "trades": [
+    {
+      "time": "2026-02-22T08:45:40.872763",
+      "text": "Bought 0.088235 SOL at $85.00 (market order)"
+    },
+    {
+      "time": "2026-02-22T08:45:40.872762",
+      "text": "Sold 0.01 BTC at $67,963.04 (market order)"
+    },
+    {
+      "time": "2026-02-22T08:45:40.872759",
+      "text": "Sold 2 ETH at $1,972.74 (market order)"
+    },
+    {
+      "time": "2026-02-22T08:45:20.768785",
+      "text": "Bought 0.088235 SOL at $85.00 (market order)"
+    },
+    {
+      "time": "2026-02-22T08:45:20.768783",
+      "text": "Sold 0.01 BTC at $67,963.04 (market order)"
+    },
+    {
+      "time": "2026-02-22T08:45:20.768779",
+      "text": "Sold 2 ETH at $1,972.74 (market order)"
+    },
     {
       "time": "2026-02-22T07:02:10.273224",
       "text": "Bought 0.5 ETH using BTC (ETH-BTC pair)"
@@ -4095,30 +4127,6 @@
     {
       "time": "2026-02-17T10:56:50.230385",
       "text": "Bought 11.761938 SOL at $85.02, Total: $1000 USDT"
-    },
-    {
-      "time": "2026-02-17T10:56:50.230381",
-      "text": "Sold 0.1 BTC at $67824.865849, Total: $6782.49 USDT"
-    },
-    {
-      "time": "2026-02-17T09:05:13.974294",
-      "text": "Placed limit order to buy 5 ETH at $1,977"
-    },
-    {
-      "time": "2026-02-17T09:05:13.974292",
-      "text": "Sold 84 SOL at $86.09 for $7,231.56 USDT"
-    },
-    {
-      "time": "2026-02-17T09:04:21.288883",
-      "text": "Placed limit buy order for 5 ETH at $1,977"
-    },
-    {
-      "time": "2026-02-17T09:04:21.288880",
-      "text": "Sold 84 SOL at $86.09 for $7,231.56 USDT"
-    },
-    {
-      "time": "2026-02-17T07:16:24.591143",
-      "text": "Placed limit buy order for 4.635 ETH at $1,950"
     }
   ]
 }
