@@ -3731,6 +3731,10 @@
     {
       "time": "2026-02-22T13:08:44.135119",
       "balance": 79517.9
+    },
+    {
+      "time": "2026-02-22T14:39:40.732944",
+      "balance": 79070.8
     }
   ],
   "assets": {
@@ -3740,6 +3744,18 @@
     "USDT": 2075.3
   },
   "trades": [
+    {
+      "time": "2026-02-22T14:39:40.732971",
+      "text": "Sold 157.926924 SOL at avg price $83.97 for total $13,261.17 USDT (fee: -$13.26)"
+    },
+    {
+      "time": "2026-02-22T14:39:40.732969",
+      "text": "Sold 15.179554 ETH at avg price $1,952.06 for total $29,631.32 USDT (fee: -$29.63)"
+    },
+    {
+      "time": "2026-02-22T14:39:40.732966",
+      "text": "Sold 0.50701115 BTC at avg price $67,545.45 for total $34,246.29 USDT (fee: -$34.25)"
+    },
     {
       "time": "2026-02-22T13:08:44.135159",
       "text": "Buy 0.5 SOL at $84.43, spent $42.22 USDT"
@@ -4127,18 +4143,6 @@
     {
       "time": "2026-02-17T19:11:39.811169",
       "text": "Bought 50 SOL at market price"
-    },
-    {
-      "time": "2026-02-17T17:08:57.431330",
-      "text": "Bought 10 USDT worth of SOL"
-    },
-    {
-      "time": "2026-02-17T17:08:57.431327",
-      "text": "Sold 0.019 BTC for ~$1,274 USDT"
-    },
-    {
-      "time": "2026-02-17T15:02:10.152603",
-      "text": "Bought 0.24 ETH at $1,950 (total $468 USDT)"
     }
   ]
 }
