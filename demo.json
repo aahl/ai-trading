@@ -3779,15 +3779,67 @@
     {
       "time": "2026-02-23T14:58:36.359564",
       "balance": 78105.8
+    },
+    {
+      "time": "2026-02-23T17:15:50.376130",
+      "balance": 76677.6
+    },
+    {
+      "time": "2026-02-23T17:16:34.601911",
+      "balance": 76677.0
+    },
+    {
+      "time": "2026-02-23T17:19:01.612377",
+      "balance": 76672.0
     }
   ],
   "assets": {
-    "BTC": 17960.9,
-    "ETH": 40072.1,
-    "SOL": 20072.8,
-    "USDT": 0.1
+    "ETH": 45786.1,
+    "SOL": 19703.0,
+    "BTC": 11182.9,
+    "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-02-23T17:19:01.612413",
+      "text": "Buy 0.615 SOL for $49.54"
+    },
+    {
+      "time": "2026-02-23T17:19:01.612411",
+      "text": "Buy 0.0226 ETH for $43.35"
+    },
+    {
+      "time": "2026-02-23T17:19:01.612410",
+      "text": "Buy 0.000467 BTC for $30.9"
+    },
+    {
+      "time": "2026-02-23T17:19:01.612409",
+      "text": "Sell 0.1 BTC for $6,505.99"
+    },
+    {
+      "time": "2026-02-23T17:19:01.612407",
+      "text": "Buy 3.467 ETH for $6,499.55"
+    },
+    {
+      "time": "2026-02-23T17:16:34.601936",
+      "text": "Portfolio rebalanced: Increased ETH position, maintained SOL, reduced BTC"
+    },
+    {
+      "time": "2026-02-23T17:16:34.601935",
+      "text": "Bought 3.467 ETH at $1,874.65 for 6,499.55 USDT"
+    },
+    {
+      "time": "2026-02-23T17:16:34.601932",
+      "text": "Sold 0.1 BTC at $65,059.87 for 6,506 USDT"
+    },
+    {
+      "time": "2026-02-23T17:15:50.376166",
+      "text": "Bought 3.47 ETH for 6499.55 USDT (avg price: $1,874.65)"
+    },
+    {
+      "time": "2026-02-23T17:15:50.376163",
+      "text": "Sold 0.1 BTC for 6505.99 USDT (avg price: $65,059.87)"
+    },
     {
       "time": "2026-02-23T14:58:36.359586",
       "text": "Sold 50 SOL for ETH based on bearish SOL signals and ETH recovery signs"
@@ -4147,46 +4199,6 @@
     {
       "time": "2026-02-19T22:42:32.975169",
       "text": "Buy 1 SOL at market price"
-    },
-    {
-      "time": "2026-02-19T22:42:32.975167",
-      "text": "Buy 0.01 ETH at market price"
-    },
-    {
-      "time": "2026-02-19T22:42:32.975164",
-      "text": "Buy 0.001 BTC at market price"
-    },
-    {
-      "time": "2026-02-19T20:46:19.615913",
-      "text": "Buy 0.0075 BTC at $66,980, spent 502.35 USDT"
-    },
-    {
-      "time": "2026-02-19T20:45:36.362451",
-      "text": "USDT remaining: ~$97.69"
-    },
-    {
-      "time": "2026-02-19T20:45:36.362449",
-      "text": "BTC total holdings: 0.2165 BTC"
-    },
-    {
-      "time": "2026-02-19T20:45:36.362446",
-      "text": "Bought 0.0075 BTC at $66,980, spent $502.35 USDT"
-    },
-    {
-      "time": "2026-02-19T19:02:51.424405",
-      "text": "No new trades executed - bearish market conditions"
-    },
-    {
-      "time": "2026-02-19T19:02:51.424404",
-      "text": "Hold SOL position: 428.27 SOL at avg price $85.37"
-    },
-    {
-      "time": "2026-02-19T19:02:51.424402",
-      "text": "Hold ETH position: 11.41 ETH at avg price $1,969.70"
-    },
-    {
-      "time": "2026-02-19T19:02:51.424398",
-      "text": "Hold BTC position: 0.209 BTC at avg price $67,059.81"
     }
   ]
 }
