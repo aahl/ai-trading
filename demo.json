@@ -3763,15 +3763,23 @@
     {
       "time": "2026-02-23T07:18:08.846832",
       "balance": 77202.5
+    },
+    {
+      "time": "2026-02-23T09:02:02.874347",
+      "balance": 77103.1
     }
   ],
   "assets": {
-    "ETH": 33808.6,
-    "SOL": 18561.2,
-    "BTC": 14443.4,
-    "USDT": 10389.2
+    "BTC": 17714.3,
+    "ETH": 39438.0,
+    "SOL": 19279.6,
+    "USDT": 2550.6
   },
   "trades": [
+    {
+      "time": "2026-02-23T09:02:02.874385",
+      "text": "Buy 0.5 ETH at $1884.53, spent $942.265 USDT"
+    },
     {
       "time": "2026-02-23T07:18:08.846858",
       "text": "Buy 10 SOL at $79.15, spent $791.50 USDT"
@@ -4167,10 +4175,6 @@
     {
       "time": "2026-02-19T10:55:41.183318",
       "text": "Attempted to sell 100 SOL for ETH - order canceled due to price slippage >5%"
-    },
-    {
-      "time": "2026-02-19T08:57:52.195177",
-      "text": "Bought 111.0393 SOL with 5 ETH (avg price: 0.04504 ETH/SOL)"
     }
   ]
 }
