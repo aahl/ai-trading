@@ -3831,15 +3831,27 @@
     {
       "time": "2026-02-24T17:14:44.708339",
       "balance": 76564.2
+    },
+    {
+      "time": "2026-02-24T19:16:19.027874",
+      "balance": 76178.7
     }
   ],
   "assets": {
-    "BTC": 15267.6,
-    "ETH": 34812.4,
-    "SOL": 23483.8,
-    "USDT": 3000.4
+    "BTC": 15241.5,
+    "ETH": 34593.8,
+    "SOL": 23343.1,
+    "USDT": 3000.2
   },
   "trades": [
+    {
+      "time": "2026-02-24T19:16:19.027902",
+      "text": "Buy 10 SOL using ETH via SOL-ETH pair"
+    },
+    {
+      "time": "2026-02-24T19:16:19.027899",
+      "text": "Buy 0.5 ETH using BTC via ETH-BTC pair"
+    },
     {
       "time": "2026-02-24T17:14:44.708360",
       "text": "Buy 0.402374 ETH with 749 USDT at price 1861.45"
@@ -4231,14 +4243,6 @@
     {
       "time": "2026-02-20T22:37:23.355959",
       "text": "Placed limit buy order for 0.01 BTC at 67000 USDT"
-    },
-    {
-      "time": "2026-02-20T20:43:20.918123",
-      "text": "Buy 0.508 ETH for $1000 USDT at $1968.13"
-    },
-    {
-      "time": "2026-02-20T20:43:20.918120",
-      "text": "Buy 0.236 SOL for $20 USDT at $84.82"
     }
   ]
 }
