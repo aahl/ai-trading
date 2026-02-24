@@ -3835,15 +3835,31 @@
     {
       "time": "2026-02-24T19:16:19.027874",
       "balance": 76178.7
+    },
+    {
+      "time": "2026-02-24T20:48:35.318741",
+      "balance": 76552.9
     }
   ],
   "assets": {
-    "BTC": 15241.5,
-    "ETH": 34593.8,
-    "SOL": 23343.1,
-    "USDT": 3000.2
+    "BTC": 14352.5,
+    "ETH": 25581.1,
+    "SOL": 28268.2,
+    "USDT": 8351.1
   },
   "trades": [
+    {
+      "time": "2026-02-24T20:48:35.318775",
+      "text": "Bought 50 SOL at $78.71"
+    },
+    {
+      "time": "2026-02-24T20:48:35.318773",
+      "text": "Sold 5 ETH at $1,859.41"
+    },
+    {
+      "time": "2026-02-24T20:48:35.318770",
+      "text": "Bought 0.00002688 BTC at $64,456"
+    },
     {
       "time": "2026-02-24T19:16:19.027902",
       "text": "Buy 10 SOL using ETH via SOL-ETH pair"
@@ -4230,18 +4246,6 @@
     },
     {
       "time": "2026-02-20T22:37:46.082297",
-      "text": "Placed limit buy order for 0.01 BTC at 67000 USDT"
-    },
-    {
-      "time": "2026-02-20T22:37:23.355964",
-      "text": "Placed limit buy order for 10 SOL at 84 USDT"
-    },
-    {
-      "time": "2026-02-20T22:37:23.355962",
-      "text": "Placed limit buy order for 0.1 ETH at 1950 USDT"
-    },
-    {
-      "time": "2026-02-20T22:37:23.355959",
       "text": "Placed limit buy order for 0.01 BTC at 67000 USDT"
     }
   ]
