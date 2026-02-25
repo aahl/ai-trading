@@ -3859,15 +3859,55 @@
     {
       "time": "2026-02-25T07:15:29.986681",
       "balance": 77944.2
+    },
+    {
+      "time": "2026-02-25T09:06:51.290326",
+      "balance": 78531.0
+    },
+    {
+      "time": "2026-02-25T09:07:30.336799",
+      "balance": 78531.4
     }
   ],
   "assets": {
-    "BTC": 13041.9,
-    "ETH": 15380.1,
-    "SOL": 37512.6,
-    "USDT": 12009.6
+    "BTC": 13143.7,
+    "ETH": 15562.6,
+    "SOL": 37815.7,
+    "USDT": 12009.5
   },
   "trades": [
+    {
+      "time": "2026-02-25T09:07:30.336825",
+      "text": "Placed ETH buy order: 0.5 ETH at $1,900"
+    },
+    {
+      "time": "2026-02-25T09:07:30.336824",
+      "text": "Placed BTC buy order: 0.05 BTC at $64,500"
+    },
+    {
+      "time": "2026-02-25T09:07:30.336823",
+      "text": "Placed sell order for 90 SOL at $82.2"
+    },
+    {
+      "time": "2026-02-25T09:07:30.336821",
+      "text": "Cancelled ETH buy order at $1,800"
+    },
+    {
+      "time": "2026-02-25T09:06:51.290354",
+      "text": "Placed ETH buy order: 0.5 ETH at $1,900"
+    },
+    {
+      "time": "2026-02-25T09:06:51.290353",
+      "text": "Placed BTC buy order: 0.05 BTC at $64,500"
+    },
+    {
+      "time": "2026-02-25T09:06:51.290351",
+      "text": "Placed SOL sell order: 90 SOL at $82.2 for profit taking"
+    },
+    {
+      "time": "2026-02-25T09:06:51.290347",
+      "text": "Cancelled ETH buy order at $1,800 (too far from market)"
+    },
     {
       "time": "2026-02-25T07:15:29.986709",
       "text": "Exchanged 5 ETH for 111.01 SOL at 0.04504 ETH/SOL"
@@ -4235,38 +4275,6 @@
     {
       "time": "2026-02-21T18:49:30.189921",
       "text": "Bought 1 ETH at market price"
-    },
-    {
-      "time": "2026-02-21T18:49:30.189918",
-      "text": "Bought 0.01 BTC at market price"
-    },
-    {
-      "time": "2026-02-21T16:42:12.629718",
-      "text": "Buy 0.94 ETH at 1988.45 USDT, spent 1869.14 USDT"
-    },
-    {
-      "time": "2026-02-21T16:42:12.629714",
-      "text": "Buy 0.032 BTC at 68330 USDT, spent 2186.56 USDT"
-    },
-    {
-      "time": "2026-02-21T14:37:35.792017",
-      "text": "Buy 20 SOL at $86.39, spent $1727.8 USDT"
-    },
-    {
-      "time": "2026-02-21T14:37:35.792014",
-      "text": "Buy 2 ETH at $1989.5, spent $3979 USDT"
-    },
-    {
-      "time": "2026-02-21T13:07:38.998434",
-      "text": "Sold 30 SOL at avg price $85.35, received 2560.50 USDT"
-    },
-    {
-      "time": "2026-02-21T13:07:38.998432",
-      "text": "Sold 5 ETH at avg price $1975.19, received 9875.94 USDT"
-    },
-    {
-      "time": "2026-02-21T13:07:14.984393",
-      "text": "Sold 30 SOL at avg price $85.35, received 2560.50 USDT"
     }
   ]
 }
