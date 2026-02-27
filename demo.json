@@ -3875,15 +3875,31 @@
     {
       "time": "2026-02-27T10:55:20.892805",
       "balance": 80159.5
+    },
+    {
+      "time": "2026-02-27T13:23:22.510242",
+      "balance": 79335.0
     }
   ],
   "assets": {
-    "USDT": 25206.8,
-    "SOL": 24258.9,
-    "ETH": 16661.0,
-    "BTC": 14032.7
+    "USDT": 31534.4,
+    "BTC": 18659.1,
+    "ETH": 10122.5,
+    "SOL": 19018.9
   },
   "trades": [
+    {
+      "time": "2026-02-27T13:23:22.510276",
+      "text": "Sell 57.3 SOL on SOL-USDT (market, cash), filled at 83.01 USDT, fee 4.756473 USDT"
+    },
+    {
+      "time": "2026-02-27T13:23:22.510274",
+      "text": "Sell 3.24 ETH on ETH-USDT (market, cash), filled at 1959.76 USDT, fee 6.3496224 USDT"
+    },
+    {
+      "time": "2026-02-27T13:23:22.510271",
+      "text": "Buy 0.07016353 BTC on BTC-USDT (market, cash), spent about 4767.50 USDT, fee 0.00007217854 BTC"
+    },
     {
       "time": "2026-02-27T10:55:20.892840",
       "text": "Sell 31.8538 SOL at market on SOL-USDT, avg price 84.69917854164966 USDT, fee 2.69799069343 USDT"
@@ -4271,18 +4287,6 @@
     {
       "time": "2026-02-22T05:21:27.567935",
       "text": "📊 Reason: Bearish signals - MACD negative, price below Bollinger middle band, continuous ETF outflows"
-    },
-    {
-      "time": "2026-02-22T05:21:27.567934",
-      "text": "💰 Total received: 3946.06 USDT (after 3.95 USDT fee)"
-    },
-    {
-      "time": "2026-02-22T05:21:27.567932",
-      "text": "📉 ETH SELL: Sold 2 ETH at 1973.03 USDT (market price)"
-    },
-    {
-      "time": "2026-02-22T05:21:07.015808",
-      "text": "Sold 2 ETH at market price 1973.03 USDT, received 3946.06 USDT (fee: 3.95 USDT)"
     }
   ]
 }
