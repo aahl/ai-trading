@@ -3887,15 +3887,23 @@
     {
       "time": "2026-02-27T16:59:37.498902",
       "balance": 78674.6
+    },
+    {
+      "time": "2026-02-27T19:05:31.190586",
+      "balance": 78579.8
     }
   ],
   "assets": {
-    "USDT": 15012.9,
-    "BTC": 27504.5,
-    "ETH": 15964.9,
-    "SOL": 20192.3
+    "BTC": 27451.1,
+    "ETH": 15900.3,
+    "SOL": 18588.6,
+    "USDT": 16639.8
   },
   "trades": [
+    {
+      "time": "2026-02-27T19:05:31.190615",
+      "text": "Sell 20 SOL at 81.47 USDT on SOL-USDT spot, gross 1629.40 USDT, fee 1.6294 USDT, net 1627.7706 USDT."
+    },
     {
       "time": "2026-02-27T16:59:37.498938",
       "text": "Buy SOL-USDT market with 3000 USDT, filled 36.836935 SOL @ 81.44"
@@ -4291,10 +4299,6 @@
     {
       "time": "2026-02-22T08:45:20.768785",
       "text": "Bought 0.088235 SOL at $85.00 (market order)"
-    },
-    {
-      "time": "2026-02-22T08:45:20.768783",
-      "text": "Sold 0.01 BTC at $67,963.04 (market order)"
     }
   ]
 }
