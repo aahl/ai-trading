@@ -3871,15 +3871,27 @@
     {
       "time": "2026-02-27T09:01:08.201163",
       "balance": 81883.5
+    },
+    {
+      "time": "2026-02-27T10:55:20.892805",
+      "balance": 80159.5
     }
   ],
   "assets": {
-    "USDT": 21126.7,
-    "BTC": 14253.7,
-    "ETH": 18601.1,
-    "SOL": 27902.0
+    "USDT": 25206.8,
+    "SOL": 24258.9,
+    "ETH": 16661.0,
+    "BTC": 14032.7
   },
   "trades": [
+    {
+      "time": "2026-02-27T10:55:20.892840",
+      "text": "Sell 31.8538 SOL at market on SOL-USDT, avg price 84.69917854164966 USDT, fee 2.69799069343 USDT"
+    },
+    {
+      "time": "2026-02-27T10:55:20.892837",
+      "text": "Sell 0.731598 ETH at market on ETH-USDT, avg price 1982.68 USDT, fee 1.45052472264 USDT"
+    },
     {
       "time": "2026-02-27T09:01:08.201195",
       "text": "Buy 0.01 BTC-USDT limit @ 67910; partially filled 0.00905579 BTC"
@@ -4271,14 +4283,6 @@
     {
       "time": "2026-02-22T05:21:07.015808",
       "text": "Sold 2 ETH at market price 1973.03 USDT, received 3946.06 USDT (fee: 3.95 USDT)"
-    },
-    {
-      "time": "2026-02-21T22:34:48.453620",
-      "text": "Bought 0.344 ETH at $1,975.43 using $680 USDT"
-    },
-    {
-      "time": "2026-02-21T22:34:48.453618",
-      "text": "Bought 0.1 ETH-BTC at 0.02898 BTC/ETH rate"
     }
   ]
 }
