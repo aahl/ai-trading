@@ -3947,15 +3947,23 @@
     {
       "time": "2026-03-01T07:02:50.698832",
       "balance": 79761.1
+    },
+    {
+      "time": "2026-03-01T08:43:40.658973",
+      "balance": 79895.5
     }
   ],
   "assets": {
-    "BTC": 33960.9,
-    "ETH": 10378.5,
-    "SOL": 11420.0,
-    "USDT": 24001.7
+    "BTC": 34097.0,
+    "ETH": 11607.7,
+    "SOL": 11388.0,
+    "USDT": 22802.9
   },
   "trades": [
+    {
+      "time": "2026-03-01T08:43:40.659003",
+      "text": "Buy 0.599041 ETH, spent 1200 USDT on ETH-USDT market order at avg price 2003.1999799679822."
+    },
     {
       "time": "2026-03-01T07:02:50.698866",
       "text": "Buy 0.008 BTC at 66917.1 USDT, spent about 535.34 USDT"
@@ -4351,10 +4359,6 @@
     {
       "time": "2026-02-23T11:04:10.323148",
       "text": "Placed limit buy order: 0.5 ETH at $1,910"
-    },
-    {
-      "time": "2026-02-23T09:02:02.874385",
-      "text": "Buy 0.5 ETH at $1884.53, spent $942.265 USDT"
     }
   ]
 }
