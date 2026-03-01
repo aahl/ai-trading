@@ -3971,15 +3971,31 @@
     {
       "time": "2026-03-01T18:48:01.888879",
       "balance": 79097.0
+    },
+    {
+      "time": "2026-03-01T20:41:48.571846",
+      "balance": 77694.9
     }
   ],
   "assets": {
-    "BTC": 34727.1,
-    "ETH": 13071.6,
-    "SOL": 8320.2,
-    "USDT": 22978.1
+    "BTC": 34057.2,
+    "ETH": 12590.6,
+    "SOL": 8068.1,
+    "USDT": 22979.0
   },
   "trades": [
+    {
+      "time": "2026-03-01T20:41:48.571881",
+      "text": "Placed SELL LIMIT 0.025 BTC @ 66850 USDT (live, unfilled)"
+    },
+    {
+      "time": "2026-03-01T20:41:48.571879",
+      "text": "Placed BUY LIMIT 12 SOL @ 79.0 USDT (live, unfilled)"
+    },
+    {
+      "time": "2026-03-01T20:41:48.571876",
+      "text": "Placed BUY LIMIT 1.2 ETH @ 1895 USDT (live, unfilled)"
+    },
     {
       "time": "2026-03-01T18:48:01.888920",
       "text": "Buy ETH-USDT with 800 USDT, filled 0.403457 ETH at avg 1982.8587, fee 0.000403457 ETH"
@@ -4367,18 +4383,6 @@
     {
       "time": "2026-02-23T17:19:01.612407",
       "text": "Buy 3.467 ETH for $6,499.55"
-    },
-    {
-      "time": "2026-02-23T17:16:34.601936",
-      "text": "Portfolio rebalanced: Increased ETH position, maintained SOL, reduced BTC"
-    },
-    {
-      "time": "2026-02-23T17:16:34.601935",
-      "text": "Bought 3.467 ETH at $1,874.65 for 6,499.55 USDT"
-    },
-    {
-      "time": "2026-02-23T17:16:34.601932",
-      "text": "Sold 0.1 BTC at $65,059.87 for 6,506 USDT"
     }
   ]
 }
