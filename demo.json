@@ -3987,15 +3987,31 @@
     {
       "time": "2026-03-02T05:23:17.516980",
       "balance": 79125.7
+    },
+    {
+      "time": "2026-03-02T07:13:51.926965",
+      "balance": 78249.0
     }
   ],
   "assets": {
-    "BTC": 32236.2,
-    "ETH": 11619.3,
-    "SOL": 7051.6,
-    "USDT": 28218.7
+    "BTC": 35223.0,
+    "ETH": 10234.0,
+    "SOL": 3945.2,
+    "USDT": 28846.7
   },
   "trades": [
+    {
+      "time": "2026-03-02T07:13:51.927003",
+      "text": "Buy BTC-USDT at market with 1500 USDT, filled 0.02281448 BTC at 65747.7 USDT"
+    },
+    {
+      "time": "2026-03-02T07:13:51.927002",
+      "text": "Sell 1.4 ETH at market, avg filled at 1932.971767857142857 USDT"
+    },
+    {
+      "time": "2026-03-02T07:13:51.926998",
+      "text": "Sell 36 SOL at market, filled at 82.75 USDT"
+    },
     {
       "time": "2026-03-02T05:23:17.517017",
       "text": "Held SOL-USDT (no new order)"
@@ -4383,18 +4399,6 @@
     {
       "time": "2026-02-23T22:54:13.145066",
       "text": "Sell 4.75 ETH at 1863.99 USDT, received 8853.99 USDT"
-    },
-    {
-      "time": "2026-02-23T22:54:13.145063",
-      "text": "Sell 0.0373 BTC at 64791.32 USDT, received 2416.72 USDT"
-    },
-    {
-      "time": "2026-02-23T20:58:37.253175",
-      "text": "Sold 1 ETH for BTC (market order)"
-    },
-    {
-      "time": "2026-02-23T20:58:37.253172",
-      "text": "Sold 50 SOL for ETH (market order)"
     }
   ]
 }
