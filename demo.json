@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-08T09:32:50.686636",
-      "balance": 123745.3
-    },
-    {
       "time": "2025-11-08T10:17:32.488839",
       "balance": 123413.3
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-03-02T20:52:25.912080",
       "balance": 81487.7
+    },
+    {
+      "time": "2026-03-02T22:41:05.205562",
+      "balance": 81527.4
     }
   ],
   "assets": {
-    "BTC": 47720.3,
-    "ETH": 19447.1,
-    "SOL": 1782.0,
-    "USDT": 12538.4
+    "BTC": 43518.1,
+    "ETH": 15842.7,
+    "SOL": 1254.7,
+    "USDT": 20911.8
   },
   "trades": [
+    {
+      "time": "2026-03-02T22:41:05.205602",
+      "text": "Sell 6 SOL on SOL-USDT at avg 87.99, fee 0.52794 USDT"
+    },
+    {
+      "time": "2026-03-02T22:41:05.205600",
+      "text": "Sell 1.8 ETH on ETH-USDT at avg 2053.1002, fee 3.6956 USDT"
+    },
+    {
+      "time": "2026-03-02T22:41:05.205597",
+      "text": "Sell 0.06 BTC on BTC-USDT at avg 69310.2349, fee 4.1586 USDT"
+    },
     {
       "time": "2026-03-02T20:52:25.912138",
       "text": "No trade executed (HOLD decision)."
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-02-24T20:48:35.318773",
       "text": "Sold 5 ETH at $1,859.41"
-    },
-    {
-      "time": "2026-02-24T20:48:35.318770",
-      "text": "Bought 0.00002688 BTC at $64,456"
-    },
-    {
-      "time": "2026-02-24T19:16:19.027902",
-      "text": "Buy 10 SOL using ETH via SOL-ETH pair"
-    },
-    {
-      "time": "2026-02-24T19:16:19.027899",
-      "text": "Buy 0.5 ETH using BTC via ETH-BTC pair"
     }
   ]
 }
