@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-08T13:29:22.906179",
-      "balance": 123039.8
-    },
-    {
       "time": "2025-11-08T14:39:55.880587",
       "balance": 122557.0
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-03-03T07:07:03.240422",
       "balance": 80190.0
+    },
+    {
+      "time": "2026-03-03T09:01:45.998956",
+      "balance": 79083.9
     }
   ],
   "assets": {
-    "BTC": 46574.0,
-    "ETH": 19087.9,
-    "SOL": 2420.6,
-    "USDT": 12107.4
+    "USDT": 12107.7,
+    "BTC": 45907.7,
+    "ETH": 18685.9,
+    "SOL": 2382.7
   },
   "trades": [
+    {
+      "time": "2026-03-03T09:01:45.998992",
+      "text": "Placed limit buy 30 SOL at 82.2 USDT"
+    },
+    {
+      "time": "2026-03-03T09:01:45.998990",
+      "text": "Placed limit buy 0.025 BTC at 66400 USDT"
+    },
+    {
+      "time": "2026-03-03T09:01:45.998987",
+      "text": "Placed limit sell 1.5 ETH at 1988 USDT"
+    },
     {
       "time": "2026-03-03T07:07:03.240457",
       "text": "Buy 0.04408901 BTC at avg 68044.1599234140208638 USDT (market)"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-02-25T09:07:30.336821",
       "text": "Cancelled ETH buy order at $1,800"
-    },
-    {
-      "time": "2026-02-25T09:06:51.290354",
-      "text": "Placed ETH buy order: 0.5 ETH at $1,900"
-    },
-    {
-      "time": "2026-02-25T09:06:51.290353",
-      "text": "Placed BTC buy order: 0.05 BTC at $64,500"
-    },
-    {
-      "time": "2026-02-25T09:06:51.290351",
-      "text": "Placed SOL sell order: 90 SOL at $82.2 for profit taking"
     }
   ]
 }
