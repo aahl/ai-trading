@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-08T17:16:28.090795",
-      "balance": 122094.6
-    },
-    {
       "time": "2025-11-08T18:23:37.412756",
       "balance": 122599.0
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-03T13:22:19.762144",
       "balance": 79193.1
+    },
+    {
+      "time": "2026-03-03T14:59:50.353781",
+      "balance": 78686.3
     }
   ],
   "assets": {
-    "BTC": 43941.1,
-    "ETH": 14217.7,
-    "SOL": 2372.8,
-    "USDT": 18661.5
+    "BTC": 43572.8,
+    "ETH": 19596.4,
+    "SOL": 2350.8,
+    "USDT": 13166.3
   },
   "trades": [
+    {
+      "time": "2026-03-03T14:59:50.353833",
+      "text": "Buy 2.83 ETH on ETH-USDT at limit 1945, filled avg 1941.8705, fee 0.00283 ETH"
+    },
     {
       "time": "2026-03-03T13:22:19.762187",
       "text": "Sell 0.800 ETH on ETH-USDT at avg 1957.31 USDT"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-02-27T10:55:20.892837",
       "text": "Sell 0.731598 ETH at market on ETH-USDT, avg price 1982.68 USDT, fee 1.45052472264 USDT"
-    },
-    {
-      "time": "2026-02-27T09:01:08.201195",
-      "text": "Buy 0.01 BTC-USDT limit @ 67910; partially filled 0.00905579 BTC"
     }
   ]
 }
