@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-08T14:39:55.880587",
-      "balance": 122557.0
-    },
-    {
       "time": "2025-11-08T16:13:00.633566",
       "balance": 121938.0
     },
@@ -3999,15 +3995,39 @@
     {
       "time": "2026-03-03T09:01:45.998956",
       "balance": 79083.9
+    },
+    {
+      "time": "2026-03-03T10:56:25.805008",
+      "balance": 78879.1
     }
   ],
   "assets": {
-    "USDT": 12107.7,
-    "BTC": 45907.7,
-    "ETH": 18685.9,
-    "SOL": 2382.7
+    "BTC": 45684.4,
+    "ETH": 18720.5,
+    "SOL": 2367.0,
+    "USDT": 12107.2
   },
   "trades": [
+    {
+      "time": "2026-03-03T10:56:25.805050",
+      "text": "No new fills during this execution window"
+    },
+    {
+      "time": "2026-03-03T10:56:25.805049",
+      "text": "Placed SOL-USDT limit buy 15 @ 81.8 (ordId: 3356548161129156608)"
+    },
+    {
+      "time": "2026-03-03T10:56:25.805048",
+      "text": "Placed BTC-USDT limit buy 0.015 @ 66000 (ordId: 3356548155190022144)"
+    },
+    {
+      "time": "2026-03-03T10:56:25.805046",
+      "text": "Canceled SOL-USDT limit buy 30 @ 82.2 (ordId: 3356317174533197824)"
+    },
+    {
+      "time": "2026-03-03T10:56:25.805043",
+      "text": "Canceled BTC-USDT limit buy 0.025 @ 66400 (ordId: 3356317055347855360)"
+    },
     {
       "time": "2026-03-03T09:01:45.998992",
       "text": "Placed limit buy 30 SOL at 82.2 USDT"
@@ -4387,26 +4407,6 @@
     {
       "time": "2026-02-25T11:00:51.781722",
       "text": "Bought 2 ETH at $1,912.72 for $3,825.44"
-    },
-    {
-      "time": "2026-02-25T11:00:51.781718",
-      "text": "Sold 50 SOL at $82.53 for $4,126.50"
-    },
-    {
-      "time": "2026-02-25T09:07:30.336825",
-      "text": "Placed ETH buy order: 0.5 ETH at $1,900"
-    },
-    {
-      "time": "2026-02-25T09:07:30.336824",
-      "text": "Placed BTC buy order: 0.05 BTC at $64,500"
-    },
-    {
-      "time": "2026-02-25T09:07:30.336823",
-      "text": "Placed sell order for 90 SOL at $82.2"
-    },
-    {
-      "time": "2026-02-25T09:07:30.336821",
-      "text": "Cancelled ETH buy order at $1,800"
     }
   ]
 }
