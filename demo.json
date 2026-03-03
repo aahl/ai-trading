@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-08T11:28:50.218216",
-      "balance": 123853.1
-    },
-    {
       "time": "2025-11-08T12:33:38.534126",
       "balance": 123009.4
     },
@@ -3999,15 +3995,39 @@
     {
       "time": "2026-03-03T02:53:01.293896",
       "balance": 80681.1
+    },
+    {
+      "time": "2026-03-03T05:24:24.353900",
+      "balance": 80454.7
     }
   ],
   "assets": {
-    "BTC": 42989.5,
-    "ETH": 15557.4,
-    "SOL": 1228.5,
-    "USDT": 20905.6
+    "BTC": 43758.5,
+    "ETH": 16159.0,
+    "SOL": 1231.1,
+    "USDT": 19306.0
   },
   "trades": [
+    {
+      "time": "2026-03-03T05:24:24.353940",
+      "text": "Placed SOL-USDT sell limit 14 @ 88.5, ordId 3355879803819917312"
+    },
+    {
+      "time": "2026-03-03T05:24:24.353939",
+      "text": "Placed ETH-USDT sell limit 1.17 @ 2060, ordId 3355879798149218304"
+    },
+    {
+      "time": "2026-03-03T05:24:24.353937",
+      "text": "Placed BTC-USDT sell limit 0.046 @ 69600, ordId 3355879792310747136"
+    },
+    {
+      "time": "2026-03-03T05:24:24.353935",
+      "text": "Canceled ETH-USDT buy limit order 3355573628251406336"
+    },
+    {
+      "time": "2026-03-03T05:24:24.353932",
+      "text": "Canceled BTC-USDT buy limit order 3355573611574853632"
+    },
     {
       "time": "2026-03-03T02:53:01.293933",
       "text": "Placed limit buy 0.35533 ETH at 1970 USDT (ETH-USDT), orderId 3355573628251406336"
@@ -4387,26 +4407,6 @@
     {
       "time": "2026-02-25T05:31:05.614443",
       "text": "Buy 24.531479 SOL, spent 2000 USDT at 81.5279 USDT/SOL"
-    },
-    {
-      "time": "2026-02-25T05:30:16.245439",
-      "text": "Buy 24.531479 SOL with 2000 USDT at avg price 81.5279 USDT/SOL"
-    },
-    {
-      "time": "2026-02-25T02:53:25.809614",
-      "text": "Sold 36 SOL at 82 USDT"
-    },
-    {
-      "time": "2026-02-25T02:53:25.809612",
-      "text": "Sold 1.46 ETH at 1869 USDT"
-    },
-    {
-      "time": "2026-02-25T02:53:25.809609",
-      "text": "Sold 0.022 BTC at 65696 USDT"
-    },
-    {
-      "time": "2026-02-24T22:46:47.116100",
-      "text": "Placed buy order: 0.75 ETH at $1,820"
     }
   ]
 }
