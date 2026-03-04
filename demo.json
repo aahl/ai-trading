@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-09T05:19:57.664796",
-      "balance": 122415.9
-    },
-    {
       "time": "2025-11-09T06:28:18.808899",
       "balance": 122685.2
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-04T13:26:08.427809",
       "balance": 83098.5
+    },
+    {
+      "time": "2026-03-04T14:50:43.605984",
+      "balance": 83524.9
     }
   ],
   "assets": {
-    "BTC": 45421.9,
-    "ETH": 18606.0,
-    "SOL": 4323.9,
-    "USDT": 14746.8
+    "BTC": 45659.9,
+    "ETH": 18767.7,
+    "SOL": 5808.6,
+    "USDT": 13288.7
   },
   "trades": [
+    {
+      "time": "2026-03-04T14:50:43.606013",
+      "text": "Buy 16.18829 SOL on SOL-USDT with 1459.86 USDT at avg 90.18 (market, simulated)."
+    },
     {
       "time": "2026-03-04T13:26:08.427847",
       "text": "Sell 0.4855 ETH, received about 998.163725 USDT before fee."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-02-28T08:43:49.599021",
       "text": "Sell 0.031 BTC on BTC-USDT at avg 63726.5, received about 1975.5215 USDT"
-    },
-    {
-      "time": "2026-02-28T08:43:49.599019",
-      "text": "Sell 1.35 ETH on ETH-USDT at avg 1862.8786154666667, received about 2514.88613088 USDT"
     }
   ]
 }
