@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-09T22:16:25.692609",
-      "balance": 126548.8
-    },
-    {
       "time": "2025-11-10T01:23:13.199312",
       "balance": 128334.7
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-07T05:20:07.388187",
       "balance": 79893.6
+    },
+    {
+      "time": "2026-03-07T07:03:20.042258",
+      "balance": 79669.5
     }
   ],
   "assets": {
-    "BTC": 42945.3,
-    "ETH": 18735.5,
-    "SOL": 4500.3,
-    "USDT": 13712.5
+    "BTC": 42756.7,
+    "ETH": 18710.1,
+    "SOL": 3592.2,
+    "USDT": 14610.5
   },
   "trades": [
+    {
+      "time": "2026-03-07T07:03:20.042292",
+      "text": "SELL SOL-USDT market 10.69 @ 84.02, ordId=3367673964235595776, clOrdId=exec260307solsig74c1, fee=0.8981738 USDT, rationale=high-risk SOL sell signal with spot-only de-risking."
+    },
     {
       "time": "2026-03-07T03:08:05.184339",
       "text": "Executed market sell 0.5 ETH on ETH-USDT (order 3367199496413388800), fully filled at 1982.4 USDT with 0.9912 USDT fee."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-01T16:42:35.492919",
       "text": "Placed limit buy 0.0105 BTC at 66500 USDT (live, unfilled)."
-    },
-    {
-      "time": "2026-03-01T14:36:58.586890",
-      "text": "Sell 11.62 SOL on SOL-USDT via market order at 85.94 USDT average price, gross 998.6228 USDT, fee 0.9986228 USDT."
     }
   ]
 }
