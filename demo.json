@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-10T03:15:29.767171",
-      "balance": 128318.5
-    },
-    {
       "time": "2025-11-10T03:15:33.528158",
       "balance": 128318.5
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-03-07T19:07:16.200664",
       "balance": 79542.1
+    },
+    {
+      "time": "2026-03-07T20:55:25.566831",
+      "balance": 79405.5
     }
   ],
   "assets": {
-    "BTC": 42688.1,
-    "ETH": 19575.3,
-    "SOL": 3550.8,
-    "USDT": 13724.4
+    "BTC": 42792.4,
+    "ETH": 19641.8,
+    "SOL": 3587.4,
+    "USDT": 13384.0
   },
   "trades": [
+    {
+      "time": "2026-03-07T20:55:25.566871",
+      "text": "Buy SOL-USDT with 40 USDT (filled 0.482334 SOL, market, cash mode)"
+    },
+    {
+      "time": "2026-03-07T20:55:25.566869",
+      "text": "Buy ETH-USDT with 100 USDT (filled 0.050873 ETH, market, cash mode)"
+    },
+    {
+      "time": "2026-03-07T20:55:25.566866",
+      "text": "Buy BTC-USDT with 200 USDT (filled 0.00296856 BTC, market, cash mode)"
+    },
     {
       "time": "2026-03-07T19:07:16.200699",
       "text": "Maintain existing live limit sell 12 SOL at 85.2 USDT"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-03-01T22:35:25.159862",
       "text": "Sell 0.7 ETH at 1926.2 USDT (fee: 1.34834 USDT)"
-    },
-    {
-      "time": "2026-03-01T22:35:25.159858",
-      "text": "Sell 0.015 BTC at 65504.8 USDT (fee: 0.982572 USDT)"
-    },
-    {
-      "time": "2026-03-01T20:41:48.571881",
-      "text": "Placed SELL LIMIT 0.025 BTC @ 66850 USDT (live, unfilled)"
-    },
-    {
-      "time": "2026-03-01T20:41:48.571879",
-      "text": "Placed BUY LIMIT 12 SOL @ 79.0 USDT (live, unfilled)"
     }
   ]
 }
