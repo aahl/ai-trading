@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-10T03:49:21.445957",
-      "balance": 128424.0
-    },
-    {
       "time": "2025-11-10T03:49:27.145515",
       "balance": 128424.0
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-08T05:29:41.785698",
       "balance": 79086.9
+    },
+    {
+      "time": "2026-03-08T07:23:33.805314",
+      "balance": 79303.6
     }
   ],
   "assets": {
-    "BTC": 43247.9,
-    "ETH": 19478.3,
-    "SOL": 2584.7,
-    "USDT": 13776.0
+    "BTC": 43391.8,
+    "ETH": 19545.3,
+    "SOL": 1595.9,
+    "USDT": 14770.6
   },
   "trades": [
+    {
+      "time": "2026-03-08T07:23:33.805352",
+      "text": "Canceled live BTC-USDT limit buy order (ordId: 3370383873012146176, clOrdId: exec260308btcdip01, price: 66400, size: 0.12 BTC) to avoid conflict with current defensive hold stance."
+    },
     {
       "time": "2026-03-08T05:29:41.785743",
       "text": "Buy 0.12 BTC with USDT via BTC-USDT (limit 66400, order live)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-02T07:13:51.927002",
       "text": "Sell 1.4 ETH at market, avg filled at 1932.971767857142857 USDT"
-    },
-    {
-      "time": "2026-03-02T07:13:51.926998",
-      "text": "Sell 36 SOL at market, filled at 82.75 USDT"
     }
   ]
 }
