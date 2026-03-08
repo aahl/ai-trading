@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-10T03:49:03.008606",
-      "balance": 128424.0
-    },
-    {
       "time": "2025-11-10T03:49:08.380655",
       "balance": 128424.0
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-07T22:49:29.197994",
       "balance": 79371.3
+    },
+    {
+      "time": "2026-03-08T02:54:01.904044",
+      "balance": 78892.6
     }
   ],
   "assets": {
-    "BTC": 43332.5,
-    "ETH": 19663.5,
-    "SOL": 2927.7,
-    "USDT": 13447.6
+    "USDT": 13777.1,
+    "BTC": 0.6,
+    "ETH": 10.0,
+    "SOL": 31.2
   },
   "trades": [
+    {
+      "time": "2026-03-08T02:54:01.904080",
+      "text": "Sell 4 SOL at market on SOL-USDT, filled at 82.38 USDT, fee 0.32952 USDT"
+    },
     {
       "time": "2026-03-07T22:49:29.198029",
       "text": "Buy 0.00867856 BTC with 600 USDT via BTC-USDT market at 67302 USDT/BTC (fee 0.00000891504 BTC)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-02T05:23:17.517011",
       "text": "Placed BTC-USDT limit buy 0.03 @ 66200 (live, ordId 3352978689139150848)"
-    },
-    {
-      "time": "2026-03-02T02:49:25.627068",
-      "text": "No new trade executed (HOLD): existing live buy limits and high frozen USDT, short-term momentum mixed."
     }
   ]
 }
