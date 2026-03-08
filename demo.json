@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-10T03:49:46.406340",
-      "balance": 128424.0
-    },
-    {
       "time": "2025-11-10T03:50:34.882877",
       "balance": 128424.0
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-03-08T08:54:27.788583",
       "balance": 79406.2
+    },
+    {
+      "time": "2026-03-08T10:45:05.846882",
+      "balance": 79841.4
     }
   ],
   "assets": {
-    "USDT": 15552.0,
-    "BTC": 43472.6,
-    "ETH": 18783.7,
-    "SOL": 1597.8
+    "BTC": 43812.5,
+    "ETH": 18340.6,
+    "SOL": 3016.8,
+    "USDT": 15553.1
   },
   "trades": [
+    {
+      "time": "2026-03-08T10:45:05.846915",
+      "text": "Kept existing spot exposure unchanged and retained one live ETH-USDT limit sell order (0.35 ETH @ 1988)."
+    },
+    {
+      "time": "2026-03-08T10:45:05.846912",
+      "text": "No trade executed. All upstream signals are HOLD and confidence is below the entry threshold (>=70 with non-hold action)."
+    },
     {
       "time": "2026-03-08T08:54:27.788620",
       "text": "Post-trade USDT increased and ETH exposure decreased while keeping trading activity limited to one action."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-02T10:59:20.781534",
       "text": "Buy 5.965875 SOL, spent 500 USDT at avg 83.81 USDT, fee 0.005965875 SOL"
-    },
-    {
-      "time": "2026-03-02T09:02:16.014929",
-      "text": "Sold 0.003 BTC at 66284.7 USDT via market order."
-    },
-    {
-      "time": "2026-03-02T09:02:16.014928",
-      "text": "Sold 4 SOL at 83.43 USDT via market order."
     }
   ]
 }
