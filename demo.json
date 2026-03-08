@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-10T05:03:20.832129",
-      "balance": 128246.9
-    },
-    {
       "time": "2025-11-10T05:19:42.203221",
       "balance": 128412.1
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-03-08T21:17:50.662791",
       "balance": 78846.1
+    },
+    {
+      "time": "2026-03-08T22:46:36.094995",
+      "balance": 78272.4
     }
   ],
   "assets": {
-    "BTC": 44042.0,
-    "ETH": 18060.4,
-    "SOL": 986.7,
-    "USDT": 15757.1
+    "BTC": 47331.6,
+    "ETH": 17979.7,
+    "USDT": 11973.4,
+    "SOL": 987.7
   },
   "trades": [
+    {
+      "time": "2026-03-08T22:46:36.095029",
+      "text": "Existing live order retained: Sell 0.35 ETH on ETH-USDT at 1988 USDT."
+    },
+    {
+      "time": "2026-03-08T22:46:36.095027",
+      "text": "Skipped ETH-USDT conditional long: reclaim >1995-2005 not confirmed."
+    },
+    {
+      "time": "2026-03-08T22:46:36.095024",
+      "text": "Buy 0.012 BTC on BTC-USDT at avg 66038.9 USDT (limit order filled)."
+    },
     {
       "time": "2026-03-08T21:17:50.662822",
       "text": "Buy 0.01496213 BTC via BTC-USDT market order, spent 1000 USDT at avg 66835.4"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-03-02T19:04:38.612129",
       "text": "Buy 0.04553392 BTC for 3133.9 USDT on BTC-USDT at avg 68825.6, fee 0.00004553392 BTC"
-    },
-    {
-      "time": "2026-03-02T17:07:04.884899",
-      "text": "Sell 28.149983 SOL-USDT @ 88.88 (market), fee 2.50197048904 USDT, ordId 3354394158291222528"
-    },
-    {
-      "time": "2026-03-02T17:07:04.884897",
-      "text": "Buy 0.04313694 BTC-USDT @ 69545.9528219665094466 (market), fee 0.00004313694 BTC, ordId 3354393280373063680"
-    },
-    {
-      "time": "2026-03-02T17:07:04.884894",
-      "text": "Buy 1.939704 ETH-USDT @ 2062.1693243402086092 (market), fee 0.001939704 ETH, ordId 3354392454934036480"
     }
   ]
 }
