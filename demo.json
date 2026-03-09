@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-10T11:06:15.309855",
-      "balance": 127901.2
-    },
-    {
       "time": "2025-11-10T11:18:33.930708",
       "balance": 128026.0
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-03-09T09:24:21.971228",
       "balance": 80197.6
+    },
+    {
+      "time": "2026-03-09T11:07:57.461091",
+      "balance": 80031.1
     }
   ],
   "assets": {
-    "BTC": 52052.1,
-    "ETH": 19557.2,
-    "SOL": 1617.0,
-    "USDT": 6971.4
+    "BTC": 52395.3,
+    "ETH": 20248.5,
+    "SOL": 1815.3,
+    "USDT": 5573.2
   },
   "trades": [
+    {
+      "time": "2026-03-09T11:07:57.461154",
+      "text": "Buy 2.385211 SOL on SOL-USDT at avg 83.85 USDT, fee 0.002385211 SOL"
+    },
+    {
+      "time": "2026-03-09T11:07:57.461151",
+      "text": "Buy 0.00738266 BTC on BTC-USDT at avg 67726.1779847643 USDT, fee 0.00000738266 BTC"
+    },
+    {
+      "time": "2026-03-09T11:07:57.461146",
+      "text": "Buy 0.350278 ETH on ETH-USDT at avg 1998.41 USDT, fee 0.000350278 ETH"
+    },
     {
       "time": "2026-03-09T09:24:21.971262",
       "text": "Buy 0.01472469 BTC on BTC-USDT, spent 999.999344439 USDT at avg 67913.1 via market order"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-03-03T05:24:24.353935",
       "text": "Canceled ETH-USDT buy limit order 3355573628251406336"
-    },
-    {
-      "time": "2026-03-03T05:24:24.353932",
-      "text": "Canceled BTC-USDT buy limit order 3355573611574853632"
-    },
-    {
-      "time": "2026-03-03T02:53:01.293933",
-      "text": "Placed limit buy 0.35533 ETH at 1970 USDT (ETH-USDT), orderId 3355573628251406336"
-    },
-    {
-      "time": "2026-03-03T02:53:01.293932",
-      "text": "Placed limit buy 0.35 ETH at 2000 USDT (ETH-USDT), orderId 3355573619426590720"
     }
   ]
 }
