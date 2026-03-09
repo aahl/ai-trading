@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-10T12:41:22.039520",
-      "balance": 127611.4
-    },
-    {
       "time": "2025-11-10T13:32:25.260211",
       "balance": 128000.0
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-03-09T13:36:34.265221",
       "balance": 81120.3
+    },
+    {
+      "time": "2026-03-09T17:13:05.192095",
+      "balance": 81378.9
     }
   ],
   "assets": {
-    "USDT": 5273.0,
-    "BTC": 53563.1,
-    "ETH": 20444.6,
-    "SOL": 1839.5
+    "USDT": 5274.2,
+    "BTC": 53690.9,
+    "ETH": 20570.8,
+    "SOL": 1843.1
   },
   "trades": [
+    {
+      "time": "2026-03-09T17:13:05.192133",
+      "text": "No cross-pair execution because USDT liquidity was sufficient."
+    },
+    {
+      "time": "2026-03-09T17:13:05.192132",
+      "text": "No action on BTC-USDT due to hold signal."
+    },
+    {
+      "time": "2026-03-09T17:13:05.192130",
+      "text": "Placed ETH-USDT limit buy 0.06 @ 2016 (order live, unfilled)."
+    },
+    {
+      "time": "2026-03-09T17:13:05.192127",
+      "text": "Placed SOL-USDT limit buy 1.5 @ 84.6 (order live, unfilled)."
+    },
     {
       "time": "2026-03-09T13:36:34.265252",
       "text": "Buy 0.00436257 BTC with 300 USDT on BTC-USDT at 68766.8 via market order (filled, ordId: 3374262018194808832)"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-03-03T07:07:03.240455",
       "text": "Buy 1.50221 ETH at avg 1997.0575742273051039 USDT (market)"
-    },
-    {
-      "time": "2026-03-03T07:07:03.240452",
-      "text": "Buy 13.982754 SOL at avg 85.82 USDT (market)"
-    },
-    {
-      "time": "2026-03-03T05:24:24.353940",
-      "text": "Placed SOL-USDT sell limit 14 @ 88.5, ordId 3355879803819917312"
-    },
-    {
-      "time": "2026-03-03T05:24:24.353939",
-      "text": "Placed ETH-USDT sell limit 1.17 @ 2060, ordId 3355879798149218304"
-    },
-    {
-      "time": "2026-03-03T05:24:24.353937",
-      "text": "Placed BTC-USDT sell limit 0.046 @ 69600, ordId 3355879792310747136"
     }
   ]
 }
