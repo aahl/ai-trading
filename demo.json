@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-10T15:21:34.362360",
-      "balance": 126572.1
-    },
-    {
       "time": "2025-11-10T16:24:06.521258",
       "balance": 126770.0
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-03-09T22:46:17.835939",
       "balance": 80985.2
+    },
+    {
+      "time": "2026-03-10T10:58:46.126990",
+      "balance": 83213.6
     }
   ],
   "assets": {
-    "USDT": 3325.4,
-    "BTC": 54279.5,
-    "ETH": 21242.1,
-    "SOL": 2138.0
+    "BTC": 55925.8,
+    "ETH": 21792.8,
+    "SOL": 2169.4,
+    "USDT": 3325.4
   },
   "trades": [
+    {
+      "time": "2026-03-10T10:58:46.127026",
+      "text": "Place SOL-USDT buy limit 1.4 @ 85.2 (ordId 3376847125187403776)"
+    },
+    {
+      "time": "2026-03-10T10:58:46.127024",
+      "text": "Place ETH-USDT buy limit 0.07 @ 2030 (ordId 3376846957348134912)"
+    },
+    {
+      "time": "2026-03-10T10:58:46.127022",
+      "text": "Place BTC-USDT buy limit 0.0018 @ 69500 (ordId 3376846784341483520)"
+    },
+    {
+      "time": "2026-03-10T10:58:46.127019",
+      "text": "Cancel SOL-USDT buy limit @82.7 (ordId 3373528104014716928)"
+    },
     {
       "time": "2026-03-09T22:46:17.836001",
       "text": "Skipped adding new SOL-USDT order because a live dip-buy limit order already exists at 82.7."
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-03-03T10:56:25.805050",
       "text": "No new fills during this execution window"
-    },
-    {
-      "time": "2026-03-03T10:56:25.805049",
-      "text": "Placed SOL-USDT limit buy 15 @ 81.8 (ordId: 3356548161129156608)"
-    },
-    {
-      "time": "2026-03-03T10:56:25.805048",
-      "text": "Placed BTC-USDT limit buy 0.015 @ 66000 (ordId: 3356548155190022144)"
-    },
-    {
-      "time": "2026-03-03T10:56:25.805046",
-      "text": "Canceled SOL-USDT limit buy 30 @ 82.2 (ordId: 3356317174533197824)"
-    },
-    {
-      "time": "2026-03-03T10:56:25.805043",
-      "text": "Canceled BTC-USDT limit buy 0.025 @ 66400 (ordId: 3356317055347855360)"
     }
   ]
 }
