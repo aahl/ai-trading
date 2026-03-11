@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-11T17:19:05.582544",
-      "balance": 126152.1
-    },
-    {
       "time": "2025-11-11T18:27:13.692595",
       "balance": 125871.2
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-03-11T17:07:09.358671",
       "balance": 83408.1
+    },
+    {
+      "time": "2026-03-11T19:09:26.818620",
+      "balance": 83041.2
     }
   ],
   "assets": {
-    "BTC": 58909.7,
-    "ETH": 21695.2,
-    "USDT": 2803.2,
+    "BTC": 70232.6,
+    "ETH": 10111.9,
+    "USDT": 2796.8,
     "SOL": 0.0
   },
   "trades": [
+    {
+      "time": "2026-03-11T19:09:26.818657",
+      "text": "Placed SOL-USDT limit buy 18.98 @ 87.5 (order 3380735102187741184)"
+    },
+    {
+      "time": "2026-03-11T19:09:26.818654",
+      "text": "Canceled ETH-USDT sell 0.25 @ 2095 (order 3380231300913307648)"
+    },
     {
       "time": "2026-03-11T15:00:25.777336",
       "text": "Placed ETH-USDT limit sell 0.25 @ 2,095"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-04T13:26:08.427842",
       "text": "Buy 13.38688 SOL, spent about 1200 USDT."
-    },
-    {
-      "time": "2026-03-04T10:51:53.818815",
-      "text": "Placed limit buy 1.078 ETH at 2040 USDT on ETH-USDT (live, unfilled)"
-    },
-    {
-      "time": "2026-03-04T10:51:53.818811",
-      "text": "Placed limit buy 0.0398 BTC at 70300 USDT on BTC-USDT (live, unfilled)"
     }
   ]
 }
