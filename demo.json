@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-12T09:28:23.101533",
-      "balance": 126510.8
-    },
-    {
       "time": "2025-11-12T10:24:38.415807",
       "balance": 126424.0
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-03-12T17:10:12.190636",
       "balance": 82901.3
+    },
+    {
+      "time": "2026-03-13T05:20:26.144245",
+      "balance": 105633.4
     }
   ],
   "assets": {
-    "BTC": 0.8,
-    "ETH": 5.5,
-    "SOL": 38.8,
+    "BTC": 59265.1,
+    "ETH": 11624.9,
+    "SOL": 3477.6,
     "USDT": 6358.0
   },
   "trades": [
+    {
+      "time": "2026-03-13T05:20:26.144280",
+      "text": "Placed SOL-USDT limit sell 15 SOL @ 90 USDT (ordId 3384863594437410816)"
+    },
+    {
+      "time": "2026-03-13T05:20:26.144277",
+      "text": "Canceled live limit buys: BTC-USDT (ordId 3382190683717115904), ETH-USDT (ordId 3382190689723359232), SOL-USDT (ordId 3382190695830265857)"
+    },
     {
       "time": "2026-03-12T15:06:32.284263",
       "text": "Sell 40 SOL spot at market (SOL-USDT), avg fill 85.76, fee 3.4304 USDT"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-06T11:08:42.851087",
       "text": "Buy ETH-USDT with 200 USDT (market), filled 0.097172 ETH"
-    },
-    {
-      "time": "2026-03-06T09:06:43.118402",
-      "text": "Buy 0.45 ETH on ETH-USDT at 2076.44"
-    },
-    {
-      "time": "2026-03-06T07:23:41.811724",
-      "text": "Buy 0.409429 ETH at 2076.06 USDT (ETH-USDT spot market), spent 850 USDT"
     }
   ]
 }
