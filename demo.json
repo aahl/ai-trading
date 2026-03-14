@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-12T22:22:32.697818",
-      "balance": 124256.0
-    },
-    {
       "time": "2025-11-13T01:23:37.310327",
       "balance": 125833.0
     },
@@ -3999,15 +3995,30 @@
     {
       "time": "2026-03-14T18:54:54.912387",
       "balance": 83107.3
+    },
+    {
+      "time": "2026-03-14T20:39:26.571202",
+      "balance": 83175.3
     }
   ],
   "assets": {
-    "BTC": 61714.9,
-    "ETH": 13008.4,
-    "SOL": 6128.4,
-    "USDT": 2255.6
+    "BTC": 49445.4,
+    "ETH": 10428.3,
+    "SOL": 4897.2
   },
   "trades": [
+    {
+      "time": "2026-03-14T20:39:26.571229",
+      "text": "Sell 14.08 SOL, received ~1224 USDT"
+    },
+    {
+      "time": "2026-03-14T20:39:26.571227",
+      "text": "Sell 1.252 ETH, received ~2603 USDT"
+    },
+    {
+      "time": "2026-03-14T20:39:26.571224",
+      "text": "Sell 0.1746 BTC, received ~12346 USDT"
+    },
     {
       "time": "2026-03-14T18:54:54.912411",
       "text": "Place buy limit order: 0.15 ETH @ 2050 USDT"
@@ -4395,18 +4406,6 @@
     {
       "time": "2026-03-07T03:08:05.184339",
       "text": "Executed market sell 0.5 ETH on ETH-USDT (order 3367199496413388800), fully filled at 1982.4 USDT with 0.9912 USDT fee."
-    },
-    {
-      "time": "2026-03-07T03:08:05.184337",
-      "text": "Placed limit sell 0.5 ETH at 1995 USDT (order 3367198176717578240), then canceled after no fill."
-    },
-    {
-      "time": "2026-03-07T03:08:05.184333",
-      "text": "Selected ETH-USDT short-side execution due to higher-confidence sell signal and sufficient USDT liquidity."
-    },
-    {
-      "time": "2026-03-06T22:48:26.302431",
-      "text": "Notional executed ≈ 798.342 USDT, aligned with ~1.0% target risk budget of account equity."
     }
   ]
 }
