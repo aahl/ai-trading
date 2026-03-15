@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-13T08:30:48.800874",
-      "balance": 126153.6
-    },
-    {
       "time": "2025-11-13T10:26:54.352210",
       "balance": 125965.6
     },
@@ -3999,14 +3995,27 @@
     {
       "time": "2026-03-15T05:45:13.685522",
       "balance": 84025.1
+    },
+    {
+      "time": "2026-03-15T07:18:43.052023",
+      "balance": 84017.3
     }
   ],
   "assets": {
-    "BTC": 50055.0,
-    "ETH": 12691.8,
-    "SOL": 2774.0
+    "BTC": 50052.6,
+    "ETH": 9525.7,
+    "SOL": 2770.3,
+    "USDT": 21665.9
   },
   "trades": [
+    {
+      "time": "2026-03-15T07:18:43.052048",
+      "text": "Cancel pending orders: 0.15 ETH @ $2,050, 0.005 BTC @ $70,000, released $657.5 USDT"
+    },
+    {
+      "time": "2026-03-15T07:18:43.052045",
+      "text": "Sell 1.5 ETH @ $2,111.11, gained $3,163.50 USDT"
+    },
     {
       "time": "2026-03-15T03:24:00.508531",
       "text": "Buy 1 ETH @ 2080 USDT"
@@ -4398,14 +4407,6 @@
     {
       "time": "2026-03-07T09:13:40.946444",
       "text": "No BTC/SOL orders executed in this cycle to avoid overtrading without stronger 1H confirmation."
-    },
-    {
-      "time": "2026-03-07T09:13:40.946442",
-      "text": "Order is live and unfilled; approximately 886.5 USDT is frozen for the open order."
-    },
-    {
-      "time": "2026-03-07T09:13:40.946439",
-      "text": "Placed 1 limit buy order: ETH-USDT 0.45 ETH @ 1970 USDT (cash mode)."
     }
   ]
 }
