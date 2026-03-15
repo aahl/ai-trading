@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-13T16:25:01.054062",
-      "balance": 124157.0
-    },
-    {
       "time": "2025-11-13T17:22:01.465660",
       "balance": 123603.5
     },
@@ -3999,14 +3995,27 @@
     {
       "time": "2026-03-15T16:44:59.894040",
       "balance": 83784.9
+    },
+    {
+      "time": "2026-03-15T18:58:56.036406",
+      "balance": 83738.0
     }
   ],
   "assets": {
-    "BTC": 44938.5,
-    "ETH": 9552.4,
-    "SOL": 2837.8
+    "BTC": 48878.0,
+    "ETH": 5373.0,
+    "SOL": 2842.0,
+    "USDT": 26640.0
   },
   "trades": [
+    {
+      "time": "2026-03-15T18:58:56.036434",
+      "text": "Buy 0.0561 BTC @ $71,363, spent $4,000 USDT"
+    },
+    {
+      "time": "2026-03-15T18:58:56.036431",
+      "text": "Sell 2 ETH @ $2,099.41, received $4,198.82 USDT"
+    },
     {
       "time": "2026-03-15T13:16:05.041633",
       "text": "Buy 0.95 ETH limit order at 2,060 USDT (pending)"
@@ -4398,14 +4407,6 @@
     {
       "time": "2026-03-07T20:55:25.566871",
       "text": "Buy SOL-USDT with 40 USDT (filled 0.482334 SOL, market, cash mode)"
-    },
-    {
-      "time": "2026-03-07T20:55:25.566869",
-      "text": "Buy ETH-USDT with 100 USDT (filled 0.050873 ETH, market, cash mode)"
-    },
-    {
-      "time": "2026-03-07T20:55:25.566866",
-      "text": "Buy BTC-USDT with 200 USDT (filled 0.00296856 BTC, market, cash mode)"
     }
   ]
 }
