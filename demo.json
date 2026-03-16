@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-13T22:23:31.392686",
-      "balance": 121469.9
-    },
-    {
       "time": "2025-11-13T23:19:25.619201",
       "balance": 122610.1
     },
@@ -3999,15 +3995,20 @@
     {
       "time": "2026-03-16T05:57:40.782841",
       "balance": 86369.8
+    },
+    {
+      "time": "2026-03-16T07:51:13.463717",
+      "balance": 23933.5
     }
   ],
   "assets": {
-    "BTC": 50789.5,
-    "ETH": 6644.6,
-    "SOL": 3044.4,
-    "USDT": 25891.3
+    "USDT": 23933.5
   },
   "trades": [
+    {
+      "time": "2026-03-16T07:51:13.463738",
+      "text": "No trades executed - market conditions not favorable for entry"
+    },
     {
       "time": "2026-03-16T05:57:40.782863",
       "text": "No new trades - market in overbought territory, holding positions"
@@ -4403,10 +4404,6 @@
     {
       "time": "2026-03-08T02:54:01.904080",
       "text": "Sell 4 SOL at market on SOL-USDT, filled at 82.38 USDT, fee 0.32952 USDT"
-    },
-    {
-      "time": "2026-03-07T22:49:29.198029",
-      "text": "Buy 0.00867856 BTC with 600 USDT via BTC-USDT market at 67302 USDT/BTC (fee 0.00000891504 BTC)"
     }
   ]
 }
