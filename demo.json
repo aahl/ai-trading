@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-14T11:07:11.431689",
-      "balance": 119567.8
-    },
-    {
       "time": "2025-11-14T12:37:30.170426",
       "balance": 116839.0
     },
@@ -3999,15 +3995,30 @@
     {
       "time": "2026-03-17T15:09:56.314047",
       "balance": 86969.0
+    },
+    {
+      "time": "2026-03-17T17:16:49.815835",
+      "balance": 86547.8
     }
   ],
   "assets": {
-    "BTC": 51491.4,
-    "ETH": 12167.7,
-    "SOL": 3588.7,
-    "USDT": 20142.5
+    "BTC": 55805.3,
+    "ETH": 15031.8,
+    "SOL": 5565.8
   },
   "trades": [
+    {
+      "time": "2026-03-17T17:16:49.815862",
+      "text": "Buy 21.19 SOL at $94.38, spent 2000 USDT"
+    },
+    {
+      "time": "2026-03-17T17:16:49.815860",
+      "text": "Buy 1.2888 ETH at $2,327.63, spent 3000 USDT"
+    },
+    {
+      "time": "2026-03-17T17:16:49.815857",
+      "text": "Buy 0.0674 BTC at $74,173, spent 5000 USDT"
+    },
     {
       "time": "2026-03-17T11:01:36.962845",
       "text": "No new trades - market analysis suggests holding positions"
@@ -4395,18 +4406,6 @@
     {
       "time": "2026-03-08T18:57:34.035499",
       "text": "Sell 0.32 ETH on ETH-USDT"
-    },
-    {
-      "time": "2026-03-08T14:51:53.684812",
-      "text": "Held ETH-USDT and SOL-USDT this round due to spot-mode constraints and existing ETH sell order"
-    },
-    {
-      "time": "2026-03-08T14:51:53.684809",
-      "text": "Placed limit buy order: BTC-USDT buy 0.045 at 66500 USDT, ordId 3371514271528128512, status live"
-    },
-    {
-      "time": "2026-03-08T13:12:09.477346",
-      "text": "Hold position, no order placed"
     }
   ]
 }
