@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-14T07:44:44.942505",
-      "balance": 120108.1
-    },
-    {
       "time": "2025-11-14T08:29:50.463230",
       "balance": 119680.4
     },
@@ -3999,15 +3995,22 @@
     {
       "time": "2026-03-17T07:19:30.394773",
       "balance": 86684.9
+    },
+    {
+      "time": "2026-03-17T09:06:52.082470",
+      "balance": 86384.5
     }
   ],
   "assets": {
-    "BTC": 50915.8,
-    "ETH": 9852.7,
-    "SOL": 3574.6,
-    "USDT": 22341.8
+    "BTC": 50706.3,
+    "ETH": 11971.9,
+    "SOL": 3563.0
   },
   "trades": [
+    {
+      "time": "2026-03-17T09:06:52.082502",
+      "text": "Buy 0.95 ETH-USDT at $2,315, spent $2,199.25"
+    },
     {
       "time": "2026-03-17T07:19:30.394801",
       "text": "Buy 5.29 SOL with 500 USDT at market price"
@@ -4403,10 +4406,6 @@
     {
       "time": "2026-03-08T10:45:05.846915",
       "text": "Kept existing spot exposure unchanged and retained one live ETH-USDT limit sell order (0.35 ETH @ 1988)."
-    },
-    {
-      "time": "2026-03-08T10:45:05.846912",
-      "text": "No trade executed. All upstream signals are HOLD and confidence is below the entry threshold (>=70 with non-hold action)."
     }
   ]
 }
