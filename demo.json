@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-14T07:23:11.683230",
-      "balance": 120576.7
-    },
-    {
       "time": "2025-11-14T07:44:44.942505",
       "balance": 120108.1
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-03-17T05:31:32.434549",
       "balance": 86666.5
+    },
+    {
+      "time": "2026-03-17T07:19:30.394773",
+      "balance": 86684.9
     }
   ],
   "assets": {
-    "BTC": 50961.6,
-    "ETH": 7801.0,
-    "SOL": 3062.3,
-    "USDT": 24841.8
+    "BTC": 50915.8,
+    "ETH": 9852.7,
+    "SOL": 3574.6,
+    "USDT": 22341.8
   },
   "trades": [
+    {
+      "time": "2026-03-17T07:19:30.394801",
+      "text": "Buy 5.29 SOL with 500 USDT at market price"
+    },
+    {
+      "time": "2026-03-17T07:19:30.394798",
+      "text": "Buy 0.8582 ETH with 2000 USDT at market price"
+    },
     {
       "time": "2026-03-17T05:31:32.434583",
       "text": "Buy 1.191653 ETH at 2316.11 USDT, spent 2760 USDT"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-08T10:45:05.846912",
       "text": "No trade executed. All upstream signals are HOLD and confidence is below the entry threshold (>=70 with non-hold action)."
-    },
-    {
-      "time": "2026-03-08T08:54:27.788620",
-      "text": "Post-trade USDT increased and ETH exposure decreased while keeping trading activity limited to one action."
-    },
-    {
-      "time": "2026-03-08T08:54:27.788619",
-      "text": "Order 3370796845861707776 was fully filled at 1957.1 with 0.78284 USDT fee."
     }
   ]
 }
