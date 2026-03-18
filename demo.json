@@ -1,14 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-15T01:18:37.263613",
-      "balance": 117706.0
-    },
-    {
-      "time": "2025-11-15T04:27:29.788415",
-      "balance": 118628.2
-    },
-    {
       "time": "2025-11-15T06:27:51.379729",
       "balance": 118848.7
     },
@@ -3999,15 +3991,39 @@
     {
       "time": "2026-03-18T13:48:56.156897",
       "balance": 84538.5
+    },
+    {
+      "time": "2026-03-18T15:16:46.859887",
+      "balance": 83298.9
+    },
+    {
+      "time": "2026-03-18T15:19:34.120124",
+      "balance": 83369.1
     }
   ],
   "assets": {
-    "BTC": 55065.8,
-    "ETH": 12230.4,
-    "SOL": 1767.3,
-    "USDT": 15475.0
+    "BTC": 46441.3,
+    "ETH": 9748.5,
+    "SOL": 1738.4,
+    "USDT": 25440.8
   },
   "trades": [
+    {
+      "time": "2026-03-18T15:19:34.120146",
+      "text": "Sell 1.0 ETH @ market price"
+    },
+    {
+      "time": "2026-03-18T15:19:34.120144",
+      "text": "Sell 0.16 BTC @ market price"
+    },
+    {
+      "time": "2026-03-18T15:16:46.859924",
+      "text": "Sell 1.5 ETH @ 2250 USDT (pending)"
+    },
+    {
+      "time": "2026-03-18T15:16:46.859919",
+      "text": "Sell 0.16 BTC @ 73000 USDT (pending)"
+    },
     {
       "time": "2026-03-18T09:05:31.939806",
       "text": "Buy 0.01 BTC at 73000 USDT (pending order)"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-03-09T09:24:21.971262",
       "text": "Buy 0.01472469 BTC on BTC-USDT, spent 999.999344439 USDT at avg 67913.1 via market order"
-    },
-    {
-      "time": "2026-03-09T07:30:37.972666",
-      "text": "Placed limit buy order: 2.5 SOL on SOL-USDT at 82.7 USDT (status: live)"
-    },
-    {
-      "time": "2026-03-09T07:30:37.972661",
-      "text": "Placed limit buy order: 0.15 ETH on ETH-USDT at 1968 USDT (status: live)"
-    },
-    {
-      "time": "2026-03-09T05:38:40.031532",
-      "text": "Buy BTC-USDT market by 500 USDT (ordId: 3373302637760356352, filled, avgPx: 67538.333090690512211, fillSz: 0.00656393 BTC)"
-    },
-    {
-      "time": "2026-03-09T03:05:20.134733",
-      "text": "Buy 7.221085 SOL with 600 USDT at avg 83.09 (market), fee 0.007221085 SOL"
     }
   ]
 }
