@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-15T06:27:51.379729",
-      "balance": 118848.7
-    },
-    {
       "time": "2025-11-15T07:19:42.290576",
       "balance": 118579.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-18T15:19:34.120124",
       "balance": 83369.1
+    },
+    {
+      "time": "2026-03-18T17:16:33.318644",
+      "balance": 83429.9
     }
   ],
   "assets": {
-    "BTC": 46441.3,
-    "ETH": 9748.5,
-    "SOL": 1738.4,
-    "USDT": 25440.8
+    "BTC": 46501.5,
+    "ETH": 9747.7,
+    "SOL": 1739.9,
+    "USDT": 25437.0
   },
   "trades": [
+    {
+      "time": "2026-03-18T17:16:33.318669",
+      "text": "Hold all positions - market oversold, wait for rebound"
+    },
     {
       "time": "2026-03-18T15:19:34.120146",
       "text": "Sell 1.0 ETH @ market price"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-09T11:07:57.461146",
       "text": "Buy 0.350278 ETH on ETH-USDT at avg 1998.41 USDT, fee 0.000350278 ETH"
-    },
-    {
-      "time": "2026-03-09T09:24:21.971262",
-      "text": "Buy 0.01472469 BTC on BTC-USDT, spent 999.999344439 USDT at avg 67913.1 via market order"
     }
   ]
 }
