@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-14T16:24:35.000232",
-      "balance": 119249.7
-    },
-    {
       "time": "2025-11-14T17:22:17.031569",
       "balance": 119584.7
     },
@@ -3999,14 +3995,27 @@
     {
       "time": "2026-03-17T22:45:23.161570",
       "balance": 86565.8
+    },
+    {
+      "time": "2026-03-18T03:00:41.700641",
+      "balance": 86808.9
     }
   ],
   "assets": {
-    "BTC": 55795.8,
-    "ETH": 11545.4,
-    "SOL": 3702.1
+    "BTC": 0.8,
+    "ETH": 5.0,
+    "SOL": 39.0,
+    "USDT": 15525.1
   },
   "trades": [
+    {
+      "time": "2026-03-18T03:00:41.700665",
+      "text": "Place limit order: Buy 0.05 BTC @ 72,000 USDT (~$3,600)"
+    },
+    {
+      "time": "2026-03-18T03:00:41.700662",
+      "text": "Place limit order: Buy 0.5 ETH @ 2,310 USDT (~$1,155)"
+    },
     {
       "time": "2026-03-17T22:45:23.161599",
       "text": "No trade executed - maintaining current positions as market analysis suggests holding pattern"
@@ -4398,14 +4407,6 @@
     {
       "time": "2026-03-09T03:05:20.134725",
       "text": "Buy 0.02843989 BTC with 1900 USDT at avg 66807.56 (market), fee 0.00002843989 BTC"
-    },
-    {
-      "time": "2026-03-08T22:46:36.095029",
-      "text": "Existing live order retained: Sell 0.35 ETH on ETH-USDT at 1988 USDT."
-    },
-    {
-      "time": "2026-03-08T22:46:36.095027",
-      "text": "Skipped ETH-USDT conditional long: reclaim >1995-2005 not confirmed."
     }
   ]
 }
