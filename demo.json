@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-16T20:23:27.809493",
-      "balance": 115084.0
-    },
-    {
       "time": "2025-11-16T21:17:09.996216",
       "balance": 114312.6
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-03-20T17:02:33.167156",
       "balance": 82166.4
+    },
+    {
+      "time": "2026-03-20T19:06:16.130875",
+      "balance": 81963.3
     }
   ],
   "assets": {
-    "USDT": 6487.3,
-    "BTC": 46031.6,
-    "ETH": 23184.4,
-    "SOL": 6463.1
+    "BTC": 45989.1,
+    "ETH": 23044.3,
+    "SOL": 6442.5,
+    "USDT": 6487.4
   },
   "trades": [
+    {
+      "time": "2026-03-20T19:06:16.130931",
+      "text": "Reason: BTC preferred only on weakness, USDT not critically low, current BTC allocation already large"
+    },
+    {
+      "time": "2026-03-20T19:06:16.130928",
+      "text": "No trade executed; held existing BTC, ETH, SOL, and USDT balances"
+    },
     {
       "time": "2026-03-20T17:02:33.167211",
       "text": "Buy 0.373972 ETH with 800 USDT on ETH-USDT spot market order at average price 2139.1924936626271486 USDT/ETH; fee 0.000373972 ETH; order filled."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-11T19:09:26.818654",
       "text": "Canceled ETH-USDT sell 0.25 @ 2095 (order 3380231300913307648)"
-    },
-    {
-      "time": "2026-03-11T15:00:25.777336",
-      "text": "Placed ETH-USDT limit sell 0.25 @ 2,095"
-    },
-    {
-      "time": "2026-03-11T15:00:25.777335",
-      "text": "Placed ETH-USDT limit sell 0.25 @ 2,075"
     }
   ]
 }
