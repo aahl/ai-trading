@@ -1,14 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-18T04:38:53.541325",
-      "balance": 110443.6
-    },
-    {
-      "time": "2025-11-18T13:05:52.445690",
-      "balance": 112673.0
-    },
-    {
       "time": "2025-11-18T16:45:35.093358",
       "balance": 116419.1
     },
@@ -3999,15 +3991,59 @@
     {
       "time": "2026-03-22T03:01:08.048909",
       "balance": 81395.5
+    },
+    {
+      "time": "2026-03-22T05:32:22.181321",
+      "balance": 81511.6
+    },
+    {
+      "time": "2026-03-22T05:35:24.949804",
+      "balance": 81361.6
     }
   ],
   "assets": {
-    "BTC": 42055.2,
-    "ETH": 27088.7,
-    "SOL": 7765.6,
-    "USDT": 4486.0
+    "BTC": 46180.0,
+    "ETH": 24087.1,
+    "SOL": 6569.7,
+    "USDT": 4524.8
   },
   "trades": [
+    {
+      "time": "2026-03-22T05:35:24.949839",
+      "text": "Bought 0.01734798 BTC with 1200 USDT on BTC-USDT at 69172.3 to add a small BTC spot position."
+    },
+    {
+      "time": "2026-03-22T05:35:24.949837",
+      "text": "Sold 14 SOL for USDT on SOL-USDT at 88.57 as part of rotating out of SOL."
+    },
+    {
+      "time": "2026-03-22T05:35:24.949836",
+      "text": "Sold an additional 1.5 ETH for BTC on ETH-BTC at 0.02919 to create a net ETH-to-BTC rotation."
+    },
+    {
+      "time": "2026-03-22T05:35:24.949835",
+      "text": "Sold 15.4 ETH for BTC on ETH-BTC at 0.02919 to reverse the initial leg and restore BTC-over-ETH bias."
+    },
+    {
+      "time": "2026-03-22T05:35:24.949833",
+      "text": "Bought 15.410958 ETH with 0.45 BTC on ETH-BTC at 0.0292 as an initial rotation leg."
+    },
+    {
+      "time": "2026-03-22T05:32:22.181358",
+      "text": "Bought 0.01734798 BTC with 1200 USDT on BTC-USDT at 69172.3 to add a small BTC spot position."
+    },
+    {
+      "time": "2026-03-22T05:32:22.181356",
+      "text": "Sold 14 SOL for USDT on SOL-USDT at 88.57 as part of rotating out of SOL."
+    },
+    {
+      "time": "2026-03-22T05:32:22.181354",
+      "text": "Sold 15.4 ETH for BTC on ETH-BTC at 0.02919 to correct the prior leg and align with BTC-over-ETH bias."
+    },
+    {
+      "time": "2026-03-22T05:32:22.181351",
+      "text": "Bought 15.410958 ETH with 0.45 BTC on ETH-BTC at 0.0292 as an initial rotation leg."
+    },
     {
       "time": "2026-03-22T03:01:08.048943",
       "text": "Buy 1.369863 ETH with 0.04 BTC on ETH-BTC via market order at avg 0.0292 BTC per ETH."
@@ -4371,42 +4407,6 @@
     {
       "time": "2026-03-14T14:46:24.403787",
       "text": "Buy 0.04258647 BTC at $70,454.60 using 3000 USDT"
-    },
-    {
-      "time": "2026-03-14T13:22:53.061075",
-      "text": "Cancelled BTC buy orders at $70,000 and $69,000 to reduce risk exposure"
-    },
-    {
-      "time": "2026-03-13T13:22:38.345585",
-      "text": "Placed limit buy SOL-USDT 3.57 @ 84 (ordId 3385832581572853760)"
-    },
-    {
-      "time": "2026-03-13T13:22:38.345583",
-      "text": "Placed limit buy ETH-USDT 0.148 @ 2020 (ordId 3385832573821779968)"
-    },
-    {
-      "time": "2026-03-13T13:22:38.345580",
-      "text": "Placed limit buy BTC-USDT 0.0043 @ 69000 (ordId 3385832565970042880)"
-    },
-    {
-      "time": "2026-03-13T10:52:02.558064",
-      "text": "Place SOL-USDT buy limit 11.62 @ 86 (order 3385530791769931776)"
-    },
-    {
-      "time": "2026-03-13T10:52:02.558062",
-      "text": "Place ETH-USDT buy limit 0.7280 @ 2060 (order 3385530783549095936)"
-    },
-    {
-      "time": "2026-03-13T10:52:02.558059",
-      "text": "Place BTC-USDT buy limit 0.01428 @ 70000 (order 3385530799017689088)"
-    },
-    {
-      "time": "2026-03-13T05:20:26.144280",
-      "text": "Placed SOL-USDT limit sell 15 SOL @ 90 USDT (ordId 3384863594437410816)"
-    },
-    {
-      "time": "2026-03-13T05:20:26.144277",
-      "text": "Canceled live limit buys: BTC-USDT (ordId 3382190683717115904), ETH-USDT (ordId 3382190689723359232), SOL-USDT (ordId 3382190695830265857)"
     }
   ]
 }
