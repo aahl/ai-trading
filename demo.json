@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-20T06:54:28.606268",
-      "balance": 116264.7
-    },
-    {
       "time": "2025-11-20T08:58:28.977263",
       "balance": 116500.0
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-03-23T17:09:01.164423",
       "balance": 82366.0
+    },
+    {
+      "time": "2026-03-23T19:10:41.259956",
+      "balance": 83032.5
     }
   ],
   "assets": {
-    "BTC": 49825.3,
-    "ETH": 20460.0,
-    "SOL": 7760.2,
-    "USDT": 4320.5
+    "BTC": 50098.6,
+    "ETH": 20744.9,
+    "SOL": 9368.4,
+    "USDT": 2820.7
   },
   "trades": [
+    {
+      "time": "2026-03-23T19:10:41.259995",
+      "text": "Keep BTC unchanged and avoid overtrading in overheated conditions"
+    },
+    {
+      "time": "2026-03-23T19:10:41.259993",
+      "text": "Increase SOL spot exposure with a small risk-controlled allocation"
+    },
+    {
+      "time": "2026-03-23T19:10:41.259990",
+      "text": "Buy SOL with 1500 USDT via market order"
+    },
     {
       "time": "2026-03-23T17:09:01.164456",
       "text": "Buy 0.46803 ETH on ETH-USDT using ~1000 USDT at average price 2136.611047731983, fee 0.00046803 ETH"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-03-15T18:58:56.036434",
       "text": "Buy 0.0561 BTC @ $71,363, spent $4,000 USDT"
-    },
-    {
-      "time": "2026-03-15T18:58:56.036431",
-      "text": "Sell 2 ETH @ $2,099.41, received $4,198.82 USDT"
-    },
-    {
-      "time": "2026-03-15T13:16:05.041633",
-      "text": "Buy 0.95 ETH limit order at 2,060 USDT (pending)"
-    },
-    {
-      "time": "2026-03-15T13:16:05.041630",
-      "text": "Sell 0.07 BTC at 71,242.13 USDT, received 4,986.95 USDT"
     }
   ]
 }
