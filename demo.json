@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-20T14:38:04.326300",
-      "balance": 116198.9
-    },
-    {
       "time": "2025-11-20T16:40:25.938258",
       "balance": 111886.9
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-24T02:49:23.288943",
       "balance": 82330.4
+    },
+    {
+      "time": "2026-03-24T07:22:14.848575",
+      "balance": 82883.0
     }
   ],
   "assets": {
-    "BTC": 49782.4,
-    "ETH": 20503.8,
-    "SOL": 11023.0,
-    "USDT": 1021.2
+    "BTC": 50049.0,
+    "ETH": 20999.6,
+    "SOL": 11113.0,
+    "USDT": 721.3
   },
   "trades": [
+    {
+      "time": "2026-03-24T07:22:14.848608",
+      "text": "Buy 0.13881 ETH on ETH-USDT, spent 299.9989482 USDT at avg 2161.22, fee 0.00013881 ETH"
+    },
     {
       "time": "2026-03-24T02:49:23.288977",
       "text": "Preserved approximately 1021.50 USDT cash instead of forcing a small incremental entry."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-16T20:54:14.103448",
       "text": "No trades executed - all assets are overbought, holding current positions"
-    },
-    {
-      "time": "2026-03-16T17:19:00.198751",
-      "text": "Buy 1 ETH at 2301.19 USDT, spent 2301.19 USDT"
     }
   ]
 }
