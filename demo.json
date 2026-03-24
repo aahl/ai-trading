@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-21T08:42:39.305159",
-      "balance": 106813.6
-    },
-    {
       "time": "2025-11-21T10:31:59.740685",
       "balance": 104810.9
     },
@@ -3999,6 +3995,10 @@
     {
       "time": "2026-03-24T20:57:14.255029",
       "balance": 82110.0
+    },
+    {
+      "time": "2026-03-24T22:44:25.182888",
+      "balance": 82134.7
     }
   ],
   "assets": {
@@ -4008,6 +4008,10 @@
     "USDT": 1491.7
   },
   "trades": [
+    {
+      "time": "2026-03-24T22:44:25.182909",
+      "text": "Buy 0.00213386 BTC on BTC-USDT spot at avg 70294.9152 using 150 USDT in simulation account"
+    },
     {
       "time": "2026-03-24T15:15:01.366847",
       "text": "Buy 0.093549 ETH via ETH-USDT market order, spent 200 USDT at average price 2137.91 USDT, fee 0.000093549 ETH"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-17T05:31:32.434583",
       "text": "Buy 1.191653 ETH at 2316.11 USDT, spent 2760 USDT"
-    },
-    {
-      "time": "2026-03-17T02:51:22.162398",
-      "text": "Buy 0.241 SOL @ 95.355 USDT, spent 22.99 USDT"
     }
   ]
 }
