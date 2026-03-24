@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-20T13:15:49.029127",
-      "balance": 117000.1
-    },
-    {
       "time": "2025-11-20T14:38:04.326300",
       "balance": 116198.9
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-03-23T22:47:31.145506",
       "balance": 82654.3
+    },
+    {
+      "time": "2026-03-24T02:49:23.288943",
+      "balance": 82330.4
     }
   ],
   "assets": {
-    "BTC": 49878.4,
-    "ETH": 20608.4,
-    "SOL": 11146.3,
+    "BTC": 49782.4,
+    "ETH": 20503.8,
+    "SOL": 11023.0,
     "USDT": 1021.2
   },
   "trades": [
+    {
+      "time": "2026-03-24T02:49:23.288977",
+      "text": "Preserved approximately 1021.50 USDT cash instead of forcing a small incremental entry."
+    },
+    {
+      "time": "2026-03-24T02:49:23.288976",
+      "text": "No trade placed; held existing SOL exposure because analysis allowed HOLD if already long and volatility is higher."
+    },
+    {
+      "time": "2026-03-24T02:49:23.288974",
+      "text": "No trade placed; held existing ETH exposure because analysis allowed HOLD if already long."
+    },
+    {
+      "time": "2026-03-24T02:49:23.288971",
+      "text": "No trade placed; held existing BTC exposure because BTC signal was HOLD near resistance."
+    },
     {
       "time": "2026-03-23T22:47:31.145540",
       "text": "Buy 19.676432 SOL, spent 1800 USDT"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-03-16T17:19:00.198751",
       "text": "Buy 1 ETH at 2301.19 USDT, spent 2301.19 USDT"
-    },
-    {
-      "time": "2026-03-16T13:48:17.513453",
-      "text": "Sell 0.8 ETH at market price, received ~1838 USDT"
-    },
-    {
-      "time": "2026-03-16T07:51:13.463738",
-      "text": "No trades executed - market conditions not favorable for entry"
-    },
-    {
-      "time": "2026-03-16T05:57:40.782863",
-      "text": "No new trades - market in overbought territory, holding positions"
-    },
-    {
-      "time": "2026-03-15T20:44:04.569832",
-      "text": "Buy 0.3519 ETH at $2,131.15, spent 750 USDT"
     }
   ]
 }
