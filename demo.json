@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-20T20:37:03.262977",
-      "balance": 110942.3
-    },
-    {
       "time": "2025-11-20T22:32:54.211683",
       "balance": 112588.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-24T11:06:05.590731",
       "balance": 82900.7
+    },
+    {
+      "time": "2026-03-24T13:47:54.299162",
+      "balance": 82187.8
     }
   ],
   "assets": {
-    "USDT": 71.5,
-    "BTC": 50089.1,
-    "ETH": 21580.4,
-    "SOL": 11159.7
+    "BTC": 49657.8,
+    "ETH": 21467.1,
+    "SOL": 9370.8,
+    "USDT": 1692.0
   },
   "trades": [
+    {
+      "time": "2026-03-24T13:47:54.299194",
+      "text": "Sell 18 SOL on SOL-USDT at 90.14 USDT via market order, gross 1622.52 USDT, fee 1.62252 USDT, net proceeds 1620.89748 USDT, orderId 3417772150362738688"
+    },
     {
       "time": "2026-03-24T09:07:47.822582",
       "text": "Buy 0.301393 ETH on ETH-USDT at 2156.65 USDT, spent 650 USDT, fee 0.000301393 ETH"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-17T02:51:22.162395",
       "text": "Sell 0.933 ETH @ 2,357.39 USDT, received 2,197.34 USDT after fees"
-    },
-    {
-      "time": "2026-03-16T22:44:00.831464",
-      "text": "No new trades - all assets overbought, holding positions"
     }
   ]
 }
