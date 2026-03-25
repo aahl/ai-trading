@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-22T04:36:00.479619",
-      "balance": 106527.7
-    },
-    {
       "time": "2025-11-22T06:39:43.480647",
       "balance": 107529.5
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-03-25T17:16:34.283274",
       "balance": 83446.0
+    },
+    {
+      "time": "2026-03-25T19:14:00.230792",
+      "balance": 83447.0
     }
   ],
   "assets": {
-    "BTC": 50200.0,
-    "ETH": 22253.0,
-    "SOL": 10258.8,
-    "USDT": 534.2
+    "BTC": 50268.1,
+    "ETH": 22389.4,
+    "SOL": 10355.5,
+    "USDT": 434.1
   },
   "trades": [
+    {
+      "time": "2026-03-25T19:14:00.230830",
+      "text": "Bought 1.090037 SOL on SOL-USDT at average 91.74 USDT via market order, spent about 100 USDT, fee 0.001090037 SOL."
+    },
+    {
+      "time": "2026-03-25T19:14:00.230827",
+      "text": "Attempted BUY SOL-ETH market using 0.5 ETH quote amount; order canceled due to slippage limit."
+    },
     {
       "time": "2026-03-25T15:19:44.266203",
       "text": "Buy 2.36615 SOL on SOL-USDT (adjusted from unavailable SOL-BTC), spent 215.58 USDT, fee 0.00236615 SOL"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-17T20:53:05.038330",
       "text": "Sell 1.5 ETH at $2,327.02, received $3,490.53 USDT"
-    },
-    {
-      "time": "2026-03-17T19:16:29.172590",
-      "text": "No new trades executed - holding positions as per market analysis recommendations"
-    },
-    {
-      "time": "2026-03-17T17:16:49.815862",
-      "text": "Buy 21.19 SOL at $94.38, spent 2000 USDT"
     }
   ]
 }
