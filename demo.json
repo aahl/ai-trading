@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-21T10:31:59.740685",
-      "balance": 104810.9
-    },
-    {
       "time": "2025-11-21T12:57:19.335210",
       "balance": 106038.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-24T22:44:25.182888",
       "balance": 82134.7
+    },
+    {
+      "time": "2026-03-25T03:07:33.680012",
+      "balance": 82449.0
     }
   ],
   "assets": {
-    "BTC": 49494.6,
-    "ETH": 21760.9,
-    "SOL": 9362.7,
-    "USDT": 1491.7
+    "BTC": 49878.3,
+    "ETH": 21773.3,
+    "SOL": 9455.7,
+    "USDT": 1341.8
   },
   "trades": [
+    {
+      "time": "2026-03-25T03:07:33.680040",
+      "text": "Placed buy limit order for 1.5 SOL on SOL-USDT at 90.80 USDT in OKX simulated account; order id 3419383527435145216; status live; 136.2 USDT frozen."
+    },
     {
       "time": "2026-03-24T22:44:25.182909",
       "text": "Buy 0.00213386 BTC on BTC-USDT spot at avg 70294.9152 using 150 USDT in simulation account"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-17T07:19:30.394798",
       "text": "Buy 0.8582 ETH with 2000 USDT at market price"
-    },
-    {
-      "time": "2026-03-17T05:31:32.434583",
-      "text": "Buy 1.191653 ETH at 2316.11 USDT, spent 2760 USDT"
     }
   ]
 }
