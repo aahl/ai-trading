@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-22T18:46:01.693488",
-      "balance": 107301.8
-    },
-    {
       "time": "2025-11-22T20:30:43.390226",
       "balance": 107425.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-26T13:52:27.061221",
       "balance": 83369.2
+    },
+    {
+      "time": "2026-03-26T15:21:00.332428",
+      "balance": 83313.0
     }
   ],
   "assets": {
-    "BTC": 51429.2,
-    "ETH": 21297.7,
-    "SOL": 10608.1,
+    "BTC": 52840.8,
+    "ETH": 19760.1,
+    "SOL": 10677.9,
     "USDT": 34.2
   },
   "trades": [
+    {
+      "time": "2026-03-26T15:21:00.332454",
+      "text": "Sell 0.4 ETH on ETH-BTC at avg 0.02838 BTC to increase BTC exposure; fee 0.000011352 BTC; order id 3423758990639104000"
+    },
     {
       "time": "2026-03-26T13:52:27.061280",
       "text": "Sell 0.3 ETH on ETH-BTC at market, received approximately 0.008523468 BTC net after 0.000008532 BTC fee. Order ID: 3423580332079185920"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-18T15:16:46.859924",
       "text": "Sell 1.5 ETH @ 2250 USDT (pending)"
-    },
-    {
-      "time": "2026-03-18T15:16:46.859919",
-      "text": "Sell 0.16 BTC @ 73000 USDT (pending)"
     }
   ]
 }
