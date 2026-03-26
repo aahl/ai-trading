@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-23T04:43:55.656832",
-      "balance": 109680.8
-    },
-    {
       "time": "2025-11-23T08:35:07.456995",
       "balance": 108961.6
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-26T20:45:28.917671",
       "balance": 82873.0
+    },
+    {
+      "time": "2026-03-26T22:42:52.085556",
+      "balance": 82800.8
     }
   ],
   "assets": {
-    "BTC": 56391.6,
-    "ETH": 15839.1,
-    "SOL": 10608.1,
+    "BTC": 56974.9,
+    "ETH": 15184.0,
+    "SOL": 10607.6,
     "USDT": 34.2
   },
   "trades": [
+    {
+      "time": "2026-03-26T22:42:52.085598",
+      "text": "Sold 0.3 ETH for BTC on ETH-BTC at market, avg price 0.0273772683666664 BTC per ETH, fee 0.00000821318051 BTC. Attempted SOL-BTC defensive rotation but OKX rejected the pair as unavailable."
+    },
     {
       "time": "2026-03-26T19:26:05.033633",
       "text": "Attempted SOL reduction via SOL-USDT, SOL-BTC, and SOL-ETH alternatives, but all executions were blocked or canceled by price protection / unavailable market constraints."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-18T17:16:33.318669",
       "text": "Hold all positions - market oversold, wait for rebound"
-    },
-    {
-      "time": "2026-03-18T15:19:34.120146",
-      "text": "Sell 1.0 ETH @ market price"
     }
   ]
 }
