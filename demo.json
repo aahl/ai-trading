@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-22T18:40:44.867529",
-      "balance": 107270.1
-    },
-    {
       "time": "2025-11-22T18:46:01.693488",
       "balance": 107301.8
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-26T11:05:31.553091",
       "balance": 83368.7
+    },
+    {
+      "time": "2026-03-26T13:52:27.061221",
+      "balance": 83369.2
     }
   ],
   "assets": {
-    "USDT": 34.2,
-    "SOL": 10607.6,
     "BTC": 51429.2,
-    "ETH": 21297.7
+    "ETH": 21297.7,
+    "SOL": 10608.1,
+    "USDT": 34.2
   },
   "trades": [
+    {
+      "time": "2026-03-26T13:52:27.061280",
+      "text": "Sell 0.3 ETH on ETH-BTC at market, received approximately 0.008523468 BTC net after 0.000008532 BTC fee. Order ID: 3423580332079185920"
+    },
     {
       "time": "2026-03-26T09:12:26.806023",
       "text": "Attempted sell 5 SOL on SOL-BTC at market, rejected because pair unavailable in this environment"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-18T15:16:46.859919",
       "text": "Sell 0.16 BTC @ 73000 USDT (pending)"
-    },
-    {
-      "time": "2026-03-18T09:05:31.939806",
-      "text": "Buy 0.01 BTC at 73000 USDT (pending order)"
     }
   ]
 }
