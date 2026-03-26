@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-22T22:28:09.206557",
-      "balance": 107339.6
-    },
-    {
       "time": "2025-11-23T02:25:51.607902",
       "balance": 108985.3
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-03-26T17:16:59.140046",
       "balance": 83255.6
+    },
+    {
+      "time": "2026-03-26T19:26:05.033599",
+      "balance": 82871.9
     }
   ],
   "assets": {
-    "BTC": 52844.1,
-    "ETH": 19769.3,
+    "BTC": 56390.5,
+    "ETH": 15839.0,
     "SOL": 10608.1,
     "USDT": 34.2
   },
   "trades": [
+    {
+      "time": "2026-03-26T19:26:05.033633",
+      "text": "Attempted SOL reduction via SOL-USDT, SOL-BTC, and SOL-ETH alternatives, but all executions were blocked or canceled by price protection / unavailable market constraints."
+    },
+    {
+      "time": "2026-03-26T19:26:05.033630",
+      "text": "Sell 1.8 ETH for BTC via ETH-BTC market order, filled at avg 0.02769 BTC/ETH, net +0.049792158 BTC."
+    },
     {
       "time": "2026-03-26T15:21:00.332454",
       "text": "Sell 0.4 ETH on ETH-BTC at avg 0.02838 BTC to increase BTC exposure; fee 0.000011352 BTC; order id 3423758990639104000"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-18T15:19:34.120146",
       "text": "Sell 1.0 ETH @ market price"
-    },
-    {
-      "time": "2026-03-18T15:19:34.120144",
-      "text": "Sell 0.16 BTC @ market price"
-    },
-    {
-      "time": "2026-03-18T15:16:46.859924",
-      "text": "Sell 1.5 ETH @ 2250 USDT (pending)"
     }
   ]
 }
