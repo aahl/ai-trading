@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-25T04:43:11.316911",
-      "balance": 112328.9
-    },
-    {
       "time": "2025-11-25T06:44:58.298972",
       "balance": 112094.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-03-28T14:45:45.128789",
       "balance": 77159.8
+    },
+    {
+      "time": "2026-03-28T16:46:55.634647",
+      "balance": 77170.1
     }
   ],
   "assets": {
-    "BTC": 53583.5,
-    "ETH": 14331.3,
-    "SOL": 9245.0,
+    "BTC": 53511.7,
+    "ETH": 14461.9,
+    "SOL": 9173.6,
     "USDT": 22.9
   },
   "trades": [
+    {
+      "time": "2026-03-28T16:46:55.634679",
+      "text": "Buy 0.066979 ETH using 0.002 BTC on ETH-BTC via spot market order; fee 0.000066979 ETH; avg price 0.02986 BTC/ETH."
+    },
     {
       "time": "2026-03-28T14:45:45.128818",
       "text": "Buy 0.066979 ETH via ETH-BTC market order, spent 0.002 BTC at average price 0.02986 BTC, fee 0.000066979 ETH"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-19T14:59:55.250158",
       "text": "Keep ETH-USDT limit buy order 0.5 @ 2100 USDT - waiting for better entry"
-    },
-    {
-      "time": "2026-03-19T14:59:55.250155",
-      "text": "Cancel SOL-USDT limit buy order 11.24 @ 89 USDT - risk management"
     }
   ]
 }
