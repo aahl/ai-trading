@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-25T02:04:26.795357",
-      "balance": 112137.0
-    },
-    {
       "time": "2025-11-25T02:08:46.014583",
       "balance": 112083.0
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-03-28T10:45:44.212179",
       "balance": 76310.4
+    },
+    {
+      "time": "2026-03-28T13:17:21.049733",
+      "balance": 76606.9
     }
   ],
   "assets": {
-    "BTC": 52790.2,
-    "ETH": 13979.8,
-    "SOL": 9506.2,
-    "USDT": 34.2
+    "BTC": 53485.4,
+    "ETH": 14036.4,
+    "SOL": 9098.8,
+    "USDT": 22.9
   },
   "trades": [
+    {
+      "time": "2026-03-28T13:17:21.049763",
+      "text": "Buy BTC-USDT market order using 425 USDT, received 0.00639209 BTC at 66488.4 average price (fee 0.00000639209 BTC)"
+    },
+    {
+      "time": "2026-03-28T13:17:21.049759",
+      "text": "Sell 5 SOL for 414.15 USDT on SOL-USDT at 82.83 average price (fee 0.41415 USDT)"
+    },
     {
       "time": "2026-03-28T10:45:44.212213",
       "text": "Buy 0.101044 ETH via ETH-BTC at 0.02969 BTC/ETH, spent 0.003 BTC, fee 0.000101044 ETH"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-19T13:29:44.356270",
       "text": "Cancel BTC buy order @ $68200 (price too low)"
-    },
-    {
-      "time": "2026-03-19T13:29:44.356268",
-      "text": "Hold SOL buy order 11.24 @ $89 pending"
-    },
-    {
-      "time": "2026-03-19T13:29:44.356265",
-      "text": "Buy 0.5 ETH @ $2100 (order placed)"
     }
   ]
 }
