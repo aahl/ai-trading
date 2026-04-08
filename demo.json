@@ -4007,15 +4007,27 @@
     {
       "time": "2026-04-08T09:16:41.669000",
       "balance": 82744.3
+    },
+    {
+      "time": "2026-04-08T09:19:13.429000",
+      "balance": 82336.8
     }
   ],
   "assets": {
-    "BTC": 53700.6,
-    "ETH": 20571.3,
-    "SOL": 7197.0,
-    "USDT": 1275.4
+    "BTC": 52489.3,
+    "ETH": 21440.1,
+    "SOL": 7631.9,
+    "USDT": 775.5
   },
   "trades": [
+    {
+      "time": "2026-04-08T09:17:42.076000",
+      "text": "Bought 5.937537 SOL on SOL-USDT at 84.21 USDT, spending 499.99999077 USDT with a fee of 0.005937537 SOL."
+    },
+    {
+      "time": "2026-04-08T09:17:01.203000",
+      "text": "Attempted to buy SOL with 0.5 ETH on SOL-ETH, but the order was canceled due to price protection/slippage limits."
+    },
     {
       "time": "2026-04-08T09:16:41.669000",
       "text": "No trade executed; held positions due to no pullback confirmation on ETH-USDT."
