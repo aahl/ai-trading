@@ -4015,15 +4015,23 @@
     {
       "time": "2026-04-08T09:29:08.358000",
       "balance": 81639.1
+    },
+    {
+      "time": "2026-04-08T17:27:49.410000",
+      "balance": 82040.2
     }
   ],
   "assets": {
-    "BTC": 50737.6,
-    "ETH": 22577.2,
-    "SOL": 7548.8,
-    "USDT": 775.5
+    "BTC": 51003.0,
+    "ETH": 22996.0,
+    "SOL": 7565.6,
+    "USDT": 475.6
   },
   "trades": [
+    {
+      "time": "2026-04-08T17:27:49.410000",
+      "text": "Buy 0.148623 ETH on ETH-USDT via spot market order, spent 300 USDT at avg price 2018.53 USDT/ETH, fee 0.000148623 ETH."
+    },
     {
       "time": "2026-04-08T09:29:08.358000",
       "text": "Buy 0.647668 ETH via ETH-BTC market order, spent 0.02 BTC at avg price 0.03088 BTC/ETH, fee 0.000647668 ETH"
