@@ -4003,15 +4003,23 @@
     {
       "time": "2026-04-08T05:56:25.979000",
       "balance": 82520.3
+    },
+    {
+      "time": "2026-04-08T09:16:41.669000",
+      "balance": 82744.3
     }
   ],
   "assets": {
-    "BTC": 53662.0,
-    "ETH": 20434.3,
-    "SOL": 7148.7,
-    "USDT": 1275.3
+    "BTC": 53700.6,
+    "ETH": 20571.3,
+    "SOL": 7197.0,
+    "USDT": 1275.4
   },
   "trades": [
+    {
+      "time": "2026-04-08T09:16:41.669000",
+      "text": "No trade executed; held positions due to no pullback confirmation on ETH-USDT."
+    },
     {
       "time": "2026-04-08T05:56:25.979000",
       "text": "Buy 0.160959 ETH on ETH-USDT via spot market order, spent 300 USDT at avg price 1863.82 USDT/ETH, fee 0.000160959 ETH, tag CAUTIOUS."
