@@ -4023,15 +4023,23 @@
     {
       "time": "2026-04-09T03:04:23.146000",
       "balance": 81306.9
+    },
+    {
+      "time": "2026-04-09T06:02:03.848000",
+      "balance": 81314.5
     }
   ],
   "assets": {
-    "BTC": 49615.4,
-    "ETH": 24582.6,
-    "SOL": 6633.5,
+    "BTC": 49253.7,
+    "ETH": 24939.6,
+    "SOL": 6645.7,
     "USDT": 475.5
   },
   "trades": [
+    {
+      "time": "2026-04-09T06:02:03.848000",
+      "text": "Bought 0.154178 ETH on ETH-BTC at an average price of 0.03243 BTC per ETH using a 0.005 BTC spot market order; the order filled fully and fee was 0.000154178 ETH."
+    },
     {
       "time": "2026-04-09T03:04:23.146000",
       "text": "Buy 0.471385 ETH via ETH-BTC market order, spent 0.015 BTC at avg price 0.0318211204853783 BTC/ETH, fee 0.000471385 ETH, order id 3462866477392592896"
