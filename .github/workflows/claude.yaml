@@ -97,7 +97,7 @@ jobs:
 
       - uses: anthropics/claude-code-action@v1
         id: claude
-        timeout-minutes: 45
+        timeout-minutes: 90
         env:
           ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL || vars.ANTHROPIC_BASE_URL }}
           ANTHROPIC_DEFAULT_OPUS_MODEL: ${{ inputs.model || vars.ANTHROPIC_DEFAULT_OPUS_MODEL || vars.CLAUDE_DEFAULT_MODEL }}
