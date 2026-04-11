@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-28T12:57:10.999674",
-      "balance": 114745.4
-    },
-    {
       "time": "2025-11-28T18:44:18.401031",
       "balance": 113746.1
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-04-11T20:56:03.830213",
       "balance": 84930.0
+    },
+    {
+      "time": "2026-04-11T22:50:50.883872",
+      "balance": 84786.4
     }
   ],
   "assets": {
-    "BTC": 39523.2,
-    "ETH": 39786.2,
-    "SOL": 4993.2,
-    "USDT": 627.4
+    "BTC": 39463.5,
+    "ETH": 39920.0,
+    "SOL": 4975.5,
+    "USDT": 427.3
   },
   "trades": [
+    {
+      "time": "2026-04-11T22:50:50.883903",
+      "text": "Order ETHUSDT20260411SIMEXEC02 filled at an average price of 2297.503324028443 USDT for 0.087051 ETH, with a fee of 0.000087051 ETH."
+    },
+    {
+      "time": "2026-04-11T22:50:50.883900",
+      "text": "Bought ETH on ETH-USDT spot using a conservative market order in cash mode, spending 200 USDT."
+    },
     {
       "time": "2026-04-11T20:56:03.830243",
       "text": "No trade executed: held positions due to already-large ETH exposure and conservative risk control."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-22T05:32:22.181354",
       "text": "Sold 15.4 ETH for BTC on ETH-BTC at 0.02919 to correct the prior leg and align with BTC-over-ETH bias."
-    },
-    {
-      "time": "2026-03-22T05:32:22.181351",
-      "text": "Bought 15.410958 ETH with 0.45 BTC on ETH-BTC at 0.0292 as an initial rotation leg."
-    },
-    {
-      "time": "2026-03-22T03:01:08.048943",
-      "text": "Buy 1.369863 ETH with 0.04 BTC on ETH-BTC via market order at avg 0.0292 BTC per ETH."
     }
   ]
 }
