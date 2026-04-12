@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-29T18:41:12.497378",
-      "balance": 112834.7
-    },
-    {
       "time": "2025-11-29T22:31:10.278821",
       "balance": 107322.4
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-04-12T19:14:36.065372",
       "balance": 81755.7
+    },
+    {
+      "time": "2026-04-12T21:05:10.038806",
+      "balance": 82064.2
     }
   ],
   "assets": {
-    "BTC": 39926.6,
-    "ETH": 36711.8,
-    "SOL": 5109.1,
-    "USDT": 8.3
+    "BTC": 41040.4,
+    "ETH": 36870.4,
+    "SOL": 4143.3,
+    "USDT": 10.0
   },
   "trades": [
+    {
+      "time": "2026-04-12T21:05:10.038841",
+      "text": "Buy BTC via BTC-USDT market order using 990 USDT, receiving 0.01386158 BTC at 71420.4 USDT/BTC."
+    },
+    {
+      "time": "2026-04-12T21:05:10.038839",
+      "text": "Sell 12 SOL via SOL-USDT market order, receiving about 992.76 USDT at 82.73 USDT/SOL."
+    },
+    {
+      "time": "2026-04-12T21:05:10.038836",
+      "text": "Cancel SOL-ETH limit buy order 3473508945817501696 (12 SOL @ 0.0406 ETH) to remove conflicting SOL accumulation."
+    },
     {
       "time": "2026-04-12T19:14:36.065402",
       "text": "Placed a limit order to buy 12 SOL on SOL-ETH at 0.0406 ETH per SOL. Order ID 3473508945817501696 is live and unfilled; 0.4872 ETH is currently frozen for the order."
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-03-22T08:52:19.512394",
       "text": "Sell 0.12 ETH on ETH-USDT at average 2086.05 USDT, received about 250.326 USDT"
-    },
-    {
-      "time": "2026-03-22T08:52:19.512390",
-      "text": "Buy 0.0040709 BTC on BTC-USDT at average 68780.84250264069 USDT, spent about 280 USDT"
-    },
-    {
-      "time": "2026-03-22T07:08:20.155485",
-      "text": "Buy 3.399048 SOL on SOL-USDT, spent 300 USDT at average price 88.26 in spot cash mode"
-    },
-    {
-      "time": "2026-03-22T05:35:24.949839",
-      "text": "Bought 0.01734798 BTC with 1200 USDT on BTC-USDT at 69172.3 to add a small BTC spot position."
     }
   ]
 }
