@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-29T04:33:35.600005",
-      "balance": 113710.7
-    },
-    {
       "time": "2025-11-29T08:38:05.006312",
       "balance": 113552.2
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-04-12T09:18:10.083357",
       "balance": 82166.6
+    },
+    {
+      "time": "2026-04-12T11:11:42.780505",
+      "balance": 81794.7
     }
   ],
   "assets": {
-    "BTC": 40089.0,
-    "ETH": 37266.0,
-    "SOL": 4803.3,
+    "BTC": 40788.0,
+    "ETH": 35896.3,
+    "SOL": 5102.2,
     "USDT": 8.3
   },
   "trades": [
+    {
+      "time": "2026-04-12T11:11:42.780549",
+      "text": "Bought 3.7245 SOL using 0.15 ETH via SOL-ETH market order after one reduced-size retry due to slippage protection."
+    },
+    {
+      "time": "2026-04-12T11:11:42.780545",
+      "text": "Sold 0.37 ETH for BTC via ETH-BTC market order at 0.02921."
+    },
     {
       "time": "2026-04-12T09:18:10.083391",
       "text": "Sold 1 ETH into BTC via ETH-BTC market order at avg 0.0296441299499989 BTC/ETH; net BTC received after fee: 0.02961448582005 BTC; order id 3472308815051358208."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-22T05:35:24.949836",
       "text": "Sold an additional 1.5 ETH for BTC on ETH-BTC at 0.02919 to create a net ETH-to-BTC rotation."
-    },
-    {
-      "time": "2026-03-22T05:35:24.949835",
-      "text": "Sold 15.4 ETH for BTC on ETH-BTC at 0.02919 to reverse the initial leg and restore BTC-over-ETH bias."
-    },
-    {
-      "time": "2026-03-22T05:35:24.949833",
-      "text": "Bought 15.410958 ETH with 0.45 BTC on ETH-BTC at 0.0292 as an initial rotation leg."
     }
   ]
 }
