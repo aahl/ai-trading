@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-29T03:30:23.204728",
-      "balance": 113674.3
-    },
-    {
       "time": "2025-11-29T04:33:35.600005",
       "balance": 113710.7
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-12T07:52:05.320937",
       "balance": 82437.8
+    },
+    {
+      "time": "2026-04-12T09:18:10.083357",
+      "balance": 82166.6
     }
   ],
   "assets": {
-    "BTC": 38049.5,
-    "ETH": 39147.3,
-    "SOL": 4813.7,
-    "USDT": 427.4
+    "BTC": 40089.0,
+    "ETH": 37266.0,
+    "SOL": 4803.3,
+    "USDT": 8.3
   },
   "trades": [
+    {
+      "time": "2026-04-12T09:18:10.083391",
+      "text": "Sold 1 ETH into BTC via ETH-BTC market order at avg 0.0296441299499989 BTC/ETH; net BTC received after fee: 0.02961448582005 BTC; order id 3472308815051358208."
+    },
     {
       "time": "2026-04-12T07:52:05.320962",
       "text": "Placed ETH-USDT limit buy order: 0.19 ETH @ 2205 USDT (status: live, unfilled; ordId: 3472136648602943488)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-22T05:35:24.949833",
       "text": "Bought 15.410958 ETH with 0.45 BTC on ETH-BTC at 0.0292 as an initial rotation leg."
-    },
-    {
-      "time": "2026-03-22T05:32:22.181358",
-      "text": "Bought 0.01734798 BTC with 1200 USDT on BTC-USDT at 69172.3 to add a small BTC spot position."
     }
   ]
 }
