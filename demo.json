@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-29T22:31:10.278821",
-      "balance": 107322.4
-    },
-    {
       "time": "2025-11-30T06:42:50.658167",
       "balance": 113509.8
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-04-12T21:05:10.038806",
       "balance": 82064.2
+    },
+    {
+      "time": "2026-04-12T22:54:39.248470",
+      "balance": 81425.9
     }
   ],
   "assets": {
-    "BTC": 41040.4,
-    "ETH": 36870.4,
-    "SOL": 4143.3,
-    "USDT": 10.0
+    "BTC": 40712.5,
+    "ETH": 36599.7,
+    "SOL": 3694.8,
+    "USDT": 418.9
   },
   "trades": [
+    {
+      "time": "2026-04-12T22:54:39.248503",
+      "text": "2026-04-12 | OKX Demo | ACCOUNT SNAPSHOT AFTER TRADE | USDT: 418.82624069852 | SOL: 45.093657309 | BTC: 0.57438525093373 | ETH: 16.647889727348 | Open Orders: 0 | Derivatives Positions: 0"
+    },
+    {
+      "time": "2026-04-12T22:54:39.248500",
+      "text": "2026-04-12 | OKX Demo | SELL | SOL-USDT | Market | Qty: 5 SOL | Avg Fill: 81.84 USDT | Fee: 0.4092 USDT | ClientOrderId: SOLUSDT20260412SIMEXEC09 | Rationale: Reduced existing SOL spot exposure in a weak market; aligned with analyzer's SOL sell bias and prioritized cautious de-risking over aggressive positioning."
+    },
     {
       "time": "2026-04-12T21:05:10.038841",
       "text": "Buy BTC via BTC-USDT market order using 990 USDT, receiving 0.01386158 BTC at 71420.4 USDT/BTC."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-23T07:30:11.797677",
       "text": "Sell 0.6 ETH for BTC on ETH-BTC at 0.02839 BTC/ETH, received about 0.017034 BTC minus 0.000017034 BTC fee."
-    },
-    {
-      "time": "2026-03-22T22:43:21.764879",
-      "text": "Buy 5.324074 SOL on SOL-USDT market order, spent 460 USDT, fee 0.005324074 SOL"
-    },
-    {
-      "time": "2026-03-22T08:52:19.512394",
-      "text": "Sell 0.12 ETH on ETH-USDT at average 2086.05 USDT, received about 250.326 USDT"
     }
   ]
 }
