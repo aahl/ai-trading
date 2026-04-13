@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-11-30T08:35:54.927673",
-      "balance": 113702.5
-    },
-    {
       "time": "2025-11-30T10:28:41.652746",
       "balance": 113859.1
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-04-13T03:45:52.466760",
       "balance": 81398.4
+    },
+    {
+      "time": "2026-04-13T06:39:26.906752",
+      "balance": 81481.1
     }
   ],
   "assets": {
-    "BTC": 40770.0,
-    "ETH": 36518.5,
-    "SOL": 3691.1,
-    "USDT": 418.9
+    "BTC": 40798.0,
+    "ETH": 36705.5,
+    "SOL": 3958.7,
+    "USDT": 18.8
   },
   "trades": [
+    {
+      "time": "2026-04-13T06:39:26.906786",
+      "text": "Buy 1.2269 SOL using 0.05 ETH at avg price 0.04075 ETH per SOL"
+    },
+    {
+      "time": "2026-04-13T06:39:26.906784",
+      "text": "Buy 1.821714 SOL for about 150 USDT at avg price 82.34"
+    },
+    {
+      "time": "2026-04-13T06:39:26.906781",
+      "text": "Buy 0.113828 ETH for about 250 USDT at avg price 2196.29"
+    },
     {
       "time": "2026-04-12T22:54:39.248503",
       "text": "2026-04-12 | OKX Demo | ACCOUNT SNAPSHOT AFTER TRADE | USDT: 418.82624069852 | SOL: 45.093657309 | BTC: 0.57438525093373 | ETH: 16.647889727348 | Open Orders: 0 | Derivatives Positions: 0"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-03-23T11:10:09.797022",
       "text": "Sold 2 ETH for BTC on ETH-BTC at avg 0.02857 BTC/ETH, fee 0.00005714 BTC"
-    },
-    {
-      "time": "2026-03-23T09:15:50.008547",
-      "text": "Bought ETH with 0.03 BTC"
-    },
-    {
-      "time": "2026-03-23T09:15:50.008543",
-      "text": "Sold 20 SOL for USDT"
-    },
-    {
-      "time": "2026-03-23T07:30:11.797677",
-      "text": "Sell 0.6 ETH for BTC on ETH-BTC at 0.02839 BTC/ETH, received about 0.017034 BTC minus 0.000017034 BTC fee."
     }
   ]
 }
