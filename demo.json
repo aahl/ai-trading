@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-02T02:12:03.084806",
-      "balance": 108909.1
-    },
-    {
       "time": "2025-12-02T06:44:52.645979",
       "balance": 109453.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-14T17:36:49.050661",
       "balance": 86202.8
+    },
+    {
+      "time": "2026-04-14T19:37:59.660146",
+      "balance": 85802.1
     }
   ],
   "assets": {
-    "BTC": 34334.2,
-    "ETH": 44647.2,
-    "SOL": 7156.0,
+    "BTC": 34267.9,
+    "ETH": 44374.9,
+    "SOL": 7093.9,
     "USDT": 65.4
   },
   "trades": [
+    {
+      "time": "2026-04-14T19:37:59.660174",
+      "text": "Hold position: no new trade executed after market analysis favored waiting for confirmation on ETH strength."
+    },
     {
       "time": "2026-04-14T17:36:49.050696",
       "text": "Sold 0.2 ETH on ETH-BTC at 0.02764 BTC per ETH and rotated exposure toward BTC."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-23T22:47:31.145540",
       "text": "Buy 19.676432 SOL, spent 1800 USDT"
-    },
-    {
-      "time": "2026-03-23T19:10:41.259995",
-      "text": "Keep BTC unchanged and avoid overtrading in overheated conditions"
     }
   ]
 }
