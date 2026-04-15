@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-02T22:33:13.079362",
-      "balance": 113490.7
-    },
-    {
       "time": "2025-12-03T04:42:36.355135",
       "balance": 114346.3
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-15T11:16:40.108284",
       "balance": 85896.5
+    },
+    {
+      "time": "2026-04-15T14:03:39.752082",
+      "balance": 85879.6
     }
   ],
   "assets": {
-    "BTC": 34397.2,
-    "ETH": 44455.2,
-    "SOL": 6692.7,
+    "ETH": 44431.1,
+    "BTC": 34380.9,
+    "SOL": 6716.2,
     "USDT": 351.4
   },
   "trades": [
+    {
+      "time": "2026-04-15T14:03:39.752119",
+      "text": "Hold position: no new order placed; ETH-USDT remains in entry zone but account is already concentrated in ETH/BTC and low on USDT."
+    },
     {
       "time": "2026-04-15T09:52:11.516126",
       "text": "Sell 4 SOL on SOL-USDT at market, filled avg 83.15 USDT, fee 0.3326 USDT, net inflow about 332.2674 USDT"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-24T07:22:14.848608",
       "text": "Buy 0.13881 ETH on ETH-USDT, spent 299.9989482 USDT at avg 2161.22, fee 0.00013881 ETH"
-    },
-    {
-      "time": "2026-03-24T02:49:23.288977",
-      "text": "Preserved approximately 1021.50 USDT cash instead of forcing a small incremental entry."
     }
   ]
 }
