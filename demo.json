@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-02T18:46:42.937212",
-      "balance": 113887.7
-    },
-    {
       "time": "2025-12-02T20:38:05.570602",
       "balance": 113292.0
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-15T06:11:35.917144",
       "balance": 85657.1
+    },
+    {
+      "time": "2026-04-15T09:52:11.516097",
+      "balance": 85721.0
     }
   ],
   "assets": {
-    "BTC": 39146.4,
-    "ETH": 31511.7,
-    "SOL": 4980.7,
-    "USDT": 19.1
+    "BTC": 34365.3,
+    "ETH": 44320.4,
+    "SOL": 6683.8,
+    "USDT": 351.4
   },
   "trades": [
+    {
+      "time": "2026-04-15T09:52:11.516126",
+      "text": "Sell 4 SOL on SOL-USDT at market, filled avg 83.15 USDT, fee 0.3326 USDT, net inflow about 332.2674 USDT"
+    },
     {
       "time": "2026-04-15T06:11:35.917171",
       "text": "Hold position, no new trade executed"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-24T02:49:23.288977",
       "text": "Preserved approximately 1021.50 USDT cash instead of forcing a small incremental entry."
-    },
-    {
-      "time": "2026-03-24T02:49:23.288976",
-      "text": "No trade placed; held existing SOL exposure because analysis allowed HOLD if already long and volatility is higher."
     }
   ]
 }
