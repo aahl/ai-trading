@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-02T16:42:14.773123",
-      "balance": 113145.9
-    },
-    {
       "time": "2025-12-02T18:46:42.937212",
       "balance": 113887.7
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-15T03:32:27.777802",
       "balance": 86027.9
+    },
+    {
+      "time": "2026-04-15T06:11:35.917144",
+      "balance": 85657.1
     }
   ],
   "assets": {
-    "USDT": 19.1,
-    "BTC": 34512.3,
-    "ETH": 44457.3,
-    "SOL": 7039.2
+    "BTC": 39146.4,
+    "ETH": 31511.7,
+    "SOL": 4980.7,
+    "USDT": 19.1
   },
   "trades": [
+    {
+      "time": "2026-04-15T06:11:35.917171",
+      "text": "Hold position, no new trade executed"
+    },
     {
       "time": "2026-04-14T23:06:44.089613",
       "text": "Sell 0.1 ETH for BTC via ETH-BTC market order at 0.02729 BTC per ETH; fee 0.000002729 BTC."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-24T02:49:23.288976",
       "text": "No trade placed; held existing SOL exposure because analysis allowed HOLD if already long and volatility is higher."
-    },
-    {
-      "time": "2026-03-24T02:49:23.288974",
-      "text": "No trade placed; held existing ETH exposure because analysis allowed HOLD if already long."
     }
   ]
 }
