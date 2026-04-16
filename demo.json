@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-03T22:33:47.795194",
-      "balance": 116842.2
-    },
-    {
       "time": "2025-12-04T02:12:13.131011",
       "balance": 117402.2
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-16T11:19:24.689626",
       "balance": 86237.7
+    },
+    {
+      "time": "2026-04-16T14:16:47.236608",
+      "balance": 84966.0
     }
   ],
   "assets": {
-    "BTC": 34526.0,
-    "ETH": 44600.3,
-    "SOL": 6929.8,
+    "BTC": 38023.7,
+    "ETH": 39859.2,
+    "SOL": 6901.3,
     "USDT": 181.7
   },
   "trades": [
+    {
+      "time": "2026-04-16T14:16:47.236637",
+      "text": "Sell 1.85 ETH for BTC on ETH-BTC at market, filled avg price 0.0273098788918914 BTC/ETH, received 0.040252 BTC, fee 0.00005052327595 BTC, order ID 3484506351581270016"
+    },
     {
       "time": "2026-04-16T11:19:24.689656",
       "text": "Buy 1.17 SOL at 84.98 USDT on SOL-USDT, spent about 99.425 USDT, fee 0.00117 SOL, order 3484151372030939136"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-25T05:34:33.472137",
       "text": "Bought 3.235896 SOL via SOL-USDT market order at 92.71 USDT avg price, spent 300 USDT, fee 0.003235896 SOL. Attempted SOL-ETH market buy for 8 SOL first, but it was canceled by slippage protection."
-    },
-    {
-      "time": "2026-03-25T03:07:33.680040",
-      "text": "Placed buy limit order for 1.5 SOL on SOL-USDT at 90.80 USDT in OKX simulated account; order id 3419383527435145216; status live; 136.2 USDT frozen."
     }
   ]
 }
