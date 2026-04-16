@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-04T06:49:22.086488",
-      "balance": 114526.3
-    },
-    {
       "time": "2025-12-04T08:41:46.248435",
       "balance": 114275.1
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-16T19:32:28.410509",
       "balance": 86555.2
+    },
+    {
+      "time": "2026-04-16T21:02:21.730361",
+      "balance": 86562.3
     }
   ],
   "assets": {
-    "BTC": 38718.5,
-    "ETH": 27079.2,
-    "SOL": 10131.1,
-    "USDT": 106.7
+    "USDT": 106.7,
+    "BTC": 38734.1,
+    "ETH": 39414.7,
+    "SOL": 8306.8
   },
   "trades": [
+    {
+      "time": "2026-04-16T21:02:21.730390",
+      "text": "Buy 6.2516 SOL via SOL-ETH market order, spent 0.30 ETH, avg price 0.0479873024505729 ETH/SOL, fee 0.0062516 SOL"
+    },
     {
       "time": "2026-04-16T19:32:28.410536",
       "text": "2026-04-16 simulated OKX spot rebalance: bought 4.229 SOL using 0.2 ETH on SOL-ETH via market order, avg fill 0.0472918656892884 ETH/SOL, fee 0.004229 SOL, order filled, post-trade balances BTC 0.51492516227778, ETH 17.076913387348, SOL 86.61883556, USDT 106.707419502444, total equity 86555.24461717365 USD."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-25T13:40:28.090966",
       "text": "Sell 0.002 BTC at market, received approximately 143.58 USDT net; attempted SOL-USDT and SOL-ETH buys were blocked by exchange slippage protection, so no SOL buy was completed."
-    },
-    {
-      "time": "2026-03-25T07:21:39.964780",
-      "text": "No trade was filled. Portfolio structure remained unchanged."
     }
   ]
 }
