@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-04T04:44:49.467422",
-      "balance": 114660.1
-    },
-    {
       "time": "2025-12-04T06:49:22.086488",
       "balance": 114526.3
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-16T17:32:18.198232",
       "balance": 85622.7
+    },
+    {
+      "time": "2026-04-16T19:32:28.410509",
+      "balance": 86555.2
     }
   ],
   "assets": {
-    "BTC": 38185.1,
-    "ETH": 40100.9,
-    "SOL": 7007.7,
+    "BTC": 38718.5,
+    "ETH": 27079.2,
+    "SOL": 10131.1,
     "USDT": 106.7
   },
   "trades": [
+    {
+      "time": "2026-04-16T19:32:28.410536",
+      "text": "2026-04-16 simulated OKX spot rebalance: bought 4.229 SOL using 0.2 ETH on SOL-ETH via market order, avg fill 0.0472918656892884 ETH/SOL, fee 0.004229 SOL, order filled, post-trade balances BTC 0.51492516227778, ETH 17.076913387348, SOL 86.61883556, USDT 106.707419502444, total equity 86555.24461717365 USD."
+    },
     {
       "time": "2026-04-16T17:32:18.198260",
       "text": "Buy 0.870372 SOL at 86.17 USDT on SOL-USDT spot market, spent 75 USDT, fee 0.000870372 SOL, order id 3484904918640758784"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-25T07:21:39.964780",
       "text": "No trade was filled. Portfolio structure remained unchanged."
-    },
-    {
-      "time": "2026-03-25T07:21:39.964777",
-      "text": "Attempted to buy SOL-BTC with 0.028 BTC as a conservative structural rotation from ETH/SOL thesis, but order failed with OKX error 51021: This crypto isn't listed yet."
     }
   ]
 }
