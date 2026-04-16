@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-04T02:12:13.131011",
-      "balance": 117402.2
-    },
-    {
       "time": "2025-12-04T04:44:49.467422",
       "balance": 114660.1
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-16T14:16:47.236608",
       "balance": 84966.0
+    },
+    {
+      "time": "2026-04-16T17:32:18.198232",
+      "balance": 85622.7
     }
   ],
   "assets": {
-    "BTC": 38023.7,
-    "ETH": 39859.2,
-    "SOL": 6901.3,
-    "USDT": 181.7
+    "BTC": 38185.1,
+    "ETH": 40100.9,
+    "SOL": 7007.7,
+    "USDT": 106.7
   },
   "trades": [
+    {
+      "time": "2026-04-16T17:32:18.198260",
+      "text": "Buy 0.870372 SOL at 86.17 USDT on SOL-USDT spot market, spent 75 USDT, fee 0.000870372 SOL, order id 3484904918640758784"
+    },
     {
       "time": "2026-04-16T14:16:47.236637",
       "text": "Sell 1.85 ETH for BTC on ETH-BTC at market, filled avg price 0.0273098788918914 BTC/ETH, received 0.040252 BTC, fee 0.00005052327595 BTC, order ID 3484506351581270016"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-25T07:21:39.964777",
       "text": "Attempted to buy SOL-BTC with 0.028 BTC as a conservative structural rotation from ETH/SOL thesis, but order failed with OKX error 51021: This crypto isn't listed yet."
-    },
-    {
-      "time": "2026-03-25T05:34:33.472137",
-      "text": "Bought 3.235896 SOL via SOL-USDT market order at 92.71 USDT avg price, spent 300 USDT, fee 0.003235896 SOL. Attempted SOL-ETH market buy for 8 SOL first, but it was canceled by slippage protection."
     }
   ]
 }
