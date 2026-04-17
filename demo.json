@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-05T13:06:11.990070",
-      "balance": 111041.1
-    },
-    {
       "time": "2025-12-05T14:39:35.107567",
       "balance": 110140.9
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-04-17T21:03:26.345670",
       "balance": 88719.5
+    },
+    {
+      "time": "2026-04-17T22:56:34.560535",
+      "balance": 88780.9
     }
   ],
   "assets": {
-    "BTC": 41415.6,
-    "ETH": 41228.9,
-    "SOL": 5968.3,
+    "BTC": 44059.5,
+    "ETH": 41317.6,
+    "SOL": 3297.1,
     "USDT": 106.8
   },
   "trades": [
+    {
+      "time": "2026-04-17T22:56:34.560568",
+      "text": "Buy 0.0346056 BTC at 77363.2 USDT on BTC-USDT using 2677.2 USDT, received 0.0345710 BTC net after 0.0000346056 BTC fee"
+    },
+    {
+      "time": "2026-04-17T22:56:34.560564",
+      "text": "Sell 30 SOL at 89.33 USDT on SOL-USDT, received 2677.2201 USDT, fee 2.6799 USDT"
+    },
     {
       "time": "2026-04-17T21:03:26.345708",
       "text": "The final order filled at 0.04975 ETH per SOL with 0.000050126483 ETH fee, reducing SOL exposure and increasing ETH holdings."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-27T07:25:29.570242",
       "text": "Buy 0.068306 ETH with 0.002 BTC"
-    },
-    {
-      "time": "2026-03-27T05:49:34.167249",
-      "text": "Sell 0.25 ETH on ETH-BTC at avg 0.02735 BTC/ETH, fee 0.0000068375 BTC, net BTC added about 0.0068306625 BTC"
-    },
-    {
-      "time": "2026-03-27T03:22:29.066151",
-      "text": "Buy 0.182949 ETH with 0.005 BTC on ETH-BTC at 0.02733 BTC per ETH, fee 0.000182949 ETH, order filled immediately."
     }
   ]
 }
