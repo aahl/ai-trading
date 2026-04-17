@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-05T06:47:17.269595",
-      "balance": 112256.9
-    },
-    {
       "time": "2025-12-05T10:35:42.484306",
       "balance": 111376.5
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-04-17T17:09:33.671897",
       "balance": 89278.0
+    },
+    {
+      "time": "2026-04-17T19:18:36.280739",
+      "balance": 88477.0
     }
   ],
   "assets": {
-    "BTC": 41634.3,
-    "ETH": 41408.0,
-    "SOL": 6128.9,
+    "BTC": 41281.9,
+    "ETH": 40934.0,
+    "SOL": 6050.2,
     "USDT": 106.8
   },
   "trades": [
+    {
+      "time": "2026-04-17T19:18:36.280776",
+      "text": "Placed SOL-ETH limit buy 1 SOL @ 0.05 ETH (order live, unfilled)"
+    },
+    {
+      "time": "2026-04-17T19:18:36.280773",
+      "text": "Canceled ETH-BTC sell 1.8 @ 0.02678"
+    },
     {
       "time": "2026-04-17T14:02:52.610830",
       "text": "Placed ETH-BTC sell limit order: 1.8 ETH @ 0.02678 BTC, status live/unfilled, ordId 3487379048711589888."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-03-26T15:21:00.332454",
       "text": "Sell 0.4 ETH on ETH-BTC at avg 0.02838 BTC to increase BTC exposure; fee 0.000011352 BTC; order id 3423758990639104000"
-    },
-    {
-      "time": "2026-03-26T13:52:27.061280",
-      "text": "Sell 0.3 ETH on ETH-BTC at market, received approximately 0.008523468 BTC net after 0.000008532 BTC fee. Order ID: 3423580332079185920"
-    },
-    {
-      "time": "2026-03-26T09:12:26.806023",
-      "text": "Attempted sell 5 SOL on SOL-BTC at market, rejected because pair unavailable in this environment"
     }
   ]
 }
