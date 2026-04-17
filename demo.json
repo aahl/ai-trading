@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-04T20:36:27.456638",
-      "balance": 112467.0
-    },
-    {
       "time": "2025-12-05T04:40:57.822481",
       "balance": 112089.0
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-04-17T11:12:40.222998",
       "balance": 86069.8
+    },
+    {
+      "time": "2026-04-17T14:02:52.610793",
+      "balance": 88869.8
     }
   ],
   "assets": {
-    "BTC": 40298.7,
-    "ETH": 39701.1,
-    "SOL": 5963.3,
+    "BTC": 41371.8,
+    "ETH": 41270.2,
+    "SOL": 6121.0,
     "USDT": 106.7
   },
   "trades": [
+    {
+      "time": "2026-04-17T14:02:52.610830",
+      "text": "Placed ETH-BTC sell limit order: 1.8 ETH @ 0.02678 BTC, status live/unfilled, ordId 3487379048711589888."
+    },
+    {
+      "time": "2026-04-17T14:02:52.610829",
+      "text": "Attempted ETH-BTC market sell 1.5 ETH; canceled by price protection."
+    },
+    {
+      "time": "2026-04-17T14:02:52.610827",
+      "text": "Attempted SOL-ETH market buy with 2 ETH quote; canceled by price protection."
+    },
+    {
+      "time": "2026-04-17T14:02:52.610824",
+      "text": "Canceled stale SOL-ETH limit order SOLETH20260417SIMEXEC24."
+    },
     {
       "time": "2026-04-17T11:12:40.223033",
       "text": "Place limit order to buy 18.5 SOL using ETH on SOL-ETH at 0.0374 ETH; estimated spend 0.6919 ETH; order status live with 0 filled."
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-03-26T09:12:26.806023",
       "text": "Attempted sell 5 SOL on SOL-BTC at market, rejected because pair unavailable in this environment"
-    },
-    {
-      "time": "2026-03-26T09:12:26.806019",
-      "text": "Sell 0.5 ETH on ETH-BTC at market, filled at 0.02844 BTC, fee 0.00001422 BTC"
-    },
-    {
-      "time": "2026-03-26T05:49:49.037008",
-      "text": "Buy 0.550176 SOL on SOL-USDT at 90.88 USDT via market order, spent 50 USDT, fee 0.000550176 SOL, order id 3422609792480845824"
-    },
-    {
-      "time": "2026-03-26T02:59:52.851543",
-      "text": "Buy 1.099989 SOL on SOL-USDT at 90.91 USDT via market order, spent 100 USDT, fee 0.001099989 SOL, ordId 3422267959254982656"
-    },
-    {
-      "time": "2026-03-25T22:49:59.154799",
-      "text": "Buy 1.087665 SOL with 100 USDT at avg 91.94 on SOL-USDT"
     }
   ]
 }
