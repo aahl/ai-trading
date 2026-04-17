@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-05T10:35:42.484306",
-      "balance": 111376.5
-    },
-    {
       "time": "2025-12-05T13:06:11.990070",
       "balance": 111041.1
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-04-17T19:18:36.280739",
       "balance": 88477.0
+    },
+    {
+      "time": "2026-04-17T21:03:26.345670",
+      "balance": 88719.5
     }
   ],
   "assets": {
-    "BTC": 41281.9,
-    "ETH": 40934.0,
-    "SOL": 6050.2,
+    "BTC": 41415.6,
+    "ETH": 41228.9,
+    "SOL": 5968.3,
     "USDT": 106.8
   },
   "trades": [
+    {
+      "time": "2026-04-17T21:03:26.345708",
+      "text": "The final order filled at 0.04975 ETH per SOL with 0.000050126483 ETH fee, reducing SOL exposure and increasing ETH holdings."
+    },
+    {
+      "time": "2026-04-17T21:03:26.345707",
+      "text": "Executed a conservative fallback rotation by selling 1 SOL into ETH on SOL-ETH via IOC order SOLETH20260417ROT6."
+    },
+    {
+      "time": "2026-04-17T21:03:26.345705",
+      "text": "Attempted the preferred SOL-BTC spot rotation with a market sell, but the instrument was not listed in this environment."
+    },
+    {
+      "time": "2026-04-17T21:03:26.345701",
+      "text": "Canceled conflicting live SOL-ETH buy order SOLETH20260417ROT2 before rotation."
+    },
     {
       "time": "2026-04-17T19:18:36.280776",
       "text": "Placed SOL-ETH limit buy 1 SOL @ 0.05 ETH (order live, unfilled)"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-03-27T03:22:29.066151",
       "text": "Buy 0.182949 ETH with 0.005 BTC on ETH-BTC at 0.02733 BTC per ETH, fee 0.000182949 ETH, order filled immediately."
-    },
-    {
-      "time": "2026-03-26T22:42:52.085598",
-      "text": "Sold 0.3 ETH for BTC on ETH-BTC at market, avg price 0.0273772683666664 BTC per ETH, fee 0.00000821318051 BTC. Attempted SOL-BTC defensive rotation but OKX rejected the pair as unavailable."
-    },
-    {
-      "time": "2026-03-26T19:26:05.033633",
-      "text": "Attempted SOL reduction via SOL-USDT, SOL-BTC, and SOL-ETH alternatives, but all executions were blocked or canceled by price protection / unavailable market constraints."
-    },
-    {
-      "time": "2026-03-26T19:26:05.033630",
-      "text": "Sell 1.8 ETH for BTC via ETH-BTC market order, filled at avg 0.02769 BTC/ETH, net +0.049792158 BTC."
-    },
-    {
-      "time": "2026-03-26T15:21:00.332454",
-      "text": "Sell 0.4 ETH on ETH-BTC at avg 0.02838 BTC to increase BTC exposure; fee 0.000011352 BTC; order id 3423758990639104000"
     }
   ]
 }
