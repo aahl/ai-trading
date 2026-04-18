@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-05T18:45:36.713141",
-      "balance": 107816.6
-    },
-    {
       "time": "2025-12-05T20:39:32.377501",
       "balance": 108319.0
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-18T03:26:06.701099",
       "balance": 88667.6
+    },
+    {
+      "time": "2026-04-18T06:06:13.726022",
+      "balance": 88467.0
     }
   ],
   "assets": {
-    "BTC": 43987.5,
-    "ETH": 42183.3,
-    "SOL": 2390.0,
-    "USDT": 106.8
+    "BTC": 43954.7,
+    "ETH": 42125.1,
+    "SOL": 2380.4,
+    "USDT": 6.7
   },
   "trades": [
+    {
+      "time": "2026-04-18T06:06:13.726049",
+      "text": "Buy 0.041498 ETH with 100 USDT"
+    },
     {
       "time": "2026-04-18T03:26:06.701133",
       "text": "Sell 10 SOL on SOL-ETH at avg 0.0483452175999989 ETH per SOL, fee 0.000483452176 ETH, order 3488999582419390464"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-27T13:28:07.843011",
       "text": "Attempted conservative SOL-ETH spot market buy using 0.35 ETH; order SOLETH20260327CONS01 was canceled by OKX price protection, so no trade was executed."
-    },
-    {
-      "time": "2026-03-27T11:00:50.291604",
-      "text": "Buy 0.066423 ETH via ETH-BTC market order at avg 0.03011 BTC/ETH, fee 0.000066423 ETH, spent ~0.002 BTC"
     }
   ]
 }
