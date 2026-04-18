@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-05T20:39:32.377501",
-      "balance": 108319.0
-    },
-    {
       "time": "2025-12-05T22:32:32.101440",
       "balance": 108201.3
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-18T06:06:13.726022",
       "balance": 88467.0
+    },
+    {
+      "time": "2026-04-18T07:26:01.621807",
+      "balance": 88372.1
     }
   ],
   "assets": {
-    "BTC": 43954.7,
-    "ETH": 42125.1,
-    "SOL": 2380.4,
+    "BTC": 43885.0,
+    "ETH": 42102.2,
+    "SOL": 2378.1,
     "USDT": 6.7
   },
   "trades": [
+    {
+      "time": "2026-04-18T07:26:01.621834",
+      "text": "HOLD: No trade executed. BTC trend is cooling below resistance, ETH remains strongest but ETH-BTC entry is price-sensitive and not confirmed in preferred pullback zone, SOL remains weaker/higher risk."
+    },
     {
       "time": "2026-04-18T06:06:13.726049",
       "text": "Buy 0.041498 ETH with 100 USDT"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-27T15:06:53.154607",
       "text": "Sell 0.75 ETH for BTC on ETH-BTC at market, avg price 0.02982 BTC, status filled"
-    },
-    {
-      "time": "2026-03-27T13:28:07.843011",
-      "text": "Attempted conservative SOL-ETH spot market buy using 0.35 ETH; order SOLETH20260327CONS01 was canceled by OKX price protection, so no trade was executed."
     }
   ]
 }
