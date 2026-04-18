@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-06T03:25:03.764736",
-      "balance": 108733.9
-    },
-    {
       "time": "2025-12-06T06:49:14.393281",
       "balance": 108597.7
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-18T10:58:17.057951",
       "balance": 87017.9
+    },
+    {
+      "time": "2026-04-18T14:20:06.775544",
+      "balance": 86916.8
     }
   ],
   "assets": {
-    "BTC": 43411.4,
-    "ETH": 41264.0,
-    "SOL": 2335.8,
+    "BTC": 42995.9,
+    "ETH": 41582.1,
+    "SOL": 2332.1,
     "USDT": 6.7
   },
   "trades": [
+    {
+      "time": "2026-04-18T14:20:06.775579",
+      "text": "Buy 0.164962 ETH on ETH-BTC market, spent 0.005 BTC at avg price 0.03031 BTC/ETH, fee 0.000164962 ETH. Analysis favored ETH-BTC relative strength while BTC/ETH/SOL vs USDT remained hold."
+    },
     {
       "time": "2026-04-18T10:58:17.057980",
       "text": "HOLD after rejected simulated ETH-BTC rotation order: attempted sell 1.84 ETH at 0.02646 BTC/ETH, rejected with OKX 51138 lowest sell price limit 0.03002; no fill executed."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-27T20:54:17.509915",
       "text": "Sell 0.2 ETH for BTC on ETH-BTC in cash mode at average price 0.02978 BTC per ETH"
-    },
-    {
-      "time": "2026-03-27T19:09:00.024566",
-      "text": "Buy 0.167728 ETH with 0.005 BTC on ETH-BTC at 0.02981 BTC per ETH; fee 0.000167728 ETH; order id 3427118595293319168"
     }
   ]
 }
