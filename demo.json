@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-06T02:07:00.567253",
-      "balance": 108298.6
-    },
-    {
       "time": "2025-12-06T03:25:03.764736",
       "balance": 108733.9
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-18T09:17:51.801201",
       "balance": 87492.9
+    },
+    {
+      "time": "2026-04-18T10:58:17.057951",
+      "balance": 87017.9
     }
   ],
   "assets": {
-    "BTC": 43596.2,
-    "ETH": 41540.8,
-    "SOL": 2349.1,
+    "BTC": 43411.4,
+    "ETH": 41264.0,
+    "SOL": 2335.8,
     "USDT": 6.7
   },
   "trades": [
+    {
+      "time": "2026-04-18T10:58:17.057980",
+      "text": "HOLD after rejected simulated ETH-BTC rotation order: attempted sell 1.84 ETH at 0.02646 BTC/ETH, rejected with OKX 51138 lowest sell price limit 0.03002; no fill executed."
+    },
     {
       "time": "2026-04-18T07:26:01.621834",
       "text": "HOLD: No trade executed. BTC trend is cooling below resistance, ETH remains strongest but ETH-BTC entry is price-sensitive and not confirmed in preferred pullback zone, SOL remains weaker/higher risk."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-03-27T19:09:00.024566",
       "text": "Buy 0.167728 ETH with 0.005 BTC on ETH-BTC at 0.02981 BTC per ETH; fee 0.000167728 ETH; order id 3427118595293319168"
-    },
-    {
-      "time": "2026-03-27T15:06:53.154607",
-      "text": "Sell 0.75 ETH for BTC on ETH-BTC at market, avg price 0.02982 BTC, status filled"
     }
   ]
 }
