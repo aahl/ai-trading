@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-09T02:13:11.702422",
-      "balance": 109210.0
-    },
-    {
       "time": "2025-12-09T08:44:49.813560",
       "balance": 109592.0
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-04-20T15:28:16.021545",
       "balance": 85001.0
+    },
+    {
+      "time": "2026-04-20T17:21:09.262277",
+      "balance": 85127.1
     }
   ],
   "assets": {
-    "BTC": 48682.8,
-    "ETH": 31222.2,
-    "SOL": 4552.2,
-    "USDT": 543.8
+    "BTC": 48763.6,
+    "ETH": 31250.3,
+    "SOL": 4569.2,
+    "USDT": 543.9
   },
   "trades": [
+    {
+      "time": "2026-04-20T17:21:09.262307",
+      "text": "SOL: HOLD - 置信度55% - 日线MACD死叉,弱势整理,可能形成技术性反弹"
+    },
+    {
+      "time": "2026-04-20T17:21:09.262304",
+      "text": "ETH: HOLD - 置信度65% - 动能减弱,4H级别MACD转负,资金呈净流出态势"
+    },
+    {
+      "time": "2026-04-20T17:21:09.262301",
+      "text": "BTC: HOLD - 置信度72% - 日线MACD金叉强劲,价格在上行通道运行,短期震荡整理"
+    },
     {
       "time": "2026-04-20T14:07:37.061815",
       "text": "No new trades - Market analysis recommends HOLD for all positions (BTC/ETH/SOL). BTC浮盈+$1,233.36(+7.24%), ETH浮盈+$1,352.35(+6.13%), SOL浮亏-$74.99(-1.63%). USDT余额$543.64不足以下单新仓位。"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-04-10T13:04:30.580000",
       "text": "Buy 0.590109 SOL with 50 USDT on SOL-USDT at avg price 84.73 USDT/SOL, fee 0.000590109 SOL, ordId 3467462486462562304"
-    },
-    {
-      "time": "2026-04-10T09:42:54.196000",
-      "text": "No trade executed; attempted SOL-BTC spot market buy with 0.002 BTC quote size, but the order was rejected with sCode 51021: This crypto isn't listed yet."
-    },
-    {
-      "time": "2026-04-10T09:32:47.403000",
-      "text": "Buy 1.2414 SOL with 0.05 ETH on SOL-ETH at avg price 0.0402754720476882 ETH/SOL, fee 0.0012414 SOL, ordId 3466547541424209920"
-    },
-    {
-      "time": "2026-04-09T06:02:03.848000",
-      "text": "Bought 0.154178 ETH on ETH-BTC at an average price of 0.03243 BTC per ETH using a 0.005 BTC spot market order; the order filled fully and fee was 0.000154178 ETH."
     }
   ]
 }
