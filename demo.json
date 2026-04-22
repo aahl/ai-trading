@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-10T13:02:52.912363",
-      "balance": 112764.6
-    },
-    {
       "time": "2025-12-10T14:35:20.337598",
       "balance": 112540.0
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-04-22T19:27:54.856555",
       "balance": 88704.7
+    },
+    {
+      "time": "2026-04-22T21:08:43.855947",
+      "balance": 88189.1
     }
   ],
   "assets": {
-    "BTC": 46198.1,
-    "ETH": 37532.2,
-    "SOL": 4714.5,
+    "BTC": 44254.8,
+    "ETH": 39502.0,
+    "SOL": 4432.4,
     "USDT": 260.0
   },
   "trades": [
+    {
+      "time": "2026-04-22T21:08:43.855980",
+      "text": "2026-04-22 SOL-ETH SPOT SELL MARKET sold 8 SOL, filled 0.168 ETH @ 0.03712 ETH, fee 0.00029696 ETH, orderId 3502736162564870144, tradeId 158460"
+    },
+    {
+      "time": "2026-04-22T21:08:43.855977",
+      "text": "2026-04-22 ETH-BTC SPOT BUY MARKET spent 0.02 BTC, filled 0.637958 ETH @ 0.03135 BTC, fee 0.000637958 ETH, orderId 3502735781453631488, tradeId 9288179"
+    },
     {
       "time": "2026-04-22T17:14:39.437624",
       "text": "Buy 0.5 SOL at 87.92 USDT on SOL-USDT, spent about 43.96 USDT, fee 0.0005 SOL"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-04-11T20:56:03.830243",
       "text": "No trade executed: held positions due to already-large ETH exposure and conservative risk control."
-    },
-    {
-      "time": "2026-04-11T19:10:17.544005",
-      "text": "Preferred market view remains bullish ETH-USDT, but risk management and anti-overtrading constraints favor holding existing spot exposure."
-    },
-    {
-      "time": "2026-04-11T19:10:17.544004",
-      "text": "Reason: account is already heavily long ETH and overall crypto exposure is high while USDT cash is low."
     }
   ]
 }
