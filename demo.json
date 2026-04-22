@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-10T08:44:14.506028",
-      "balance": 113402.1
-    },
-    {
       "time": "2025-12-10T10:40:27.729670",
       "balance": 112909.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-22T15:31:11.437231",
       "balance": 88528.1
+    },
+    {
+      "time": "2026-04-22T17:14:39.437589",
+      "balance": 88495.4
     }
   ],
   "assets": {
-    "BTC": 46162.6,
-    "ETH": 37370.6,
-    "SOL": 4691.0,
-    "USDT": 304.0
+    "BTC": 46163.7,
+    "ETH": 37351.7,
+    "SOL": 4720.0,
+    "USDT": 260.0
   },
   "trades": [
+    {
+      "time": "2026-04-22T17:14:39.437624",
+      "text": "Buy 0.5 SOL at 87.92 USDT on SOL-USDT, spent about 43.96 USDT, fee 0.0005 SOL"
+    },
     {
       "time": "2026-04-22T15:31:11.437262",
       "text": "Canceled 1 live SOL-USDT limit buy order at 84 USDT for 1 SOL to maintain a hold posture; placed no new trades."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-11T19:10:17.544004",
       "text": "Reason: account is already heavily long ETH and overall crypto exposure is high while USDT cash is low."
-    },
-    {
-      "time": "2026-04-11T19:10:17.544000",
-      "text": "HOLD: No order placed this round after reviewing account config, balances, positions, risk, open orders, and recent history."
     }
   ]
 }
