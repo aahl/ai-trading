@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-10T06:46:45.233684",
-      "balance": 113456.0
-    },
-    {
       "time": "2025-12-10T08:44:14.506028",
       "balance": 113402.1
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-22T14:06:29.252036",
       "balance": 88733.8
+    },
+    {
+      "time": "2026-04-22T15:31:11.437231",
+      "balance": 88528.1
     }
   ],
   "assets": {
-    "BTC": 46035.8,
-    "ETH": 37596.5,
-    "SOL": 4737.9,
-    "USDT": 363.7
+    "BTC": 46162.6,
+    "ETH": 37370.6,
+    "SOL": 4691.0,
+    "USDT": 304.0
   },
   "trades": [
+    {
+      "time": "2026-04-22T15:31:11.437262",
+      "text": "Canceled 1 live SOL-USDT limit buy order at 84 USDT for 1 SOL to maintain a hold posture; placed no new trades."
+    },
     {
       "time": "2026-04-22T14:06:29.252068",
       "text": "Placed limit buy order for 0.025 ETH on ETH-USDT at 2390 USDT; status live, not filled."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-11T19:10:17.544000",
       "text": "HOLD: No order placed this round after reviewing account config, balances, positions, risk, open orders, and recent history."
-    },
-    {
-      "time": "2026-04-11T17:06:20.053996",
-      "text": "Buy 0.976601 ETH on ETH-BTC, spent 0.03 BTC, fee 0.000976601 ETH, net received 0.975624399 ETH at average price 0.0307187580598424 BTC/ETH"
     }
   ]
 }
