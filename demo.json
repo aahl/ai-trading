@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-09T20:33:36.731114",
-      "balance": 113711.6
-    },
-    {
       "time": "2025-12-09T22:31:19.875111",
       "balance": 113315.0
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-04-22T03:35:16.848289",
       "balance": 87000.6
+    },
+    {
+      "time": "2026-04-22T06:11:32.185374",
+      "balance": 87810.8
     }
   ],
   "assets": {
-    "BTC": 48741.8,
-    "ETH": 33079.1,
-    "SOL": 4636.1,
-    "USDT": 543.7
+    "BTC": 47910.1,
+    "ETH": 34905.4,
+    "SOL": 4683.9,
+    "USDT": 543.6
   },
   "trades": [
+    {
+      "time": "2026-04-22T06:11:32.185410",
+      "text": "Buy 0.496524 ETH with 0.015 BTC at avg 0.03021 BTC on ETH-BTC (fee 0.000496524 ETH, ordId 3500929610669367296)"
+    },
+    {
+      "time": "2026-04-22T06:11:32.185406",
+      "text": "Buy 0.075251 ETH with 180 USDT at avg 2391.99 on ETH-USDT (fee 0.000075251 ETH, ordId 3500929599395078144)"
+    },
     {
       "time": "2026-04-22T03:35:16.848325",
       "text": "Buy 0.512995 ETH on ETH-BTC market, spent 0.015 BTC at avg 0.02924 BTC/ETH, fee 0.000512995 ETH"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-04-11T11:02:30.271009",
       "text": "Buy 0.271002 ETH for 0.008 BTC on ETH-BTC at 0.02952 BTC (fee 0.000271002 ETH), simulated spot order 3469617747457474560."
-    },
-    {
-      "time": "2026-04-11T09:07:49.164718",
-      "text": "Attempted to sell 15 SOL for ETH on SOL-ETH, but the market order was canceled by venue price-protection due to slippage threshold."
-    },
-    {
-      "time": "2026-04-11T09:07:49.164715",
-      "text": "Buy 1.013171 ETH with 0.03 BTC on ETH-BTC at avg price 0.02961 BTC per ETH; fee 0.001013171 ETH."
     }
   ]
 }
