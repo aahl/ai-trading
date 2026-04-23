@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-11T10:38:02.202993",
-      "balance": 110177.6
-    },
-    {
       "time": "2025-12-11T13:05:14.646544",
       "balance": 110151.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-23T19:29:55.881638",
       "balance": 86364.5
+    },
+    {
+      "time": "2026-04-23T21:13:40.015272",
+      "balance": 86502.9
     }
   ],
   "assets": {
-    "BTC": 44711.6,
-    "ETH": 39255.5,
-    "SOL": 2369.4,
+    "BTC": 45166.8,
+    "ETH": 38936.0,
+    "SOL": 2372.0,
     "USDT": 28.1
   },
   "trades": [
+    {
+      "time": "2026-04-23T21:13:40.015306",
+      "text": "Sell 0.2 ETH for BTC on ETH-BTC at market, avg price 0.02921 BTC, fee 0.000005842 BTC, conservative rebalance from weaker ETH into stronger BTC."
+    },
     {
       "time": "2026-04-23T17:39:39.986465",
       "text": "Sell 8 SOL for 0.29666304 ETH on SOL-ETH at avg 0.03712 ETH/SOL"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-12T21:05:10.038839",
       "text": "Sell 12 SOL via SOL-USDT market order, receiving about 992.76 USDT at 82.73 USDT/SOL."
-    },
-    {
-      "time": "2026-04-12T21:05:10.038836",
-      "text": "Cancel SOL-ETH limit buy order 3473508945817501696 (12 SOL @ 0.0406 ETH) to remove conflicting SOL accumulation."
     }
   ]
 }
