@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-10T22:34:36.808664",
-      "balance": 112912.2
-    },
-    {
       "time": "2025-12-11T02:16:10.848639",
       "balance": 110560.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-23T06:20:08.155706",
       "balance": 87234.0
+    },
+    {
+      "time": "2026-04-23T09:58:46.025714",
+      "balance": 86279.4
     }
   ],
   "assets": {
-    "BTC": 44040.1,
-    "ETH": 39924.7,
-    "SOL": 3070.9,
+    "BTC": 44401.7,
+    "ETH": 38591.5,
+    "SOL": 3053.3,
     "USDT": 232.9
   },
   "trades": [
+    {
+      "time": "2026-04-23T09:58:46.025747",
+      "text": "Sell 0.3 ETH into BTC on ETH-BTC at market, avg fill 0.03013 BTC/ETH, fee 0.000009039 BTC, order_id 3504284986156519424"
+    },
     {
       "time": "2026-04-23T06:20:08.155739",
       "text": "Sell 0.5 ETH on ETH-BTC at market, filled at 0.0310081243199999 BTC/ETH, received net 0.01548855809784 BTC after 0.00001550406216 BTC fee"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-12T09:18:10.083391",
       "text": "Sold 1 ETH into BTC via ETH-BTC market order at avg 0.0296441299499989 BTC/ETH; net BTC received after fee: 0.02961448582005 BTC; order id 3472308815051358208."
-    },
-    {
-      "time": "2026-04-12T07:52:05.320962",
-      "text": "Placed ETH-USDT limit buy order: 0.19 ETH @ 2205 USDT (status: live, unfilled; ordId: 3472136648602943488)"
     }
   ]
 }
