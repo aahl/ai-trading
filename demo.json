@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-10T18:47:49.922495",
-      "balance": 114020.2
-    },
-    {
       "time": "2025-12-10T20:38:24.574475",
       "balance": 114527.7
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-22T23:01:17.643361",
       "balance": 88247.6
+    },
+    {
+      "time": "2026-04-23T03:36:07.143821",
+      "balance": 86661.8
     }
   ],
   "assets": {
-    "BTC": 44839.0,
-    "ETH": 39633.7,
-    "SOL": 3120.0,
+    "BTC": 42499.8,
+    "ETH": 40805.6,
+    "SOL": 3061.8,
     "USDT": 232.9
   },
   "trades": [
+    {
+      "time": "2026-04-23T03:36:07.143853",
+      "text": "Buy 0.923423 ETH with 0.0287 BTC on ETH-BTC at avg price 0.03108 BTC per ETH; fee 0.000923423 ETH; orderId 3503516555035545600"
+    },
     {
       "time": "2026-04-22T23:01:17.643394",
       "text": "Buy BTC on BTC-USDT spending about 899.99950274 USDT at avg 77762 USDT, filled 0.01157377 BTC, fee 0.00001157377 BTC, net BTC received 0.01156219623 BTC."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-12T03:49:51.683586",
       "text": "Buy 0.26 ETH via ETH-BTC at 0.03017 BTC, spent 0.0078442 BTC, fee 0.00026 ETH, order 3471646802717442048"
-    },
-    {
-      "time": "2026-04-11T22:50:50.883903",
-      "text": "Order ETHUSDT20260411SIMEXEC02 filled at an average price of 2297.503324028443 USDT for 0.087051 ETH, with a fee of 0.000087051 ETH."
     }
   ]
 }
