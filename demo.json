@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-11T06:46:38.513879",
-      "balance": 110334.6
-    },
-    {
       "time": "2025-12-11T08:45:11.686700",
       "balance": 110032.6
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-04-23T14:13:28.195726",
       "balance": 86314.4
+    },
+    {
+      "time": "2026-04-23T17:39:39.986425",
+      "balance": 86176.6
     }
   ],
   "assets": {
-    "BTC": 44374.3,
-    "ETH": 38666.2,
-    "SOL": 3061.0,
-    "USDT": 212.9
+    "BTC": 44596.0,
+    "ETH": 39210.7,
+    "SOL": 2356.8,
+    "USDT": 28.1
   },
   "trades": [
+    {
+      "time": "2026-04-23T17:39:39.986465",
+      "text": "Sell 8 SOL for 0.29666304 ETH on SOL-ETH at avg 0.03712 ETH/SOL"
+    },
+    {
+      "time": "2026-04-23T17:39:39.986463",
+      "text": "Attempted to sell 8 SOL on SOL-BTC but pair unavailable (code 51021)"
+    },
+    {
+      "time": "2026-04-23T17:39:39.986459",
+      "text": "Buy 0.00193327 BTC with 150 USDT on BTC-USDT at avg 77588.7"
+    },
     {
       "time": "2026-04-23T14:13:28.195759",
       "text": "Placed limit buy order: Buy 0.015 ETH on ETH-USDT at 2318 USDT (estimated 34.77 USDT), order id 3504797167818121216, status live/unfilled."
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-04-12T21:05:10.038836",
       "text": "Cancel SOL-ETH limit buy order 3473508945817501696 (12 SOL @ 0.0406 ETH) to remove conflicting SOL accumulation."
-    },
-    {
-      "time": "2026-04-12T19:14:36.065402",
-      "text": "Placed a limit order to buy 12 SOL on SOL-ETH at 0.0406 ETH per SOL. Order ID 3473508945817501696 is live and unfilled; 0.4872 ETH is currently frozen for the order."
-    },
-    {
-      "time": "2026-04-12T13:34:43.496155",
-      "text": "Bought 0.343687 ETH using 0.01 BTC on ETH-BTC at avg price 0.0290962182159931 BTC/ETH in simulated trading."
-    },
-    {
-      "time": "2026-04-12T11:11:42.780549",
-      "text": "Bought 3.7245 SOL using 0.15 ETH via SOL-ETH market order after one reduced-size retry due to slippage protection."
     }
   ]
 }
