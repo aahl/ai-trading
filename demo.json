@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-11T20:35:28.347557",
-      "balance": 111354.5
-    },
-    {
       "time": "2025-12-11T22:37:48.757303",
       "balance": 112529.1
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-24T11:18:48.179187",
       "balance": 86730.7
+    },
+    {
+      "time": "2026-04-24T14:02:58.870018",
+      "balance": 86309.9
     }
   ],
   "assets": {
-    "BTC": 45377.4,
-    "ETH": 38971.2,
-    "SOL": 2382.0,
+    "BTC": 47510.4,
+    "ETH": 36418.6,
+    "SOL": 2380.9,
     "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-04-24T14:02:58.870049",
+      "text": "Sell 1 ETH on ETH-BTC at avg 0.0289872618899994 BTC per ETH, fee 0.00002898726189 BTC, order id 3507675541821464576"
+    },
     {
       "time": "2026-04-24T11:18:48.179231",
       "text": "Sold 0.02 ETH for BTC on ETH-BTC at market, filled at 0.02881 BTC/ETH, fee 0.0000005762 BTC. Reason: USDT balance was near zero, so rotated a very small amount from ETH into BTC to align with the current bullish BTC preference."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-13T06:39:26.906786",
       "text": "Buy 1.2269 SOL using 0.05 ETH at avg price 0.04075 ETH per SOL"
-    },
-    {
-      "time": "2026-04-13T06:39:26.906784",
-      "text": "Buy 1.821714 SOL for about 150 USDT at avg price 82.34"
     }
   ]
 }
