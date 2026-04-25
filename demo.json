@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-13T08:37:31.875415",
-      "balance": 113651.0
-    },
-    {
       "time": "2025-12-13T10:32:13.186732",
       "balance": 113877.3
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-25T19:09:45.160256",
       "balance": 84286.8
+    },
+    {
+      "time": "2026-04-25T20:53:11.085794",
+      "balance": 84571.9
     }
   ],
   "assets": {
-    "BTC": 46461.9,
-    "ETH": 29643.8,
-    "SOL": 8181.1,
+    "BTC": 50190.4,
+    "ETH": 26187.4,
+    "SOL": 8194.0,
     "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-04-25T20:53:11.085830",
+      "text": "Sell 1.5 ETH for BTC via ETH-BTC at avg 0.0314381108533327 BTC, received about 0.04715716628 BTC before 0.00004715716628 BTC fee; order 3511402680215408640"
+    },
     {
       "time": "2026-04-25T19:09:45.160291",
       "text": "No trade executed. Attempted buy SOL-BTC spot market using ~0.08 BTC but instrument was unavailable/not listed in this environment. Fallback attempted buy SOL-ETH spot market using 1.5 ETH, but order was canceled due to price limit/slippage exceeding 5%."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-16T19:32:28.410536",
       "text": "2026-04-16 simulated OKX spot rebalance: bought 4.229 SOL using 0.2 ETH on SOL-ETH via market order, avg fill 0.0472918656892884 ETH/SOL, fee 0.004229 SOL, order filled, post-trade balances BTC 0.51492516227778, ETH 17.076913387348, SOL 86.61883556, USDT 106.707419502444, total equity 86555.24461717365 USD."
-    },
-    {
-      "time": "2026-04-16T17:32:18.198260",
-      "text": "Buy 0.870372 SOL at 86.17 USDT on SOL-USDT spot market, spent 75 USDT, fee 0.000870372 SOL, order id 3484904918640758784"
     }
   ]
 }
