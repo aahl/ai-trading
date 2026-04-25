@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-12T18:44:49.570912",
-      "balance": 110176.5
-    },
-    {
       "time": "2025-12-12T20:35:24.145712",
       "balance": 109579.1
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-25T07:47:57.649204",
       "balance": 85111.2
+    },
+    {
+      "time": "2026-04-25T09:08:09.899314",
+      "balance": 85044.0
     }
   ],
   "assets": {
-    "BTC": 46859.3,
-    "ETH": 31908.6,
-    "SOL": 6343.3,
+    "BTC": 46913.5,
+    "ETH": 31018.5,
+    "SOL": 7112.0,
     "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-04-25T09:08:09.899348",
+      "text": "Buy 8.6601 SOL using 0.4 ETH on SOL-ETH"
+    },
     {
       "time": "2026-04-25T07:47:57.649249",
       "text": "Buy 2.2099 SOL with 0.1694 ETH via SOL-ETH (tag ROT0425M)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-15T21:06:14.085748",
       "text": "Placed simulated limit buy order for 0.03 ETH at 2340 USDT on ETH-USDT (order live, unfilled)."
-    },
-    {
-      "time": "2026-04-15T19:49:16.997800",
-      "text": "Attempted cautious SOL-to-ETH rotation via SOL-ETH limit sell 8 SOL at 0.03590 ETH; order 3482278892387442688 was canceled by OKX price-difference protection, so no fill occurred."
     }
   ]
 }
