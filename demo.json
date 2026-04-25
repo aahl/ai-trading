@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-13T06:44:33.376848",
-      "balance": 113013.2
-    },
-    {
       "time": "2025-12-13T08:37:31.875415",
       "balance": 113651.0
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-25T17:01:37.894778",
       "balance": 84354.5
+    },
+    {
+      "time": "2026-04-25T19:09:45.160256",
+      "balance": 84286.8
     }
   ],
   "assets": {
-    "BTC": 46530.0,
-    "ETH": 29625.9,
-    "SOL": 8198.6,
+    "BTC": 46461.9,
+    "ETH": 29643.8,
+    "SOL": 8181.1,
     "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-04-25T19:09:45.160291",
+      "text": "No trade executed. Attempted buy SOL-BTC spot market using ~0.08 BTC but instrument was unavailable/not listed in this environment. Fallback attempted buy SOL-ETH spot market using 1.5 ETH, but order was canceled due to price limit/slippage exceeding 5%."
+    },
     {
       "time": "2026-04-25T17:01:37.894814",
       "text": "Buy 5 SOL on SOL-ETH at avg 0.049664614 ETH per SOL via IOC limit order; fee 0.005 SOL."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-16T17:32:18.198260",
       "text": "Buy 0.870372 SOL at 86.17 USDT on SOL-USDT spot market, spent 75 USDT, fee 0.000870372 SOL, order id 3484904918640758784"
-    },
-    {
-      "time": "2026-04-16T14:16:47.236637",
-      "text": "Sell 1.85 ETH for BTC on ETH-BTC at market, filled avg price 0.0273098788918914 BTC/ETH, received 0.040252 BTC, fee 0.00005052327595 BTC, order ID 3484506351581270016"
     }
   ]
 }
