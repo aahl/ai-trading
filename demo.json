@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-13T10:32:13.186732",
-      "balance": 113877.3
-    },
-    {
       "time": "2025-12-13T16:35:43.179861",
       "balance": 113204.7
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-04-25T20:53:11.085794",
       "balance": 84571.9
+    },
+    {
+      "time": "2026-04-25T22:55:03.948094",
+      "balance": 84745.2
     }
   ],
   "assets": {
-    "BTC": 50190.4,
-    "ETH": 26187.4,
-    "SOL": 8194.0,
-    "USDT": 0.0
+    "BTC": 50693.8,
+    "ETH": 26260.8,
+    "SOL": 7789.6,
+    "USDT": 1.0
   },
   "trades": [
+    {
+      "time": "2026-04-25T22:55:03.948131",
+      "text": "Bought 0.00553295 BTC on BTC-USDT at 77535.4 USDT, paying 0.00000553295 BTC fee."
+    },
+    {
+      "time": "2026-04-25T22:55:03.948130",
+      "text": "Sold 5 SOL on SOL-USDT at 86.08 USDT, paying 0.4304 USDT fee."
+    },
+    {
+      "time": "2026-04-25T22:55:03.948127",
+      "text": "Attempted to sell 10 SOL on SOL-ETH, but the order was canceled by slippage protection."
+    },
     {
       "time": "2026-04-25T20:53:11.085830",
       "text": "Sell 1.5 ETH for BTC via ETH-BTC at avg 0.0314381108533327 BTC, received about 0.04715716628 BTC before 0.00004715716628 BTC fee; order 3511402680215408640"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-04-17T03:35:27.107829",
       "text": "Sell 30 SOL on SOL-USDT at avg 87.6801568166666666 USDT, fee 2.6304047045 USDT, order 3486118048158978048"
-    },
-    {
-      "time": "2026-04-16T22:56:58.497846",
-      "text": "Buy 5.0302 SOL via SOL-ETH at avg 0.0496993721919614 ETH per SOL, spent 0.25 ETH, fee 0.0050302 SOL"
-    },
-    {
-      "time": "2026-04-16T21:02:21.730390",
-      "text": "Buy 6.2516 SOL via SOL-ETH market order, spent 0.30 ETH, avg price 0.0479873024505729 ETH/SOL, fee 0.0062516 SOL"
-    },
-    {
-      "time": "2026-04-16T19:32:28.410536",
-      "text": "2026-04-16 simulated OKX spot rebalance: bought 4.229 SOL using 0.2 ETH on SOL-ETH via market order, avg fill 0.0472918656892884 ETH/SOL, fee 0.004229 SOL, order filled, post-trade balances BTC 0.51492516227778, ETH 17.076913387348, SOL 86.61883556, USDT 106.707419502444, total equity 86555.24461717365 USD."
     }
   ]
 }
