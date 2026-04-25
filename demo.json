@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-13T04:38:04.355961",
-      "balance": 110036.6
-    },
-    {
       "time": "2025-12-13T06:44:33.376848",
       "balance": 113013.2
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-25T14:58:41.825536",
       "balance": 84824.5
+    },
+    {
+      "time": "2026-04-25T17:01:37.894778",
+      "balance": 84354.5
     }
   ],
   "assets": {
-    "BTC": 46935.5,
-    "ETH": 30061.5,
-    "SOL": 7827.4,
+    "BTC": 46530.0,
+    "ETH": 29625.9,
+    "SOL": 8198.6,
     "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-04-25T17:01:37.894814",
+      "text": "Buy 5 SOL on SOL-ETH at avg 0.049664614 ETH per SOL via IOC limit order; fee 0.005 SOL."
+    },
     {
       "time": "2026-04-25T14:58:41.825567",
       "text": "Buy 8.3751 SOL with 0.4 ETH on SOL-ETH at avg 0.04776038662225 ETH per SOL, fee 0.0083751 SOL, order ID 3510686167095316480"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-16T14:16:47.236637",
       "text": "Sell 1.85 ETH for BTC on ETH-BTC at market, filled avg price 0.0273098788918914 BTC/ETH, received 0.040252 BTC, fee 0.00005052327595 BTC, order ID 3484506351581270016"
-    },
-    {
-      "time": "2026-04-16T11:19:24.689656",
-      "text": "Buy 1.17 SOL at 84.98 USDT on SOL-USDT, spent about 99.425 USDT, fee 0.00117 SOL, order 3484151372030939136"
     }
   ]
 }
