@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-12T13:01:57.893025",
-      "balance": 112862.9
-    },
-    {
       "time": "2025-12-12T14:30:16.503895",
       "balance": 112599.1
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-24T22:52:04.458767",
       "balance": 85684.7
+    },
+    {
+      "time": "2026-04-25T03:23:12.534058",
+      "balance": 85938.4
     }
   ],
   "assets": {
-    "BTC": 51251.9,
-    "ETH": 31143.7,
-    "SOL": 3289.1,
+    "BTC": 49362.9,
+    "ETH": 33183.2,
+    "SOL": 3292.4,
     "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-04-25T03:23:12.534089",
+      "text": "Buy 0.844486 ETH using 0.0265 BTC via ETH-BTC"
+    },
     {
       "time": "2026-04-24T21:03:33.777914",
       "text": "Attempted to buy SOL with 1.5 ETH via SOL-ETH spot market order; order 3508522790088609792 was canceled because estimated slippage exceeded the 5% protection limit."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-13T21:15:57.487066",
       "text": "Buy 2.175077 ETH using 0.06 BTC on ETH-BTC spot market; fee 0.002175077 ETH; order filled at avg price 0.0275852245368794 BTC/ETH."
-    },
-    {
-      "time": "2026-04-13T19:40:00.568963",
-      "text": "Sell 0.03 ETH for BTC via ETH-BTC market order at 0.02764 BTC, fee 0.0000008292 BTC"
     }
   ]
 }
