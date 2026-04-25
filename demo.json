@@ -1,14 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-12T22:31:59.384896",
-      "balance": 110114.8
-    },
-    {
-      "time": "2025-12-13T02:06:33.839835",
-      "balance": 109943.8
-    },
-    {
       "time": "2025-12-13T03:27:23.622730",
       "balance": 110091.0
     },
@@ -3999,15 +3991,27 @@
     {
       "time": "2026-04-25T10:56:56.113258",
       "balance": 85163.9
+    },
+    {
+      "time": "2026-04-25T13:26:50.536993",
+      "balance": 85015.5
+    },
+    {
+      "time": "2026-04-25T13:31:44.839604",
+      "balance": 85008.2
     }
   ],
   "assets": {
-    "BTC": 47022.2,
-    "ETH": 31029.7,
-    "SOL": 7112.0,
+    "BTC": 46913.8,
+    "ETH": 30987.0,
+    "SOL": 7107.4,
     "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-04-25T13:26:50.537031",
+      "text": "Placed one small conservative ETH-BTC spot limit buy order for 0.10 ETH at 0.03200 BTC; order is live and unfilled, chosen to align with cross-pair opportunity while minimizing slippage risk."
+    },
     {
       "time": "2026-04-25T10:56:56.113295",
       "text": "Attempted buy 28.1 SOL on SOL-ETH at 0.0498 ETH via IOC (ordId: 3510201359944650752); order canceled unfilled, no position change."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-16T09:33:13.591901",
       "text": "No trade executed (hold). Existing live ETH-USDT bid conflicts with bearish ETH view; USDT pairs lack strong long signal; avoided adding SOL-ETH exposure."
-    },
-    {
-      "time": "2026-04-16T03:39:27.456370",
-      "text": "No new trade executed. Held existing positions and kept the live ETH-USDT buy limit order for 0.03 ETH at 2340 USDT because SOL-USDT did not have confirmed pullback-entry conditions."
     }
   ]
 }
