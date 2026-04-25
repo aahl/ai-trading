@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-12T16:40:07.752094",
-      "balance": 109214.4
-    },
-    {
       "time": "2025-12-12T18:44:49.570912",
       "balance": 110176.5
     },
@@ -3999,15 +3995,59 @@
     {
       "time": "2026-04-25T05:56:50.325803",
       "balance": 85749.1
+    },
+    {
+      "time": "2026-04-25T07:47:57.649204",
+      "balance": 85111.2
     }
   ],
   "assets": {
-    "BTC": 49323.8,
-    "ETH": 32919.0,
-    "SOL": 3506.3,
+    "BTC": 46859.3,
+    "ETH": 31908.6,
+    "SOL": 6343.3,
     "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-04-25T07:47:57.649249",
+      "text": "Buy 2.2099 SOL with 0.1694 ETH via SOL-ETH (tag ROT0425M)"
+    },
+    {
+      "time": "2026-04-25T07:47:57.649248",
+      "text": "Buy 2.2144 SOL with 1.3189 ETH via SOL-ETH (tag ROT0425L)"
+    },
+    {
+      "time": "2026-04-25T07:47:57.649247",
+      "text": "Buy 2.2427 SOL with 0.3809 ETH via SOL-ETH (tag ROT0425K)"
+    },
+    {
+      "time": "2026-04-25T07:47:57.649246",
+      "text": "Buy 2.2725 SOL with 0.1005 ETH via SOL-ETH (tag ROT0425J)"
+    },
+    {
+      "time": "2026-04-25T07:47:57.649246",
+      "text": "Buy 2.3123 SOL with 0.6326 ETH via SOL-ETH (tag ROT0425I)"
+    },
+    {
+      "time": "2026-04-25T07:47:57.649245",
+      "text": "Buy 2.3255 SOL with 0.0818 ETH via SOL-ETH (tag ROT0425H)"
+    },
+    {
+      "time": "2026-04-25T07:47:57.649243",
+      "text": "Buy 4.6888 SOL with 1.4453 ETH via SOL-ETH (tag ROT0425G)"
+    },
+    {
+      "time": "2026-04-25T07:47:57.649242",
+      "text": "Buy 4.7348 SOL with 0.7788 ETH via SOL-ETH (tag ROT0425F)"
+    },
+    {
+      "time": "2026-04-25T07:47:57.649240",
+      "text": "Buy 9.82 SOL with 0.8534 ETH via SOL-ETH (tag ROT0425D)"
+    },
+    {
+      "time": "2026-04-25T07:47:57.649237",
+      "text": "Buy 0.961887 ETH with 0.030087 BTC via ETH-BTC (tag ROT0425C)"
+    },
     {
       "time": "2026-04-25T05:56:50.325836",
       "text": "Bought 2.5477 SOL on SOL-ETH using a market order, spending 0.1 ETH at an average price of 0.0392495729481495 ETH per SOL; order 3509597369498341376 filled."
@@ -4367,46 +4407,6 @@
     {
       "time": "2026-04-15T19:49:16.997800",
       "text": "Attempted cautious SOL-to-ETH rotation via SOL-ETH limit sell 8 SOL at 0.03590 ETH; order 3482278892387442688 was canceled by OKX price-difference protection, so no fill occurred."
-    },
-    {
-      "time": "2026-04-15T14:03:39.752119",
-      "text": "Hold position: no new order placed; ETH-USDT remains in entry zone but account is already concentrated in ETH/BTC and low on USDT."
-    },
-    {
-      "time": "2026-04-15T09:52:11.516126",
-      "text": "Sell 4 SOL on SOL-USDT at market, filled avg 83.15 USDT, fee 0.3326 USDT, net inflow about 332.2674 USDT"
-    },
-    {
-      "time": "2026-04-15T06:11:35.917171",
-      "text": "Hold position, no new trade executed"
-    },
-    {
-      "time": "2026-04-14T23:06:44.089613",
-      "text": "Sell 0.1 ETH for BTC via ETH-BTC market order at 0.02729 BTC per ETH; fee 0.000002729 BTC."
-    },
-    {
-      "time": "2026-04-14T21:11:07.731367",
-      "text": "Buy 0.02 ETH on ETH-USDT at 2316 USDT, spent about 46.32 USDT in simulated spot trading"
-    },
-    {
-      "time": "2026-04-14T19:37:59.660174",
-      "text": "Hold position: no new trade executed after market analysis favored waiting for confirmation on ETH strength."
-    },
-    {
-      "time": "2026-04-14T17:36:49.050696",
-      "text": "Sold 0.2 ETH on ETH-BTC at 0.02764 BTC per ETH and rotated exposure toward BTC."
-    },
-    {
-      "time": "2026-04-14T17:36:49.050693",
-      "text": "Attempted SOL-BTC rotation, but the pair was not listed in the simulated venue."
-    },
-    {
-      "time": "2026-04-14T11:31:21.005637",
-      "text": "Executed one conservative simulated SPOT market buy on ETH-BTC, spending 0.005 BTC to acquire 0.172347 ETH at an average price of 0.0290111538930187 BTC/ETH, fee 0.000172347 ETH, order 3478372149165039616."
-    },
-    {
-      "time": "2026-04-13T23:12:31.678889",
-      "text": "Buy 10.9607 SOL using 0.5 ETH on SOL-ETH at average price 0.0456173873019067 ETH per SOL, fee 0.0109607 SOL, order 3476885914957389824"
     }
   ]
 }
