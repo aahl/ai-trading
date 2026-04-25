@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-13T03:27:23.622730",
-      "balance": 110091.0
-    },
-    {
       "time": "2025-12-13T04:38:04.355961",
       "balance": 110036.6
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-25T13:31:44.839604",
       "balance": 85008.2
+    },
+    {
+      "time": "2026-04-25T14:58:41.825536",
+      "balance": 84824.5
     }
   ],
   "assets": {
-    "BTC": 46913.8,
-    "ETH": 30987.0,
-    "SOL": 7107.4,
+    "BTC": 46935.5,
+    "ETH": 30061.5,
+    "SOL": 7827.4,
     "USDT": 0.0
   },
   "trades": [
+    {
+      "time": "2026-04-25T14:58:41.825567",
+      "text": "Buy 8.3751 SOL with 0.4 ETH on SOL-ETH at avg 0.04776038662225 ETH per SOL, fee 0.0083751 SOL, order ID 3510686167095316480"
+    },
     {
       "time": "2026-04-25T13:26:50.537031",
       "text": "Placed one small conservative ETH-BTC spot limit buy order for 0.10 ETH at 0.03200 BTC; order is live and unfilled, chosen to align with cross-pair opportunity while minimizing slippage risk."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-16T11:19:24.689656",
       "text": "Buy 1.17 SOL at 84.98 USDT on SOL-USDT, spent about 99.425 USDT, fee 0.00117 SOL, order 3484151372030939136"
-    },
-    {
-      "time": "2026-04-16T09:33:13.591901",
-      "text": "No trade executed (hold). Existing live ETH-USDT bid conflicts with bearish ETH view; USDT pairs lack strong long signal; avoided adding SOL-ETH exposure."
     }
   ]
 }
