@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-14T04:44:15.700074",
-      "balance": 113487.0
-    },
-    {
       "time": "2025-12-14T06:43:12.735538",
       "balance": 113444.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-26T13:28:33.849820",
       "balance": 84970.0
+    },
+    {
+      "time": "2026-04-28T17:56:51.091517",
+      "balance": 83180.1
     }
   ],
   "assets": {
-    "BTC": 50915.0,
-    "ETH": 25934.4,
-    "SOL": 6830.0,
-    "USDT": 1290.5
+    "BTC": 49789.8,
+    "ETH": 25468.0,
+    "SOL": 5379.8,
+    "USDT": 2542.5
   },
   "trades": [
+    {
+      "time": "2026-04-28T17:56:51.091554",
+      "text": "2026-04-28 | OKX SIM | Intended: SELL SOL-BTC market 15 SOL | Result: SOL-BTC unavailable (51021 This crypto isn't listed yet) | Executed fallback: SELL SOL-USDT market 15 SOL | Filled 15 SOL @ 83.61 USDT | Fee 1.25415 USDT | ordId 3519743567907528704 | tradeId 114122854 | clOrdId sim0428solusdt01 | Thesis: SOL weaker than BTC; modest de-risking via executable spot pair."
+    },
     {
       "time": "2026-04-26T13:28:33.849854",
       "text": "Executed a conservative simulated OKX spot market sell order for 15 SOL on SOL-USDT at an average fill price of 86.04 USDT, order ID 3513405243680886784, client order ID sim0426solusdt01, fully filled."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-17T11:12:40.223033",
       "text": "Place limit order to buy 18.5 SOL using ETH on SOL-ETH at 0.0374 ETH; estimated spend 0.6919 ETH; order status live with 0 filled."
-    },
-    {
-      "time": "2026-04-17T06:17:24.489355",
-      "text": "Sell 0.75 ETH for BTC on ETH-BTC at market, average fill price 0.02646 BTC per ETH, fee 0.000019845 BTC"
     }
   ]
 }
