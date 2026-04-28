@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-14T06:43:12.735538",
-      "balance": 113444.5
-    },
-    {
       "time": "2025-12-14T08:38:29.625795",
       "balance": 113683.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-04-28T17:56:51.091517",
       "balance": 83180.1
+    },
+    {
+      "time": "2026-04-28T21:17:35.488879",
+      "balance": 83337.7
     }
   ],
   "assets": {
-    "BTC": 49789.8,
-    "ETH": 25468.0,
-    "SOL": 5379.8,
-    "USDT": 2542.5
+    "BTC": 49920.8,
+    "ETH": 26481.1,
+    "SOL": 5392.8,
+    "USDT": 1543.0
   },
   "trades": [
+    {
+      "time": "2026-04-28T21:17:35.488914",
+      "text": "Buy 0.436488 ETH with 1000 USDT on ETH-USDT at avg price 2291.01, fee 0.000436488 ETH, order id 3520148463366447104"
+    },
     {
       "time": "2026-04-28T17:56:51.091554",
       "text": "2026-04-28 | OKX SIM | Intended: SELL SOL-BTC market 15 SOL | Result: SOL-BTC unavailable (51021 This crypto isn't listed yet) | Executed fallback: SELL SOL-USDT market 15 SOL | Filled 15 SOL @ 83.61 USDT | Fee 1.25415 USDT | ordId 3519743567907528704 | tradeId 114122854 | clOrdId sim0428solusdt01 | Thesis: SOL weaker than BTC; modest de-risking via executable spot pair."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-17T14:02:52.610824",
       "text": "Canceled stale SOL-ETH limit order SOLETH20260417SIMEXEC24."
-    },
-    {
-      "time": "2026-04-17T11:12:40.223033",
-      "text": "Place limit order to buy 18.5 SOL using ETH on SOL-ETH at 0.0374 ETH; estimated spend 0.6919 ETH; order status live with 0 filled."
     }
   ]
 }
