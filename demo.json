@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-15T04:51:01.463701",
-      "balance": 113173.7
-    },
-    {
       "time": "2025-12-15T06:49:38.497243",
       "balance": 113457.6
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-04-29T23:04:41.873755",
       "balance": 82552.3
+    },
+    {
+      "time": "2026-04-30T03:53:47.658196",
+      "balance": 82538.6
     }
   ],
   "assets": {
-    "BTC": 50018.2,
-    "ETH": 24320.5,
-    "SOL": 4513.2,
-    "USDT": 3700.4
+    "BTC": 50829.3,
+    "ETH": 24294.9,
+    "SOL": 3269.4,
+    "USDT": 4145.1
   },
   "trades": [
+    {
+      "time": "2026-04-30T03:53:47.658236",
+      "text": "Buy BTC with 800 USDT at market on BTC-USDT, filled 0.01053443 BTC, avg fill 75941.4 USDT, fee 0.00001053443 BTC"
+    },
+    {
+      "time": "2026-04-30T03:53:47.658232",
+      "text": "Sell 15 SOL at market on SOL-USDT, avg fill 83.08 USDT, fee 1.2462 USDT"
+    },
     {
       "time": "2026-04-29T23:04:41.873815",
       "text": "HOLD BTC-USDT; no order submitted. Reason: account already ~95% allocated to BTC/ETH/SOL, cash only ~4.5%, and short-term market structure remains mixed."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-04-17T21:03:26.345705",
       "text": "Attempted the preferred SOL-BTC spot rotation with a market sell, but the instrument was not listed in this environment."
-    },
-    {
-      "time": "2026-04-17T21:03:26.345701",
-      "text": "Canceled conflicting live SOL-ETH buy order SOLETH20260417ROT2 before rotation."
-    },
-    {
-      "time": "2026-04-17T19:18:36.280776",
-      "text": "Placed SOL-ETH limit buy 1 SOL @ 0.05 ETH (order live, unfilled)"
     }
   ]
 }
