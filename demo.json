@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-15T16:45:03.907698",
-      "balance": 109188.5
-    },
-    {
       "time": "2025-12-15T18:48:25.900060",
       "balance": 107119.6
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-05-01T04:04:56.889592",
       "balance": 83619.1
+    },
+    {
+      "time": "2026-05-01T06:51:00.543710",
+      "balance": 83377.7
     }
   ],
   "assets": {
-    "BTC": 52663.8,
-    "ETH": 22970.3,
-    "SOL": 2883.7,
-    "USDT": 5101.2
+    "BTC": 52521.8,
+    "ETH": 25066.5,
+    "SOL": 2300.9,
+    "USDT": 3488.5
   },
   "trades": [
+    {
+      "time": "2026-05-01T06:51:00.543761",
+      "text": "Buy 0.961452 ETH with 2189.17 USDT at 2276.94 on ETH-USDT, fee 0.000961452 ETH"
+    },
+    {
+      "time": "2026-05-01T06:51:00.543756",
+      "text": "Sell 6.873131 SOL at 83.82 USDT on SOL-USDT, fee 0.57610584042 USDT"
+    },
     {
       "time": "2026-05-01T04:04:56.889633",
       "text": "Buy 0.00324297 BTC via BTC-USDT spot market order, spent 250 USDT at average price 77089.7, order id 3526766516900466688"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-04-18T10:58:17.057980",
       "text": "HOLD after rejected simulated ETH-BTC rotation order: attempted sell 1.84 ETH at 0.02646 BTC/ETH, rejected with OKX 51138 lowest sell price limit 0.03002; no fill executed."
-    },
-    {
-      "time": "2026-04-18T07:26:01.621834",
-      "text": "HOLD: No trade executed. BTC trend is cooling below resistance, ETH remains strongest but ETH-BTC entry is price-sensitive and not confirmed in preferred pullback zone, SOL remains weaker/higher risk."
-    },
-    {
-      "time": "2026-04-18T06:06:13.726049",
-      "text": "Buy 0.041498 ETH with 100 USDT"
     }
   ]
 }
