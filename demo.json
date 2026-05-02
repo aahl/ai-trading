@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-17T06:47:49.164764",
-      "balance": 108158.0
-    },
-    {
       "time": "2025-12-17T08:43:23.754758",
       "balance": 107798.9
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-02T19:15:22.686414",
       "balance": 85003.7
+    },
+    {
+      "time": "2026-05-02T20:56:56.994442",
+      "balance": 85130.8
     }
   ],
   "assets": {
-    "BTC": 53784.4,
-    "ETH": 28765.7,
-    "SOL": 2094.3,
-    "USDT": 359.3
+    "BTC": 51101.9,
+    "ETH": 31576.7,
+    "SOL": 2092.9,
+    "USDT": 359.4
   },
   "trades": [
+    {
+      "time": "2026-05-02T20:56:56.994476",
+      "text": "Buy 1.207732 ETH with 0.034 BTC on ETH-BTC at avg price 0.0281519389897767 BTC/ETH; fee 0.001207732 ETH; order 3531703112380715008"
+    },
     {
       "time": "2026-05-02T19:15:22.686447",
       "text": "NO_TRADE - Held positions due to low USDT, already large BTC/ETH exposure, and market analysis favoring hold over new entries."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-20T14:07:37.061815",
       "text": "No new trades - Market analysis recommends HOLD for all positions (BTC/ETH/SOL). BTC浮盈+$1,233.36(+7.24%), ETH浮盈+$1,352.35(+6.13%), SOL浮亏-$74.99(-1.63%). USDT余额$543.64不足以下单新仓位。"
-    },
-    {
-      "time": "2026-04-19T22:49:41.209041",
-      "text": "Sell 2.0 ETH for BTC on ETH-BTC spot market at avg price 0.0290583950549985 BTC per ETH, net BTC added approximately 0.05805867331989 BTC, order id 3494241956083011584"
     }
   ]
 }
