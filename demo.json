@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-17T08:43:23.754758",
-      "balance": 107798.9
-    },
-    {
       "time": "2025-12-17T13:03:53.107447",
       "balance": 108049.9
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-02T20:56:56.994442",
       "balance": 85130.8
+    },
+    {
+      "time": "2026-05-02T22:56:21.846873",
+      "balance": 85674.2
     }
   ],
   "assets": {
-    "BTC": 51101.9,
-    "ETH": 31576.7,
-    "SOL": 2092.9,
+    "BTC": 49780.9,
+    "ETH": 33433.2,
+    "SOL": 2100.7,
     "USDT": 359.4
   },
   "trades": [
+    {
+      "time": "2026-05-02T22:56:21.846903",
+      "text": "Buy 0.710128 ETH on ETH-BTC, spent 0.020 BTC at average price 0.0281639249825387 BTC per ETH, fee 0.000710128 ETH"
+    },
     {
       "time": "2026-05-02T20:56:56.994476",
       "text": "Buy 1.207732 ETH with 0.034 BTC on ETH-BTC at avg price 0.0281519389897767 BTC/ETH; fee 0.001207732 ETH; order 3531703112380715008"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-20T17:21:09.262301",
       "text": "BTC: HOLD - 置信度72% - 日线MACD金叉强劲,价格在上行通道运行,短期震荡整理"
-    },
-    {
-      "time": "2026-04-20T14:07:37.061815",
-      "text": "No new trades - Market analysis recommends HOLD for all positions (BTC/ETH/SOL). BTC浮盈+$1,233.36(+7.24%), ETH浮盈+$1,352.35(+6.13%), SOL浮亏-$74.99(-1.63%). USDT余额$543.64不足以下单新仓位。"
     }
   ]
 }
