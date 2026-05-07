@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-21T10:33:57.767630",
-      "balance": 109111.6
-    },
-    {
       "time": "2025-12-21T12:58:36.617621",
       "balance": 108896.1
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-05-07T03:52:59.032487",
       "balance": 86920.1
+    },
+    {
+      "time": "2026-05-07T06:49:41.862169",
+      "balance": 87312.6
     }
   ],
   "assets": {
-    "BTC": 54211.9,
-    "ETH": 26997.4,
-    "SOL": 4333.2,
-    "USDT": 1377.5
+    "BTC": 54442.5,
+    "ETH": 24774.1,
+    "SOL": 6587.1,
+    "USDT": 1508.9
   },
   "trades": [
+    {
+      "time": "2026-05-07T06:49:41.862203",
+      "text": "Bought 2200 USDT worth of SOL on SOL-USDT, received 24.716324 SOL at an average price of 89.01 USDT, fee 0.024716324 SOL"
+    },
+    {
+      "time": "2026-05-07T06:49:41.862198",
+      "text": "Sold 1.0 ETH on ETH-USDT at an average price of 2333.877138 USDT, fee 2.333877138 USDT"
+    },
     {
       "time": "2026-05-07T03:52:59.032510",
       "text": "Buy 1.363636 SOL on SOL-USDT at 88 USDT, spent 120 USDT, fee 0.001363636 SOL, order id 3544136159885533184"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-04-22T23:01:17.643394",
       "text": "Buy BTC on BTC-USDT spending about 899.99950274 USDT at avg 77762 USDT, filled 0.01157377 BTC, fee 0.00001157377 BTC, net BTC received 0.01156219623 BTC."
-    },
-    {
-      "time": "2026-04-22T23:01:17.643391",
-      "text": "Sell 10 SOL on SOL-USDT at avg 87.380228846 USDT, gross proceeds 873.80228846 USDT, fee 0.87380228846 USDT, net proceeds 872.92848617154 USDT."
-    },
-    {
-      "time": "2026-04-22T21:08:43.855980",
-      "text": "2026-04-22 SOL-ETH SPOT SELL MARKET sold 8 SOL, filled 0.168 ETH @ 0.03712 ETH, fee 0.00029696 ETH, orderId 3502736162564870144, tradeId 158460"
     }
   ]
 }
