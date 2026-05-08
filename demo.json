@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-22T13:01:44.867378",
-      "balance": 111110.2
-    },
-    {
       "time": "2025-12-22T14:32:32.090143",
       "balance": 110969.9
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-08T11:28:51.193045",
       "balance": 86218.9
+    },
+    {
+      "time": "2026-05-08T14:14:01.335252",
+      "balance": 85859.2
     }
   ],
   "assets": {
-    "BTC": 56609.4,
-    "ETH": 15866.4,
-    "SOL": 8661.5,
-    "USDT": 5081.6
+    "BTC": 56318.5,
+    "ETH": 15781.7,
+    "SOL": 11177.5,
+    "USDT": 2581.7
   },
   "trades": [
+    {
+      "time": "2026-05-08T14:14:01.335273",
+      "text": "Buy 28.181715 SOL on SOL-USDT with 2500 USDT at average price 88.71 USDT; order filled."
+    },
     {
       "time": "2026-05-08T11:28:51.193073",
       "text": "Buy 700 USDT of BTC at market on BTC-USDT, avg fill 80310.3 USDT, fee 0.00000871619 BTC, net +0.00870747381 BTC"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-24T09:55:22.131400",
       "text": "Bought 0.003715 ETH on ETH-USDT spot market at average 2309.36 USDT using available USDT; order 3507178667926626304, trade 809433783, fee 0.000003715 ETH."
-    },
-    {
-      "time": "2026-04-24T09:55:22.131398",
-      "text": "Attempted SELL 10 SOL on SOL-BTC spot market; failed with OKX error 51021 (pair unavailable/not listed)."
     }
   ]
 }
