@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-22T14:32:32.090143",
-      "balance": 110969.9
-    },
-    {
       "time": "2025-12-22T16:41:29.448586",
       "balance": 110496.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-08T14:14:01.335252",
       "balance": 85859.2
+    },
+    {
+      "time": "2026-05-08T17:31:14.985537",
+      "balance": 86525.6
     }
   ],
   "assets": {
-    "BTC": 56318.5,
-    "ETH": 15781.7,
-    "SOL": 11177.5,
-    "USDT": 2581.7
+    "BTC": 56498.3,
+    "ETH": 15964.0,
+    "SOL": 12231.4,
+    "USDT": 1831.9
   },
   "trades": [
+    {
+      "time": "2026-05-08T17:31:14.985561",
+      "text": "Buy 8.304728 SOL via SOL-USDT market order, spent 750 USDT at avg price 90.31; fee 0.008304728 SOL, net SOL added 8.296423272"
+    },
     {
       "time": "2026-05-08T14:14:01.335273",
       "text": "Buy 28.181715 SOL on SOL-USDT with 2500 USDT at average price 88.71 USDT; order filled."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-24T11:18:48.179231",
       "text": "Sold 0.02 ETH for BTC on ETH-BTC at market, filled at 0.02881 BTC/ETH, fee 0.0000005762 BTC. Reason: USDT balance was near zero, so rotated a very small amount from ETH into BTC to align with the current bullish BTC preference."
-    },
-    {
-      "time": "2026-04-24T09:55:22.131400",
-      "text": "Bought 0.003715 ETH on ETH-USDT spot market at average 2309.36 USDT using available USDT; order 3507178667926626304, trade 809433783, fee 0.000003715 ETH."
     }
   ]
 }
