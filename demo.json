@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-23T16:40:32.803040",
-      "balance": 108746.7
-    },
-    {
       "time": "2025-12-23T18:44:40.350444",
       "balance": 109003.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-10T17:06:17.410774",
       "balance": 87885.5
+    },
+    {
+      "time": "2026-05-10T19:19:14.391363",
+      "balance": 88180.1
     }
   ],
   "assets": {
-    "BTC": 60300.0,
-    "ETH": 13322.7,
-    "SOL": 12730.9,
+    "BTC": 60339.5,
+    "ETH": 13385.3,
+    "SOL": 12923.4,
     "USDT": 1531.9
   },
   "trades": [
+    {
+      "time": "2026-05-10T19:19:14.391385",
+      "text": "Canceled ETH-USDT buy limit order for 0.25 ETH due to hold signal and weak ETH relative strength."
+    },
     {
       "time": "2026-05-10T15:06:10.212054",
       "text": "Placed BUY LIMIT ETH-USDT 0.25 ETH @ 2324 USDT, cash mode, order live/unfilled, USDT frozen 581, rationale: mild pullback entry with small size due to existing ETH exposure and sufficient USDT."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-25T05:56:50.325836",
       "text": "Bought 2.5477 SOL on SOL-ETH using a market order, spending 0.1 ETH at an average price of 0.0392495729481495 ETH per SOL; order 3509597369498341376 filled."
-    },
-    {
-      "time": "2026-04-25T03:23:12.534089",
-      "text": "Buy 0.844486 ETH using 0.0265 BTC via ETH-BTC"
     }
   ]
 }
