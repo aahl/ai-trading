@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-23T08:45:37.301912",
-      "balance": 108776.0
-    },
-    {
       "time": "2025-12-23T14:32:28.833145",
       "balance": 108535.9
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-10T13:49:30.694618",
       "balance": 87335.2
+    },
+    {
+      "time": "2026-05-10T15:06:10.212031",
+      "balance": 87483.4
     }
   ],
   "assets": {
-    "BTC": 60011.6,
-    "ETH": 13210.5,
-    "SOL": 12581.1,
-    "USDT": 1532.0
+    "BTC": 60073.3,
+    "ETH": 13249.6,
+    "SOL": 12628.6,
+    "USDT": 1531.9
   },
   "trades": [
+    {
+      "time": "2026-05-10T15:06:10.212054",
+      "text": "Placed BUY LIMIT ETH-USDT 0.25 ETH @ 2324 USDT, cash mode, order live/unfilled, USDT frozen 581, rationale: mild pullback entry with small size due to existing ETH exposure and sufficient USDT."
+    },
     {
       "time": "2026-05-10T13:49:30.694645",
       "text": "No trade executed; SOL-ETH rotation was unnecessary because USDT balance was sufficient."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-25T03:23:12.534089",
       "text": "Buy 0.844486 ETH using 0.0265 BTC via ETH-BTC"
-    },
-    {
-      "time": "2026-04-24T21:03:33.777914",
-      "text": "Attempted to buy SOL with 1.5 ETH via SOL-ETH spot market order; order 3508522790088609792 was canceled because estimated slippage exceeded the 5% protection limit."
     }
   ]
 }
