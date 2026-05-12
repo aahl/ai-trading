@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-24T22:30:02.177393",
-      "balance": 108708.4
-    },
-    {
       "time": "2025-12-25T02:12:30.679166",
       "balance": 108533.8
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-12T14:51:15.640484",
       "balance": 86809.6
+    },
+    {
+      "time": "2026-05-12T18:12:07.984196",
+      "balance": 86739.8
     }
   ],
   "assets": {
-    "BTC": 64737.9,
-    "SOL": 13293.3,
-    "ETH": 7666.5,
+    "BTC": 65346.4,
+    "ETH": 7006.6,
+    "SOL": 13274.9,
     "USDT": 1111.9
   },
   "trades": [
+    {
+      "time": "2026-05-12T18:12:07.984220",
+      "text": "Sold 0.3 ETH for BTC on ETH-BTC at market; filled at 0.02711 BTC/ETH; thesis: tactical rotation from weaker ETH into stronger BTC under mixed/corrective rebound conditions."
+    },
     {
       "time": "2026-05-12T10:46:09.208927",
       "text": "Sell 0.50 ETH for BTC on ETH-BTC at avg 0.02782 BTC per ETH, received net 0.01389609 BTC after 0.00001391 BTC fee"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-25T10:56:56.113295",
       "text": "Attempted buy 28.1 SOL on SOL-ETH at 0.0498 ETH via IOC (ordId: 3510201359944650752); order canceled unfilled, no position change."
-    },
-    {
-      "time": "2026-04-25T09:08:09.899348",
-      "text": "Buy 8.6601 SOL using 0.4 ETH on SOL-ETH"
     }
   ]
 }
