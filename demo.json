@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-24T13:01:34.324780",
-      "balance": 108405.9
-    },
-    {
       "time": "2025-12-24T16:40:32.213020",
       "balance": 108268.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-11T23:04:47.441578",
       "balance": 88443.5
+    },
+    {
+      "time": "2026-05-12T03:59:12.278547",
+      "balance": 87543.2
     }
   ],
   "assets": {
-    "BTC": 63401.3,
-    "ETH": 10240.4,
-    "SOL": 13690.0,
+    "BTC": 63978.5,
+    "ETH": 8953.4,
+    "SOL": 13499.4,
     "USDT": 1111.9
   },
   "trades": [
+    {
+      "time": "2026-05-12T03:59:12.278575",
+      "text": "Sold 0.5 ETH for BTC on ETH-BTC via market spot order; order filled at average price 0.02824010616 BTC/ETH and fee 0.00001412005308 BTC."
+    },
     {
       "time": "2026-05-11T23:04:47.441599",
       "text": "Buy 0.106892 ETH via ETH-USDT market order, spent 250 USDT at avg price 2338.79 USDT, fee 0.000106892 ETH"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-25T07:47:57.649248",
       "text": "Buy 2.2144 SOL with 1.3189 ETH via SOL-ETH (tag ROT0425L)"
-    },
-    {
-      "time": "2026-04-25T07:47:57.649247",
-      "text": "Buy 2.2427 SOL with 0.3809 ETH via SOL-ETH (tag ROT0425K)"
     }
   ]
 }
