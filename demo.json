@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-25T10:35:24.812127",
-      "balance": 108168.1
-    },
-    {
       "time": "2025-12-25T13:00:46.490076",
       "balance": 108361.8
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-13T10:42:22.201188",
       "balance": 87208.8
+    },
+    {
+      "time": "2026-05-13T14:59:53.318102",
+      "balance": 85685.8
     }
   ],
   "assets": {
-    "BTC": 65652.5,
-    "SOL": 13339.8,
-    "ETH": 7504.5,
-    "USDT": 711.9
+    "BTC": 64712.3,
+    "ETH": 7368.6,
+    "SOL": 13142.9,
+    "USDT": 462.0
   },
   "trades": [
+    {
+      "time": "2026-05-13T14:59:53.318127",
+      "text": "Bought 2.722718 SOL via SOL-USDT spot market order at avg 91.82 USDT using 250 USDT; fee 0.002722718 SOL; order id 3562871309607636992"
+    },
     {
       "time": "2026-05-13T10:42:22.201215",
       "text": "2026-05-13 OKX SIM SPOT BUY ETH-USDT market quote_ccy=400 filled ordId=3562355761362771968 clOrdId=agt260513ethusdt01 fillSz=0.173207 avgPx=2309.37 fee=0.000173207ETH rationale=\"priority ETH dip-buy, conservative size, no open orders, within 5% risk cap\""
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-25T17:01:37.894814",
       "text": "Buy 5 SOL on SOL-ETH at avg 0.049664614 ETH per SOL via IOC limit order; fee 0.005 SOL."
-    },
-    {
-      "time": "2026-04-25T14:58:41.825567",
-      "text": "Buy 8.3751 SOL with 0.4 ETH on SOL-ETH at avg 0.04776038662225 ETH per SOL, fee 0.0083751 SOL, order ID 3510686167095316480"
     }
   ]
 }
