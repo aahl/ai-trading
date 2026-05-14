@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-26T02:13:24.511957",
-      "balance": 108518.9
-    },
-    {
       "time": "2025-12-26T04:48:58.776185",
       "balance": 109974.3
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-05-14T06:55:54.552790",
       "balance": 85688.7
+    },
+    {
+      "time": "2026-05-14T10:32:42.455666",
+      "balance": 85452.6
     }
   ],
   "assets": {
-    "BTC": 68040.1,
-    "SOL": 10150.6,
-    "ETH": 7375.0,
+    "BTC": 67871.1,
+    "ETH": 7350.4,
+    "SOL": 10108.0,
     "USDT": 123.0
   },
   "trades": [
+    {
+      "time": "2026-05-14T10:32:42.455692",
+      "text": "Placed SOL-USDT limit sell 12.5 @ 95.2 USDT (ordId 3565234659989655552)"
+    },
+    {
+      "time": "2026-05-14T10:32:42.455690",
+      "text": "Placed SOL-USDT limit sell 12.5 @ 92.8 USDT (ordId 3565234649050910720)"
+    },
+    {
+      "time": "2026-05-14T10:32:42.455687",
+      "text": "Canceled SOL-ETH buy order 18.5 @ 0.04 ETH (ordId 3564799354316787712)"
+    },
     {
       "time": "2026-05-14T06:55:54.552811",
       "text": "Placed a live limit order to buy 18.5 SOL with 0.74 ETH on SOL-ETH at 0.0400 ETH per SOL (ordId: 3564799354316787712, state: live)."
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-04-28T21:17:35.488914",
       "text": "Buy 0.436488 ETH with 1000 USDT on ETH-USDT at avg price 2291.01, fee 0.000436488 ETH, order id 3520148463366447104"
-    },
-    {
-      "time": "2026-04-28T17:56:51.091554",
-      "text": "2026-04-28 | OKX SIM | Intended: SELL SOL-BTC market 15 SOL | Result: SOL-BTC unavailable (51021 This crypto isn't listed yet) | Executed fallback: SELL SOL-USDT market 15 SOL | Filled 15 SOL @ 83.61 USDT | Fee 1.25415 USDT | ordId 3519743567907528704 | tradeId 114122854 | clOrdId sim0428solusdt01 | Thesis: SOL weaker than BTC; modest de-risking via executable spot pair."
-    },
-    {
-      "time": "2026-04-26T13:28:33.849854",
-      "text": "Executed a conservative simulated OKX spot market sell order for 15 SOL on SOL-USDT at an average fill price of 86.04 USDT, order ID 3513405243680886784, client order ID sim0426solusdt01, fully filled."
-    },
-    {
-      "time": "2026-04-26T09:13:21.725080",
-      "text": "Buy 3.9081 SOL on SOL-ETH with 0.2 ETH at avg price 0.0511754118369545 ETH/SOL, fee 0.0039081 SOL, order id 3512892531020402688"
     }
   ]
 }
