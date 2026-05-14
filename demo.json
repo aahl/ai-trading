@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-25T20:37:27.375523",
-      "balance": 108619.9
-    },
-    {
       "time": "2025-12-25T22:32:36.426005",
       "balance": 108736.8
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-05-13T23:14:51.003495",
       "balance": 85254.8
+    },
+    {
+      "time": "2026-05-14T04:06:08.118791",
+      "balance": 84820.1
     }
   ],
   "assets": {
-    "BTC": 67643.0,
-    "ETH": 7344.9,
-    "SOL": 10054.1,
-    "USDT": 213.0
+    "BTC": 67405.5,
+    "ETH": 7289.6,
+    "SOL": 10002.1,
+    "USDT": 123.0
   },
   "trades": [
+    {
+      "time": "2026-05-14T04:06:08.118815",
+      "text": "Bought 0.999555 SOL for 90 USDT at an average price of 90.04 USDT per SOL on SOL-USDT."
+    },
+    {
+      "time": "2026-05-14T04:06:08.118811",
+      "text": "Attempted to buy SOL-BTC with 0.003 BTC, but the pair was unavailable in the demo environment."
+    },
     {
       "time": "2026-05-13T21:46:47.485981",
       "text": "Bought 2.750577 SOL via SOL-USDT market order for 250 USDT."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-04-26T06:18:32.960551",
       "text": "Hold positions; no new trade executed. Existing exposure already concentrated in BTC, ETH, and SOL, while USDT balance is too low for meaningful spot deployment."
-    },
-    {
-      "time": "2026-04-25T22:55:03.948131",
-      "text": "Bought 0.00553295 BTC on BTC-USDT at 77535.4 USDT, paying 0.00000553295 BTC fee."
-    },
-    {
-      "time": "2026-04-25T22:55:03.948130",
-      "text": "Sold 5 SOL on SOL-USDT at 86.08 USDT, paying 0.4304 USDT fee."
     }
   ]
 }
