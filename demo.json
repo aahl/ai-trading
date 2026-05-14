@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-25T22:32:36.426005",
-      "balance": 108736.8
-    },
-    {
       "time": "2025-12-26T02:13:24.511957",
       "balance": 108518.9
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-14T04:06:08.118791",
       "balance": 84820.1
+    },
+    {
+      "time": "2026-05-14T06:55:54.552790",
+      "balance": 85688.7
     }
   ],
   "assets": {
-    "BTC": 67405.5,
-    "ETH": 7289.6,
-    "SOL": 10002.1,
+    "BTC": 68040.1,
+    "SOL": 10150.6,
+    "ETH": 7375.0,
     "USDT": 123.0
   },
   "trades": [
+    {
+      "time": "2026-05-14T06:55:54.552811",
+      "text": "Placed a live limit order to buy 18.5 SOL with 0.74 ETH on SOL-ETH at 0.0400 ETH per SOL (ordId: 3564799354316787712, state: live)."
+    },
     {
       "time": "2026-05-14T04:06:08.118815",
       "text": "Bought 0.999555 SOL for 90 USDT at an average price of 90.04 USDT per SOL on SOL-USDT."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-26T09:13:21.725080",
       "text": "Buy 3.9081 SOL on SOL-ETH with 0.2 ETH at avg price 0.0511754118369545 ETH/SOL, fee 0.0039081 SOL, order id 3512892531020402688"
-    },
-    {
-      "time": "2026-04-26T06:18:32.960551",
-      "text": "Hold positions; no new trade executed. Existing exposure already concentrated in BTC, ETH, and SOL, while USDT balance is too low for meaningful spot deployment."
     }
   ]
 }
