@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-27T08:39:40.548355",
-      "balance": 108588.0
-    },
-    {
       "time": "2025-12-27T10:31:17.434408",
       "balance": 108508.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-15T21:16:11.993351",
       "balance": 84768.5
+    },
+    {
+      "time": "2026-05-15T23:07:41.109143",
+      "balance": 84689.6
     }
   ],
   "assets": {
-    "BTC": 68658.1,
-    "SOL": 8780.4,
-    "ETH": 6447.4,
+    "BTC": 68585.2,
+    "ETH": 6446.3,
+    "SOL": 8775.4,
     "USDT": 882.7
   },
   "trades": [
+    {
+      "time": "2026-05-15T23:07:41.109165",
+      "text": "Attempted to sell 8 SOL on SOL-BTC with a market order, but OKX rejected it with code 51021 (This crypto isn't listed yet). No trade was executed; portfolio remained unchanged."
+    },
     {
       "time": "2026-05-15T21:16:11.993379",
       "text": "No new trade executed; kept existing ETH-USDT sell limit order 1.45 @ 2274 USDT live."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-01T09:57:09.974211",
       "text": "Checked account status before trading: no open orders, no derivatives positions, about 3490.07 USDT available."
-    },
-    {
-      "time": "2026-05-01T06:51:00.543761",
-      "text": "Buy 0.961452 ETH with 2189.17 USDT at 2276.94 on ETH-USDT, fee 0.000961452 ETH"
     }
   ]
 }
