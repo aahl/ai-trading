@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-26T16:36:45.568853",
-      "balance": 108030.0
-    },
-    {
       "time": "2025-12-26T18:42:05.958248",
       "balance": 108099.0
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-14T23:06:25.453622",
       "balance": 87177.8
+    },
+    {
+      "time": "2026-05-15T04:07:45.598120",
+      "balance": 86740.5
     }
   ],
   "assets": {
-    "BTC": 70543.5,
-    "ETH": 6655.2,
-    "SOL": 9096.0,
-    "USDT": 883.1
+    "BTC": 70241.0,
+    "SOL": 9030.9,
+    "ETH": 6585.7,
+    "USDT": 882.9
   },
   "trades": [
+    {
+      "time": "2026-05-15T04:07:45.598146",
+      "text": "No trade executed; held portfolio after market analysis showed fading short-term momentum in BTC, ETH, and SOL."
+    },
     {
       "time": "2026-05-14T21:21:12.554338",
       "text": "Buy 2.15936 SOL for 200 USDT at 92.62 on SOL-USDT"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-04-30T10:16:15.545123",
       "text": "Buy 0.00394367 BTC with 300 USDT on BTC-USDT at average price 76071.2 USDT; fee 0.00000394367 BTC; rationale: BTC mildly bullish and preferred over ETH/SOL for a conservative short-term spot add."
-    },
-    {
-      "time": "2026-04-30T03:53:47.658236",
-      "text": "Buy BTC with 800 USDT at market on BTC-USDT, filled 0.01053443 BTC, avg fill 75941.4 USDT, fee 0.00001053443 BTC"
     }
   ]
 }
