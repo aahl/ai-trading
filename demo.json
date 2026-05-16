@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-27T16:37:22.941935",
-      "balance": 108682.6
-    },
-    {
       "time": "2025-12-27T18:42:22.852703",
       "balance": 108746.2
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-05-16T06:32:15.335567",
       "balance": 84375.5
+    },
+    {
+      "time": "2026-05-16T09:51:14.470775",
+      "balance": 83360.1
     }
   ],
   "assets": {
-    "BTC": 67528.7,
-    "ETH": 7279.5,
-    "SOL": 7795.5,
+    "BTC": 66865.0,
+    "ETH": 7126.5,
+    "SOL": 7596.9,
     "USDT": 1771.7
   },
   "trades": [
+    {
+      "time": "2026-05-16T09:51:14.470804",
+      "text": "Reason: existing ETH exposure is already significant and a live sell order is open, so avoiding conflicting overtrading."
+    },
+    {
+      "time": "2026-05-16T09:51:14.470802",
+      "text": "Existing live order: sell 1.45 ETH on ETH-USDT at 2274 USDT."
+    },
+    {
+      "time": "2026-05-16T09:51:14.470799",
+      "text": "Hold position; no new order placed."
+    },
     {
       "time": "2026-05-16T06:32:15.335591",
       "text": "Buy 0.38 ETH on ETH-BTC at 0.02798 BTC via limit order, fee 0.00038 ETH"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-05-01T21:04:40.416376",
       "text": "Placed BTC-USDT spot limit buy order: buy 0.00128 BTC at 77850 USDT, notional ~99.65 USDT, order state live/unfilled, ordId 3528820342914551808"
-    },
-    {
-      "time": "2026-05-01T19:26:13.554895",
-      "text": "Buy 0.353982 ETH via ETH-BTC market order at 0.02825 BTC, spent 0.01 BTC, fee 0.000353982 ETH, ordId 3528621661250654208"
-    },
-    {
-      "time": "2026-05-01T13:48:25.086826",
-      "text": "Buy 0.52687 ETH via ETH-BTC market order, spent 0.015 BTC, fee 0.00052687 ETH"
-    },
-    {
-      "time": "2026-05-01T11:17:52.906738",
-      "text": "Buy 0.00387741 BTC for 300 USDT at avg 77371.0452575301554389 USDT/BTC, fee 0.00000387741 BTC"
     }
   ]
 }
