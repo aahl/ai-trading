@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-28T06:44:56.131211",
-      "balance": 109542.5
-    },
-    {
       "time": "2025-12-28T08:40:47.214809",
       "balance": 109679.1
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-16T19:20:05.109071",
       "balance": 83606.3
+    },
+    {
+      "time": "2026-05-16T21:01:35.816511",
+      "balance": 83601.7
     }
   ],
   "assets": {
-    "BTC": 67019.8,
-    "ETH": 7153.2,
-    "SOL": 7661.4,
-    "USDT": 1772.0
+    "BTC": 67022.8,
+    "ETH": 7155.9,
+    "SOL": 7651.1,
+    "USDT": 1771.8
   },
   "trades": [
+    {
+      "time": "2026-05-16T21:01:35.816531",
+      "text": "Canceled SOL-USDT sell order for 5 SOL at 87.5 USDT to avoid exiting the strongest bounce candidate at confirmation. Placed no new orders and kept ETH sell orders unchanged."
+    },
     {
       "time": "2026-05-16T19:20:05.109093",
       "text": "Placed limit sell order on ETH-BTC: sell 0.5 ETH at 0.0280 BTC/ETH, status live"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-02T03:38:18.791068",
       "text": "No trade executed; held existing positions."
-    },
-    {
-      "time": "2026-05-01T23:00:50.987173",
-      "text": "Buy 5.373775 SOL, spent 450 USDT, avg price 83.74"
     }
   ]
 }
