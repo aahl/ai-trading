@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-28T22:31:18.849908",
-      "balance": 109419.9
-    },
-    {
       "time": "2025-12-29T02:30:49.961902",
       "balance": 111284.9
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-05-17T13:51:30.944106",
       "balance": 83643.6
+    },
+    {
+      "time": "2026-05-17T15:10:15.617587",
+      "balance": 83464.4
     }
   ],
   "assets": {
-    "BTC": 67041.3,
-    "ETH": 7494.5,
-    "SOL": 7635.8,
-    "USDT": 1472.0
+    "BTC": 67986.5,
+    "ETH": 6378.4,
+    "SOL": 8027.2,
+    "USDT": 1072.2
   },
   "trades": [
+    {
+      "time": "2026-05-17T15:10:15.617619",
+      "text": "Held BTC with no action."
+    },
+    {
+      "time": "2026-05-17T15:10:15.617617",
+      "text": "Bought 4.628558 SOL via SOL-USDT market order, spent 400 USDT at average 86.42 USDT, fee 0.004628558 SOL."
+    },
+    {
+      "time": "2026-05-17T15:10:15.617613",
+      "text": "Maintained existing live ETH-USDT sell limit order for 1.45 ETH at 2274 USDT; no duplicate ETH sell placed."
+    },
     {
       "time": "2026-05-17T13:51:30.944126",
       "text": "Hold / no-op. Kept live sell orders: ETH-BTC 0.5 @ 0.028 and ETH-USDT 1.45 @ 2274."
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-05-02T19:15:22.686447",
       "text": "NO_TRADE - Held positions due to low USDT, already large BTC/ETH exposure, and market analysis favoring hold over new entries."
-    },
-    {
-      "time": "2026-05-02T15:00:07.797435",
-      "text": "Buy 0.151733 ETH with 350 USDT on ETH-USDT at 2306.67 USDT, fee 0.000151733 ETH"
-    },
-    {
-      "time": "2026-05-02T13:32:37.037473",
-      "text": "Buy 0.043338 ETH on ETH-USDT at market, spent 100 USDT, avg price 2307.4, ordId 3530807806046769152"
-    },
-    {
-      "time": "2026-05-02T09:18:57.379341",
-      "text": "Buy 0.351 ETH with 0.01 BTC on ETH-BTC at avg 0.02849 BTC/ETH, fee 0.000351 ETH, order 3530298326422917120"
     }
   ]
 }
