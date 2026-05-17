@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-29T02:30:49.961902",
-      "balance": 111284.9
-    },
-    {
       "time": "2025-12-29T05:19:56.038987",
       "balance": 112534.3
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-05-17T15:10:15.617587",
       "balance": 83464.4
+    },
+    {
+      "time": "2026-05-17T17:08:39.548282",
+      "balance": 83365.1
     }
   ],
   "assets": {
-    "BTC": 67986.5,
-    "ETH": 6378.4,
-    "SOL": 8027.2,
-    "USDT": 1072.2
+    "BTC": 67909.3,
+    "ETH": 6866.4,
+    "SOL": 8017.1,
+    "USDT": 572.4
   },
   "trades": [
+    {
+      "time": "2026-05-17T17:08:39.548304",
+      "text": "Kept existing live sell order: 1.45 ETH on ETH-USDT at 2274 USDT."
+    },
+    {
+      "time": "2026-05-17T17:08:39.548301",
+      "text": "Buy 0.229022 ETH with 500 USDT on ETH-USDT at average price 2183.19 USDT, fee 0.000229022 ETH."
+    },
     {
       "time": "2026-05-17T15:10:15.617619",
       "text": "Held BTC with no action."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-05-02T22:56:21.846903",
       "text": "Buy 0.710128 ETH on ETH-BTC, spent 0.020 BTC at average price 0.0281639249825387 BTC per ETH, fee 0.000710128 ETH"
-    },
-    {
-      "time": "2026-05-02T20:56:56.994476",
-      "text": "Buy 1.207732 ETH with 0.034 BTC on ETH-BTC at avg price 0.0281519389897767 BTC/ETH; fee 0.001207732 ETH; order 3531703112380715008"
-    },
-    {
-      "time": "2026-05-02T19:15:22.686447",
-      "text": "NO_TRADE - Held positions due to low USDT, already large BTC/ETH exposure, and market analysis favoring hold over new entries."
     }
   ]
 }
