@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-29T13:04:58.377076",
-      "balance": 109444.2
-    },
-    {
       "time": "2025-12-29T16:39:09.150430",
       "balance": 109702.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-17T23:01:21.915744",
       "balance": 83274.7
+    },
+    {
+      "time": "2026-05-18T04:20:14.772463",
+      "balance": 82071.9
     }
   ],
   "assets": {
-    "BTC": 63501.4,
-    "ETH": 11197.6,
-    "SOL": 8003.3,
+    "BTC": 62700.8,
+    "ETH": 10904.3,
+    "SOL": 7894.4,
     "USDT": 572.4
   },
   "trades": [
+    {
+      "time": "2026-05-18T04:20:14.772488",
+      "text": "No trade executed. Held account allocation unchanged and kept the existing live ETH-USDT limit sell order (1.45 ETH @ 2274)."
+    },
     {
       "time": "2026-05-17T21:04:54.242097",
       "text": "Bought 2 ETH via ETH-BTC at average price 0.02797 BTC per ETH; fee 0.002 ETH; order id 3575205918139748352."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-03T15:00:46.511607",
       "text": "Buy 0.341974 ETH with 0.01 BTC on ETH-BTC at average price 0.029241904384544 BTC per ETH; fee 0.000341974 ETH."
-    },
-    {
-      "time": "2026-05-03T09:29:51.050084",
-      "text": "Sell 1.5 ETH for BTC on ETH-BTC at avg 0.0276490422066664 BTC per ETH, fee 0.00004147356331 BTC, order 3533219328043782144"
     }
   ]
 }
