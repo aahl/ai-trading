@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2025-12-30T06:47:52.629133",
-      "balance": 109530.7
-    },
-    {
       "time": "2026-01-04T03:21:04.388175",
       "balance": 113518.6
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-05-18T15:53:29.514924",
       "balance": 81344.3
+    },
+    {
+      "time": "2026-05-18T18:13:22.975058",
+      "balance": 81491.9
     }
   ],
   "assets": {
-    "BTC": 62141.6,
-    "ETH": 10820.1,
-    "SOL": 7810.2,
+    "BTC": 62302.0,
+    "ETH": 10811.9,
+    "SOL": 7805.8,
     "USDT": 572.3
   },
   "trades": [
+    {
+      "time": "2026-05-18T18:13:22.975086",
+      "text": "No new BTC or SOL position opened this round."
+    },
+    {
+      "time": "2026-05-18T18:13:22.975084",
+      "text": "Placed new ETH-USDT limit sell 1.45 ETH @ 2112 for defensive de-risking."
+    },
+    {
+      "time": "2026-05-18T18:13:22.975081",
+      "text": "Canceled previous ETH-USDT limit sell 1.45 ETH @ 2274."
+    },
     {
       "time": "2026-05-18T10:22:11.436658",
       "text": "Account remained unchanged in this run."
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-05-06T17:53:14.146315",
       "text": "Sold 0.2 ETH for BTC on ETH-BTC at market, avg price 0.02813 BTC/ETH, fee 0.000005626 BTC."
-    },
-    {
-      "time": "2026-05-06T14:37:47.061353",
-      "text": "Bought SOL-USDT spot with 150 USDT at market; fully filled at average price 88.52 for 1.694532 SOL."
-    },
-    {
-      "time": "2026-05-06T10:29:23.187192",
-      "text": "Buy 0.751982 SOL on SOL-USDT via spot cash market order, spending about 67.34 USDT at average price 89.55 USDT."
-    },
-    {
-      "time": "2026-05-03T22:56:47.626102",
-      "text": "Reason: BTC buy idea required dip confirmation; account already has large BTC/ETH exposure and limited USDT liquidity."
     }
   ]
 }
