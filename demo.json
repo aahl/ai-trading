@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-04T18:42:09.255927",
-      "balance": 113113.9
-    },
-    {
       "time": "2026-01-04T20:34:07.683228",
       "balance": 113300.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-19T23:15:09.912941",
       "balance": 81769.0
+    },
+    {
+      "time": "2026-05-20T04:16:04.418215",
+      "balance": 81776.2
     }
   ],
   "assets": {
-    "BTC": 63739.7,
-    "ETH": 8699.9,
-    "SOL": 7399.1,
-    "USDT": 1930.4
+    "BTC": 63741.3,
+    "ETH": 8711.7,
+    "SOL": 7393.0,
+    "USDT": 1930.1
   },
   "trades": [
+    {
+      "time": "2026-05-20T04:16:04.418241",
+      "text": "Canceled stale SOL-USDT sell limit order for 19.58 SOL at 86.2 USDT; no new trade placed due to HOLD signal."
+    },
     {
       "time": "2026-05-19T23:15:09.912968",
       "text": "Kept SOL-USDT limit sell 19.58 SOL @ 86.2 USDT to reduce SOL exposure and raise USDT liquidity"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-08T06:09:27.694448",
       "text": "Buy 11.367511 SOL on SOL-USDT at 87.97 USDT, spent 1000 USDT, fee 0.011367511 SOL, order 3547310251648229376"
-    },
-    {
-      "time": "2026-05-07T19:52:39.048802",
-      "text": "Post-trade balances updated: BTC rose to 0.69629415624143 and USDT fell to 8582.332515846734."
     }
   ]
 }
