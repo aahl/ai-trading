@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-05T08:47:49.030230",
-      "balance": 114264.2
-    },
-    {
       "time": "2026-01-05T10:38:18.264294",
       "balance": 114511.8
     },
@@ -3999,6 +3995,10 @@
     {
       "time": "2026-05-21T04:25:32.658590",
       "balance": 83144.4
+    },
+    {
+      "time": "2026-05-21T10:01:38.553741",
+      "balance": 83144.5
     }
   ],
   "assets": {
@@ -4008,6 +4008,14 @@
     "USDT": 742.3
   },
   "trades": [
+    {
+      "time": "2026-05-21T10:01:38.553767",
+      "text": "Market bias remains: BUY SOL-USDT small on pullbacks/strength, HOLD BTC, avoid adding ETH until account snapshot is readable."
+    },
+    {
+      "time": "2026-05-21T10:01:38.553763",
+      "text": "No new trade executed; held allocation because OKX simulated account balance/positions/risk endpoints returned 50013, so current exposure could not be safely verified before adding SOL."
+    },
     {
       "time": "2026-05-21T04:25:32.658613",
       "text": "Bought 24.643251 SOL at average 86.98 USDT on SOL-USDT using 2143.47 USDT, fee 0.024643251 SOL."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-05-10T09:48:51.235477",
       "text": "Buy 0.00371316 BTC with 300 USDT on BTC-USDT at average price 80793.6 USDT in simulated spot trading."
-    },
-    {
-      "time": "2026-05-08T17:31:14.985561",
-      "text": "Buy 8.304728 SOL via SOL-USDT market order, spent 750 USDT at avg price 90.31; fee 0.008304728 SOL, net SOL added 8.296423272"
-    },
-    {
-      "time": "2026-05-08T14:14:01.335273",
-      "text": "Buy 28.181715 SOL on SOL-USDT with 2500 USDT at average price 88.71 USDT; order filled."
     }
   ]
 }
