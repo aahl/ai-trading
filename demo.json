@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-05T22:32:21.377219",
-      "balance": 116439.8
-    },
-    {
       "time": "2026-01-06T02:18:36.480915",
       "balance": 116004.5
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-05-22T09:46:17.331296",
       "balance": 82366.6
+    },
+    {
+      "time": "2026-05-22T12:34:14.128909",
+      "balance": 82536.0
     }
   ],
   "assets": {
-    "BTC": 65353.8,
-    "ETH": 6458.8,
-    "SOL": 10211.4,
+    "BTC": 65481.3,
+    "SOL": 12145.0,
+    "ETH": 4567.1,
     "USDT": 342.6
   },
   "trades": [
+    {
+      "time": "2026-05-22T12:34:14.128940",
+      "text": "Bought 21.907936 SOL on SOL-USDT at average 87.44 USDT, fee 0.021907936 SOL (ordId 3588673096696471552)."
+    },
+    {
+      "time": "2026-05-22T12:34:14.128938",
+      "text": "Sold 0.90 ETH on ETH-USDT at average 2130.6122379555555554 USDT, fee 1.91755101416 USDT (ordId 3588672513654661120)."
+    },
+    {
+      "time": "2026-05-22T12:34:14.128935",
+      "text": "Canceled market order on SOL-ETH due to exchange slippage protection (ordId 3588668765926596608)."
+    },
     {
       "time": "2026-05-22T09:46:17.331318",
       "text": "Buy 1.145475 SOL on SOL-USDT at market using 100 USDT, avg price 87.3, fee 0.001145475 SOL, ordId 3588334453255573504"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-05-10T23:00:21.145154",
       "text": "Buy 0.294823 ETH via ETH-USDT market order at 2374.3 USDT average price, fee 0.000294823 ETH"
-    },
-    {
-      "time": "2026-05-10T21:02:33.747748",
-      "text": "Bought BTC on BTC-USDT with 400 USDT at market, filled 0.00495458 BTC at average 80733.3 USDT, fee 0.00000495458 BTC, net BTC received 0.00494962542 BTC."
-    },
-    {
-      "time": "2026-05-10T21:02:33.747745",
-      "text": "Sold 0.40 ETH on ETH-USDT at market, average fill 2327.38 USDT, gross 930.952 USDT, fee 0.930952 USDT, net proceeds 930.021048 USDT."
-    },
-    {
-      "time": "2026-05-10T19:19:14.391385",
-      "text": "Canceled ETH-USDT buy limit order for 0.25 ETH due to hold signal and weak ETH relative strength."
     }
   ]
 }
