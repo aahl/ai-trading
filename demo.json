@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-07T04:53:32.084299",
-      "balance": 115673.6
-    },
-    {
       "time": "2026-01-07T08:46:46.094223",
       "balance": 115812.8
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-23T19:24:27.076769",
       "balance": 80507.3
+    },
+    {
+      "time": "2026-05-23T21:04:05.499126",
+      "balance": 81625.3
     }
   ],
   "assets": {
-    "BTC": 66501.7,
-    "ETH": 2791.2,
-    "SOL": 7124.4,
-    "USDT": 4089.9
+    "BTC": 67397.3,
+    "ETH": 2861.4,
+    "SOL": 7277.2,
+    "USDT": 4089.5
   },
   "trades": [
+    {
+      "time": "2026-05-23T21:04:05.499151",
+      "text": "No new trade placed this cycle; retained live ETH-USDT limit buy 0.95 @ 2064 and BTC-USDT limit buy 0.026 @ 75600 to avoid duplicate exposure."
+    },
     {
       "time": "2026-05-23T19:24:27.076799",
       "text": "Held SOL with no new order"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-12T23:12:21.234956",
       "text": "No trade executed. Hold BTC, ETH, and SOL because current spot setups do not offer favorable immediate risk/reward."
-    },
-    {
-      "time": "2026-05-12T18:12:07.984220",
-      "text": "Sold 0.3 ETH for BTC on ETH-BTC at market; filled at 0.02711 BTC/ETH; thesis: tactical rotation from weaker ETH into stronger BTC under mixed/corrective rebound conditions."
     }
   ]
 }
