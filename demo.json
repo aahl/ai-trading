@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-07T02:17:38.568943",
-      "balance": 115552.6
-    },
-    {
       "time": "2026-01-07T04:53:32.084299",
       "balance": 115673.6
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-05-23T17:13:47.441178",
       "balance": 80015.5
+    },
+    {
+      "time": "2026-05-23T19:24:27.076769",
+      "balance": 80507.3
     }
   ],
   "assets": {
-    "BTC": 66089.2,
-    "ETH": 2770.1,
-    "SOL": 7066.1,
-    "USDT": 4090.1
+    "BTC": 66501.7,
+    "ETH": 2791.2,
+    "SOL": 7124.4,
+    "USDT": 4089.9
   },
   "trades": [
+    {
+      "time": "2026-05-23T19:24:27.076799",
+      "text": "Held SOL with no new order"
+    },
+    {
+      "time": "2026-05-23T19:24:27.076797",
+      "text": "Placed ETH-USDT limit buy 0.95 ETH at 2064 USDT (order live, unfilled)"
+    },
+    {
+      "time": "2026-05-23T19:24:27.076793",
+      "text": "Placed BTC-USDT limit buy 0.026 BTC at 75600 USDT (order live, unfilled)"
+    },
     {
       "time": "2026-05-23T15:14:42.251169",
       "text": "Sold 35 SOL on SOL-USDT at market, average fill price 84.41 USDT, gross proceeds 2954.35 USDT, fee 2.95435 USDT, net proceeds 2951.39565 USDT."
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-05-12T18:12:07.984220",
       "text": "Sold 0.3 ETH for BTC on ETH-BTC at market; filled at 0.02711 BTC/ETH; thesis: tactical rotation from weaker ETH into stronger BTC under mixed/corrective rebound conditions."
-    },
-    {
-      "time": "2026-05-12T10:46:09.208927",
-      "text": "Sell 0.50 ETH for BTC on ETH-BTC at avg 0.02782 BTC per ETH, received net 0.01389609 BTC after 0.00001391 BTC fee"
-    },
-    {
-      "time": "2026-05-12T06:45:55.366026",
-      "text": "Hold positions; no trade executed"
-    },
-    {
-      "time": "2026-05-12T03:59:12.278575",
-      "text": "Sold 0.5 ETH for BTC on ETH-BTC via market spot order; order filled at average price 0.02824010616 BTC/ETH and fee 0.00001412005308 BTC."
     }
   ]
 }
