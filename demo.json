@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-08T10:37:10.183884",
-      "balance": 111873.5
-    },
-    {
       "time": "2026-01-08T13:11:01.654180",
       "balance": 111265.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-24T21:07:02.433280",
       "balance": 81117.9
+    },
+    {
+      "time": "2026-05-24T23:06:33.103354",
+      "balance": 81306.2
     }
   ],
   "assets": {
-    "BTC": 65496.3,
-    "ETH": 4415.9,
-    "SOL": 7545.6,
-    "USDT": 3660.1
+    "BTC": 65919.0,
+    "ETH": 4413.1,
+    "SOL": 7563.5,
+    "USDT": 3410.5
   },
   "trades": [
+    {
+      "time": "2026-05-24T23:06:33.103380",
+      "text": "Buy 0.00317085 BTC on BTC-USDT at average price 76902.8821585123890675 USDT, spent 250 USDT, fee 0.00000325085 BTC"
+    },
     {
       "time": "2026-05-24T21:07:02.433310",
       "text": "Placed live limit sell order for 10 SOL at 86.3 USDT on SOL-USDT (ordId: 3595504442735599616, clOrdId: agt260524soltrim01)."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-14T10:32:42.455690",
       "text": "Placed SOL-USDT limit sell 12.5 @ 92.8 USDT (ordId 3565234649050910720)"
-    },
-    {
-      "time": "2026-05-14T10:32:42.455687",
-      "text": "Canceled SOL-ETH buy order 18.5 @ 0.04 ETH (ordId 3564799354316787712)"
     }
   ]
 }
