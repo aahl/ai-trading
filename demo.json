@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-07T16:54:51.465476",
-      "balance": 113301.5
-    },
-    {
       "time": "2026-01-07T20:38:18.299759",
       "balance": 112733.1
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-24T08:42:46.796798",
       "balance": 81578.4
+    },
+    {
+      "time": "2026-05-24T11:25:20.429426",
+      "balance": 82016.3
     }
   ],
   "assets": {
-    "BTC": 63967.0,
-    "ETH": 6270.5,
-    "SOL": 7251.2,
-    "USDT": 4089.7
+    "BTC": 64357.4,
+    "ETH": 6287.7,
+    "SOL": 7281.7,
+    "USDT": 4089.5
   },
   "trades": [
+    {
+      "time": "2026-05-24T11:25:20.429445",
+      "text": "Placed limit buy order for 5 SOL on SOL-USDT at 86.0 USDT; order accepted and currently live/unfilled (ordId: 3594332419409846272)."
+    },
     {
       "time": "2026-05-24T08:42:46.796827",
       "text": "No new trade placed. Current market stance: HOLD."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-13T21:46:47.485981",
       "text": "Bought 2.750577 SOL via SOL-USDT market order for 250 USDT."
-    },
-    {
-      "time": "2026-05-13T21:46:47.485978",
-      "text": "Attempted to buy SOL with about 0.65 ETH on SOL-ETH via market order, but OKX canceled it due to slippage protection."
     }
   ]
 }
