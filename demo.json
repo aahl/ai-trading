@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-07T10:38:36.338741",
-      "balance": 114659.0
-    },
-    {
       "time": "2026-01-07T14:38:09.044144",
       "balance": 114024.8
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-23T23:01:51.728899",
       "balance": 81232.8
+    },
+    {
+      "time": "2026-05-24T04:19:06.154210",
+      "balance": 81543.7
     }
   ],
   "assets": {
-    "BTC": 66048.3,
-    "ETH": 3899.2,
-    "SOL": 7195.8,
+    "BTC": 63958.5,
+    "ETH": 6276.2,
+    "SOL": 7219.6,
     "USDT": 4089.5
   },
   "trades": [
+    {
+      "time": "2026-05-24T04:19:06.154260",
+      "text": "Buy 1.116321 ETH using 0.03 BTC via ETH-BTC market order at avg 0.0268739766697933 BTC/ETH; fee 0.001116321 ETH"
+    },
     {
       "time": "2026-05-23T23:01:51.728921",
       "text": "Buy 0.50 ETH via ETH-BTC market order, spent 0.013465 BTC, avg fill 0.02693 BTC per ETH, fee 0.0005 ETH"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-13T14:59:53.318127",
       "text": "Bought 2.722718 SOL via SOL-USDT spot market order at avg 91.82 USDT using 250 USDT; fee 0.002722718 SOL; order id 3562871309607636992"
-    },
-    {
-      "time": "2026-05-13T10:42:22.201215",
-      "text": "2026-05-13 OKX SIM SPOT BUY ETH-USDT market quote_ccy=400 filled ordId=3562355761362771968 clOrdId=agt260513ethusdt01 fillSz=0.173207 avgPx=2309.37 fee=0.000173207ETH rationale=\"priority ETH dip-buy, conservative size, no open orders, within 5% risk cap\""
     }
   ]
 }
