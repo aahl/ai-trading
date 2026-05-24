@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-07T14:38:09.044144",
-      "balance": 114024.8
-    },
-    {
       "time": "2026-01-07T16:54:51.465476",
       "balance": 113301.5
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-05-24T04:19:06.154210",
       "balance": 81543.7
+    },
+    {
+      "time": "2026-05-24T08:42:46.796798",
+      "balance": 81578.4
     }
   ],
   "assets": {
-    "BTC": 63958.5,
-    "ETH": 6276.2,
-    "SOL": 7219.6,
-    "USDT": 4089.5
+    "BTC": 63967.0,
+    "ETH": 6270.5,
+    "SOL": 7251.2,
+    "USDT": 4089.7
   },
   "trades": [
+    {
+      "time": "2026-05-24T08:42:46.796827",
+      "text": "No new trade placed. Current market stance: HOLD."
+    },
+    {
+      "time": "2026-05-24T08:42:46.796825",
+      "text": "Canceled stale ETH-USDT buy order 3592398455464009728 at 2064 USDT for 0.95 ETH."
+    },
+    {
+      "time": "2026-05-24T08:42:46.796822",
+      "text": "Canceled stale BTC-USDT buy order 3592398447377391616 at 75600 USDT for 0.026 BTC."
+    },
     {
       "time": "2026-05-24T04:19:06.154260",
       "text": "Buy 1.116321 ETH using 0.03 BTC via ETH-BTC market order at avg 0.0268739766697933 BTC/ETH; fee 0.001116321 ETH"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-05-13T21:46:47.485978",
       "text": "Attempted to buy SOL with about 0.65 ETH on SOL-ETH via market order, but OKX canceled it due to slippage protection."
-    },
-    {
-      "time": "2026-05-13T18:13:30.258000",
-      "text": "Bought 0.04092337 BTC with 3258 USDT via BTC-USDT market order at average price 79612.2 USDT."
-    },
-    {
-      "time": "2026-05-13T18:13:30.257997",
-      "text": "Sold 35.8 SOL for 3258.833904 USDT via SOL-USDT market order at average price 91.12 USDT."
-    },
-    {
-      "time": "2026-05-13T14:59:53.318127",
-      "text": "Bought 2.722718 SOL via SOL-USDT spot market order at avg 91.82 USDT using 250 USDT; fee 0.002722718 SOL; order id 3562871309607636992"
     }
   ]
 }
