@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-07T22:33:50.357056",
-      "balance": 113194.5
-    },
-    {
       "time": "2026-01-08T02:15:27.190304",
       "balance": 113844.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-24T13:55:05.564760",
       "balance": 81401.4
+    },
+    {
+      "time": "2026-05-24T15:15:38.411563",
+      "balance": 81018.6
     }
   ],
   "assets": {
-    "BTC": 65427.7,
-    "ETH": 4664.0,
-    "SOL": 7219.9,
-    "USDT": 4089.7
+    "BTC": 65347.0,
+    "ETH": 4423.7,
+    "SOL": 7587.7,
+    "USDT": 3660.2
   },
   "trades": [
+    {
+      "time": "2026-05-24T15:15:38.411587",
+      "text": "Sold 0.1 ETH for BTC on ETH-BTC via market order at avg price 0.0250691847 BTC/ETH, fee 0.00000250691847 BTC, order id 3594795834100162560"
+    },
     {
       "time": "2026-05-24T13:55:05.564785",
       "text": "Sell 0.75 ETH for BTC on ETH-BTC market order at average price 0.02514 BTC per ETH; gross received 0.018855 BTC, fee 0.000018855 BTC, net BTC added 0.018836145 BTC. Existing SOL-USDT limit buy 5 SOL @ 86 remains live and unchanged."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-14T04:06:08.118815",
       "text": "Bought 0.999555 SOL for 90 USDT at an average price of 90.04 USDT per SOL on SOL-USDT."
-    },
-    {
-      "time": "2026-05-14T04:06:08.118811",
-      "text": "Attempted to buy SOL-BTC with 0.003 BTC, but the pair was unavailable in the demo environment."
     }
   ]
 }
