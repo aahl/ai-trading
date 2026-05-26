@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-08T20:35:11.662348",
-      "balance": 111853.6
-    },
-    {
       "time": "2026-01-08T22:31:29.100363",
       "balance": 112704.1
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-26T21:56:14.663895",
       "balance": 80304.4
+    },
+    {
+      "time": "2026-05-26T23:19:33.524372",
+      "balance": 80291.3
     }
   ],
   "assets": {
-    "USDT": 1523.9,
-    "BTC": 66927.4,
-    "ETH": 5248.0,
-    "SOL": 6607.4
+    "BTC": 66912.1,
+    "ETH": 4626.2,
+    "SOL": 6610.8,
+    "USDT": 2142.2
   },
   "trades": [
+    {
+      "time": "2026-05-26T23:19:33.524392",
+      "text": "Sold 0.30 ETH on ETH-USDT at 2073.56 USDT, gross proceeds 622.068 USDT, fee 0.622068 USDT, net +621.445932 USDT."
+    },
     {
       "time": "2026-05-26T18:38:00.445305",
       "text": "Buy 0.01314471 BTC with 1000 USDT on BTC-USDT spot at avg price 76076.1972571475521332 USDT/BTC, fee 0.00001314471 BTC, order 3601002586701307904"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-14T14:38:15.107147",
       "text": "Kept existing live sell orders: 12.5 SOL at 92.8 USDT and 12.5 SOL at 95.2 USDT"
-    },
-    {
-      "time": "2026-05-14T14:38:15.107145",
-      "text": "Bought 0.01250528 BTC at 80190.1 USDT on BTC-USDT, paid 0.00001250528 BTC fee"
     }
   ]
 }
