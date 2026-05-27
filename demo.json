@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-09T02:15:55.350306",
-      "balance": 112801.6
-    },
-    {
       "time": "2026-01-09T04:49:21.374951",
       "balance": 112510.6
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-05-27T10:13:06.345859",
       "balance": 80257.5
+    },
+    {
+      "time": "2026-05-27T16:15:41.387952",
+      "balance": 79728.9
     }
   ],
   "assets": {
-    "BTC": 66858.9,
-    "ETH": 5147.0,
-    "SOL": 6609.0,
-    "USDT": 1642.7
+    "BTC": 66314.7,
+    "ETH": 5112.9,
+    "SOL": 6958.3,
+    "USDT": 1343.0
   },
   "trades": [
+    {
+      "time": "2026-05-27T16:15:41.387980",
+      "text": "Bought 3.546518 SOL on SOL-USDT at an average price of 84.59 USDT, spending 300 USDT. Fee: 0.003546518 SOL."
+    },
+    {
+      "time": "2026-05-27T16:15:41.387977",
+      "text": "Attempted BUY SOL-BTC with BTC quote, rejected because the instrument is not listed in this OKX demo environment."
+    },
     {
       "time": "2026-05-27T10:13:06.345880",
       "text": "Buy 0.239849 ETH on ETH-USDT at average price 2084.6398843855926021 USDT, spent 500 USDT in simulated spot trading."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-05-14T21:21:12.554335",
       "text": "Buy 0.0024608 BTC for 200 USDT at 81274.3 on BTC-USDT"
-    },
-    {
-      "time": "2026-05-14T20:02:50.618632",
-      "text": "Buy 8.4547 SOL with 0.35 ETH on SOL-ETH at average price 0.0413969704424762 ETH per SOL"
-    },
-    {
-      "time": "2026-05-14T18:03:08.897819",
-      "text": "HOLD - No new trade executed; BTC-USDT long signal skipped because BTC already represents ~81% of portfolio equity."
     }
   ]
 }
