@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-08T22:31:29.100363",
-      "balance": 112704.1
-    },
-    {
       "time": "2026-01-09T02:15:55.350306",
       "balance": 112801.6
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-05-26T23:19:33.524372",
       "balance": 80291.3
+    },
+    {
+      "time": "2026-05-27T10:13:06.345859",
+      "balance": 80257.5
     }
   ],
   "assets": {
-    "BTC": 66912.1,
-    "ETH": 4626.2,
-    "SOL": 6610.8,
-    "USDT": 2142.2
+    "BTC": 66858.9,
+    "ETH": 5147.0,
+    "SOL": 6609.0,
+    "USDT": 1642.7
   },
   "trades": [
+    {
+      "time": "2026-05-27T10:13:06.345880",
+      "text": "Buy 0.239849 ETH on ETH-USDT at average price 2084.6398843855926021 USDT, spent 500 USDT in simulated spot trading."
+    },
     {
       "time": "2026-05-26T23:19:33.524392",
       "text": "Sold 0.30 ETH on ETH-USDT at 2073.56 USDT, gross proceeds 622.068 USDT, fee 0.622068 USDT, net +621.445932 USDT."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-14T18:03:08.897819",
       "text": "HOLD - No new trade executed; BTC-USDT long signal skipped because BTC already represents ~81% of portfolio equity."
-    },
-    {
-      "time": "2026-05-14T14:38:15.107147",
-      "text": "Kept existing live sell orders: 12.5 SOL at 92.8 USDT and 12.5 SOL at 95.2 USDT"
     }
   ]
 }
