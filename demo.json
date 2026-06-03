@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-09T10:36:55.233358",
-      "balance": 111711.7
-    },
-    {
       "time": "2026-01-09T13:02:56.490747",
       "balance": 111341.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-06-03T21:40:45.658392",
       "balance": 69456.1
+    },
+    {
+      "time": "2026-06-03T23:58:38.464854",
+      "balance": 68251.3
     }
   ],
   "assets": {
-    "BTC": 57689.3,
-    "ETH": 3763.2,
-    "SOL": 5940.8,
-    "USDT": 2065.6
+    "USDT": 2065.6,
+    "BTC": 0.9,
+    "ETH": 2.1,
+    "SOL": 82.5
   },
   "trades": [
+    {
+      "time": "2026-06-03T23:58:38.464876",
+      "text": "No trade executed; HOLD. Skipped ETH-USDT sell due to insufficient real-time confirmation of resistance-zone rebound and weakening volume."
+    },
     {
       "time": "2026-06-03T21:29:02.600901",
       "text": "Sell 0.4 ETH for approximately 721.00 USDT on ETH-USDT at an average price of 1802.51; fee 0.721004 USDT."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-15T04:07:45.598146",
       "text": "No trade executed; held portfolio after market analysis showed fading short-term momentum in BTC, ETH, and SOL."
-    },
-    {
-      "time": "2026-05-14T21:21:12.554338",
-      "text": "Buy 2.15936 SOL for 200 USDT at 92.62 on SOL-USDT"
     }
   ]
 }
