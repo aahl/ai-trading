@@ -1,18 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-09T06:46:55.034742",
-      "balance": 112725.7
-    },
-    {
-      "time": "2026-01-09T08:46:06.198588",
-      "balance": 111458.2
-    },
-    {
-      "time": "2026-01-09T08:46:44.020912",
-      "balance": 111458.0
-    },
-    {
       "time": "2026-01-09T10:36:55.233358",
       "balance": 111711.7
     },
@@ -3999,15 +3987,31 @@
     {
       "time": "2026-05-27T18:35:31.835333",
       "balance": 79261.3
+    },
+    {
+      "time": "2026-06-03T21:29:02.600879",
+      "balance": 69465.8
+    },
+    {
+      "time": "2026-06-03T21:35:41.821643",
+      "balance": 69578.8
+    },
+    {
+      "time": "2026-06-03T21:40:45.658392",
+      "balance": 69456.1
     }
   ],
   "assets": {
-    "BTC": 65972.5,
-    "ETH": 5064.9,
-    "SOL": 6881.0,
-    "USDT": 1342.9
+    "BTC": 57689.3,
+    "ETH": 3763.2,
+    "SOL": 5940.8,
+    "USDT": 2065.6
   },
   "trades": [
+    {
+      "time": "2026-06-03T21:29:02.600901",
+      "text": "Sell 0.4 ETH for approximately 721.00 USDT on ETH-USDT at an average price of 1802.51; fee 0.721004 USDT."
+    },
     {
       "time": "2026-05-27T16:15:41.387980",
       "text": "Bought 3.546518 SOL on SOL-USDT at an average price of 84.59 USDT, spending 300 USDT. Fee: 0.003546518 SOL."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-14T21:21:12.554338",
       "text": "Buy 2.15936 SOL for 200 USDT at 92.62 on SOL-USDT"
-    },
-    {
-      "time": "2026-05-14T21:21:12.554335",
-      "text": "Buy 0.0024608 BTC for 200 USDT at 81274.3 on BTC-USDT"
     }
   ]
 }
