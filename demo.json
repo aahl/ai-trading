@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-09T22:30:20.161300",
-      "balance": 110490.4
-    },
-    {
       "time": "2026-01-10T02:10:52.328565",
       "balance": 108796.4
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-06-04T18:27:19.319181",
       "balance": 67461.5
+    },
+    {
+      "time": "2026-06-04T21:52:53.573005",
+      "balance": 67143.9
     }
   ],
   "assets": {
-    "BTC": 56029.4,
-    "ETH": 4058.4,
-    "SOL": 5710.2,
-    "USDT": 1663.6
+    "BTC": 55834.3,
+    "ETH": 3746.1,
+    "SOL": 5328.8,
+    "USDT": 2234.6
   },
   "trades": [
+    {
+      "time": "2026-06-04T21:52:53.573035",
+      "text": "Sell 0.17 ETH for USDT on ETH-USDT, market order filled at average 1764.5016589411764705 USDT, fee 0.29996528202 USDT"
+    },
+    {
+      "time": "2026-06-04T21:52:53.573032",
+      "text": "Sell 4 SOL for USDT on SOL-USDT, market order filled at average 67.97 USDT, fee 0.27188 USDT"
+    },
     {
       "time": "2026-06-04T10:11:47.773028",
       "text": "No new trade executed. Held BTC, ETH, SOL positions because market rebound lacked high-conviction breakout confirmation and portfolio crypto exposure was already high."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-05-15T17:51:54.724101",
       "text": "No order placed"
-    },
-    {
-      "time": "2026-05-15T14:34:54.799037",
-      "text": "No trade executed; held existing BTC, SOL, and ETH allocation. Kept live ETH-USDT limit sell order for 1.45 ETH at 2274 USDT."
-    },
-    {
-      "time": "2026-05-15T12:04:32.434344",
-      "text": "Placed limit sell order: 1.45 ETH at 2274 USDT on ETH-USDT (state: live, unfilled)"
     }
   ]
 }
