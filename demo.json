@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-10T04:42:25.964566",
-      "balance": 108505.5
-    },
-    {
       "time": "2026-01-10T06:41:52.333532",
       "balance": 108603.3
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-06-05T10:07:21.595593",
       "balance": 66432.3
+    },
+    {
+      "time": "2026-06-05T18:06:47.722516",
+      "balance": 64380.1
     }
   ],
   "assets": {
-    "BTC": 55399.9,
-    "ETH": 3569.6,
-    "SOL": 5227.8,
-    "USDT": 2235.0
+    "BTC": 50446.1,
+    "ETH": 3389.4,
+    "SOL": 5122.7,
+    "USDT": 5421.8
   },
   "trades": [
+    {
+      "time": "2026-06-05T18:06:47.722537",
+      "text": "Sell 0.0525 BTC on BTC-USDT at average 60797.4 USDT via spot market order; gross 3191.8635 USDT, fee 3.1918635 USDT, net proceeds 3188.6716365 USDT."
+    },
     {
       "time": "2026-06-04T21:52:53.573035",
       "text": "Sell 0.17 ETH for USDT on ETH-USDT, market order filled at average 1764.5016589411764705 USDT, fee 0.29996528202 USDT"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-15T17:51:54.724104",
       "text": "Existing open order: sell 1.45 ETH on ETH-USDT at 2274"
-    },
-    {
-      "time": "2026-05-15T17:51:54.724101",
-      "text": "No order placed"
     }
   ]
 }
