@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-10T22:28:33.267257",
-      "balance": 108262.4
-    },
-    {
       "time": "2026-01-11T02:30:37.565391",
       "balance": 108718.1
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-06-06T21:14:30.023197",
       "balance": 64078.5
+    },
+    {
+      "time": "2026-06-06T23:14:30.021654",
+      "balance": 64008.3
     }
   ],
   "assets": {
-    "USDT": 6777.5,
-    "BTC": 50456.9,
-    "ETH": 2534.5,
-    "SOL": 4309.7
+    "BTC": 50680.1,
+    "ETH": 2538.8,
+    "SOL": 4311.8,
+    "USDT": 6477.7
   },
   "trades": [
+    {
+      "time": "2026-06-06T23:14:30.021679",
+      "text": "Buy 0.00493945 BTC for 300 USDT on BTC-USDT at avg price 60735.4501195477229247 USDT/BTC (fee: 0.00000493945 BTC)"
+    },
     {
       "time": "2026-06-06T08:48:58.860238",
       "text": "Sell 20 SOL for USDT on SOL-USDT (market)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-16T03:51:35.843297",
       "text": "Average fill price was 89.04 USDT."
-    },
-    {
-      "time": "2026-05-16T03:51:35.843294",
-      "text": "Sold 10 SOL on SOL-USDT via market order."
     }
   ]
 }
