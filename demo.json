@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-10T10:33:13.768143",
-      "balance": 108864.4
-    },
-    {
       "time": "2026-01-10T10:33:59.556592",
       "balance": 108864.0
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-06-05T23:19:37.259065",
       "balance": 64605.6
+    },
+    {
+      "time": "2026-06-06T04:10:33.762196",
+      "balance": 63740.5
     }
   ],
   "assets": {
-    "USDT": 5518.0,
-    "BTC": 50791.9,
-    "ETH": 2579.4,
-    "SOL": 5716.3
+    "BTC": 50155.4,
+    "ETH": 2518.2,
+    "SOL": 5550.6,
+    "USDT": 5516.3
   },
   "trades": [
+    {
+      "time": "2026-06-06T04:10:33.762218",
+      "text": "2026-06-06 | OKX demo | Decision: HOLD | Orders: none | Reason: BTC/ETH/SOL remain in post-liquidation daily downtrends with no confirmed reversal; preserve USDT and avoid adding spot exposure."
+    },
     {
       "time": "2026-06-05T23:19:37.259089",
       "text": "Buy 700 USDT worth of SOL on SOL-USDT at market, filled 10.91092 SOL at avg 64 USDT, fee 0.0109375 SOL"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-15T23:07:41.109165",
       "text": "Attempted to sell 8 SOL on SOL-BTC with a market order, but OKX rejected it with code 51021 (This crypto isn't listed yet). No trade was executed; portfolio remained unchanged."
-    },
-    {
-      "time": "2026-05-15T21:16:11.993379",
-      "text": "No new trade executed; kept existing ETH-USDT sell limit order 1.45 @ 2274 USDT live."
     }
   ]
 }
