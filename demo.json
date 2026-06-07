@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-11T08:37:53.959495",
-      "balance": 108863.3
-    },
-    {
       "time": "2026-01-11T10:32:53.178441",
       "balance": 108822.6
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-06-07T14:14:54.421095",
       "balance": 65157.3
+    },
+    {
+      "time": "2026-06-07T17:29:49.745367",
+      "balance": 65625.0
     }
   ],
   "assets": {
-    "BTC": 51587.9,
-    "ETH": 3814.2,
-    "SOL": 4476.7,
-    "USDT": 5278.5
+    "BTC": 51951.6,
+    "ETH": 4849.5,
+    "SOL": 4545.2,
+    "USDT": 4278.8
   },
   "trades": [
+    {
+      "time": "2026-06-07T17:29:49.745393",
+      "text": "Order 3635653775375994880 filled at average 1635.9766739249576692 USDT per ETH; fee 0.000611255 ETH."
+    },
+    {
+      "time": "2026-06-07T17:29:49.745390",
+      "text": "Buy about 0.611255 ETH with 1000 USDT on ETH-USDT via spot market order."
+    },
     {
       "time": "2026-06-07T09:32:20.455754",
       "text": "Bought ETH-USDT with a 1200 USDT spot market order in the OKX demo account."
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-05-16T09:51:14.470799",
       "text": "Hold position; no new order placed."
-    },
-    {
-      "time": "2026-05-16T06:32:15.335591",
-      "text": "Buy 0.38 ETH on ETH-BTC at 0.02798 BTC via limit order, fee 0.00038 ETH"
-    },
-    {
-      "time": "2026-05-16T03:51:35.843301",
-      "text": "Reduced SOL spot exposure in line with the sell signal."
     }
   ]
 }
