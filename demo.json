@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-11T12:59:42.356538",
-      "balance": 109162.1
-    },
-    {
       "time": "2026-01-11T14:31:57.416064",
       "balance": 109419.0
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-06-08T04:51:32.392733",
       "balance": 66144.4
+    },
+    {
+      "time": "2026-06-08T16:14:03.684368",
+      "balance": 67284.0
     }
   ],
   "assets": {
-    "BTC": 52384.7,
-    "ETH": 4928.2,
-    "SOL": 4553.2,
-    "USDT": 4278.3
+    "BTC": 53291.5,
+    "ETH": 5033.1,
+    "SOL": 5081.3,
+    "USDT": 3878.0
   },
   "trades": [
+    {
+      "time": "2026-06-08T16:14:03.684396",
+      "text": "Buy 5.933837 SOL via SOL-USDT market order at avg 67.41 USDT, spent 400 USDT, fee 0.005933837 SOL, orderId 3638399332750200832"
+    },
     {
       "time": "2026-06-08T04:51:32.392754",
       "text": "No trade executed this cycle; held BTC, ETH, SOL and kept USDT available."
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-16T09:51:14.470804",
       "text": "Reason: existing ETH exposure is already significant and a live sell order is open, so avoiding conflicting overtrading."
-    },
-    {
-      "time": "2026-05-16T09:51:14.470802",
-      "text": "Existing live order: sell 1.45 ETH on ETH-USDT at 2274 USDT."
     }
   ]
 }
