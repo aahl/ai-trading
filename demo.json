@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-11T14:31:57.416064",
-      "balance": 109419.0
-    },
-    {
       "time": "2026-01-11T16:35:43.650820",
       "balance": 110224.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-06-08T16:14:03.684368",
       "balance": 67284.0
+    },
+    {
+      "time": "2026-06-08T20:29:36.252284",
+      "balance": 66653.2
     }
   ],
   "assets": {
-    "BTC": 53291.5,
-    "ETH": 5033.1,
-    "SOL": 5081.3,
-    "USDT": 3878.0
+    "BTC": 51727.3,
+    "ETH": 5994.0,
+    "SOL": 5052.7,
+    "USDT": 3879.1
   },
   "trades": [
+    {
+      "time": "2026-06-08T20:29:36.252306",
+      "text": "Buy 0.598546 ETH on ETH-BTC at avg 0.02639727058572 BTC/ETH, spent 0.0158 BTC, fee 0.000598546 ETH (simulated OKX spot order ordId=3638916089055285248)."
+    },
     {
       "time": "2026-06-08T16:14:03.684396",
       "text": "Buy 5.933837 SOL via SOL-USDT market order at avg 67.41 USDT, spent 400 USDT, fee 0.005933837 SOL, orderId 3638399332750200832"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-16T17:09:40.348740",
       "text": "Placed a limit sell order for 5 SOL on SOL-USDT at 87.5 USDT. Order status: live, unfilled."
-    },
-    {
-      "time": "2026-05-16T09:51:14.470804",
-      "text": "Reason: existing ETH exposure is already significant and a live sell order is open, so avoiding conflicting overtrading."
     }
   ]
 }
