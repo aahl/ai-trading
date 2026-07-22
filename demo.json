@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-12T16:38:06.350047",
-      "balance": 110606.3
-    },
-    {
       "time": "2026-01-12T18:46:12.158162",
       "balance": 109701.5
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-06-13T04:35:40.789073",
       "balance": 66886.0
+    },
+    {
+      "time": "2026-07-22T23:12:43.025805",
+      "balance": 70927.0
     }
   ],
   "assets": {
-    "USDT": 1915.0,
-    "BTC": 52047.5,
-    "ETH": 6324.1,
-    "SOL": 6599.4
+    "BTC": 50722.3,
+    "ETH": 9250.8,
+    "SOL": 7674.0,
+    "USDT": 3279.9
   },
   "trades": [
+    {
+      "time": "2026-07-22T23:12:43.025830",
+      "text": "Place buy order for 20 SOL at 77 USDT (pending)"
+    },
+    {
+      "time": "2026-07-22T23:12:43.025828",
+      "text": "Buy 1 ETH at 1930 USDT"
+    },
+    {
+      "time": "2026-07-22T23:12:43.025825",
+      "text": "Sell 0.0458 BTC at 65999.05 USDT"
+    },
     {
       "time": "2026-06-12T23:30:32.542550",
       "text": "Buy 7.504127 SOL via SOL-USDT market order, spent 500 USDT at average price 66.63 USDT, fee 0.007504127 SOL, orderId 3650876080137965568"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-05-17T21:04:54.242097",
       "text": "Bought 2 ETH via ETH-BTC at average price 0.02797 BTC per ETH; fee 0.002 ETH; order id 3575205918139748352."
-    },
-    {
-      "time": "2026-05-17T17:08:39.548304",
-      "text": "Kept existing live sell order: 1.45 ETH on ETH-USDT at 2274 USDT."
-    },
-    {
-      "time": "2026-05-17T17:08:39.548301",
-      "text": "Buy 0.229022 ETH with 500 USDT on ETH-USDT at average price 2183.19 USDT, fee 0.000229022 ETH."
-    },
-    {
-      "time": "2026-05-17T15:10:15.617619",
-      "text": "Held BTC with no action."
     }
   ]
 }
