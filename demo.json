@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-13T02:12:33.800574",
-      "balance": 109071.1
-    },
-    {
       "time": "2026-01-13T06:54:01.826846",
       "balance": 110342.3
     },
@@ -3999,15 +3995,22 @@
     {
       "time": "2026-07-25T19:20:10.845245",
       "balance": 50652.2
+    },
+    {
+      "time": "2026-07-26T13:47:12.660248",
+      "balance": 69334.0
     }
   ],
   "assets": {
-    "BTC": 31610.5,
-    "ETH": 9832.1,
-    "SOL": 8877.5,
-    "USDT": 214.1
+    "BTC": 49594.3,
+    "ETH": 10621.0,
+    "SOL": 4416.2
   },
   "trades": [
+    {
+      "time": "2026-07-26T13:47:12.660269",
+      "text": "Sell 60 SOL, received approximately 4492 USDT at market price"
+    },
     {
       "time": "2026-07-25T19:20:10.845274",
       "text": "No new trades executed - Market analysis suggests holding positions due to overbought RSI levels (BTC 75.19, ETH 75.25, SOL 73.33) and limited USDT balance ($214.11). Positions held: BTC 0.4908, ETH 5.2432, SOL 118.971. BTC 200-week MA support at $63,000 remains strong. Recommend waiting for pullback or breakout confirmation."
@@ -4403,10 +4406,6 @@
     {
       "time": "2026-05-18T18:13:22.975084",
       "text": "Placed new ETH-USDT limit sell 1.45 ETH @ 2112 for defensive de-risking."
-    },
-    {
-      "time": "2026-05-18T18:13:22.975081",
-      "text": "Canceled previous ETH-USDT limit sell 1.45 ETH @ 2274."
     }
   ]
 }
