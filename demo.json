@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-13T06:54:01.826846",
-      "balance": 110342.3
-    },
-    {
       "time": "2026-01-13T06:54:46.737872",
       "balance": 110342.3
     },
@@ -3999,14 +3995,42 @@
     {
       "time": "2026-07-26T13:47:12.660248",
       "balance": 69334.0
+    },
+    {
+      "time": "2026-07-27T21:19:27.439817",
+      "balance": 69973.3
     }
   ],
   "assets": {
-    "BTC": 49594.3,
-    "ETH": 10621.0,
-    "SOL": 4416.2
+    "BTC": 49841.1,
+    "ETH": 10962.1,
+    "SOL": 4488.6
   },
   "trades": [
+    {
+      "time": "2026-07-27T21:19:27.439852",
+      "text": "SOL fundamentals strong with 5.526B net inflows and 1.7M daily active addresses"
+    },
+    {
+      "time": "2026-07-27T21:19:27.439851",
+      "text": "ETH showing strong institutional accumulation, ETF inflows continue"
+    },
+    {
+      "time": "2026-07-27T21:19:27.439850",
+      "text": "Market analysis: BTC RSI 41.4 (oversold), ETH RSI 37.4 (oversold), SOL RSI 42.1 (near oversold) - all showing bounce potential"
+    },
+    {
+      "time": "2026-07-27T21:19:27.439849",
+      "text": "BTC purchase failed due to minimum order amount requirement"
+    },
+    {
+      "time": "2026-07-27T21:19:27.439848",
+      "text": "Buy 20 SOL at market price, spent ~1500 USDT"
+    },
+    {
+      "time": "2026-07-27T21:19:27.439845",
+      "text": "Buy 1.5 ETH at market price, spent ~2900 USDT"
+    },
     {
       "time": "2026-07-26T13:47:12.660269",
       "text": "Sell 60 SOL, received approximately 4492 USDT at market price"
@@ -4382,30 +4406,6 @@
     {
       "time": "2026-05-19T04:18:14.986099",
       "text": "Placed limit buy order: 0.2 ETH at 2126 USDT (live, unfilled)"
-    },
-    {
-      "time": "2026-05-19T04:18:14.986095",
-      "text": "Placed limit buy order: 5 SOL at 85.0 USDT (live, unfilled)"
-    },
-    {
-      "time": "2026-05-18T23:14:27.941681",
-      "text": "Placed ETH-BTC limit sell order: sell 0.30 ETH at 0.02800 BTC, ordId 3578366160176418816, status live."
-    },
-    {
-      "time": "2026-05-18T23:14:27.941678",
-      "text": "Canceled conflicting ETH-USDT buy order 3578141801553858560."
-    },
-    {
-      "time": "2026-05-18T21:24:05.607963",
-      "text": "Placed ETH-USDT limit buy order for 0.50 ETH at 2122 USDT; order status is live and unfilled."
-    },
-    {
-      "time": "2026-05-18T18:13:22.975086",
-      "text": "No new BTC or SOL position opened this round."
-    },
-    {
-      "time": "2026-05-18T18:13:22.975084",
-      "text": "Placed new ETH-USDT limit sell 1.45 ETH @ 2112 for defensive de-risking."
     }
   ]
 }
