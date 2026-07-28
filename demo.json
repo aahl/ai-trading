@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-13T14:39:36.699969",
-      "balance": 111421.4
-    },
-    {
       "time": "2026-01-13T18:48:39.007434",
       "balance": 112517.6
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-07-28T21:16:26.731635",
       "balance": 69055.0
+    },
+    {
+      "time": "2026-07-28T23:07:50.251161",
+      "balance": 68661.8
     }
   ],
   "assets": {
-    "BTC": 39832.9,
-    "ETH": 21302.9,
-    "SOL": 7140.9,
-    "USDT": 778.4
+    "BTC": 37763.9,
+    "ETH": 22644.1,
+    "SOL": 7667.3,
+    "USDT": 586.5
   },
   "trades": [
+    {
+      "time": "2026-07-28T23:07:50.251187",
+      "text": "Buy 8.178844 SOL @ $73.36, spent $600 USDT"
+    },
+    {
+      "time": "2026-07-28T23:07:50.251185",
+      "text": "Buy 0.786802 ETH @ $1906.45, spent $1500 USDT"
+    },
+    {
+      "time": "2026-07-28T23:07:50.251182",
+      "text": "Sell 0.03 BTC @ $63657.53, received ~$1909.73 USDT"
+    },
     {
       "time": "2026-07-28T21:16:26.731670",
       "text": "Buy 0.989274 ETH, spent 1900 USDT @ 1920.6"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-05-21T16:45:18.138137",
       "text": "Buy 1.160766 SOL on SOL-USDT at 86.15 USDT via market order; spent 100 USDT notional; fee 0.001160766 SOL; ordId 3586279567793852416; clOrdId agt260521solusdt04"
-    },
-    {
-      "time": "2026-05-21T12:53:25.004912",
-      "text": "Sold 0.5 ETH for BTC on ETH-BTC at market price, average fill 0.02400467822 BTC/ETH, fee 0.00001200233911 BTC."
-    },
-    {
-      "time": "2026-05-21T10:01:38.553767",
-      "text": "Market bias remains: BUY SOL-USDT small on pullbacks/strength, HOLD BTC, avoid adding ETH until account snapshot is readable."
-    },
-    {
-      "time": "2026-05-21T10:01:38.553763",
-      "text": "No new trade executed; held allocation because OKX simulated account balance/positions/risk endpoints returned 50013, so current exposure could not be safely verified before adding SOL."
     }
   ]
 }
