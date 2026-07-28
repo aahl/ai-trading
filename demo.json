@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-13T14:38:57.893077",
-      "balance": 111421.4
-    },
-    {
       "time": "2026-01-13T14:39:36.699969",
       "balance": 111421.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-07-28T19:45:50.177876",
       "balance": 68878.9
+    },
+    {
+      "time": "2026-07-28T21:16:26.731635",
+      "balance": 69055.0
     }
   ],
   "assets": {
-    "BTC": 39690.6,
-    "ETH": 19364.3,
-    "SOL": 7148.0,
-    "USDT": 2676.1
+    "BTC": 39832.9,
+    "ETH": 21302.9,
+    "SOL": 7140.9,
+    "USDT": 778.4
   },
   "trades": [
+    {
+      "time": "2026-07-28T21:16:26.731670",
+      "text": "Buy 0.989274 ETH, spent 1900 USDT @ 1920.6"
+    },
     {
       "time": "2026-07-28T19:45:50.177903",
       "text": "Buy 1.304958 ETH with 2500 USDT at market avg 1915.77 (order 3783781179025002496)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-21T10:01:38.553763",
       "text": "No new trade executed; held allocation because OKX simulated account balance/positions/risk endpoints returned 50013, so current exposure could not be safely verified before adding SOL."
-    },
-    {
-      "time": "2026-05-21T04:25:32.658613",
-      "text": "Bought 24.643251 SOL at average 86.98 USDT on SOL-USDT using 2143.47 USDT, fee 0.024643251 SOL."
     }
   ]
 }
