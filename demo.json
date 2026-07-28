@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-13T08:45:47.280845",
-      "balance": 110488.2
-    },
-    {
       "time": "2026-01-13T10:37:27.621984",
       "balance": 110813.6
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-07-28T14:30:08.091245",
       "balance": 68061.3
+    },
+    {
+      "time": "2026-07-28T17:43:47.263321",
+      "balance": 68577.8
     }
   ],
   "assets": {
-    "BTC": 48526.7,
-    "ETH": 12168.5,
-    "SOL": 7029.4,
-    "USDT": 336.8
+    "BTC": 46274.8,
+    "ETH": 15195.6,
+    "SOL": 7100.1,
+    "USDT": 7.2
   },
   "trades": [
+    {
+      "time": "2026-07-28T17:43:47.263353",
+      "text": "Buy 0.174002 ETH with 330 USDT @ $1896.52 (ETH-USDT market)"
+    },
+    {
+      "time": "2026-07-28T17:43:47.263349",
+      "text": "Buy 1.361504 ETH with 0.04 BTC @ 0.029379 BTC/ETH (ETH-BTC market)"
+    },
     {
       "time": "2026-07-28T14:30:08.091285",
       "text": "Buy 10.01097 SOL, spent 730 USDT @ 72.92"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-05-19T23:15:09.912964",
       "text": "Canceled ETH-BTC limit sell 0.3 ETH @ 0.028 BTC to avoid increasing BTC concentration"
-    },
-    {
-      "time": "2026-05-19T21:45:04.139543",
-      "text": "Sold SOL via SOL-USDT market order, sold 10 SOL at 84.6, fee 0.846 USDT."
-    },
-    {
-      "time": "2026-05-19T21:45:04.139540",
-      "text": "Bought BTC via BTC-USDT market order, spent 1000 USDT, filled 0.01296751 BTC at 77032.4, fee 0.00001298155 BTC."
     }
   ]
 }
