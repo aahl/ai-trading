@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-13T08:45:10.607724",
-      "balance": 110488.2
-    },
-    {
       "time": "2026-01-13T08:45:47.280845",
       "balance": 110488.2
     },
@@ -3999,14 +3995,23 @@
     {
       "time": "2026-07-28T10:48:57.264805",
       "balance": 68399.6
+    },
+    {
+      "time": "2026-07-28T14:30:08.091245",
+      "balance": 68061.3
     }
   ],
   "assets": {
-    "BTC": 48804.1,
-    "ETH": 12196.9,
-    "SOL": 6332.6
+    "BTC": 48526.7,
+    "ETH": 12168.5,
+    "SOL": 7029.4,
+    "USDT": 336.8
   },
   "trades": [
+    {
+      "time": "2026-07-28T14:30:08.091285",
+      "text": "Buy 10.01097 SOL, spent 730 USDT @ 72.92"
+    },
     {
       "time": "2026-07-28T10:48:57.264842",
       "text": "FOMC risk: retained ~1067 USDT cash buffer"
@@ -4402,10 +4407,6 @@
     {
       "time": "2026-05-19T21:45:04.139540",
       "text": "Bought BTC via BTC-USDT market order, spent 1000 USDT, filled 0.01296751 BTC at 77032.4, fee 0.00001298155 BTC."
-    },
-    {
-      "time": "2026-05-19T20:04:01.032899",
-      "text": "Sell 0.1 ETH for BTC on ETH-BTC at average price 0.0268009664 BTC per ETH, fee 0.00000268009664 BTC. Preferred SOL-BTC rotation was attempted first but the pair was unavailable in this simulated OKX environment, so execution fell back to the next-ranked executable trade."
     }
   ]
 }
