@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-14T08:41:49.014011",
-      "balance": 114587.9
-    },
-    {
       "time": "2026-01-14T10:37:09.230838",
       "balance": 114231.1
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-07-29T21:06:16.766963",
       "balance": 71162.5
+    },
+    {
+      "time": "2026-07-29T23:07:15.211559",
+      "balance": 71911.4
     }
   ],
   "assets": {
-    "BTC": 37587.3,
-    "ETH": 29379.7,
-    "SOL": 2642.7,
-    "USDT": 1552.9
+    "BTC": 9192.0,
+    "ETH": 12682.0,
+    "SOL": 1.6,
+    "USDT": 50035.0
   },
   "trades": [
+    {
+      "time": "2026-07-29T23:07:15.211600",
+      "text": "Sell 9 ETH @ 1904.90, received ~17126.95 USDT (fee 17.14 USDT)"
+    },
+    {
+      "time": "2026-07-29T23:07:15.211598",
+      "text": "Sell 0.45 BTC @ 63919.33, received ~28734.94 USDT (fee 28.76 USDT)"
+    },
+    {
+      "time": "2026-07-29T23:07:15.211594",
+      "text": "Sell 36.5 SOL @ 73.5135, received ~2680.56 USDT (fee 2.68 USDT)"
+    },
     {
       "time": "2026-07-29T21:06:16.766994",
       "text": "Buy 2.129993 ETH @ 1877.94 USDT, spent 4000 USDT (fee 0.00213 ETH)"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-05-23T21:04:05.499151",
       "text": "No new trade placed this cycle; retained live ETH-USDT limit buy 0.95 @ 2064 and BTC-USDT limit buy 0.026 @ 75600 to avoid duplicate exposure."
-    },
-    {
-      "time": "2026-05-23T19:24:27.076799",
-      "text": "Held SOL with no new order"
-    },
-    {
-      "time": "2026-05-23T19:24:27.076797",
-      "text": "Placed ETH-USDT limit buy 0.95 ETH at 2064 USDT (order live, unfilled)"
-    },
-    {
-      "time": "2026-05-23T19:24:27.076793",
-      "text": "Placed BTC-USDT limit buy 0.026 BTC at 75600 USDT (order live, unfilled)"
     }
   ]
 }
