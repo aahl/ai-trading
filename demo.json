@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-14T02:26:45.709377",
-      "balance": 115265.8
-    },
-    {
       "time": "2026-01-14T04:54:06.597050",
       "balance": 114830.1
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-07-29T10:51:02.674229",
       "balance": 72687.0
+    },
+    {
+      "time": "2026-07-29T14:28:00.446703",
+      "balance": 71999.0
     }
   ],
   "assets": {
-    "BTC": 38339.9,
-    "ETH": 29586.9,
-    "SOL": 4754.7,
-    "USDT": 5.6
+    "BTC": 38073.0,
+    "ETH": 21651.0,
+    "SOL": 4704.0,
+    "USDT": 7571.0
   },
   "trades": [
+    {
+      "time": "2026-07-29T14:28:00.446728",
+      "text": "Sold 4 ETH for USDT at market price 1895.5078"
+    },
     {
       "time": "2026-07-29T10:51:02.674263",
       "text": "Buy 0.539278 ETH with 1035 USDT @ 1919.23"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-23T03:57:48.033919",
       "text": "Hold position: no trade executed this cycle. Monitored SOL-USDT; setup not confirmed."
-    },
-    {
-      "time": "2026-05-22T23:13:23.400202",
-      "text": "Sell 20 SOL for USDT via SOL-USDT market order, received 1702 USDT gross at avg price 85.1 USDT per SOL, fee 1.702 USDT."
     }
   ]
 }
