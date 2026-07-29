@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-14T06:47:43.919285",
-      "balance": 114584.0
-    },
-    {
       "time": "2026-01-14T08:41:49.014011",
       "balance": 114587.9
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-07-29T17:24:06.227735",
       "balance": 71760.0
+    },
+    {
+      "time": "2026-07-29T21:06:16.766963",
+      "balance": 71162.5
     }
   ],
   "assets": {
-    "BTC": 37861.0,
-    "ETH": 25618.0,
-    "SOL": 6703.0,
-    "USDT": 1578.0
+    "BTC": 37587.3,
+    "ETH": 29379.7,
+    "SOL": 2642.7,
+    "USDT": 1552.9
   },
   "trades": [
+    {
+      "time": "2026-07-29T21:06:16.766994",
+      "text": "Buy 2.129993 ETH @ 1877.94 USDT, spent 4000 USDT (fee 0.00213 ETH)"
+    },
+    {
+      "time": "2026-07-29T21:06:16.766990",
+      "text": "Sell 55 SOL @ 72.34 USDT, received ~3978.69 USDT (fee 3.98 USDT)"
+    },
     {
       "time": "2026-07-29T17:24:06.227768",
       "text": "Buy 27.259097 SOL with 2000 USDT at avg price $73.37"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-05-23T19:24:27.076793",
       "text": "Placed BTC-USDT limit buy 0.026 BTC at 75600 USDT (order live, unfilled)"
-    },
-    {
-      "time": "2026-05-23T15:14:42.251169",
-      "text": "Sold 35 SOL on SOL-USDT at market, average fill price 84.41 USDT, gross proceeds 2954.35 USDT, fee 2.95435 USDT, net proceeds 2951.39565 USDT."
-    },
-    {
-      "time": "2026-05-23T15:14:42.251166",
-      "text": "Attempted to sell 15 SOL on SOL-BTC, but the pair was unavailable in the simulated OKX environment (sCode 51021: This crypto isn't listed yet)."
     }
   ]
 }
