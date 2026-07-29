@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-13T18:48:39.007434",
-      "balance": 112517.6
-    },
-    {
       "time": "2026-01-13T20:35:34.027533",
       "balance": 112521.9
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-07-28T23:07:50.251161",
       "balance": 68661.8
+    },
+    {
+      "time": "2026-07-29T03:23:19.254575",
+      "balance": 68822.0
     }
   ],
   "assets": {
-    "BTC": 37763.9,
-    "ETH": 22644.1,
-    "SOL": 7667.3,
-    "USDT": 586.5
+    "BTC": 37912.0,
+    "ETH": 23043.0,
+    "SOL": 6214.0,
+    "USDT": 1653.0
   },
   "trades": [
+    {
+      "time": "2026-07-29T03:23:19.254600",
+      "text": "Buy 0.209749 ETH with 400 USDT @ 1907.04"
+    },
+    {
+      "time": "2026-07-29T03:23:19.254596",
+      "text": "Sell 20 SOL for USDT @ 73.4728"
+    },
     {
       "time": "2026-07-28T23:07:50.251187",
       "text": "Buy 8.178844 SOL @ $73.36, spent $600 USDT"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-05-22T04:21:19.408991",
       "text": "Buy 2.292 SOL on SOL-USDT at 87.26 USDT average price, spent 200 USDT, fee 0.002292 SOL"
-    },
-    {
-      "time": "2026-05-21T23:12:01.835285",
-      "text": "No trade placed this cycle (HOLD)."
-    },
-    {
-      "time": "2026-05-21T16:45:18.138137",
-      "text": "Buy 1.160766 SOL on SOL-USDT at 86.15 USDT via market order; spent 100 USDT notional; fee 0.001160766 SOL; ordId 3586279567793852416; clOrdId agt260521solusdt04"
     }
   ]
 }
