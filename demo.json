@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-14T04:54:06.597050",
-      "balance": 114830.1
-    },
-    {
       "time": "2026-01-14T06:47:43.919285",
       "balance": 114584.0
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-07-29T14:28:00.446703",
       "balance": 71999.0
+    },
+    {
+      "time": "2026-07-29T17:24:06.227735",
+      "balance": 71760.0
     }
   ],
   "assets": {
-    "BTC": 38073.0,
-    "ETH": 21651.0,
-    "SOL": 4704.0,
-    "USDT": 7571.0
+    "BTC": 37861.0,
+    "ETH": 25618.0,
+    "SOL": 6703.0,
+    "USDT": 1578.0
   },
   "trades": [
+    {
+      "time": "2026-07-29T17:24:06.227768",
+      "text": "Buy 27.259097 SOL with 2000 USDT at avg price $73.37"
+    },
+    {
+      "time": "2026-07-29T17:24:06.227764",
+      "text": "Buy 2.105577 ETH with 4000 USDT at avg price $1899.72"
+    },
     {
       "time": "2026-07-29T14:28:00.446728",
       "text": "Sold 4 ETH for USDT at market price 1895.5078"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-05-23T15:14:42.251166",
       "text": "Attempted to sell 15 SOL on SOL-BTC, but the pair was unavailable in the simulated OKX environment (sCode 51021: This crypto isn't listed yet)."
-    },
-    {
-      "time": "2026-05-23T11:24:32.219444",
-      "text": "No trade executed; HOLD signal on BTC/ETH/SOL due to weak short-term momentum and no clean reversal setup."
-    },
-    {
-      "time": "2026-05-23T03:57:48.033919",
-      "text": "Hold position: no trade executed this cycle. Monitored SOL-USDT; setup not confirmed."
     }
   ]
 }
