@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-14T10:37:09.230838",
-      "balance": 114231.1
-    },
-    {
       "time": "2026-01-14T13:05:06.617085",
       "balance": 113973.3
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-07-29T23:07:15.211559",
       "balance": 71911.4
+    },
+    {
+      "time": "2026-07-30T02:54:56.180026",
+      "balance": 71896.3
     }
   ],
   "assets": {
-    "BTC": 9192.0,
-    "ETH": 12682.0,
-    "SOL": 1.6,
-    "USDT": 50035.0
+    "BTC": 9239.8,
+    "ETH": 20614.0,
+    "SOL": 2995.0,
+    "USDT": 39047.5
   },
   "trades": [
+    {
+      "time": "2026-07-30T02:54:56.180052",
+      "text": "Buy 40.567951 SOL @ 73.95, spent 3000 USDT (fee: 0.040567951 SOL)"
+    },
+    {
+      "time": "2026-07-30T02:54:56.180049",
+      "text": "Buy 4.18147 ETH @ 1913.20, spent 8000 USDT (fee: 0.00418147 ETH)"
+    },
     {
       "time": "2026-07-29T23:07:15.211600",
       "text": "Sell 9 ETH @ 1904.90, received ~17126.95 USDT (fee 17.14 USDT)"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-05-24T04:19:06.154260",
       "text": "Buy 1.116321 ETH using 0.03 BTC via ETH-BTC market order at avg 0.0268739766697933 BTC/ETH; fee 0.001116321 ETH"
-    },
-    {
-      "time": "2026-05-23T23:01:51.728921",
-      "text": "Buy 0.50 ETH via ETH-BTC market order, spent 0.013465 BTC, avg fill 0.02693 BTC per ETH, fee 0.0005 ETH"
-    },
-    {
-      "time": "2026-05-23T21:04:05.499151",
-      "text": "No new trade placed this cycle; retained live ETH-USDT limit buy 0.95 @ 2064 and BTC-USDT limit buy 0.026 @ 75600 to avoid duplicate exposure."
     }
   ]
 }
