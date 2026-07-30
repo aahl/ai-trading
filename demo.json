@@ -1,14 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-14T13:05:06.617085",
-      "balance": 113973.3
-    },
-    {
-      "time": "2026-01-14T14:35:32.848056",
-      "balance": 114725.8
-    },
-    {
       "time": "2026-01-14T16:44:46.445313",
       "balance": 116696.6
     },
@@ -3999,15 +3991,39 @@
     {
       "time": "2026-07-30T02:54:56.180026",
       "balance": 71896.3
+    },
+    {
+      "time": "2026-07-30T10:32:55.752439",
+      "balance": 32500.0
+    },
+    {
+      "time": "2026-07-30T10:35:50.818116",
+      "balance": 29218.2
     }
   ],
   "assets": {
-    "BTC": 9239.8,
-    "ETH": 20614.0,
-    "SOL": 2995.0,
-    "USDT": 39047.5
+    "BTC": 0.2,
+    "ETH": 13.3,
+    "SOL": 65.5,
+    "USDT": 29218.2
   },
   "trades": [
+    {
+      "time": "2026-07-30T10:35:50.818140",
+      "text": "Buy 25 SOL @ $74.07"
+    },
+    {
+      "time": "2026-07-30T10:35:50.818139",
+      "text": "Buy 2.5 ETH @ $1,919.33"
+    },
+    {
+      "time": "2026-07-30T10:35:50.818136",
+      "text": "Buy 0.05 BTC @ $64,586.8"
+    },
+    {
+      "time": "2026-07-30T10:32:55.752464",
+      "text": "Hold BTC position - no trade executed"
+    },
     {
       "time": "2026-07-30T02:54:56.180052",
       "text": "Buy 40.567951 SOL @ 73.95, spent 3000 USDT (fee: 0.040567951 SOL)"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-05-24T11:25:20.429445",
       "text": "Placed limit buy order for 5 SOL on SOL-USDT at 86.0 USDT; order accepted and currently live/unfilled (ordId: 3594332419409846272)."
-    },
-    {
-      "time": "2026-05-24T08:42:46.796827",
-      "text": "No new trade placed. Current market stance: HOLD."
-    },
-    {
-      "time": "2026-05-24T08:42:46.796825",
-      "text": "Canceled stale ETH-USDT buy order 3592398455464009728 at 2064 USDT for 0.95 ETH."
-    },
-    {
-      "time": "2026-05-24T08:42:46.796822",
-      "text": "Canceled stale BTC-USDT buy order 3592398447377391616 at 75600 USDT for 0.026 BTC."
-    },
-    {
-      "time": "2026-05-24T04:19:06.154260",
-      "text": "Buy 1.116321 ETH using 0.03 BTC via ETH-BTC market order at avg 0.0268739766697933 BTC/ETH; fee 0.001116321 ETH"
     }
   ]
 }
