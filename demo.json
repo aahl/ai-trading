@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-14T16:44:46.445313",
-      "balance": 116696.6
-    },
-    {
       "time": "2026-01-14T18:45:46.522522",
       "balance": 115160.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-07-30T10:35:50.818116",
       "balance": 29218.2
+    },
+    {
+      "time": "2026-07-31T03:36:07.863970",
+      "balance": 71927.4
     }
   ],
   "assets": {
-    "BTC": 0.2,
-    "ETH": 13.3,
-    "SOL": 65.5,
-    "USDT": 29218.2
+    "BTC": 12467.8,
+    "ETH": 25415.6,
+    "SOL": 4855.6,
+    "USDT": 29188.4
   },
   "trades": [
+    {
+      "time": "2026-07-31T03:36:07.863995",
+      "text": "Hold: Maintain current positions - BTC 0.194, ETH 13.34, SOL 65.52"
+    },
     {
       "time": "2026-07-30T10:35:50.818140",
       "text": "Buy 25 SOL @ $74.07"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-05-24T13:55:05.564785",
       "text": "Sell 0.75 ETH for BTC on ETH-BTC market order at average price 0.02514 BTC per ETH; gross received 0.018855 BTC, fee 0.000018855 BTC, net BTC added 0.018836145 BTC. Existing SOL-USDT limit buy 5 SOL @ 86 remains live and unchanged."
-    },
-    {
-      "time": "2026-05-24T11:25:20.429445",
-      "text": "Placed limit buy order for 5 SOL on SOL-USDT at 86.0 USDT; order accepted and currently live/unfilled (ordId: 3594332419409846272)."
     }
   ]
 }
