@@ -1,14 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-14T18:45:46.522522",
-      "balance": 115160.4
-    },
-    {
-      "time": "2026-01-14T20:33:11.168737",
-      "balance": 116423.1
-    },
-    {
       "time": "2026-01-14T22:33:41.146403",
       "balance": 116083.1
     },
@@ -3999,15 +3991,55 @@
     {
       "time": "2026-07-31T03:36:07.863970",
       "balance": 71927.4
+    },
+    {
+      "time": "2026-08-02T03:37:29.729136",
+      "balance": 71296.6
+    },
+    {
+      "time": "2026-08-02T03:39:10.195277",
+      "balance": 71304.7
     }
   ],
   "assets": {
-    "BTC": 12467.8,
-    "ETH": 25415.6,
-    "SOL": 4855.6,
-    "USDT": 29188.4
+    "BTC": 12296.8,
+    "ETH": 43796.3,
+    "SOL": 2598.7,
+    "USDT": 12612.9
   },
   "trades": [
+    {
+      "time": "2026-08-02T03:39:10.195304",
+      "text": "SOL position: 65.52 → 35.52 (-46%)"
+    },
+    {
+      "time": "2026-08-02T03:39:10.195303",
+      "text": "ETH position: 13.34 → 23.33 (+75%)"
+    },
+    {
+      "time": "2026-08-02T03:39:10.195303",
+      "text": "Portfolio rotation: Reduced SOL exposure, increased ETH exposure"
+    },
+    {
+      "time": "2026-08-02T03:39:10.195302",
+      "text": "Buy 10 ETH @ 1878.73, spent 18787 USDT"
+    },
+    {
+      "time": "2026-08-02T03:39:10.195300",
+      "text": "Sell 30 SOL @ 73.20, received 2194 USDT"
+    },
+    {
+      "time": "2026-08-02T03:37:29.729165",
+      "text": "SOL average cost updated from $97.97 to $119.02"
+    },
+    {
+      "time": "2026-08-02T03:37:29.729164",
+      "text": "Reduced SOL position from 65.52 to 35.52 SOL (46% reduction)"
+    },
+    {
+      "time": "2026-08-02T03:37:29.729161",
+      "text": "Sell 30 SOL at ~73.14 USDT, received ~2194 USDT"
+    },
     {
       "time": "2026-07-31T03:36:07.863995",
       "text": "Hold: Maintain current positions - BTC 0.194, ETH 13.34, SOL 65.52"
@@ -4375,38 +4407,6 @@
     {
       "time": "2026-05-26T23:19:33.524392",
       "text": "Sold 0.30 ETH on ETH-USDT at 2073.56 USDT, gross proceeds 622.068 USDT, fee 0.622068 USDT, net +621.445932 USDT."
-    },
-    {
-      "time": "2026-05-26T18:38:00.445305",
-      "text": "Buy 0.01314471 BTC with 1000 USDT on BTC-USDT spot at avg price 76076.1972571475521332 USDT/BTC, fee 0.00001314471 BTC, order 3601002586701307904"
-    },
-    {
-      "time": "2026-05-25T19:54:18.437003",
-      "text": "Buy 0.424188 ETH on ETH-USDT at avg 2121.7 USDT, spent 899.9996796 USDT, fee 0.000424188 ETH, net received 0.423763812 ETH"
-    },
-    {
-      "time": "2026-05-25T17:57:54.369427",
-      "text": "Buy 0.011 BTC on BTC-USDT at average 77557.3996363636363637 USDT; fee 0.000011 BTC; order filled immediately."
-    },
-    {
-      "time": "2026-05-24T23:06:33.103380",
-      "text": "Buy 0.00317085 BTC on BTC-USDT at average price 76902.8821585123890675 USDT, spent 250 USDT, fee 0.00000325085 BTC"
-    },
-    {
-      "time": "2026-05-24T21:07:02.433310",
-      "text": "Placed live limit sell order for 10 SOL at 86.3 USDT on SOL-USDT (ordId: 3595504442735599616, clOrdId: agt260524soltrim01)."
-    },
-    {
-      "time": "2026-05-24T19:27:40.928285",
-      "text": "No trade executed. Held current BTC/ETH/SOL positions and USDT cash because BTC remains below confirmed breakout and no urgent rebalance was required."
-    },
-    {
-      "time": "2026-05-24T15:15:38.411587",
-      "text": "Sold 0.1 ETH for BTC on ETH-BTC via market order at avg price 0.0250691847 BTC/ETH, fee 0.00000250691847 BTC, order id 3594795834100162560"
-    },
-    {
-      "time": "2026-05-24T13:55:05.564785",
-      "text": "Sell 0.75 ETH for BTC on ETH-BTC market order at average price 0.02514 BTC per ETH; gross received 0.018855 BTC, fee 0.000018855 BTC, net BTC added 0.018836145 BTC. Existing SOL-USDT limit buy 5 SOL @ 86 remains live and unchanged."
     }
   ]
 }
