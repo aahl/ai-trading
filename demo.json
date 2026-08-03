@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-15T04:53:22.193132",
-      "balance": 114365.1
-    },
-    {
       "time": "2026-01-15T06:46:50.127460",
       "balance": 114388.4
     },
@@ -3999,14 +3995,31 @@
     {
       "time": "2026-08-02T19:21:19.519032",
       "balance": 71883.2
+    },
+    {
+      "time": "2026-08-03T14:57:53.302205",
+      "balance": 71821.7
     }
   ],
   "assets": {
-    "BTC": 12270.7,
-    "ETH": 44995.9,
-    "SOL": 2504.7
+    "BTC": 12376.2,
+    "ETH": 42986.6,
+    "SOL": 2506.4,
+    "USDT": 13952.5
   },
   "trades": [
+    {
+      "time": "2026-08-03T14:57:53.302237",
+      "text": "Holding spot positions only"
+    },
+    {
+      "time": "2026-08-03T14:57:53.302235",
+      "text": "All futures/leveraged positions closed"
+    },
+    {
+      "time": "2026-08-03T14:57:53.302232",
+      "text": "No new trades executed - account in idle state"
+    },
     {
       "time": "2026-08-02T19:21:19.519064",
       "text": "Buy 2 ETH-USDT at $1876.64, spent $3,753.28"
@@ -4394,18 +4407,6 @@
     {
       "time": "2026-06-04T10:11:47.773028",
       "text": "No new trade executed. Held BTC, ETH, SOL positions because market rebound lacked high-conviction breakout confirmation and portfolio crypto exposure was already high."
-    },
-    {
-      "time": "2026-06-04T04:54:36.480352",
-      "text": "Buy 0.221692 ETH via ETH-USDT market order, spent 400 USDT, avg fill price 1804.30 USDT"
-    },
-    {
-      "time": "2026-06-03T23:58:38.464876",
-      "text": "No trade executed; HOLD. Skipped ETH-USDT sell due to insufficient real-time confirmation of resistance-zone rebound and weakening volume."
-    },
-    {
-      "time": "2026-06-03T21:29:02.600901",
-      "text": "Sell 0.4 ETH for approximately 721.00 USDT on ETH-USDT at an average price of 1802.51; fee 0.721004 USDT."
     }
   ]
 }
