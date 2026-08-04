@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-15T13:07:05.480035",
-      "balance": 115358.0
-    },
-    {
       "time": "2026-01-15T14:35:24.499318",
       "balance": 115031.9
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-08-04T10:52:26.613607",
       "balance": 71723.0
+    },
+    {
+      "time": "2026-08-04T14:40:57.624394",
+      "balance": 71879.8
     }
   ],
   "assets": {
-    "BTC": 0.4,
-    "ETH": 21.6,
-    "SOL": 54.2,
-    "USDT": 3787.8
+    "BTC": 20628.3,
+    "ETH": 40287.3,
+    "SOL": 3990.3,
+    "USDT": 6974.0
   },
   "trades": [
+    {
+      "time": "2026-08-04T14:40:57.624421",
+      "text": "Sell 0.05 BTC at 63935.10 USDT, net received 3193.56 USDT"
+    },
     {
       "time": "2026-08-04T10:52:26.613633",
       "text": "Buy 0.073 BTC at 63,762.29 USDT, cost 4,654.65 USDT"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-06-06T08:48:58.860238",
       "text": "Sell 20 SOL for USDT on SOL-USDT (market)"
-    },
-    {
-      "time": "2026-06-06T04:10:33.762218",
-      "text": "2026-06-06 | OKX demo | Decision: HOLD | Orders: none | Reason: BTC/ETH/SOL remain in post-liquidation daily downtrends with no confirmed reversal; preserve USDT and avoid adding spot exposure."
     }
   ]
 }
