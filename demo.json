@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-15T18:51:08.030214",
-      "balance": 113688.2
-    },
-    {
       "time": "2026-01-15T20:36:15.470003",
       "balance": 113609.9
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-08-04T23:11:17.361216",
       "balance": 72216.4
+    },
+    {
+      "time": "2026-08-05T10:49:45.409081",
+      "balance": 71887.2
     }
   ],
   "assets": {
-    "BTC": 22786.3,
-    "ETH": 40435.5,
-    "SOL": 2020.0,
-    "USDT": 6974.7
+    "BTC": 22647.8,
+    "ETH": 34661.2,
+    "SOL": 3485.8,
+    "USDT": 11092.4
   },
   "trades": [
+    {
+      "time": "2026-08-05T10:49:45.409109",
+      "text": "Sell 3 ETH at $1870.61, received 5611.83 USDT"
+    },
+    {
+      "time": "2026-08-05T10:49:45.409106",
+      "text": "Buy 20 SOL at $74.17, spent 1483.44 USDT"
+    },
     {
       "time": "2026-08-04T21:27:34.913379",
       "text": "Sell 27 SOL at 74.12 USDT, received 2001.24 USDT"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-06-07T09:32:20.455754",
       "text": "Bought ETH-USDT with a 1200 USDT spot market order in the OKX demo account."
-    },
-    {
-      "time": "2026-06-07T09:32:20.455751",
-      "text": "Canceled existing ETH-USDT limit buy order for 0.5 ETH at 1575 USDT to avoid overlapping exposure."
-    },
-    {
-      "time": "2026-06-07T04:58:16.299750",
-      "text": "Placed ETH-USDT limit buy order: buy 0.50 ETH at 1575 USDT (notional 787.50 USDT), ordId 3634137251213479936, status live/unfilled."
     }
   ]
 }
