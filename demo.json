@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-15T20:36:15.470003",
-      "balance": 113609.9
-    },
-    {
       "time": "2026-01-15T22:32:54.077362",
       "balance": 113929.6
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-08-05T10:49:45.409081",
       "balance": 71887.2
+    },
+    {
+      "time": "2026-08-05T14:31:03.014496",
+      "balance": 72076.8
     }
   ],
   "assets": {
-    "BTC": 22647.8,
-    "ETH": 34661.2,
-    "SOL": 3485.8,
-    "USDT": 11092.4
+    "BTC": 22770.0,
+    "ETH": 34728.7,
+    "SOL": 5484.0,
+    "USDT": 9094.0
   },
   "trades": [
+    {
+      "time": "2026-08-05T14:31:03.014530",
+      "text": "{'action': 'buy', 'asset': 'SOL', 'amount': 27.085591, 'price': 73.84, 'total': 2000, 'pair': 'SOL-USDT'}"
+    },
     {
       "time": "2026-08-05T10:49:45.409109",
       "text": "Sell 3 ETH at $1870.61, received 5611.83 USDT"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-06-07T17:29:49.745390",
       "text": "Buy about 0.611255 ETH with 1000 USDT on ETH-USDT via spot market order."
-    },
-    {
-      "time": "2026-06-07T09:32:20.455754",
-      "text": "Bought ETH-USDT with a 1200 USDT spot market order in the OKX demo account."
     }
   ]
 }
