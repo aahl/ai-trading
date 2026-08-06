@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-16T04:51:46.713461",
-      "balance": 113585.4
-    },
-    {
       "time": "2026-01-16T06:46:35.119278",
       "balance": 114083.4
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-08-05T21:20:21.269623",
       "balance": 72975.6
+    },
+    {
+      "time": "2026-08-06T06:48:59.119327",
+      "balance": 72966.1
     }
   ],
   "assets": {
-    "BTC": 22906.5,
-    "ETH": 35459.7,
-    "SOL": 5513.9,
-    "USDT": 9095.4
+    "BTC": 26914.7,
+    "ETH": 35459.9,
+    "SOL": 8490.0,
+    "USDT": 2101.6
   },
   "trades": [
+    {
+      "time": "2026-08-06T06:48:59.119354",
+      "text": "Buy 40.47 SOL at $74.12 using $3,000 USDT"
+    },
+    {
+      "time": "2026-08-06T06:48:59.119350",
+      "text": "Buy 0.0617 BTC at $64,845.60 using $4,000 USDT"
+    },
     {
       "time": "2026-08-05T17:50:21.135045",
       "text": "No trades executed - HOLD strategy. Market is bullish but overbought. Waiting for pullback: BTC $64,000-$64,200, ETH $1,885-$1,895, SOL $73.50"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-06-08T16:14:03.684396",
       "text": "Buy 5.933837 SOL via SOL-USDT market order at avg 67.41 USDT, spent 400 USDT, fee 0.005933837 SOL, orderId 3638399332750200832"
-    },
-    {
-      "time": "2026-06-08T04:51:32.392754",
-      "text": "No trade executed this cycle; held BTC, ETH, SOL and kept USDT available."
-    },
-    {
-      "time": "2026-06-07T17:29:49.745393",
-      "text": "Order 3635653775375994880 filled at average 1635.9766739249576692 USDT per ETH; fee 0.000611255 ETH."
     }
   ]
 }
