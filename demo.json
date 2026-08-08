@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-16T14:34:44.444811",
-      "balance": 114051.0
-    },
-    {
       "time": "2026-01-16T16:40:32.266810",
       "balance": 113208.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-08-07T22:46:49.928679",
       "balance": 73004.0
+    },
+    {
+      "time": "2026-08-08T02:05:18.622289",
+      "balance": 73041.0
     }
   ],
   "assets": {
-    "BTC": 26953.0,
-    "ETH": 26890.0,
-    "SOL": 8456.0,
-    "USDT": 10711.0
+    "BTC": 26956.9,
+    "ETH": 26888.1,
+    "SOL": 8485.2,
+    "USDT": 9711.3
   },
   "trades": [
+    {
+      "time": "2026-08-08T02:05:18.622312",
+      "text": "Buy 0.01540767 BTC with 1000 USDT at avg price 64902.7 (market order, BTC-USDT spot), BTC position increased to 0.430959, avg cost lowered to 66998.52"
+    },
     {
       "time": "2026-08-07T22:46:49.928703",
       "text": "Sell 4.5 ETH at 1914.69 USDT, received 8606.1 USDT"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-06-08T23:20:27.040547",
       "text": "Bought ETH-USDT in spot cash mode with a market order using 750 USDT quote currency; order filled at an average price of 1702.05484349008154 with 0.440643 ETH received, fee charged in ETH."
-    },
-    {
-      "time": "2026-06-08T20:29:36.252306",
-      "text": "Buy 0.598546 ETH on ETH-BTC at avg 0.02639727058572 BTC/ETH, spent 0.0158 BTC, fee 0.000598546 ETH (simulated OKX spot order ordId=3638916089055285248)."
     }
   ]
 }
