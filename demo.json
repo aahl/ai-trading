@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-16T22:32:09.732391",
-      "balance": 113901.1
-    },
-    {
       "time": "2026-01-17T02:11:02.558963",
       "balance": 113794.1
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-08-08T08:53:19.256702",
       "balance": 73186.5
+    },
+    {
+      "time": "2026-08-08T10:44:21.830308",
+      "balance": 73257.8
     }
   ],
   "assets": {
-    "BTC": 27994.6,
-    "ETH": 26932.9,
-    "SOL": 7075.0,
-    "USDT": 11183.9
+    "BTC": 28004.2,
+    "ETH": 31200.9,
+    "SOL": 7087.8,
+    "USDT": 6964.4
   },
   "trades": [
+    {
+      "time": "2026-08-08T10:44:21.830334",
+      "text": "Buy 2.2 ETH at $1,921.19, spent 4,226 USDT"
+    },
     {
       "time": "2026-08-08T07:06:18.046834",
       "text": "Sell 20 SOL at avg 74.03 USDT, received 1480 USDT (take profit due to overbought KDJ J value 103.66)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-06-12T10:34:06.843806",
       "text": "Bought 250 USDT worth of SOL to modestly increase strongest spot allocation."
-    },
-    {
-      "time": "2026-06-12T10:34:06.843802",
-      "text": "Sold 0.2 ETH for USDT to reduce weaker exposure."
     }
   ]
 }
