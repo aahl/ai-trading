@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-17T02:11:02.558963",
-      "balance": 113794.1
-    },
-    {
       "time": "2026-01-17T04:42:51.606601",
       "balance": 113783.6
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-08-08T10:44:21.830308",
       "balance": 73257.8
+    },
+    {
+      "time": "2026-08-08T16:43:48.496663",
+      "balance": 73375.0
     }
   ],
   "assets": {
-    "BTC": 28004.2,
-    "ETH": 31200.9,
-    "SOL": 7087.8,
-    "USDT": 6964.4
+    "BTC": 28022.1,
+    "ETH": 26410.0,
+    "SOL": 6059.0,
+    "USDT": 12884.0
   },
   "trades": [
+    {
+      "time": "2026-08-08T16:43:48.496699",
+      "text": "Sell 15 SOL at 75.35 USDT, received 1129 USDT net"
+    },
+    {
+      "time": "2026-08-08T16:43:48.496695",
+      "text": "Sell 2.5 ETH at 1921.81 USDT, received 2488 USDT net"
+    },
     {
       "time": "2026-08-08T10:44:21.830334",
       "text": "Buy 2.2 ETH at $1,921.19, spent 4,226 USDT"
@@ -4398,14 +4406,6 @@
     },
     {
       "time": "2026-06-12T10:34:21.295836",
-      "text": "Bought 250 USDT worth of SOL to modestly increase strongest spot allocation."
-    },
-    {
-      "time": "2026-06-12T10:34:21.295834",
-      "text": "Sold 0.2 ETH for USDT to reduce weaker exposure."
-    },
-    {
-      "time": "2026-06-12T10:34:06.843806",
       "text": "Bought 250 USDT worth of SOL to modestly increase strongest spot allocation."
     }
   ]
