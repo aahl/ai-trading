@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-16T18:44:57.618712",
-      "balance": 113593.0
-    },
-    {
       "time": "2026-01-16T20:32:31.152953",
       "balance": 113701.0
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-08-08T05:05:54.698087",
       "balance": 73173.2
+    },
+    {
+      "time": "2026-08-08T07:06:18.046809",
+      "balance": 73160.0
     }
   ],
   "assets": {
-    "BTC": 28000.8,
-    "ETH": 26924.9,
-    "SOL": 8541.8,
-    "USDT": 9705.6
+    "BTC": 28000.0,
+    "ETH": 26922.0,
+    "SOL": 7010.0,
+    "USDT": 11190.0
   },
   "trades": [
+    {
+      "time": "2026-08-08T07:06:18.046834",
+      "text": "Sell 20 SOL at avg 74.03 USDT, received 1480 USDT (take profit due to overbought KDJ J value 103.66)"
+    },
     {
       "time": "2026-08-08T02:05:18.622312",
       "text": "Buy 0.01540767 BTC with 1000 USDT at avg price 64902.7 (market order, BTC-USDT spot), BTC position increased to 0.430959, avg cost lowered to 66998.52"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-06-12T10:34:06.843802",
       "text": "Sold 0.2 ETH for USDT to reduce weaker exposure."
-    },
-    {
-      "time": "2026-06-08T23:20:27.040547",
-      "text": "Bought ETH-USDT in spot cash mode with a market order using 750 USDT quote currency; order filled at an average price of 1702.05484349008154 with 0.440643 ETH received, fee charged in ETH."
     }
   ]
 }
