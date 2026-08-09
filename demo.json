@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-17T16:32:44.726210",
-      "balance": 114231.8
-    },
-    {
       "time": "2026-01-17T18:41:51.959731",
       "balance": 114292.6
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-08-09T14:46:25.469837",
       "balance": 73474.2
+    },
+    {
+      "time": "2026-08-09T16:45:47.671100",
+      "balance": 73535.9
     }
   ],
   "assets": {
-    "BTC": 32080.8,
-    "ETH": 28439.2,
-    "SOL": 2226.9,
-    "USDT": 10727.4
+    "BTC": 32122.8,
+    "ETH": 28458.7,
+    "SOL": 1123.0,
+    "USDT": 11831.4
   },
   "trades": [
+    {
+      "time": "2026-08-09T16:45:47.671128",
+      "text": "Sell 14.5 SOL at $76.29, received ~$1,106 USDT"
+    },
     {
       "time": "2026-08-09T14:46:25.469874",
       "text": "Placed limit buy 0.05 BTC at 64000 USDT (pending, average down on dip)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-07-24T06:35:00.570622",
       "text": "BTC: 0.4908 BTC held (avg cost $74,091.95, current P/L: -11.77%)"
-    },
-    {
-      "time": "2026-07-24T06:35:00.570618",
-      "text": "No new trades executed - Market analysis suggests HOLD for all assets"
     }
   ]
 }
