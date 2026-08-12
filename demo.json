@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-19T06:57:26.781829",
-      "balance": 110198.1
-    },
-    {
       "time": "2026-01-19T08:44:00.507064",
       "balance": 110889.9
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-08-12T17:06:13.256777",
       "balance": 72143.5
+    },
+    {
+      "time": "2026-08-12T19:12:37.372715",
+      "balance": 72059.8
     }
   ],
   "assets": {
-    "BTC": 33519.2,
-    "ETH": 25366.6,
-    "SOL": 5219.2,
-    "USDT": 8038.4
+    "BTC": 33477.3,
+    "ETH": 25305.9,
+    "SOL": 3494.5,
+    "USDT": 9798.6
   },
   "trades": [
+    {
+      "time": "2026-08-12T19:12:37.372739",
+      "text": "Sell 23 SOL at 76.71 USDT, reduce SOL position due to FTX OTC liquidation pressure"
+    },
     {
       "time": "2026-08-12T11:09:00.136730",
       "text": "Sold 1.5 ETH at $1,908.60, received 2860.04 USDT"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-07-28T10:48:57.264832",
       "text": "Buy 1.595269 ETH at market price $1880.56, spent 3000 USDT"
-    },
-    {
-      "time": "2026-07-27T21:19:27.439852",
-      "text": "SOL fundamentals strong with 5.526B net inflows and 1.7M daily active addresses"
     }
   ]
 }
