@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-19T08:44:00.507064",
-      "balance": 110889.9
-    },
-    {
       "time": "2026-01-19T10:41:08.926788",
       "balance": 110711.9
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-08-12T19:12:37.372715",
       "balance": 72059.8
+    },
+    {
+      "time": "2026-08-12T20:56:20.921137",
+      "balance": 72090.8
     }
   ],
   "assets": {
-    "BTC": 33477.3,
-    "ETH": 25305.9,
-    "SOL": 3494.5,
-    "USDT": 9798.6
+    "BTC": 33542.6,
+    "ETH": 29059.2,
+    "SOL": 6497.0,
+    "USDT": 2992.0
   },
   "trades": [
+    {
+      "time": "2026-08-12T20:56:20.921168",
+      "text": "BTC: HOLD, keep 0.5284 BTC position"
+    },
+    {
+      "time": "2026-08-12T20:56:20.921166",
+      "text": "Buy 39.526719 SOL, spent 3040 USDT, avg price 76.91"
+    },
+    {
+      "time": "2026-08-12T20:56:20.921163",
+      "text": "Buy 2.001177 ETH, spent 3774 USDT, avg price 1885.89"
+    },
     {
       "time": "2026-08-12T19:12:37.372739",
       "text": "Sell 23 SOL at 76.71 USDT, reduce SOL position due to FTX OTC liquidation pressure"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-07-28T10:48:57.264839",
       "text": "BTC held (no trade) - RSI 21.2 oversold, large existing position 71%"
-    },
-    {
-      "time": "2026-07-28T10:48:57.264838",
-      "text": "Buy 0.265844 ETH at market price $1880.80, spent 500 USDT (top-up)"
-    },
-    {
-      "time": "2026-07-28T10:48:57.264836",
-      "text": "Buy 27.288852 SOL at market price $73.29, spent 2000 USDT"
-    },
-    {
-      "time": "2026-07-28T10:48:57.264832",
-      "text": "Buy 1.595269 ETH at market price $1880.56, spent 3000 USDT"
     }
   ]
 }
