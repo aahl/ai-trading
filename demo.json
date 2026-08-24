@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-19T13:09:42.757236",
-      "balance": 110812.2
-    },
-    {
       "time": "2026-01-19T14:38:34.180127",
       "balance": 110568.9
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-08-12T22:53:00.632937",
       "balance": 71858.3
+    },
+    {
+      "time": "2026-08-24T10:45:43.685459",
+      "balance": 90185.0
     }
   ],
   "assets": {
-    "BTC": 33471.3,
-    "ETH": 28933.7,
-    "SOL": 6461.2,
-    "USDT": 2992.1
+    "BTC": 41107.2,
+    "ETH": 26478.9,
+    "SOL": 3543.4,
+    "USDT": 19055.4
   },
   "trades": [
+    {
+      "time": "2026-08-24T10:45:43.685486",
+      "text": "Sell 18 SOL at 93.81, locked in ~1688 USDT profit"
+    },
+    {
+      "time": "2026-08-24T10:45:43.685483",
+      "text": "Sell 5.3 ETH at 2467.09, locked in ~13075 USDT profit"
+    },
     {
       "time": "2026-08-12T20:56:20.921168",
       "text": "BTC: HOLD, keep 0.5284 BTC position"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-07-28T10:48:57.264842",
       "text": "FOMC risk: retained ~1067 USDT cash buffer"
-    },
-    {
-      "time": "2026-07-28T10:48:57.264841",
-      "text": "Market analysis: BTC/ETH/SOL all deeply oversold (RSI 16-21), short-term bounce expected; ETH whale accumulation + ETF inflows; SOL fundamentals strong but technical weak"
-    },
-    {
-      "time": "2026-07-28T10:48:57.264839",
-      "text": "BTC held (no trade) - RSI 21.2 oversold, large existing position 71%"
     }
   ]
 }
