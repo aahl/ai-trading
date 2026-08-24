@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-19T16:40:35.287544",
-      "balance": 110928.7
-    },
-    {
       "time": "2026-01-19T18:44:36.478402",
       "balance": 110847.4
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-08-24T13:08:26.724937",
       "balance": 91338.0
+    },
+    {
+      "time": "2026-08-24T14:55:26.176728",
+      "balance": 91465.8
     }
   ],
   "assets": {
-    "BTC": 41772.0,
-    "ETH": 26904.0,
-    "SOL": 3607.0,
-    "USDT": 19055.0
+    "BTC": 41903.2,
+    "ETH": 26922.4,
+    "SOL": 4535.9,
+    "USDT": 18104.2
   },
   "trades": [
+    {
+      "time": "2026-08-24T14:55:26.176757",
+      "text": "Held SOL position, no change"
+    },
+    {
+      "time": "2026-08-24T14:55:26.176756",
+      "text": "Kept BTC buy limit 0.02 BTC @ 77500 (awaiting fill)"
+    },
+    {
+      "time": "2026-08-24T14:55:26.176754",
+      "text": "Placed ETH buy limit 0.8 ETH @ 2488 (new order, awaiting fill)"
+    },
+    {
+      "time": "2026-08-24T14:55:26.176751",
+      "text": "Canceled ETH buy limit 0.8 ETH @ 2450 (old order)"
+    },
     {
       "time": "2026-08-24T13:08:26.724966",
       "text": "Placed limit buy order: 0.02 BTC @ 77,500.00 USDT (clOrdId: buyBTC0824A)"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-07-28T19:45:50.177900",
       "text": "Sell 0.025 BTC for USDT at market avg 63706.16 (order 3783780122228166656)"
-    },
-    {
-      "time": "2026-07-28T19:45:50.177898",
-      "text": "Sell 0.04 BTC for USDT at market avg 63741.41 (order 3783779524892168192)"
-    },
-    {
-      "time": "2026-07-28T19:44:35.752067",
-      "text": "Buy 1.304958 ETH with 2500 USDT at market avg price 1915.77 (order 3783781179025002496)"
-    },
-    {
-      "time": "2026-07-28T19:44:35.752064",
-      "text": "Sell 0.04 BTC for USDT at market avg price 63689.84 (order 3783780598734655488)"
-    },
-    {
-      "time": "2026-07-28T17:43:47.263353",
-      "text": "Buy 0.174002 ETH with 330 USDT @ $1896.52 (ETH-USDT market)"
     }
   ]
 }
