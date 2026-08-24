@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-19T14:38:34.180127",
-      "balance": 110568.9
-    },
-    {
       "time": "2026-01-19T16:40:35.287544",
       "balance": 110928.7
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-08-24T10:45:43.685459",
       "balance": 90185.0
+    },
+    {
+      "time": "2026-08-24T13:08:26.724937",
+      "balance": 91338.0
     }
   ],
   "assets": {
-    "BTC": 41107.2,
-    "ETH": 26478.9,
-    "SOL": 3543.4,
-    "USDT": 19055.4
+    "BTC": 41772.0,
+    "ETH": 26904.0,
+    "SOL": 3607.0,
+    "USDT": 19055.0
   },
   "trades": [
+    {
+      "time": "2026-08-24T13:08:26.724966",
+      "text": "Placed limit buy order: 0.02 BTC @ 77,500.00 USDT (clOrdId: buyBTC0824A)"
+    },
+    {
+      "time": "2026-08-24T13:08:26.724964",
+      "text": "Placed limit buy order: 0.8 ETH @ 2,450.00 USDT (clOrdId: buyETH0824A)"
+    },
+    {
+      "time": "2026-08-24T13:08:26.724961",
+      "text": "Placed limit buy order: 10 SOL @ 95.00 USDT (clOrdId: buySOL0824A)"
+    },
     {
       "time": "2026-08-24T10:45:43.685486",
       "text": "Sell 18 SOL at 93.81, locked in ~1688 USDT profit"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-07-28T17:43:47.263353",
       "text": "Buy 0.174002 ETH with 330 USDT @ $1896.52 (ETH-USDT market)"
-    },
-    {
-      "time": "2026-07-28T17:43:47.263349",
-      "text": "Buy 1.361504 ETH with 0.04 BTC @ 0.029379 BTC/ETH (ETH-BTC market)"
-    },
-    {
-      "time": "2026-07-28T14:30:08.091285",
-      "text": "Buy 10.01097 SOL, spent 730 USDT @ 72.92"
-    },
-    {
-      "time": "2026-07-28T10:48:57.264842",
-      "text": "FOMC risk: retained ~1067 USDT cash buffer"
     }
   ]
 }
