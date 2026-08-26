@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-20T08:46:47.502687",
-      "balance": 108115.0
-    },
-    {
       "time": "2026-01-20T10:39:43.690799",
       "balance": 108485.2
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-08-26T04:50:48.783375",
       "balance": 90779.1
+    },
+    {
+      "time": "2026-08-26T07:08:17.012984",
+      "balance": 90787.0
     }
   ],
   "assets": {
-    "BTC": 37729.3,
-    "ETH": 25566.6,
-    "SOL": 4548.2,
-    "USDT": 22935.0
+    "BTC": 37752.6,
+    "ETH": 25554.8,
+    "SOL": 4543.1,
+    "USDT": 22939.2
   },
   "trades": [
+    {
+      "time": "2026-08-26T07:08:17.013012",
+      "text": "Existing orders kept: Buy 1 ETH at 2410 (buyETH0826A), Buy 0.02 BTC at 77800 (buyBTC0826A)"
+    },
+    {
+      "time": "2026-08-26T07:08:17.013010",
+      "text": "Buy 0.03 BTC at limit 77300 USDT, total ~2319 USDT (clOrdId buyBTC0826B)"
+    },
+    {
+      "time": "2026-08-26T07:08:17.013007",
+      "text": "Buy 1.5 ETH at limit 2425 USDT, total ~3638 USDT (clOrdId buyETH0826B)"
+    },
     {
       "time": "2026-08-26T03:16:27.945179",
       "text": "Hold BTC/ETH/SOL positions per market analysis: high-level consolidation after August rally"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-07-29T10:51:02.674263",
       "text": "Buy 0.539278 ETH with 1035 USDT @ 1919.23"
-    },
-    {
-      "time": "2026-07-29T10:51:02.674261",
-      "text": "Sell 14 SOL for 1036.42 USDT @ 74.03"
-    },
-    {
-      "time": "2026-07-29T10:51:02.674260",
-      "text": "Sell 3.0689 SOL for ~0.904 ETH via SOL-ETH @ 0.29461"
-    },
-    {
-      "time": "2026-07-29T10:51:02.674258",
-      "text": "Sell 3.3092 SOL for ~1.031 ETH via SOL-ETH @ 0.31165"
     }
   ]
 }
