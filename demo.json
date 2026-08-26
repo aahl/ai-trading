@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-20T06:50:37.124932",
-      "balance": 108661.0
-    },
-    {
       "time": "2026-01-20T08:46:14.312366",
       "balance": 108115.6
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-08-25T16:49:02.546274",
       "balance": 91243.9
+    },
+    {
+      "time": "2026-08-26T03:16:27.945150",
+      "balance": 90903.3
     }
   ],
   "assets": {
-    "BTC": 37937.4,
-    "ETH": 25744.5,
-    "SOL": 6096.8,
+    "BTC": 37820.5,
+    "ETH": 25599.3,
+    "SOL": 6020.8,
     "USDT": 21465.9
   },
   "trades": [
+    {
+      "time": "2026-08-26T03:16:27.945179",
+      "text": "Hold BTC/ETH/SOL positions per market analysis: high-level consolidation after August rally"
+    },
+    {
+      "time": "2026-08-26T03:16:27.945177",
+      "text": "Place limit buy 1 ETH @ 2410 USDT (clOrdId buyETH0826A) - support zone 2400-2420"
+    },
+    {
+      "time": "2026-08-26T03:16:27.945175",
+      "text": "Place limit buy 0.02 BTC @ 77800 USDT (clOrdId buyBTC0826A) - support zone 77500-78200"
+    },
+    {
+      "time": "2026-08-26T03:16:27.945172",
+      "text": "Cancel old limit buy 0.02 BTC @ 76000 USDT (clOrdId buyBTC0825A) - price below key support 76500"
+    },
     {
       "time": "2026-08-25T16:49:02.546341",
       "text": "Place new BTC limit buy order at 76000 for 0.02 BTC (closer to analyst support zone 75500-76500)"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-07-29T10:51:02.674258",
       "text": "Sell 3.3092 SOL for ~1.031 ETH via SOL-ETH @ 0.31165"
-    },
-    {
-      "time": "2026-07-29T10:51:02.674255",
-      "text": "Buy 0.078168 ETH with 150 USDT @ 1918.93"
-    },
-    {
-      "time": "2026-07-29T06:41:24.878468",
-      "text": "Buy 0.781522 ETH with 1500 USDT @ 1919.33 (market order filled)"
-    },
-    {
-      "time": "2026-07-29T03:23:19.254600",
-      "text": "Buy 0.209749 ETH with 400 USDT @ 1907.04"
-    },
-    {
-      "time": "2026-07-29T03:23:19.254596",
-      "text": "Sell 20 SOL for USDT @ 73.4728"
     }
   ]
 }
