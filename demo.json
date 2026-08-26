@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-20T13:13:35.282464",
-      "balance": 108796.8
-    },
-    {
       "time": "2026-01-20T14:41:47.796829",
       "balance": 108877.3
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-08-26T10:45:08.554434",
       "balance": 90721.1
+    },
+    {
+      "time": "2026-08-26T17:01:02.019218",
+      "balance": 90187.0
     }
   ],
   "assets": {
-    "BTC": 37635.3,
-    "ETH": 25606.7,
-    "SOL": 4544.3,
-    "USDT": 22934.8
+    "BTC": 40822.0,
+    "ETH": 26426.0,
+    "SOL": 4488.0,
+    "USDT": 18451.0
   },
   "trades": [
+    {
+      "time": "2026-08-26T17:01:02.019246",
+      "text": "Place buySOL0826B limit buy 5 SOL @ 94.0 to build SOL position on dip"
+    },
+    {
+      "time": "2026-08-26T17:01:02.019244",
+      "text": "Cancel buyETH0826B limit buy 1.5 ETH @ 2425 to reduce ETH concentration"
+    },
+    {
+      "time": "2026-08-26T17:01:02.019240",
+      "text": "Cancel buyETH0826A limit buy 1 ETH @ 2410 to reduce ETH concentration"
+    },
     {
       "time": "2026-08-26T10:45:08.554469",
       "text": "Placed limit buy SOL 5 @ 95.5"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-07-29T23:07:15.211594",
       "text": "Sell 36.5 SOL @ 73.5135, received ~2680.56 USDT (fee 2.68 USDT)"
-    },
-    {
-      "time": "2026-07-29T21:06:16.766994",
-      "text": "Buy 2.129993 ETH @ 1877.94 USDT, spent 4000 USDT (fee 0.00213 ETH)"
-    },
-    {
-      "time": "2026-07-29T21:06:16.766990",
-      "text": "Sell 55 SOL @ 72.34 USDT, received ~3978.69 USDT (fee 3.98 USDT)"
-    },
-    {
-      "time": "2026-07-29T17:24:06.227768",
-      "text": "Buy 27.259097 SOL with 2000 USDT at avg price $73.37"
     }
   ]
 }
