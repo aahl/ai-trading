@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-20T10:39:43.690799",
-      "balance": 108485.2
-    },
-    {
       "time": "2026-01-20T13:13:35.282464",
       "balance": 108796.8
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-08-26T07:08:17.012984",
       "balance": 90787.0
+    },
+    {
+      "time": "2026-08-26T10:45:08.554434",
+      "balance": 90721.1
     }
   ],
   "assets": {
-    "BTC": 37752.6,
-    "ETH": 25554.8,
-    "SOL": 4543.1,
-    "USDT": 22939.2
+    "BTC": 37635.3,
+    "ETH": 25606.7,
+    "SOL": 4544.3,
+    "USDT": 22934.8
   },
   "trades": [
+    {
+      "time": "2026-08-26T10:45:08.554469",
+      "text": "Placed limit buy SOL 5 @ 95.5"
+    },
+    {
+      "time": "2026-08-26T10:45:08.554467",
+      "text": "Placed limit buy ETH 0.4 @ 2445"
+    },
+    {
+      "time": "2026-08-26T10:45:08.554463",
+      "text": "Placed limit buy BTC 0.025 @ 78150"
+    },
     {
       "time": "2026-08-26T07:08:17.013012",
       "text": "Existing orders kept: Buy 1 ETH at 2410 (buyETH0826A), Buy 0.02 BTC at 77800 (buyBTC0826A)"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-07-29T17:24:06.227768",
       "text": "Buy 27.259097 SOL with 2000 USDT at avg price $73.37"
-    },
-    {
-      "time": "2026-07-29T17:24:06.227764",
-      "text": "Buy 2.105577 ETH with 4000 USDT at avg price $1899.72"
-    },
-    {
-      "time": "2026-07-29T14:28:00.446728",
-      "text": "Sold 4 ETH for USDT at market price 1895.5078"
-    },
-    {
-      "time": "2026-07-29T10:51:02.674263",
-      "text": "Buy 0.539278 ETH with 1035 USDT @ 1919.23"
     }
   ]
 }
