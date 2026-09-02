@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-20T22:31:37.461374",
-      "balance": 107045.8
-    },
-    {
       "time": "2026-01-21T02:31:20.860045",
       "balance": 106565.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-09-01T20:58:27.209621",
       "balance": 90328.2
+    },
+    {
+      "time": "2026-09-02T11:11:26.979909",
+      "balance": 89376.4
     }
   ],
   "assets": {
-    "BTC": 29684.1,
-    "ETH": 26836.4,
-    "SOL": 1300.2,
-    "USDT": 32507.5
+    "BTC": 29348.7,
+    "ETH": 31273.7,
+    "SOL": 1271.1,
+    "USDT": 27521.5
   },
   "trades": [
+    {
+      "time": "2026-09-02T11:11:26.979934",
+      "text": "Buy ETH with 5000 USDT at avg price 2378.86, filled 2.101844 ETH (oversold RSI rebound entry)"
+    },
     {
       "time": "2026-09-01T20:58:27.209650",
       "text": "Sell 1.5 ETH at 2440 USDT, received ~3656 USDT, reduced ETH position to lock profits"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-07-30T10:35:50.818140",
       "text": "Buy 25 SOL @ $74.07"
-    },
-    {
-      "time": "2026-07-30T10:35:50.818139",
-      "text": "Buy 2.5 ETH @ $1,919.33"
     }
   ]
 }
