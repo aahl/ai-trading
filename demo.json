@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-21T04:54:58.454082",
-      "balance": 107080.7
-    },
-    {
       "time": "2026-01-21T04:55:33.903590",
       "balance": 107080.7
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-09-06T15:36:42.454373",
       "balance": 92201.7
+    },
+    {
+      "time": "2026-09-06T18:31:27.263162",
+      "balance": 92581.0
     }
   ],
   "assets": {
-    "BTC": 35652.0,
-    "ETH": 32672.0,
-    "SOL": 1372.0,
-    "USDT": 22521.0
+    "BTC": 35782.0,
+    "ETH": 32899.0,
+    "SOL": 1381.0,
+    "USDT": 22519.0
   },
   "trades": [
+    {
+      "time": "2026-09-06T18:31:27.263205",
+      "text": "ETH hold on watch at ~2,494"
+    },
+    {
+      "time": "2026-09-06T18:31:27.263202",
+      "text": "BTC hold on watch at ~79,861"
+    },
+    {
+      "time": "2026-09-06T18:31:27.263196",
+      "text": "SOL buy limit order 40 SOL @ 104 USDT already in place (buySOLAdd0906), aligns with BUY signal (confidence 64)"
+    },
     {
       "time": "2026-09-06T15:36:42.454406",
       "text": "SOL still live pending fill"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-08-02T03:39:10.195304",
       "text": "SOL position: 65.52 → 35.52 (-46%)"
-    },
-    {
-      "time": "2026-08-02T03:39:10.195303",
-      "text": "ETH position: 13.34 → 23.33 (+75%)"
-    },
-    {
-      "time": "2026-08-02T03:39:10.195303",
-      "text": "Portfolio rotation: Reduced SOL exposure, increased ETH exposure"
-    },
-    {
-      "time": "2026-08-02T03:39:10.195302",
-      "text": "Buy 10 ETH @ 1878.73, spent 18787 USDT"
     }
   ]
 }
