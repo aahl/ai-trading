@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-21T17:15:23.615144",
-      "balance": 104403.7
-    },
-    {
       "time": "2026-01-21T19:00:15.017930",
       "balance": 105714.6
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-09-08T16:37:57.750204",
       "balance": 91947.4
+    },
+    {
+      "time": "2026-09-09T20:54:11.154877",
+      "balance": 91196.4
     }
   ],
   "assets": {
-    "BTC": 39718.2,
-    "ETH": 32854.9,
-    "SOL": 1348.9,
-    "USDT": 18025.4
+    "BTC": 44406.3,
+    "ETH": 36450.0,
+    "SOL": 2815.1,
+    "USDT": 7524.9
   },
   "trades": [
+    {
+      "time": "2026-09-09T20:54:11.154905",
+      "text": "Buy 14.501197 SOL with market order, spent 1500 USDT at avg price 103.4397 USDT"
+    },
     {
       "time": "2026-09-07T04:19:33.742649",
       "text": "SOL position held"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-08-03T14:57:53.302232",
       "text": "No new trades executed - account in idle state"
-    },
-    {
-      "time": "2026-08-02T19:21:19.519064",
-      "text": "Buy 2 ETH-USDT at $1876.64, spent $3,753.28"
     }
   ]
 }
