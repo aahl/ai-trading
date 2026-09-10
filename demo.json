@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-21T19:00:15.017930",
-      "balance": 105714.6
-    },
-    {
       "time": "2026-01-21T19:01:05.849603",
       "balance": 105748.8
     },
@@ -3999,15 +3995,26 @@
     {
       "time": "2026-09-09T20:54:11.154877",
       "balance": 91196.4
+    },
+    {
+      "time": "2026-09-10T00:06:42.912464",
+      "balance": 91259.1
     }
   ],
   "assets": {
-    "BTC": 44406.3,
-    "ETH": 36450.0,
-    "SOL": 2815.1,
-    "USDT": 7524.9
+    "BTC": 47468.0,
+    "ETH": 38473.9,
+    "SOL": 2788.4
   },
   "trades": [
+    {
+      "time": "2026-09-10T00:06:42.912490",
+      "text": "Buy 0.8011 ETH, spent 2000 USDT @ 2496.57"
+    },
+    {
+      "time": "2026-09-10T00:06:42.912487",
+      "text": "Buy 0.03809 BTC, spent 3000 USDT @ 78764.42"
+    },
     {
       "time": "2026-09-09T20:54:11.154905",
       "text": "Buy 14.501197 SOL with market order, spent 1500 USDT at avg price 103.4397 USDT"
@@ -4399,14 +4406,6 @@
     {
       "time": "2026-08-03T14:57:53.302237",
       "text": "Holding spot positions only"
-    },
-    {
-      "time": "2026-08-03T14:57:53.302235",
-      "text": "All futures/leveraged positions closed"
-    },
-    {
-      "time": "2026-08-03T14:57:53.302232",
-      "text": "No new trades executed - account in idle state"
     }
   ]
 }
