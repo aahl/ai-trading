@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-24T16:36:08.857796",
-      "balance": 106650.7
-    },
-    {
       "time": "2026-01-24T18:42:01.714468",
       "balance": 106889.2
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-09-11T04:18:57.187149",
       "balance": 90086.3
+    },
+    {
+      "time": "2026-09-11T16:24:59.506651",
+      "balance": 92062.8
     }
   ],
   "assets": {
-    "BTC": 46632.2,
-    "ETH": 39539.7,
-    "SOL": 2733.1,
-    "USDT": 1179.0
+    "BTC": 45384.5,
+    "ETH": 42685.6,
+    "SOL": 2781.3,
+    "USDT": 1211.4
   },
   "trades": [
+    {
+      "time": "2026-09-11T16:24:59.506677",
+      "text": "Bought 0.607654 ETH, spent 1550 USDT at 2550.79 (market, fee 0.000608 ETH)"
+    },
+    {
+      "time": "2026-09-11T16:24:59.506673",
+      "text": "Sold 0.02 BTC for 1584.60 USDT at 79229.80 (market, fee 1.5846 USDT)"
+    },
     {
       "time": "2026-09-11T04:18:57.187175",
       "text": "Buy 0.553414 ETH at 2439.4 USDT, spent 1350 USDT"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-08-04T03:22:23.807853",
       "text": "Buy 20 SOL @ 73.3 USDT (pending order)"
-    },
-    {
-      "time": "2026-08-04T03:22:23.807851",
-      "text": "Buy 1.05 ETH @ 1858 USDT (pending order)"
-    },
-    {
-      "time": "2026-08-04T03:21:02.087779",
-      "text": "No new trades executed - market analysis in progress, maintaining current positions"
     }
   ]
 }
