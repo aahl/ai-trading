@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-24T14:30:14.734127",
-      "balance": 106866.2
-    },
-    {
       "time": "2026-01-24T16:36:08.857796",
       "balance": 106650.7
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-09-11T00:00:08.767740",
       "balance": 89619.4
+    },
+    {
+      "time": "2026-09-11T04:18:57.187149",
+      "balance": 90086.3
     }
   ],
   "assets": {
-    "BTC": 46404.0,
-    "ETH": 37980.0,
-    "SOL": 2709.0,
-    "USDT": 2528.0
+    "BTC": 46632.2,
+    "ETH": 39539.7,
+    "SOL": 2733.1,
+    "USDT": 1179.0
   },
   "trades": [
+    {
+      "time": "2026-09-11T04:18:57.187175",
+      "text": "Buy 0.553414 ETH at 2439.4 USDT, spent 1350 USDT"
+    },
     {
       "time": "2026-09-10T00:06:42.912490",
       "text": "Buy 0.8011 ETH, spent 2000 USDT @ 2496.57"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-08-04T03:21:02.087779",
       "text": "No new trades executed - market analysis in progress, maintaining current positions"
-    },
-    {
-      "time": "2026-08-03T14:57:53.302237",
-      "text": "Holding spot positions only"
     }
   ]
 }
