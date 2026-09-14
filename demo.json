@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-26T06:52:33.301085",
-      "balance": 104875.7
-    },
-    {
       "time": "2026-01-26T08:44:08.544459",
       "balance": 105103.3
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-09-14T04:33:11.001470",
       "balance": 91498.0
+    },
+    {
+      "time": "2026-09-14T12:31:25.107855",
+      "balance": 91800.1
     }
   ],
   "assets": {
-    "BTC": 45448.1,
-    "ETH": 43164.5,
-    "SOL": 2847.3,
+    "BTC": 45645.7,
+    "ETH": 43149.6,
+    "SOL": 2867.8,
     "USDT": 38.3
   },
   "trades": [
+    {
+      "time": "2026-09-14T12:31:25.107886",
+      "text": "Place limit sell 0.08 BTC @ 79000 USDT (take profit, ordId 3922064906795876352)"
+    },
+    {
+      "time": "2026-09-14T12:31:25.107884",
+      "text": "Place limit sell 3.5 SOL @ 106.0 USDT (take profit, ordId 3922064899548119040)"
+    },
+    {
+      "time": "2026-09-14T12:31:25.107881",
+      "text": "Place limit sell 3 ETH @ 2580 USDT (take profit, ordId 3922064891964817408)"
+    },
     {
       "time": "2026-09-13T16:03:31.704551",
       "text": "Limit buy 0.40 SOL @ $99.00 placed (live/unfilled, $39.60 reserved)"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-08-04T21:27:34.913379",
       "text": "Sell 27 SOL at 74.12 USDT, received 2001.24 USDT"
-    },
-    {
-      "time": "2026-08-04T18:00:00.755937",
-      "text": "Buy 0.03126152 BTC at $63,976.40, spent 2000 USDT"
-    },
-    {
-      "time": "2026-08-04T14:40:57.624421",
-      "text": "Sell 0.05 BTC at 63935.10 USDT, net received 3193.56 USDT"
-    },
-    {
-      "time": "2026-08-04T10:52:26.613633",
-      "text": "Buy 0.073 BTC at 63,762.29 USDT, cost 4,654.65 USDT"
     }
   ]
 }
