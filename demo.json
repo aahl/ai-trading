@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-26T14:39:56.636209",
-      "balance": 105169.4
-    },
-    {
       "time": "2026-01-26T16:45:26.435030",
       "balance": 104689.8
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-09-15T11:34:03.985350",
       "balance": 90910.0
+    },
+    {
+      "time": "2026-09-15T16:56:36.646577",
+      "balance": 90030.7
     }
   ],
   "assets": {
-    "BTC": 41372.0,
-    "ETH": 35118.0,
-    "SOL": 2837.0,
-    "USDT": 11589.0
+    "BTC": 41100.0,
+    "ETH": 25889.7,
+    "SOL": 2799.4,
+    "USDT": 20241.6
   },
   "trades": [
+    {
+      "time": "2026-09-15T16:56:36.646614",
+      "text": "Placed limit take-profit sell order: 2 ETH @ 2490 (trimETH0915) - lock +10.5% profit on bounce into 2480-2520"
+    },
+    {
+      "time": "2026-09-15T16:56:36.646612",
+      "text": "Retained live limit sell order: 5 SOL @ 103.3 (trimSOL0915) - inside take-profit band 103-105"
+    },
+    {
+      "time": "2026-09-15T16:56:36.646609",
+      "text": "Cancelled limit buy order: 0.03 BTC @ 76350 (buyBTC0915) - analysis advised no adding, preserve USDT dry powder"
+    },
     {
       "time": "2026-09-15T11:34:03.985377",
       "text": "Limit buy 0.03 BTC @ 76350 (~2290 USDT) - dip add at support, resting"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-08-08T10:44:21.830334",
       "text": "Buy 2.2 ETH at $1,921.19, spent 4,226 USDT"
-    },
-    {
-      "time": "2026-08-08T07:06:18.046834",
-      "text": "Sell 20 SOL at avg 74.03 USDT, received 1480 USDT (take profit due to overbought KDJ J value 103.66)"
-    },
-    {
-      "time": "2026-08-08T02:05:18.622312",
-      "text": "Buy 0.01540767 BTC with 1000 USDT at avg price 64902.7 (market order, BTC-USDT spot), BTC position increased to 0.430959, avg cost lowered to 66998.52"
-    },
-    {
-      "time": "2026-08-07T22:46:49.928703",
-      "text": "Sell 4.5 ETH at 1914.69 USDT, received 8606.1 USDT"
     }
   ]
 }
