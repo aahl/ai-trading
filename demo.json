@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-26T13:06:50.514492",
-      "balance": 104733.6
-    },
-    {
       "time": "2026-01-26T14:39:56.636209",
       "balance": 105169.4
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-09-15T04:33:24.915137",
       "balance": 91603.3
+    },
+    {
+      "time": "2026-09-15T11:34:03.985350",
+      "balance": 90910.0
     }
   ],
   "assets": {
-    "BTC": 39287.7,
-    "ETH": 35371.9,
-    "SOL": 2862.2,
-    "USDT": 14081.5
+    "BTC": 41372.0,
+    "ETH": 35118.0,
+    "SOL": 2837.0,
+    "USDT": 11589.0
   },
   "trades": [
+    {
+      "time": "2026-09-15T11:34:03.985377",
+      "text": "Limit buy 0.03 BTC @ 76350 (~2290 USDT) - dip add at support, resting"
+    },
+    {
+      "time": "2026-09-15T11:34:03.985376",
+      "text": "Limit sell 5 SOL @ 103.3 (~516 USDT) - trim into range top, resting"
+    },
+    {
+      "time": "2026-09-15T11:34:03.985374",
+      "text": "Limit sell 3.5 ETH @ 2478 (~8673 USDT) - trim weakest position, resting"
+    },
+    {
+      "time": "2026-09-15T11:34:03.985371",
+      "text": "Canceled stale unfilled order: sell 3.5 SOL @ 106 (released 3.5 SOL)"
+    },
     {
       "time": "2026-09-14T23:05:57.741112",
       "text": "No action on ETH (hold signal)"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-08-07T22:46:49.928703",
       "text": "Sell 4.5 ETH at 1914.69 USDT, received 8606.1 USDT"
-    },
-    {
-      "time": "2026-08-06T06:48:59.119354",
-      "text": "Buy 40.47 SOL at $74.12 using $3,000 USDT"
-    },
-    {
-      "time": "2026-08-06T06:48:59.119350",
-      "text": "Buy 0.0617 BTC at $64,845.60 using $4,000 USDT"
-    },
-    {
-      "time": "2026-08-05T17:50:21.135045",
-      "text": "No trades executed - HOLD strategy. Market is bullish but overbought. Waiting for pullback: BTC $64,000-$64,200, ETH $1,885-$1,895, SOL $73.50"
-    },
-    {
-      "time": "2026-08-05T14:31:03.014530",
-      "text": "{'action': 'buy', 'asset': 'SOL', 'amount': 27.085591, 'price': 73.84, 'total': 2000, 'pair': 'SOL-USDT'}"
     }
   ]
 }
