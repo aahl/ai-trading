@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-26T16:45:26.435030",
-      "balance": 104689.8
-    },
-    {
       "time": "2026-01-26T18:50:52.702393",
       "balance": 105379.5
     },
@@ -3999,15 +3995,39 @@
     {
       "time": "2026-09-15T16:56:36.646577",
       "balance": 90030.7
+    },
+    {
+      "time": "2026-09-15T21:11:21.312709",
+      "balance": 89351.0
     }
   ],
   "assets": {
-    "BTC": 41100.0,
-    "ETH": 25889.7,
-    "SOL": 2799.4,
-    "USDT": 20241.6
+    "BTC": 40737.9,
+    "ETH": 25723.4,
+    "SOL": 2742.4,
+    "USDT": 20255.4
   },
   "trades": [
+    {
+      "time": "2026-09-15T21:11:21.312740",
+      "text": "Held BTC 0.5379 unchanged - relative leader, defending 74955 double bottom, no new risk pre-FOMC"
+    },
+    {
+      "time": "2026-09-15T21:11:21.312739",
+      "text": "Placed limit sell 5 SOL @ 100.3 (ordId 3926011663712006145) - trim into 4H resistance 99.9-100.7, bearish conf 70 (highest conviction)"
+    },
+    {
+      "time": "2026-09-15T21:11:21.312737",
+      "text": "Placed limit sell 2 ETH @ 2455 (ordId 3926011656632020993) - trim into 1H resistance 2450-2480, bearish conf 66"
+    },
+    {
+      "time": "2026-09-15T21:11:21.312735",
+      "text": "Cancelled stale limit sell 5 SOL @ 103.3 (ordId 3924848609519480833) - unreachable, 6.4% above market"
+    },
+    {
+      "time": "2026-09-15T21:11:21.312732",
+      "text": "Cancelled stale limit sell 2 ETH @ 2490 (ordId 3925496555365740545) - unreachable, 3.6% above market"
+    },
     {
       "time": "2026-09-15T16:56:36.646614",
       "text": "Placed limit take-profit sell order: 2 ETH @ 2490 (trimETH0915) - lock +10.5% profit on bounce into 2480-2520"
@@ -4387,26 +4407,6 @@
     {
       "time": "2026-08-09T05:15:50.799368",
       "text": "Buy 0.0617 BTC at 64788.77, spent 4000 USDT"
-    },
-    {
-      "time": "2026-08-09T02:13:25.804933",
-      "text": "Sell 20 SOL at $75.4261, profit $30.72, trim overbought position"
-    },
-    {
-      "time": "2026-08-08T20:39:42.830850",
-      "text": "Sell 20 SOL at 75.67 USDT, proceeds 1513.40 USDT"
-    },
-    {
-      "time": "2026-08-08T16:43:48.496699",
-      "text": "Sell 15 SOL at 75.35 USDT, received 1129 USDT net"
-    },
-    {
-      "time": "2026-08-08T16:43:48.496695",
-      "text": "Sell 2.5 ETH at 1921.81 USDT, received 2488 USDT net"
-    },
-    {
-      "time": "2026-08-08T10:44:21.830334",
-      "text": "Buy 2.2 ETH at $1,921.19, spent 4,226 USDT"
     }
   ]
 }
