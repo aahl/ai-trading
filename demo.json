@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-26T18:50:52.702393",
-      "balance": 105379.5
-    },
-    {
       "time": "2026-01-26T20:39:22.117945",
       "balance": 104941.1
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-09-15T21:11:21.312709",
       "balance": 89351.0
+    },
+    {
+      "time": "2026-09-16T00:09:36.796156",
+      "balance": 89334.0
     }
   ],
   "assets": {
-    "BTC": 40737.9,
-    "ETH": 25723.4,
-    "SOL": 2742.4,
-    "USDT": 20255.4
+    "BTC": 40711.0,
+    "ETH": 25646.0,
+    "SOL": 2739.0,
+    "USDT": 20239.0
   },
   "trades": [
+    {
+      "time": "2026-09-16T00:09:36.796185",
+      "text": "Held 0.5379 BTC unchanged as defensive anchor; no new longs, no leverage ahead of FOMC"
+    },
+    {
+      "time": "2026-09-16T00:09:36.796183",
+      "text": "Placed limit sell 5 SOL @ 99.5 USDT (clOrdId trimSOL0916b, ~497 USD notional), not yet filled"
+    },
+    {
+      "time": "2026-09-16T00:09:36.796180",
+      "text": "Placed limit sell 0.5 ETH @ 2490 USDT (clOrdId trimETH0916b, ~1245 USD notional), not yet filled"
+    },
     {
       "time": "2026-09-15T21:11:21.312740",
       "text": "Held BTC 0.5379 unchanged - relative leader, defending 74955 double bottom, no new risk pre-FOMC"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-08-09T08:54:40.212822",
       "text": "Sell 22 SOL at $76.46, earned $1,680.44 USDT"
-    },
-    {
-      "time": "2026-08-09T05:15:50.799374",
-      "text": "Buy 26.385 SOL at 75.80, spent 2000 USDT"
-    },
-    {
-      "time": "2026-08-09T05:15:50.799372",
-      "text": "Buy 1.0448 ETH at 1914.30, spent 2000 USDT"
-    },
-    {
-      "time": "2026-08-09T05:15:50.799368",
-      "text": "Buy 0.0617 BTC at 64788.77, spent 4000 USDT"
     }
   ]
 }
