@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-27T02:29:30.977580",
-      "balance": 105709.1
-    },
-    {
       "time": "2026-01-27T04:55:35.648977",
       "balance": 105738.8
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-09-20T04:49:26.150084",
       "balance": 94406.1
+    },
+    {
+      "time": "2026-09-20T11:09:11.344622",
+      "balance": 94314.9
     }
   ],
   "assets": {
-    "BTC": 51016.7,
-    "ETH": 22506.4,
-    "SOL": 5009.0,
-    "USDT": 15874.1
+    "BTC": 51012.5,
+    "ETH": 22445.7,
+    "USDT": 18579.8,
+    "SOL": 2276.9
   },
   "trades": [
+    {
+      "time": "2026-09-20T11:09:11.344648",
+      "text": "Kept limit BUY 0.06 BTC @ 79000 (live, deep dip-buy)"
+    },
+    {
+      "time": "2026-09-20T11:09:11.344647",
+      "text": "Placed limit SELL 8.092 SOL @ 112 (live, exit residual SOL into rally zone)"
+    },
+    {
+      "time": "2026-09-20T11:09:11.344646",
+      "text": "Placed limit BUY 0.05 BTC @ 79800 (live, dip-buy)"
+    },
+    {
+      "time": "2026-09-20T11:09:11.344643",
+      "text": "Sell 25 SOL @ 108.21, received 2702.44 USDT (reduce SOL exposure, weakest link)"
+    },
     {
       "time": "2026-09-20T04:49:26.150113",
       "text": "Place limit buy BTC 0.06 @ 79000, clOrdId buyBTC0920dip, still live"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-08-11T19:13:50.097739",
       "text": "Sell 0.5 ETH for BTC via ETH-BTC, bought 0.0146 BTC at 0.02931 BTC/ETH"
-    },
-    {
-      "time": "2026-08-11T17:07:52.146682",
-      "text": "Buy 32.986 SOL at $75.79, spent 2500 USDT"
-    },
-    {
-      "time": "2026-08-11T13:26:52.105138",
-      "text": "Buy 15.741833 SOL at 76.23, spent 1200 USDT"
-    },
-    {
-      "time": "2026-08-11T13:26:52.105135",
-      "text": "Buy 0.636122 ETH at 1886.43, spent 1200 USDT"
-    },
-    {
-      "time": "2026-08-11T05:19:02.029451",
-      "text": "Buy 0.03119864 BTC, spent 2000 USDT at avg price 64105.36 USDT"
     }
   ]
 }
