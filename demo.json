@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-27T06:50:07.033102",
-      "balance": 105373.9
-    },
-    {
       "time": "2026-01-27T08:47:22.256118",
       "balance": 105226.9
     },
@@ -3999,15 +3995,43 @@
     {
       "time": "2026-09-20T18:39:49.193353",
       "balance": 95455.1
+    },
+    {
+      "time": "2026-09-21T12:38:45.408865",
+      "balance": 98971.6
     }
   ],
   "assets": {
-    "BTC": 51557.7,
-    "ETH": 22993.2,
-    "SOL": 2313.9,
-    "USDT": 18590.2
+    "BTC": 54150.3,
+    "ETH": 23813.4,
+    "SOL": 1515.5,
+    "USDT": 19492.3
   },
   "trades": [
+    {
+      "time": "2026-09-21T12:38:45.408897",
+      "text": "SOL trim 5 @ 116.5 FAILED - phantom frozen balance, no live order"
+    },
+    {
+      "time": "2026-09-21T12:38:45.408896",
+      "text": "Keep working limit buy 0.06 BTC @ 79000 (buyBTC0920dip)"
+    },
+    {
+      "time": "2026-09-21T12:38:45.408895",
+      "text": "Placed limit buy 0.05 BTC @ 81000 (buyBTC0921retest)"
+    },
+    {
+      "time": "2026-09-21T12:38:45.408894",
+      "text": "Placed limit buy 2 ETH @ 2600 (buyETH0921retest)"
+    },
+    {
+      "time": "2026-09-21T12:38:45.408892",
+      "text": "Cancel limit buy 0.05 BTC @ 79800 (buyBTC0920b)"
+    },
+    {
+      "time": "2026-09-21T12:38:45.408889",
+      "text": "Cancel limit buy 2 ETH @ 2575 (buyETH0920dip)"
+    },
     {
       "time": "2026-09-20T18:39:49.193381",
       "text": "Kept open sell order: SELL 8.092 SOL @ 112"
@@ -4383,30 +4407,6 @@
     {
       "time": "2026-08-24T10:45:43.685483",
       "text": "Sell 5.3 ETH at 2467.09, locked in ~13075 USDT profit"
-    },
-    {
-      "time": "2026-08-12T20:56:20.921168",
-      "text": "BTC: HOLD, keep 0.5284 BTC position"
-    },
-    {
-      "time": "2026-08-12T20:56:20.921166",
-      "text": "Buy 39.526719 SOL, spent 3040 USDT, avg price 76.91"
-    },
-    {
-      "time": "2026-08-12T20:56:20.921163",
-      "text": "Buy 2.001177 ETH, spent 3774 USDT, avg price 1885.89"
-    },
-    {
-      "time": "2026-08-12T19:12:37.372739",
-      "text": "Sell 23 SOL at 76.71 USDT, reduce SOL position due to FTX OTC liquidation pressure"
-    },
-    {
-      "time": "2026-08-12T11:09:00.136730",
-      "text": "Sold 1.5 ETH at $1,908.60, received 2860.04 USDT"
-    },
-    {
-      "time": "2026-08-12T11:09:00.136727",
-      "text": "Sold 0.06 BTC at $64,112.38, received 3842.89 USDT"
     }
   ]
 }
