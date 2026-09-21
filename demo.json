@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-27T08:47:22.256118",
-      "balance": 105226.9
-    },
-    {
       "time": "2026-01-27T10:40:16.898537",
       "balance": 104690.9
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-09-21T12:38:45.408865",
       "balance": 98971.6
+    },
+    {
+      "time": "2026-09-21T19:16:28.036900",
+      "balance": 99762.9
     }
   ],
   "assets": {
-    "BTC": 54150.3,
-    "ETH": 23813.4,
-    "SOL": 1515.5,
-    "USDT": 19492.3
+    "BTC": 54639.6,
+    "ETH": 24099.5,
+    "SOL": 1527.3,
+    "USDT": 19496.4
   },
   "trades": [
+    {
+      "time": "2026-09-21T19:16:28.036936",
+      "text": "SOL dip-buy skipped: 12.987 SOL frozen against a filled sell order (anomaly)"
+    },
+    {
+      "time": "2026-09-21T19:16:28.036935",
+      "text": "No sells executed - medium-term trend up"
+    },
+    {
+      "time": "2026-09-21T19:16:28.036933",
+      "text": "Kept existing dip orders: 0.05 BTC @81000, 0.06 BTC @79000, 2 ETH @2600"
+    },
+    {
+      "time": "2026-09-21T19:16:28.036930",
+      "text": "Placed limit BUY 1.5 ETH @ 2708 USDT (dip entry, ordId 3943174925733867521)"
+    },
     {
       "time": "2026-09-21T12:38:45.408897",
       "text": "SOL trim 5 @ 116.5 FAILED - phantom frozen balance, no live order"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-08-24T13:08:26.724966",
       "text": "Placed limit buy order: 0.02 BTC @ 77,500.00 USDT (clOrdId: buyBTC0824A)"
-    },
-    {
-      "time": "2026-08-24T13:08:26.724964",
-      "text": "Placed limit buy order: 0.8 ETH @ 2,450.00 USDT (clOrdId: buyETH0824A)"
-    },
-    {
-      "time": "2026-08-24T13:08:26.724961",
-      "text": "Placed limit buy order: 10 SOL @ 95.00 USDT (clOrdId: buySOL0824A)"
-    },
-    {
-      "time": "2026-08-24T10:45:43.685486",
-      "text": "Sell 18 SOL at 93.81, locked in ~1688 USDT profit"
-    },
-    {
-      "time": "2026-08-24T10:45:43.685483",
-      "text": "Sell 5.3 ETH at 2467.09, locked in ~13075 USDT profit"
     }
   ]
 }
