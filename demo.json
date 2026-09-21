@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-27T10:40:16.898537",
-      "balance": 104690.9
-    },
-    {
       "time": "2026-01-27T13:09:14.994150",
       "balance": 104923.7
     },
@@ -3999,15 +3995,47 @@
     {
       "time": "2026-09-21T19:16:28.036900",
       "balance": 99762.9
+    },
+    {
+      "time": "2026-09-21T23:10:47.544898",
+      "balance": 100286.0
     }
   ],
   "assets": {
-    "BTC": 54639.6,
-    "ETH": 24099.5,
-    "SOL": 1527.3,
-    "USDT": 19496.4
+    "BTC": 54974.0,
+    "ETH": 24315.0,
+    "SOL": 1554.0,
+    "USDT": 19507.0
   },
   "trades": [
+    {
+      "time": "2026-09-21T23:10:47.544935",
+      "text": "Keep ETH-USDT BUY limit @ 2708 sz 1.5 (buyETH0921dip, ordId 3943174925733867521)"
+    },
+    {
+      "time": "2026-09-21T23:10:47.544934",
+      "text": "Place SOL-USDT BUY limit @ 112.5 sz 10 (buySOL0921pullback, ordId 3943646817649438721)"
+    },
+    {
+      "time": "2026-09-21T23:10:47.544933",
+      "text": "Place ETH-USDT BUY limit @ 2725 sz 1.2 (buyETH0921pullback, ordId 3943646811307651073)"
+    },
+    {
+      "time": "2026-09-21T23:10:47.544932",
+      "text": "Place BTC-USDT BUY limit @ 84900 sz 0.05 (buyBTC0921pullback, ordId 3943646805100081153)"
+    },
+    {
+      "time": "2026-09-21T23:10:47.544931",
+      "text": "Cancel ETH-USDT BUY limit @ 2600 sz 2.0 (buyETH0921retest, ordId 3942373889200893953)"
+    },
+    {
+      "time": "2026-09-21T23:10:47.544929",
+      "text": "Cancel BTC-USDT BUY limit @ 79000 sz 0.06 (buyBTC0920dip, ordId 3938528308560932865)"
+    },
+    {
+      "time": "2026-09-21T23:10:47.544926",
+      "text": "Cancel BTC-USDT BUY limit @ 81000 sz 0.05 (buyBTC0921retest, ordId 3942373896180215809)"
+    },
     {
       "time": "2026-09-21T19:16:28.036936",
       "text": "SOL dip-buy skipped: 12.987 SOL frozen against a filled sell order (anomaly)"
@@ -4379,34 +4407,6 @@
     {
       "time": "2026-08-25T14:58:29.490762",
       "text": "Buy 40.404 SOL at market, spent 4000 USDT, avg fill 98.9999"
-    },
-    {
-      "time": "2026-08-25T10:46:29.345279",
-      "text": "Sell 6 SOL at market price 99.82 USDT, proceeds 598.92 USDT, profit ~117.48 USDT"
-    },
-    {
-      "time": "2026-08-24T18:54:12.034936",
-      "text": "Buy 0.3637 ETH at ~$2,474.38, spent 900 USDT"
-    },
-    {
-      "time": "2026-08-24T14:55:26.176757",
-      "text": "Held SOL position, no change"
-    },
-    {
-      "time": "2026-08-24T14:55:26.176756",
-      "text": "Kept BTC buy limit 0.02 BTC @ 77500 (awaiting fill)"
-    },
-    {
-      "time": "2026-08-24T14:55:26.176754",
-      "text": "Placed ETH buy limit 0.8 ETH @ 2488 (new order, awaiting fill)"
-    },
-    {
-      "time": "2026-08-24T14:55:26.176751",
-      "text": "Canceled ETH buy limit 0.8 ETH @ 2450 (old order)"
-    },
-    {
-      "time": "2026-08-24T13:08:26.724966",
-      "text": "Placed limit buy order: 0.02 BTC @ 77,500.00 USDT (clOrdId: buyBTC0824A)"
     }
   ]
 }
