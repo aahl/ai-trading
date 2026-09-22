@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-27T14:40:39.438013",
-      "balance": 104761.5
-    },
-    {
       "time": "2026-01-27T16:42:07.918307",
       "balance": 106364.4
     },
@@ -3999,15 +3995,43 @@
     {
       "time": "2026-09-22T04:28:03.166097",
       "balance": 99229.0
+    },
+    {
+      "time": "2026-09-22T11:23:21.215743",
+      "balance": 99622.2
     }
   ],
   "assets": {
-    "BTC": 54317.6,
-    "ETH": 23899.8,
-    "SOL": 1516.7,
-    "USDT": 19507.2
+    "BTC": 54637.0,
+    "ETH": 23964.5,
+    "SOL": 1521.8,
+    "USDT": 19499.0
   },
   "trades": [
+    {
+      "time": "2026-09-22T11:23:21.215773",
+      "text": "Kept SOL-USDT buy 10 @ 112.5 (ordId 3943646817649438721)"
+    },
+    {
+      "time": "2026-09-22T11:23:21.215772",
+      "text": "Kept ETH-USDT buy 1.5 @ 2595 (ordId 3944285669070221313)"
+    },
+    {
+      "time": "2026-09-22T11:23:21.215770",
+      "text": "Kept ETH-USDT buy 1.2 @ 2615 (ordId 3944285664439709697)"
+    },
+    {
+      "time": "2026-09-22T11:23:21.215769",
+      "text": "Placed ETH-USDT sell limit 0.5 @ 2805 (ordId 3945121621506273281) as partial profit-take above 2807 resistance"
+    },
+    {
+      "time": "2026-09-22T11:23:21.215767",
+      "text": "Placed BTC-USDT buy limit 0.06 @ 84000 (ordId 3945121616875761665) as dip entry at 84k support"
+    },
+    {
+      "time": "2026-09-22T11:23:21.215764",
+      "text": "Cancelled BTC-USDT buy limit 0.05 @ 82300 (ordId 3944285659305881601), repriced to better support"
+    },
     {
       "time": "2026-09-22T04:28:03.166140",
       "text": "Placed limit buy 1.5 ETH @ 2595"
@@ -4383,30 +4407,6 @@
     {
       "time": "2026-08-26T07:08:17.013012",
       "text": "Existing orders kept: Buy 1 ETH at 2410 (buyETH0826A), Buy 0.02 BTC at 77800 (buyBTC0826A)"
-    },
-    {
-      "time": "2026-08-26T07:08:17.013010",
-      "text": "Buy 0.03 BTC at limit 77300 USDT, total ~2319 USDT (clOrdId buyBTC0826B)"
-    },
-    {
-      "time": "2026-08-26T07:08:17.013007",
-      "text": "Buy 1.5 ETH at limit 2425 USDT, total ~3638 USDT (clOrdId buyETH0826B)"
-    },
-    {
-      "time": "2026-08-26T03:16:27.945179",
-      "text": "Hold BTC/ETH/SOL positions per market analysis: high-level consolidation after August rally"
-    },
-    {
-      "time": "2026-08-26T03:16:27.945177",
-      "text": "Place limit buy 1 ETH @ 2410 USDT (clOrdId buyETH0826A) - support zone 2400-2420"
-    },
-    {
-      "time": "2026-08-26T03:16:27.945175",
-      "text": "Place limit buy 0.02 BTC @ 77800 USDT (clOrdId buyBTC0826A) - support zone 77500-78200"
-    },
-    {
-      "time": "2026-08-26T03:16:27.945172",
-      "text": "Cancel old limit buy 0.02 BTC @ 76000 USDT (clOrdId buyBTC0825A) - price below key support 76500"
     }
   ]
 }
