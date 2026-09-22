@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-27T18:55:22.129154",
-      "balance": 105628.5
-    },
-    {
       "time": "2026-01-27T20:34:45.886899",
       "balance": 106607.9
     },
@@ -3999,15 +3995,51 @@
     {
       "time": "2026-09-22T16:47:10.739148",
       "balance": 99701.0
+    },
+    {
+      "time": "2026-09-22T21:10:49.798185",
+      "balance": 99804.7
     }
   ],
   "assets": {
-    "BTC": 54769.0,
-    "ETH": 23918.0,
-    "SOL": 1522.0,
-    "USDT": 19492.0
+    "BTC": 54780.5,
+    "ETH": 23998.5,
+    "USDT": 19495.5,
+    "SOL": 1530.3
   },
   "trades": [
+    {
+      "time": "2026-09-22T21:10:49.798218",
+      "text": "Placed SELL 0.5 ETH @ 2850 (resistance R2+); kept SELL 0.5 ETH @ 2785 and 0.5 ETH @ 2805"
+    },
+    {
+      "time": "2026-09-22T21:10:49.798217",
+      "text": "Placed BUY 8 SOL @ 110.00 (support S2)"
+    },
+    {
+      "time": "2026-09-22T21:10:49.798216",
+      "text": "Placed BUY 10 SOL @ 115.80 (support S1)"
+    },
+    {
+      "time": "2026-09-22T21:10:49.798215",
+      "text": "Placed BUY 0.8 ETH @ 2550 (support S2)"
+    },
+    {
+      "time": "2026-09-22T21:10:49.798215",
+      "text": "Placed BUY 1.2 ETH @ 2720 (support S1)"
+    },
+    {
+      "time": "2026-09-22T21:10:49.798213",
+      "text": "Placed BUY 0.05 BTC @ 84800 (support S2)"
+    },
+    {
+      "time": "2026-09-22T21:10:49.798212",
+      "text": "Placed BUY 0.06 BTC @ 85300 (support S1)"
+    },
+    {
+      "time": "2026-09-22T21:10:49.798209",
+      "text": "Canceled stale/duplicate BUY orders: BTC 0.06@84000, BTC 0.05@84000, ETH 1.5@2595, SOL 10@112.5, SOL 10@112.5"
+    },
     {
       "time": "2026-09-22T16:47:10.739179",
       "text": "Placed SELL ETH-USDT 0.5 @ 2785 (limit, ordId 3945773543519170561)"
@@ -4375,38 +4407,6 @@
     {
       "time": "2026-08-29T03:40:15.295450",
       "text": "Place limit buy order 1.8 ETH @ 2415 USDT (pending, ~4.8% of equity) - ETH oversold near key support 2386"
-    },
-    {
-      "time": "2026-08-28T20:12:32.099149",
-      "text": "Canceled pending limit sell order 23 SOL @ 108.2 USDT"
-    },
-    {
-      "time": "2026-08-28T20:12:32.099146",
-      "text": "Sell 33.809 SOL at avg 103.39 USDT, received ~3496 USDT"
-    },
-    {
-      "time": "2026-08-27T20:20:38.913435",
-      "text": "Placed limit sell order for 23 SOL at 108.2 USDT to reduce overbought SOL position (pending)"
-    },
-    {
-      "time": "2026-08-27T20:20:38.913433",
-      "text": "Sold 0.17 BTC at 80,000.08 USDT to lock in ~19% profit (1/3 BTC position reduced)"
-    },
-    {
-      "time": "2026-08-27T20:20:38.913430",
-      "text": "Canceled 2 SOL limit buy orders (buySOL0826A @95.5, buySOL0826B @94) to avoid chasing rally"
-    },
-    {
-      "time": "2026-08-26T17:01:02.019246",
-      "text": "Place buySOL0826B limit buy 5 SOL @ 94.0 to build SOL position on dip"
-    },
-    {
-      "time": "2026-08-26T17:01:02.019244",
-      "text": "Cancel buyETH0826B limit buy 1.5 ETH @ 2425 to reduce ETH concentration"
-    },
-    {
-      "time": "2026-08-26T17:01:02.019240",
-      "text": "Cancel buyETH0826A limit buy 1 ETH @ 2410 to reduce ETH concentration"
     }
   ]
 }
