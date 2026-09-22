@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-27T13:09:14.994150",
-      "balance": 104923.7
-    },
-    {
       "time": "2026-01-27T14:40:39.438013",
       "balance": 104761.5
     },
@@ -3999,15 +3995,43 @@
     {
       "time": "2026-09-21T23:10:47.544898",
       "balance": 100286.0
+    },
+    {
+      "time": "2026-09-22T04:28:03.166097",
+      "balance": 99229.0
     }
   ],
   "assets": {
-    "BTC": 54974.0,
-    "ETH": 24315.0,
-    "SOL": 1554.0,
-    "USDT": 19507.0
+    "BTC": 54317.6,
+    "ETH": 23899.8,
+    "SOL": 1516.7,
+    "USDT": 19507.2
   },
   "trades": [
+    {
+      "time": "2026-09-22T04:28:03.166140",
+      "text": "Placed limit buy 1.5 ETH @ 2595"
+    },
+    {
+      "time": "2026-09-22T04:28:03.166139",
+      "text": "Placed limit buy 1.2 ETH @ 2615"
+    },
+    {
+      "time": "2026-09-22T04:28:03.166138",
+      "text": "Placed limit buy 0.05 BTC @ 82300"
+    },
+    {
+      "time": "2026-09-22T04:28:03.166137",
+      "text": "Cancelled limit buy 1.5 ETH @ 2708 (was above 2.58-2.62k add zone)"
+    },
+    {
+      "time": "2026-09-22T04:28:03.166135",
+      "text": "Cancelled limit buy 1.2 ETH @ 2725 (was above 2.58-2.62k add zone)"
+    },
+    {
+      "time": "2026-09-22T04:28:03.166130",
+      "text": "Cancelled limit buy 0.05 BTC @ 84900 (was above 81-82.5k add zone)"
+    },
     {
       "time": "2026-09-21T23:10:47.544935",
       "text": "Keep ETH-USDT BUY limit @ 2708 sz 1.5 (buyETH0921dip, ordId 3943174925733867521)"
@@ -4383,30 +4407,6 @@
     {
       "time": "2026-08-26T03:16:27.945172",
       "text": "Cancel old limit buy 0.02 BTC @ 76000 USDT (clOrdId buyBTC0825A) - price below key support 76500"
-    },
-    {
-      "time": "2026-08-25T16:49:02.546341",
-      "text": "Place new BTC limit buy order at 76000 for 0.02 BTC (closer to analyst support zone 75500-76500)"
-    },
-    {
-      "time": "2026-08-25T16:49:02.546339",
-      "text": "Cancel old BTC limit buy order at 77500"
-    },
-    {
-      "time": "2026-08-25T16:49:02.546309",
-      "text": "Sell 20 SOL at 99.05, received ~1981 USDT (partial profit-taking, RSI 98.96 extreme overbought)"
-    },
-    {
-      "time": "2026-08-25T16:49:02.546306",
-      "text": "Sell 1.5 ETH at 2476.05, received ~3714 USDT (partial profit-taking, RSI 96.03 extreme overbought)"
-    },
-    {
-      "time": "2026-08-25T16:49:02.546302",
-      "text": "Sell 0.05 BTC at 79246.80, received ~3962 USDT (partial profit-taking, RSI 94.58 extreme overbought)"
-    },
-    {
-      "time": "2026-08-25T14:58:29.490762",
-      "text": "Buy 40.404 SOL at market, spent 4000 USDT, avg fill 98.9999"
     }
   ]
 }
