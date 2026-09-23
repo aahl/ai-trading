@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-28T06:49:38.501230",
-      "balance": 106721.0
-    },
-    {
       "time": "2026-01-28T08:44:19.574916",
       "balance": 106467.5
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-09-23T18:22:42.857692",
       "balance": 97430.4
+    },
+    {
+      "time": "2026-09-23T22:54:44.719554",
+      "balance": 98093.9
     }
   ],
   "assets": {
-    "BTC": 66055.0,
-    "ETH": 25092.3,
-    "SOL": 4101.1,
+    "BTC": 66385.0,
+    "ETH": 25386.0,
+    "SOL": 4141.0,
     "USDT": 2181.9
   },
   "trades": [
+    {
+      "time": "2026-09-23T22:54:44.719620",
+      "text": "Placed sell limit order: SOL-USDT @116, sz 8 (ai0923solL2)"
+    },
+    {
+      "time": "2026-09-23T22:54:44.719618",
+      "text": "Placed buy limit order: BTC-USDT @83800, sz 0.01 (ai0923btcB2)"
+    },
+    {
+      "time": "2026-09-23T22:54:44.719615",
+      "text": "Canceled sell order: SOL-USDT @117.5, sz 8 (ai0923solL)"
+    },
+    {
+      "time": "2026-09-23T22:54:44.719609",
+      "text": "Canceled buy order: SOL-USDT @109, sz 8 (ai0923solB)"
+    },
     {
       "time": "2026-09-23T18:22:42.857723",
       "text": "Keep ETH limit sells 0.5 @ 2805 and 0.5 @ 2850 (resistance trims)"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-09-11T16:24:59.506677",
       "text": "Bought 0.607654 ETH, spent 1550 USDT at 2550.79 (market, fee 0.000608 ETH)"
-    },
-    {
-      "time": "2026-09-11T16:24:59.506673",
-      "text": "Sold 0.02 BTC for 1584.60 USDT at 79229.80 (market, fee 1.5846 USDT)"
-    },
-    {
-      "time": "2026-09-11T04:18:57.187175",
-      "text": "Buy 0.553414 ETH at 2439.4 USDT, spent 1350 USDT"
-    },
-    {
-      "time": "2026-09-10T00:06:42.912490",
-      "text": "Buy 0.8011 ETH, spent 2000 USDT @ 2496.57"
-    },
-    {
-      "time": "2026-09-10T00:06:42.912487",
-      "text": "Buy 0.03809 BTC, spent 3000 USDT @ 78764.42"
     }
   ]
 }
