@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-27T20:34:45.886899",
-      "balance": 106607.9
-    },
-    {
       "time": "2026-01-27T22:31:36.479424",
       "balance": 106748.5
     },
@@ -3999,15 +3995,43 @@
     {
       "time": "2026-09-22T21:10:49.798185",
       "balance": 99804.7
+    },
+    {
+      "time": "2026-09-23T00:16:41.994897",
+      "balance": 99937.9
     }
   ],
   "assets": {
-    "BTC": 54780.5,
-    "ETH": 23998.5,
-    "USDT": 19495.5,
-    "SOL": 1530.3
+    "BTC": 54832.3,
+    "ETH": 24070.0,
+    "SOL": 1541.0,
+    "USDT": 19494.5
   },
   "trades": [
+    {
+      "time": "2026-09-23T00:16:41.994924",
+      "text": "Kept 3x ETH sell trims @ 2785/2805/2850, buy ETH-USDT 1.2 @ 2720, buy BTC-USDT 0.06 @ 85300 and 0.05 @ 84800, buy SOL-USDT 10 @ 115.8"
+    },
+    {
+      "time": "2026-09-23T00:16:41.994924",
+      "text": "Placed buy BTC-USDT 0.02 @ 85400"
+    },
+    {
+      "time": "2026-09-23T00:16:41.994923",
+      "text": "Placed buy SOL-USDT 8 @ 116.6"
+    },
+    {
+      "time": "2026-09-23T00:16:41.994922",
+      "text": "Placed buy SOL-USDT 12 @ 117.4"
+    },
+    {
+      "time": "2026-09-23T00:16:41.994920",
+      "text": "Canceled stale buy SOL-USDT 8 @ 110 (below SL)"
+    },
+    {
+      "time": "2026-09-23T00:16:41.994917",
+      "text": "Canceled stale buy ETH-USDT 0.8 @ 2550 (below SL)"
+    },
     {
       "time": "2026-09-22T21:10:49.798218",
       "text": "Placed SELL 0.5 ETH @ 2850 (resistance R2+); kept SELL 0.5 ETH @ 2785 and 0.5 ETH @ 2805"
@@ -4383,30 +4407,6 @@
     {
       "time": "2026-09-06T15:36:42.454401",
       "text": "Canceled ETH-USDT and BTC-USDT limit buy orders (weak/rangebound)"
-    },
-    {
-      "time": "2026-09-04T00:03:08.309854",
-      "text": "Held existing positions: BTC 0.4479 (+17.1%), ETH 13.1875 (+19.3%), SOL 12.99 (+16.1%)"
-    },
-    {
-      "time": "2026-09-04T00:03:08.309852",
-      "text": "Placed limit buy order: 0.83 ETH @ 2420 USDT (~2009 USD, pending)"
-    },
-    {
-      "time": "2026-09-04T00:03:08.309848",
-      "text": "Placed limit buy order: 0.038 BTC @ 78800 USDT (~2994 USD, pending)"
-    },
-    {
-      "time": "2026-09-02T11:11:26.979934",
-      "text": "Buy ETH with 5000 USDT at avg price 2378.86, filled 2.101844 ETH (oversold RSI rebound entry)"
-    },
-    {
-      "time": "2026-09-01T20:58:27.209650",
-      "text": "Sell 1.5 ETH at 2440 USDT, received ~3656 USDT, reduced ETH position to lock profits"
-    },
-    {
-      "time": "2026-08-29T03:40:15.295450",
-      "text": "Place limit buy order 1.8 ETH @ 2415 USDT (pending, ~4.8% of equity) - ETH oversold near key support 2386"
     }
   ]
 }
