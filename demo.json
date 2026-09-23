@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-28T04:52:54.188591",
-      "balance": 106484.8
-    },
-    {
       "time": "2026-01-28T06:49:38.501230",
       "balance": 106721.0
     },
@@ -3999,15 +3995,43 @@
     {
       "time": "2026-09-23T13:35:28.435357",
       "balance": 99081.8
+    },
+    {
+      "time": "2026-09-23T18:22:42.857692",
+      "balance": 97430.4
     }
   ],
   "assets": {
-    "BTC": 61182.0,
-    "ETH": 25590.0,
-    "SOL": 3846.0,
-    "USDT": 8464.0
+    "BTC": 66055.0,
+    "ETH": 25092.3,
+    "SOL": 4101.1,
+    "USDT": 2181.9
   },
   "trades": [
+    {
+      "time": "2026-09-23T18:22:42.857723",
+      "text": "Keep ETH limit sells 0.5 @ 2805 and 0.5 @ 2850 (resistance trims)"
+    },
+    {
+      "time": "2026-09-23T18:22:42.857722",
+      "text": "Place limit buy 0.18 ETH @ 2610 (dip buy at support)"
+    },
+    {
+      "time": "2026-09-23T18:22:42.857721",
+      "text": "Place limit buy 0.01 BTC @ 83000 (dip buy at support)"
+    },
+    {
+      "time": "2026-09-23T18:22:42.857721",
+      "text": "Place limit buy 8 SOL @ 109.0 (re-entry ladder)"
+    },
+    {
+      "time": "2026-09-23T18:22:42.857719",
+      "text": "Place limit sell 8 SOL @ 117.5 (trim into strength)"
+    },
+    {
+      "time": "2026-09-23T18:22:42.857716",
+      "text": "Sell 7 SOL at market @ 114.02 (trim SOL, raised ~797 USDT)"
+    },
     {
       "time": "2026-09-23T13:35:28.435392",
       "text": "No fills this cycle"
@@ -4383,30 +4407,6 @@
     {
       "time": "2026-09-10T00:06:42.912487",
       "text": "Buy 0.03809 BTC, spent 3000 USDT @ 78764.42"
-    },
-    {
-      "time": "2026-09-09T20:54:11.154905",
-      "text": "Buy 14.501197 SOL with market order, spent 1500 USDT at avg price 103.4397 USDT"
-    },
-    {
-      "time": "2026-09-07T04:19:33.742649",
-      "text": "SOL position held"
-    },
-    {
-      "time": "2026-09-07T04:19:33.742647",
-      "text": "ETH position held"
-    },
-    {
-      "time": "2026-09-07T04:19:33.742644",
-      "text": "Placed buy limit order for 0.057 BTC at 78800 USDT (~4492 USDT) to add on dip"
-    },
-    {
-      "time": "2026-09-07T04:19:33.742639",
-      "text": "Canceled buy limit order for 40 SOL at 104 USDT (conflicts with HOLD signal)"
-    },
-    {
-      "time": "2026-09-06T18:31:27.263205",
-      "text": "ETH hold on watch at ~2,494"
     }
   ]
 }
