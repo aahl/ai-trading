@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-28T13:08:46.459282",
-      "balance": 107620.5
-    },
-    {
       "time": "2026-01-28T14:43:13.632215",
       "balance": 107224.3
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-09-24T11:35:37.242532",
       "balance": 96741.0
+    },
+    {
+      "time": "2026-09-24T16:59:07.157243",
+      "balance": 98081.0
     }
   ],
   "assets": {
-    "BTC": 67178.0,
-    "ETH": 24958.0,
-    "SOL": 3164.0,
+    "BTC": 68022.5,
+    "ETH": 25343.2,
+    "SOL": 3273.2,
     "USDT": 1441.0
   },
   "trades": [
+    {
+      "time": "2026-09-24T16:59:07.157269",
+      "text": "HOLD BTC and ETH, no adds; left existing ETH orders in place (buy 0.18 @ 2610, sell 0.5 @ 2805, sell 0.5 @ 2850)"
+    },
+    {
+      "time": "2026-09-24T16:59:07.157265",
+      "text": "Place SOL-USDT buy limit order: 7.72 SOL @ 116.50 USDT (~$899.38), clOrdId ai0924solB, orderId 3951595898795470849, state live/unfilled"
+    },
     {
       "time": "2026-09-23T22:54:44.719620",
       "text": "Placed sell limit order: SOL-USDT @116, sz 8 (ai0923solL2)"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-09-13T16:03:31.704548",
       "text": "Buy 0.348293 SOL (market) @ $100.49, spent $35.00 USDT"
-    },
-    {
-      "time": "2026-09-12T00:08:06.398367",
-      "text": "Buy 0.437791 ETH, spent 1100 USDT at 2512.61 (market, fee 0.000438 ETH)"
-    },
-    {
-      "time": "2026-09-11T16:24:59.506677",
-      "text": "Bought 0.607654 ETH, spent 1550 USDT at 2550.79 (market, fee 0.000608 ETH)"
     }
   ]
 }
