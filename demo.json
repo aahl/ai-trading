@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-28T14:43:13.632215",
-      "balance": 107224.3
-    },
-    {
       "time": "2026-01-28T16:51:58.005384",
       "balance": 107079.8
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-09-24T16:59:07.157243",
       "balance": 98081.0
+    },
+    {
+      "time": "2026-09-24T21:25:28.376860",
+      "balance": 98013.4
     }
   ],
   "assets": {
-    "BTC": 68022.5,
-    "ETH": 25343.2,
-    "SOL": 3273.2,
-    "USDT": 1441.0
+    "BTC": 67932.7,
+    "ETH": 25367.7,
+    "SOL": 4171.0,
+    "USDT": 542.0
   },
   "trades": [
+    {
+      "time": "2026-09-24T21:25:28.376883",
+      "text": "Buy 4.0 SOL-USDT limit @ 115.0 (order 3952132197000425473, live)"
+    },
+    {
+      "time": "2026-09-24T21:25:28.376880",
+      "text": "Cancelled ETH-USDT buy limit 0.18 @ 2610 (freed ~$470 USDT)"
+    },
     {
       "time": "2026-09-24T16:59:07.157269",
       "text": "HOLD BTC and ETH, no adds; left existing ETH orders in place (buy 0.18 @ 2610, sell 0.5 @ 2805, sell 0.5 @ 2850)"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-09-14T12:31:25.107881",
       "text": "Place limit sell 3 ETH @ 2580 USDT (take profit, ordId 3922064891964817408)"
-    },
-    {
-      "time": "2026-09-13T16:03:31.704551",
-      "text": "Limit buy 0.40 SOL @ $99.00 placed (live/unfilled, $39.60 reserved)"
-    },
-    {
-      "time": "2026-09-13T16:03:31.704548",
-      "text": "Buy 0.348293 SOL (market) @ $100.49, spent $35.00 USDT"
     }
   ]
 }
