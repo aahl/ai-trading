@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-28T20:42:52.137656",
-      "balance": 106717.4
-    },
-    {
       "time": "2026-01-28T22:37:58.166247",
       "balance": 106566.8
     },
@@ -3999,15 +3995,39 @@
     {
       "time": "2026-09-25T07:33:27.946156",
       "balance": 97446.8
+    },
+    {
+      "time": "2026-09-25T13:38:56.331252",
+      "balance": 97983.3
     }
   ],
   "assets": {
-    "BTC": 67534.3,
-    "ETH": 25223.3,
-    "SOL": 4147.1,
+    "BTC": 67764.1,
+    "ETH": 25505.7,
+    "SOL": 4286.5,
     "USDT": 542.0
   },
   "trades": [
+    {
+      "time": "2026-09-25T13:38:56.331279",
+      "text": "Kept ETH-USDT limit sell 0.5 @ 2850 (ordId 3946304238838624257) - unfilled"
+    },
+    {
+      "time": "2026-09-25T13:38:56.331278",
+      "text": "Kept ETH-USDT limit sell 0.5 @ 2790 (ordId 3952497277776965633) - unfilled"
+    },
+    {
+      "time": "2026-09-25T13:38:56.331277",
+      "text": "Kept ETH-USDT limit buy 0.03 @ 2650 (ordId 3952497287105097729) - unfilled"
+    },
+    {
+      "time": "2026-09-25T13:38:56.331275",
+      "text": "Kept BTC-USDT limit buy 0.0055 @ 83300 (ordId 3953356008135864321) - unfilled"
+    },
+    {
+      "time": "2026-09-25T13:38:56.331273",
+      "text": "Placed SOL-ETH limit buy 2 SOL @ 0.04295 (implied ~$115.8/USDT), ordId 3954091287478022145, clOrdId solDip0925eth - unfilled, funded via small ETH rotation as free USDT was only $4.52"
+    },
     {
       "time": "2026-09-25T07:33:27.946183",
       "text": "Buy 0.0055 BTC limit @ 83300 USDT (clOrdId btcBuy0925, ordId 3953356008135864321) - ~458 USDT, live/unfilled"
@@ -4387,26 +4407,6 @@
     {
       "time": "2026-09-15T16:56:36.646612",
       "text": "Retained live limit sell order: 5 SOL @ 103.3 (trimSOL0915) - inside take-profit band 103-105"
-    },
-    {
-      "time": "2026-09-15T16:56:36.646609",
-      "text": "Cancelled limit buy order: 0.03 BTC @ 76350 (buyBTC0915) - analysis advised no adding, preserve USDT dry powder"
-    },
-    {
-      "time": "2026-09-15T11:34:03.985377",
-      "text": "Limit buy 0.03 BTC @ 76350 (~2290 USDT) - dip add at support, resting"
-    },
-    {
-      "time": "2026-09-15T11:34:03.985376",
-      "text": "Limit sell 5 SOL @ 103.3 (~516 USDT) - trim into range top, resting"
-    },
-    {
-      "time": "2026-09-15T11:34:03.985374",
-      "text": "Limit sell 3.5 ETH @ 2478 (~8673 USDT) - trim weakest position, resting"
-    },
-    {
-      "time": "2026-09-15T11:34:03.985371",
-      "text": "Canceled stale unfilled order: sell 3.5 SOL @ 106 (released 3.5 SOL)"
     }
   ]
 }
