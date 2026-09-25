@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-28T18:49:30.701060",
-      "balance": 107000.9
-    },
-    {
       "time": "2026-01-28T20:42:52.137656",
       "balance": 106717.4
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-09-25T00:26:49.528362",
       "balance": 98194.0
+    },
+    {
+      "time": "2026-09-25T07:33:27.946156",
+      "balance": 97446.8
     }
   ],
   "assets": {
-    "BTC": 68101.0,
-    "ETH": 25383.0,
-    "SOL": 4188.0,
+    "BTC": 67534.3,
+    "ETH": 25223.3,
+    "SOL": 4147.1,
     "USDT": 542.0
   },
   "trades": [
+    {
+      "time": "2026-09-25T07:33:27.946183",
+      "text": "Buy 0.0055 BTC limit @ 83300 USDT (clOrdId btcBuy0925, ordId 3953356008135864321) - ~458 USDT, live/unfilled"
+    },
+    {
+      "time": "2026-09-25T07:33:27.946180",
+      "text": "Cancel SOL-USDT buy 4 SOL @ 115 (clOrdId ai0924solB) - freed ~460 USDT"
+    },
     {
       "time": "2026-09-25T00:26:49.528392",
       "text": "Kept SOL-USDT buy 4 @ 115 and ETH-USDT sell 0.5 @ 2850 resting"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-09-15T11:34:03.985371",
       "text": "Canceled stale unfilled order: sell 3.5 SOL @ 106 (released 3.5 SOL)"
-    },
-    {
-      "time": "2026-09-14T23:05:57.741112",
-      "text": "No action on ETH (hold signal)"
-    },
-    {
-      "time": "2026-09-14T23:05:57.741109",
-      "text": "Retained existing take-profit limit sell: 3.5 SOL @ 106 USDT (resistance-based TP)"
     }
   ]
 }
