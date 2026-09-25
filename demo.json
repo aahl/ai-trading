@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-28T16:51:58.005384",
-      "balance": 107079.8
-    },
-    {
       "time": "2026-01-28T18:49:30.701060",
       "balance": 107000.9
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-09-24T21:25:28.376860",
       "balance": 98013.4
+    },
+    {
+      "time": "2026-09-25T00:26:49.528362",
+      "balance": 98194.0
     }
   ],
   "assets": {
-    "BTC": 67932.7,
-    "ETH": 25367.7,
-    "SOL": 4171.0,
+    "BTC": 68101.0,
+    "ETH": 25383.0,
+    "SOL": 4188.0,
     "USDT": 542.0
   },
   "trades": [
+    {
+      "time": "2026-09-25T00:26:49.528392",
+      "text": "Kept SOL-USDT buy 4 @ 115 and ETH-USDT sell 0.5 @ 2850 resting"
+    },
+    {
+      "time": "2026-09-25T00:26:49.528390",
+      "text": "Placed ETH-USDT buy 0.03 @ 2650 (dip accumulation)"
+    },
+    {
+      "time": "2026-09-25T00:26:49.528388",
+      "text": "Placed ETH-USDT sell 0.5 @ 2790 (profit-take into strength)"
+    },
+    {
+      "time": "2026-09-25T00:26:49.528385",
+      "text": "Canceled ETH-USDT sell 0.5 @ 2805 (repositioned lower)"
+    },
     {
       "time": "2026-09-24T21:25:28.376883",
       "text": "Buy 4.0 SOL-USDT limit @ 115.0 (order 3952132197000425473, live)"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-09-14T23:05:57.741109",
       "text": "Retained existing take-profit limit sell: 3.5 SOL @ 106 USDT (resistance-based TP)"
-    },
-    {
-      "time": "2026-09-14T23:05:57.741106",
-      "text": "Placed limit buy order: 0.0319 BTC @ 78300 USDT (notional 2497.77 USDT, ~2.70% of equity), order live/unfilled"
-    },
-    {
-      "time": "2026-09-14T12:31:25.107886",
-      "text": "Place limit sell 0.08 BTC @ 79000 USDT (take profit, ordId 3922064906795876352)"
-    },
-    {
-      "time": "2026-09-14T12:31:25.107884",
-      "text": "Place limit sell 3.5 SOL @ 106.0 USDT (take profit, ordId 3922064899548119040)"
-    },
-    {
-      "time": "2026-09-14T12:31:25.107881",
-      "text": "Place limit sell 3 ETH @ 2580 USDT (take profit, ordId 3922064891964817408)"
     }
   ]
 }
