@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-28T22:37:58.166247",
-      "balance": 106566.8
-    },
-    {
       "time": "2026-01-29T02:41:09.329388",
       "balance": 105431.1
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-09-25T13:38:56.331252",
       "balance": 97983.3
+    },
+    {
+      "time": "2026-09-25T18:28:06.420534",
+      "balance": 97789.1
     }
   ],
   "assets": {
-    "BTC": 67764.1,
-    "ETH": 25505.7,
-    "SOL": 4286.5,
-    "USDT": 542.0
+    "BTC": 67985.0,
+    "ETH": 25378.4,
+    "SOL": 3976.6,
+    "USDT": 449.0
   },
   "trades": [
+    {
+      "time": "2026-09-25T18:28:06.420557",
+      "text": "Place ETH-USDT buy limit 0.135 ETH @ 2665 (live, dip accumulation)"
+    },
+    {
+      "time": "2026-09-25T18:28:06.420555",
+      "text": "Sell 3 SOL @ 121.83 USDT, received ~365.13 USDT (trim overbought SOL into strength)"
+    },
     {
       "time": "2026-09-25T13:38:56.331279",
       "text": "Kept ETH-USDT limit sell 0.5 @ 2850 (ordId 3946304238838624257) - unfilled"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-09-15T21:11:21.312732",
       "text": "Cancelled stale limit sell 2 ETH @ 2490 (ordId 3925496555365740545) - unreachable, 3.6% above market"
-    },
-    {
-      "time": "2026-09-15T16:56:36.646614",
-      "text": "Placed limit take-profit sell order: 2 ETH @ 2490 (trimETH0915) - lock +10.5% profit on bounce into 2480-2520"
-    },
-    {
-      "time": "2026-09-15T16:56:36.646612",
-      "text": "Retained live limit sell order: 5 SOL @ 103.3 (trimSOL0915) - inside take-profit band 103-105"
     }
   ]
 }
