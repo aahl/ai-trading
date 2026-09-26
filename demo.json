@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-01-29T07:01:14.786468",
-      "balance": 105439.5
-    },
-    {
       "time": "2026-01-30T03:12:54.074269",
       "balance": 99950.4
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-09-26T04:37:44.196060",
       "balance": 97728.6
+    },
+    {
+      "time": "2026-09-26T11:13:01.777395",
+      "balance": 97911.4
     }
   ],
   "assets": {
-    "BTC": 68002.3,
-    "ETH": 25340.7,
-    "SOL": 3936.5,
+    "BTC": 68186.9,
+    "ETH": 25343.2,
+    "SOL": 3932.2,
     "USDT": 449.1
   },
   "trades": [
+    {
+      "time": "2026-09-26T11:13:01.777424",
+      "text": "Placed SOL-USDT SELL limit 4 SOL @ 122.8 (partial profit-take into resistance)"
+    },
     {
       "time": "2026-09-26T04:37:44.196114",
       "text": "Placed SOL-ETH BUY limit 6 @ 0.04470 (ordId 3955901293231878145, live) — expresses SOL relative strength vs ETH, funded with held ETH"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-09-15T21:11:21.312737",
       "text": "Placed limit sell 2 ETH @ 2455 (ordId 3926011656632020993) - trim into 1H resistance 2450-2480, bearish conf 66"
-    },
-    {
-      "time": "2026-09-15T21:11:21.312735",
-      "text": "Cancelled stale limit sell 5 SOL @ 103.3 (ordId 3924848609519480833) - unreachable, 6.4% above market"
     }
   ]
 }
