@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-03T07:08:26.046862",
-      "balance": 93749.3
-    },
-    {
       "time": "2026-02-07T18:49:45.218334",
       "balance": 83795.3
     },
@@ -3999,15 +3995,35 @@
     {
       "time": "2026-09-28T04:59:32.531427",
       "balance": 97119.6
+    },
+    {
+      "time": "2026-09-28T13:38:06.184365",
+      "balance": 97448.0
     }
   ],
   "assets": {
-    "BTC": 60975.1,
-    "ETH": 22854.4,
-    "SOL": 8802.5,
-    "USDT": 4487.6
+    "BTC": 61038.0,
+    "ETH": 23128.0,
+    "SOL": 10162.0,
+    "USDT": 3122.0
   },
   "trades": [
+    {
+      "time": "2026-09-28T13:38:06.184390",
+      "text": "Held core BTC 0.7304 and ETH 8.5976; kept ETH trims 0.5@2790 & 0.5@2850 and SOL-ETH dip buy 2@0.04295"
+    },
+    {
+      "time": "2026-09-28T13:38:06.184389",
+      "text": "Canceled SOL-ETH buy 20 @ 0.0446 (solDip0925c) - near-market bid contradicting rotation bias"
+    },
+    {
+      "time": "2026-09-28T13:38:06.184388",
+      "text": "Canceled SOL-ETH buy 6 @ 0.0447 (solrot0926a) - near-market bid contradicting rotation bias"
+    },
+    {
+      "time": "2026-09-28T13:38:06.184385",
+      "text": "Placed limit SELL 6 SOL @ 122.8 USDT (trimSOL0928a) - trim SOL into strength per rotation bias"
+    },
     {
       "time": "2026-09-28T04:59:32.531456",
       "text": "Canceled stale order: SOL-ETH buy 7.5 @ 0.0455"
@@ -4391,22 +4407,6 @@
     {
       "time": "2026-09-20T11:09:11.344646",
       "text": "Placed limit BUY 0.05 BTC @ 79800 (live, dip-buy)"
-    },
-    {
-      "time": "2026-09-20T11:09:11.344643",
-      "text": "Sell 25 SOL @ 108.21, received 2702.44 USDT (reduce SOL exposure, weakest link)"
-    },
-    {
-      "time": "2026-09-20T04:49:26.150113",
-      "text": "Place limit buy BTC 0.06 @ 79000, clOrdId buyBTC0920dip, still live"
-    },
-    {
-      "time": "2026-09-20T04:49:26.150112",
-      "text": "Cancel stale limit buy BTC 0.06 @ 76200 (ordId 3933710049428910081)"
-    },
-    {
-      "time": "2026-09-20T04:49:26.150110",
-      "text": "Buy 0.55 ETH at avg price 2580.25 USDT, cost ~1419 USDT"
     }
   ]
 }
