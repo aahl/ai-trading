@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-07T18:49:45.218334",
-      "balance": 83795.3
-    },
-    {
       "time": "2026-02-07T20:37:33.932191",
       "balance": 83807.2
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-09-28T13:38:06.184365",
       "balance": 97448.0
+    },
+    {
+      "time": "2026-09-28T20:30:13.204054",
+      "balance": 97154.0
     }
   ],
   "assets": {
-    "BTC": 61038.0,
-    "ETH": 23128.0,
-    "SOL": 10162.0,
-    "USDT": 3122.0
+    "BTC": 60950.0,
+    "ETH": 32618.0,
+    "SOL": 3061.0,
+    "USDT": 525.3
   },
   "trades": [
+    {
+      "time": "2026-09-28T20:30:13.204082",
+      "text": "Cancelled 4 stale limit orders (2 SOL, 2 ETH)"
+    },
+    {
+      "time": "2026-09-28T20:30:13.204080",
+      "text": "Buy 3.580827 ETH at market with 9600 USDT, fill $2680.94"
+    },
+    {
+      "time": "2026-09-28T20:30:13.204077",
+      "text": "Sell 59 SOL at market, fill $118.82, received ~7009 USDT"
+    },
     {
       "time": "2026-09-28T13:38:06.184390",
       "text": "Held core BTC 0.7304 and ETH 8.5976; kept ETH trims 0.5@2790 & 0.5@2850 and SOL-ETH dip buy 2@0.04295"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-09-20T18:39:49.193376",
       "text": "Placed limit BUY 2.0 ETH @ 2575 USDT (order buyETH0920dip, live)"
-    },
-    {
-      "time": "2026-09-20T11:09:11.344648",
-      "text": "Kept limit BUY 0.06 BTC @ 79000 (live, deep dip-buy)"
-    },
-    {
-      "time": "2026-09-20T11:09:11.344647",
-      "text": "Placed limit SELL 8.092 SOL @ 112 (live, exit residual SOL into rally zone)"
-    },
-    {
-      "time": "2026-09-20T11:09:11.344646",
-      "text": "Placed limit BUY 0.05 BTC @ 79800 (live, dip-buy)"
     }
   ]
 }
