@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-07T22:38:22.822087",
-      "balance": 83567.0
-    },
-    {
       "time": "2026-02-08T03:23:58.107589",
       "balance": 83342.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-09-29T16:28:41.019731",
       "balance": 97021.3
+    },
+    {
+      "time": "2026-09-29T22:08:46.648203",
+      "balance": 97190.5
     }
   ],
   "assets": {
-    "BTC": 62122.0,
-    "ETH": 31313.1,
-    "SOL": 3056.1,
-    "USDT": 530.2
+    "BTC": 62305.8,
+    "ETH": 31284.8,
+    "SOL": 3569.3,
+    "USDT": 30.6
   },
   "trades": [
+    {
+      "time": "2026-09-29T22:08:46.648228",
+      "text": "Buy 4.194982 SOL at 119.19, spent 500 USDT (SOL-USDT market order)"
+    },
     {
       "time": "2026-09-29T16:28:41.019765",
       "text": "Attempted ETH-BTC sell 0.5 ETH canceled by OKX: book too thin (>5% slippage)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-09-21T12:38:45.408892",
       "text": "Cancel limit buy 0.05 BTC @ 79800 (buyBTC0920b)"
-    },
-    {
-      "time": "2026-09-21T12:38:45.408889",
-      "text": "Cancel limit buy 2 ETH @ 2575 (buyETH0920dip)"
     }
   ]
 }
