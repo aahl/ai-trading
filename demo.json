@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-07T22:37:47.694635",
-      "balance": 83567.2
-    },
-    {
       "time": "2026-02-07T22:38:22.822087",
       "balance": 83567.0
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-09-29T08:19:42.282206",
       "balance": 98095.0
+    },
+    {
+      "time": "2026-09-29T16:28:41.019731",
+      "balance": 97021.3
     }
   ],
   "assets": {
-    "BTC": 61391.8,
-    "ETH": 33097.9,
-    "SOL": 3080.3,
-    "USDT": 525.0
+    "BTC": 62122.0,
+    "ETH": 31313.1,
+    "SOL": 3056.1,
+    "USDT": 530.2
   },
   "trades": [
+    {
+      "time": "2026-09-29T16:28:41.019765",
+      "text": "Attempted ETH-BTC sell 0.5 ETH canceled by OKX: book too thin (>5% slippage)"
+    },
+    {
+      "time": "2026-09-29T16:28:41.019762",
+      "text": "Buy 0.01585608 BTC via BTC-USDT market @ 84194.8 USDT (fee 0.00001586 BTC), spent 1335 USDT"
+    },
+    {
+      "time": "2026-09-29T16:28:41.019759",
+      "text": "Sell 0.5 ETH via ETH-USDT market @ 2683.42 USDT (fee 1.34 USDT), received ~1341.71 USDT"
+    },
     {
       "time": "2026-09-28T20:30:13.204082",
       "text": "Cancelled 4 stale limit orders (2 SOL, 2 ETH)"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-09-21T12:38:45.408889",
       "text": "Cancel limit buy 2 ETH @ 2575 (buyETH0920dip)"
-    },
-    {
-      "time": "2026-09-20T18:39:49.193381",
-      "text": "Kept open sell order: SELL 8.092 SOL @ 112"
-    },
-    {
-      "time": "2026-09-20T18:39:49.193379",
-      "text": "Kept open dip-buy orders: BUY 0.05 BTC @ 79800, BUY 0.06 BTC @ 79000"
-    },
-    {
-      "time": "2026-09-20T18:39:49.193376",
-      "text": "Placed limit BUY 2.0 ETH @ 2575 USDT (order buyETH0920dip, live)"
     }
   ]
 }
