@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-08T05:29:10.333072",
-      "balance": 75167.6
-    },
-    {
       "time": "2026-02-08T05:29:32.581790",
       "balance": 83221.6
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-09-30T12:22:40.821474",
       "balance": 97616.4
+    },
+    {
+      "time": "2026-09-30T19:04:46.444820",
+      "balance": 97401.9
     }
   ],
   "assets": {
-    "BTC": 61541.0,
-    "ETH": 32460.0,
-    "SOL": 3581.0,
+    "BTC": 66915.6,
+    "ETH": 26901.4,
+    "SOL": 3554.3,
     "USDT": 30.6
   },
   "trades": [
+    {
+      "time": "2026-09-30T19:04:46.444863",
+      "text": "ordId 3969243214167683073, avgPx 0.03174235 BTC/ETH, filled fully"
+    },
+    {
+      "time": "2026-09-30T19:04:46.444859",
+      "text": "Sell 2 ETH via ETH-BTC market order, received 0.06342120 BTC (rotation/rebalance ETH overweight -> BTC core)"
+    },
     {
       "time": "2026-09-30T12:22:40.821505",
       "text": "Buy 0.37 ETH via ETH-BTC, spent 0.011807 BTC (filled @ 0.03191 BTC, order 3968433455059447809)"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-09-21T12:38:45.408896",
       "text": "Keep working limit buy 0.06 BTC @ 79000 (buyBTC0920dip)"
-    },
-    {
-      "time": "2026-09-21T12:38:45.408895",
-      "text": "Placed limit buy 0.05 BTC @ 81000 (buyBTC0921retest)"
-    },
-    {
-      "time": "2026-09-21T12:38:45.408894",
-      "text": "Placed limit buy 2 ETH @ 2600 (buyETH0921retest)"
     }
   ]
 }
