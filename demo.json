@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-08T08:44:39.624084",
-      "balance": 84448.0
-    },
-    {
       "time": "2026-02-08T08:44:58.859027",
       "balance": 84449.0
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-10-01T05:42:19.318600",
       "balance": 98035.3
+    },
+    {
+      "time": "2026-10-01T13:05:43.803808",
+      "balance": 97210.1
     }
   ],
   "assets": {
-    "BTC": 67195.9,
-    "ETH": 27238.7,
-    "SOL": 3570.1,
-    "USDT": 30.6
+    "BTC": 68580.5,
+    "ETH": 26979.2,
+    "SOL": 1519.6,
+    "USDT": 114.1
   },
   "trades": [
+    {
+      "time": "2026-10-01T13:05:43.803834",
+      "text": "Buy 0.02265691 BTC with 1900 USDT (market @83859.6)"
+    },
+    {
+      "time": "2026-10-01T13:05:43.803831",
+      "text": "Sell 16.97 SOL for ~1985 USDT (market @117.0)"
+    },
     {
       "time": "2026-09-30T19:04:46.444863",
       "text": "ordId 3969243214167683073, avgPx 0.03174235 BTC/ETH, filled fully"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-09-21T19:16:28.036930",
       "text": "Placed limit BUY 1.5 ETH @ 2708 USDT (dip entry, ordId 3943174925733867521)"
-    },
-    {
-      "time": "2026-09-21T12:38:45.408897",
-      "text": "SOL trim 5 @ 116.5 FAILED - phantom frozen balance, no live order"
-    },
-    {
-      "time": "2026-09-21T12:38:45.408896",
-      "text": "Keep working limit buy 0.06 BTC @ 79000 (buyBTC0920dip)"
     }
   ]
 }
