@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-09T02:50:59.155327",
-      "balance": 84346.9
-    },
-    {
       "time": "2026-02-09T10:48:48.885179",
       "balance": 81253.7
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-10-03T16:19:27.676289",
       "balance": 98387.9
+    },
+    {
+      "time": "2026-10-03T21:04:13.453682",
+      "balance": 98342.3
     }
   ],
   "assets": {
-    "BTC": 80156.6,
-    "ETH": 13828.2,
-    "SOL": 3572.0,
-    "USDT": 831.0
+    "BTC": 75831.3,
+    "ETH": 13870.1,
+    "SOL": 3578.9,
+    "USDT": 5062.0
   },
   "trades": [
+    {
+      "time": "2026-10-03T21:04:13.453709",
+      "text": "Sell 0.05 BTC market @ avg 84727.21 USDT, proceeds ~4236.36 USDT (fee 4.24 USDT) - partial profit-taking to trim over-concentrated BTC position"
+    },
     {
       "time": "2026-10-03T16:19:27.676326",
       "text": "Sell 1 ETH via ETH-BTC pair @ 0.03173 BTC/ETH, received +0.0317 BTC (rotated relatively weaker ETH into relatively stronger BTC)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-09-22T04:28:03.166135",
       "text": "Cancelled limit buy 1.2 ETH @ 2725 (was above 2.58-2.62k add zone)"
-    },
-    {
-      "time": "2026-09-22T04:28:03.166130",
-      "text": "Cancelled limit buy 0.05 BTC @ 84900 (was above 81-82.5k add zone)"
     }
   ]
 }
