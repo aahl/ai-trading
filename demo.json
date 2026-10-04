@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-09T17:17:02.128429",
-      "balance": 84099.3
-    },
-    {
       "time": "2026-02-09T19:31:26.002571",
       "balance": 85150.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-10-04T19:36:39.128602",
       "balance": 99180.8
+    },
+    {
+      "time": "2026-10-04T23:07:04.181824",
+      "balance": 100188.2
     }
   ],
   "assets": {
-    "BTC": 73973.0,
-    "ETH": 14561.6,
-    "SOL": 7027.8,
-    "USDT": 3618.3
+    "BTC": 70496.4,
+    "ETH": 14713.9,
+    "SOL": 7036.8,
+    "USDT": 7941.1
   },
   "trades": [
+    {
+      "time": "2026-10-04T23:07:04.181844",
+      "text": "Sell 0.05 BTC at 86554.4 USDT, received 4327.72 USDT (fee 4.33 USDT)"
+    },
     {
       "time": "2026-10-04T19:36:39.128624",
       "text": "Buy 12.337555 SOL @ 121.58, spent 1500 USDT (SOL-USDT spot market buy)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-09-22T11:23:21.215767",
       "text": "Placed BTC-USDT buy limit 0.06 @ 84000 (ordId 3945121616875761665) as dip entry at 84k support"
-    },
-    {
-      "time": "2026-09-22T11:23:21.215764",
-      "text": "Cancelled BTC-USDT buy limit 0.05 @ 82300 (ordId 3944285659305881601), repriced to better support"
     }
   ]
 }
