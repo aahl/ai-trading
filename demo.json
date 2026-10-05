@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-09T19:32:02.163771",
-      "balance": 85150.5
-    },
-    {
       "time": "2026-02-09T21:05:55.448832",
       "balance": 85002.2
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-10-05T05:17:08.278088",
       "balance": 99106.7
+    },
+    {
+      "time": "2026-10-05T14:37:52.939942",
+      "balance": 99271.8
     }
   ],
   "assets": {
-    "BTC": 61128.0,
-    "ETH": 14541.9,
-    "SOL": 6956.9,
-    "USDT": 16479.9
+    "BTC": 61299.2,
+    "ETH": 14574.7,
+    "SOL": 5123.8,
+    "USDT": 18274.0
   },
   "trades": [
+    {
+      "time": "2026-10-05T14:37:52.939964",
+      "text": "Sell 15 SOL at $119.68, received 1793.40 USDT"
+    },
     {
       "time": "2026-10-05T05:17:08.278110",
       "text": "Sell 0.10 BTC @ 85515 USDT, received 8551.5 USDT (partial profit-taking / de-risk)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-09-22T11:23:21.215770",
       "text": "Kept ETH-USDT buy 1.2 @ 2615 (ordId 3944285664439709697)"
-    },
-    {
-      "time": "2026-09-22T11:23:21.215769",
-      "text": "Placed ETH-USDT sell limit 0.5 @ 2805 (ordId 3945121621506273281) as partial profit-take above 2807 resistance"
     }
   ]
 }
