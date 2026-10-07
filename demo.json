@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-10T09:07:01.140106",
-      "balance": 82983.4
-    },
-    {
       "time": "2026-02-10T11:05:08.171173",
       "balance": 82404.0
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-10-06T23:56:12.354244",
       "balance": 99185.8
+    },
+    {
+      "time": "2026-10-07T05:41:37.707344",
+      "balance": 97673.9
     }
   ],
   "assets": {
-    "BTC": 60195.3,
-    "ETH": 14534.3,
-    "SOL": 6763.0,
-    "USDT": 17693.2
+    "BTC": 59243.0,
+    "ETH": 11485.3,
+    "SOL": 6642.5,
+    "USDT": 20306.5
   },
   "trades": [
+    {
+      "time": "2026-10-07T05:41:37.707368",
+      "text": "Sell 1.0 ETH-USDT at market 2618.70 USDT, received ~2618.70 USDT (fee 2.62 USDT) - de-risk weakest major amid broad risk-off selloff"
+    },
     {
       "time": "2026-10-06T23:56:12.354267",
       "text": "Buy 0.05842343 BTC @ 85582.10, spent 5000 USDT (OKX spot market)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-09-22T16:47:10.739179",
       "text": "Placed SELL ETH-USDT 0.5 @ 2785 (limit, ordId 3945773543519170561)"
-    },
-    {
-      "time": "2026-09-22T16:47:10.739177",
-      "text": "Canceled BUY ETH-USDT 1.2 @ 2615 (ordId 3944285664439709697)"
     }
   ]
 }
