@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-10T17:14:01.432783",
-      "balance": 82688.2
-    },
-    {
       "time": "2026-02-10T19:18:49.762539",
       "balance": 82200.5
     },
@@ -3999,15 +3995,23 @@
     {
       "time": "2026-10-08T00:19:49.237503",
       "balance": 96742.7
+    },
+    {
+      "time": "2026-10-08T08:54:56.413682",
+      "balance": 96096.2
     }
   ],
   "assets": {
-    "BTC": 66609.9,
-    "ETH": 17304.8,
-    "SOL": 6519.9,
-    "USDT": 6308.2
+    "BTC": 66172.1,
+    "ETH": 19686.0,
+    "SOL": 6429.2,
+    "USDT": 3809.0
   },
   "trades": [
+    {
+      "time": "2026-10-08T08:54:56.413710",
+      "text": "Buy 0.976886 ETH @ 2559.15 USDT, spent 2500 USDT (dip-buy on oversold RSI ~16, lower Bollinger band)"
+    },
     {
       "time": "2026-10-08T00:19:49.237529",
       "text": "Buy 0.0239853 BTC @ avg 83384.4, spent 2000 USDT (BTC-USDT market)"
@@ -4403,10 +4407,6 @@
     {
       "time": "2026-09-22T21:10:49.798215",
       "text": "Placed BUY 0.8 ETH @ 2550 (support S2)"
-    },
-    {
-      "time": "2026-09-22T21:10:49.798215",
-      "text": "Placed BUY 1.2 ETH @ 2720 (support S1)"
     }
   ]
 }
