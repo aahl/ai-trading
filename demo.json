@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-10T22:53:44.331768",
-      "balance": 81920.0
-    },
-    {
       "time": "2026-02-11T02:59:39.451368",
       "balance": 82125.2
     },
@@ -3999,15 +3995,27 @@
     {
       "time": "2026-10-09T05:45:04.031309",
       "balance": 95087.5
+    },
+    {
+      "time": "2026-10-09T13:01:19.838189",
+      "balance": 95560.0
     }
   ],
   "assets": {
-    "BTC": 65895.1,
-    "ETH": 19197.7,
-    "SOL": 7677.9,
-    "USDT": 2316.8
+    "BTC": 66343.0,
+    "ETH": 19223.0,
+    "SOL": 7676.0,
+    "USDT": 2318.8
   },
   "trades": [
+    {
+      "time": "2026-10-09T13:01:19.838220",
+      "text": "Sell limit 0.05 BTC @ 84000 USDT (resting, unfilled)"
+    },
+    {
+      "time": "2026-10-09T13:01:19.838216",
+      "text": "Sell limit 1.5 ETH @ 2549 USDT (resting, unfilled)"
+    },
     {
       "time": "2026-10-09T05:45:04.031332",
       "text": "Buy 13.5 SOL @ 110.58, spent ~1492.83 USDT"
@@ -4399,14 +4407,6 @@
     {
       "time": "2026-09-23T00:16:41.994920",
       "text": "Canceled stale buy SOL-USDT 8 @ 110 (below SL)"
-    },
-    {
-      "time": "2026-09-23T00:16:41.994917",
-      "text": "Canceled stale buy ETH-USDT 0.8 @ 2550 (below SL)"
-    },
-    {
-      "time": "2026-09-22T21:10:49.798218",
-      "text": "Placed SELL 0.5 ETH @ 2850 (resistance R2+); kept SELL 0.5 ETH @ 2785 and 0.5 ETH @ 2805"
     }
   ]
 }
