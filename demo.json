@@ -4011,15 +4011,31 @@
     {
       "time": "2026-10-10T18:30:00.000000",
       "balance": 95497.4
+    },
+    {
+      "time": "2026-10-10T23:26:00.000000",
+      "balance": 95531.2
     }
   ],
   "assets": {
-    "BTC": 66273.3,
-    "ETH": 19291.9,
-    "SOL": 4998.0,
-    "USDT": 4934.2
+    "BTC": 66317.3,
+    "ETH": 19274.9,
+    "SOL": 5004.4,
+    "USDT": 4934.6
   },
   "trades": [
+    {
+      "time": "2026-10-10T23:26:00.000000",
+      "text": "Cancelled 4 stale resting dip-buys (BTC 0.007@81900, SOL 3@106, ETH 0.24@2465, ETH 0.26@2465); freed ~2123.8 USDT"
+    },
+    {
+      "time": "2026-10-10T23:26:00.000000",
+      "text": "Placed limit BUY 0.20 ETH-USDT @ 2500 (order 3998768379305930753, ~500 USDT, ~10% of avail USDT, resting unfilled)"
+    },
+    {
+      "time": "2026-10-10T23:26:00.000000",
+      "text": "Kept reduce-only take-profit sells: BTC 0.05@84000, ETH 1.5@2549; no adds to BTC/SOL; flat/no shorts"
+    },
     {
       "time": "2026-10-10T18:30:00.000000",
       "text": "HOLD - no new orders this cycle; kept 6 resting limits (BTC buy 0.007@81900, BTC sell 0.05@84000, ETH buy 0.5@2465, ETH sell 1.5@2549, SOL buy 3@106); account ~95% invested, ~2815 USDT dry powder"
