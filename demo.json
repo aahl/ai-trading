@@ -4003,15 +4003,23 @@
     {
       "time": "2026-10-10T00:00:38.000000",
       "balance": 94995.1
+    },
+    {
+      "time": "2026-10-10T12:25:12.000000",
+      "balance": 95295.3
     }
   ],
   "assets": {
-    "BTC": 65973.1,
-    "ETH": 19129.7,
-    "SOL": 4957.7,
-    "USDT": 4934.5
+    "BTC": 66175.1,
+    "ETH": 19201.4,
+    "SOL": 4984.2,
+    "USDT": 4934.6
   },
   "trades": [
+    {
+      "time": "2026-10-10T12:25:12.000000",
+      "text": "Place limit BUY 0.26 ETH @ $2,465 (order 3997422013258412033, resting ETH dip-buy; combined pending ETH dip-buy now 0.5 ETH; BTC/SOL HOLD, no fills)"
+    },
     {
       "time": "2026-10-10T00:00:38.000000",
       "text": "Place limit BUY 0.007 BTC @ $81,900 (order 3995931476030402561, resting unfilled dip-buy)"
