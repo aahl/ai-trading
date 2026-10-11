@@ -4015,15 +4015,27 @@
     {
       "time": "2026-10-10T23:26:00.000000",
       "balance": 95531.2
+    },
+    {
+      "time": "2026-10-11T05:23:48.000000",
+      "balance": 95526.7
     }
   ],
   "assets": {
-    "BTC": 66317.3,
-    "ETH": 19274.9,
-    "SOL": 5004.4,
-    "USDT": 4934.6
+    "BTC": 66322.1,
+    "ETH": 19787.3,
+    "SOL": 3204.6,
+    "USDT": 6212.7
   },
   "trades": [
+    {
+      "time": "2026-10-11T05:23:48.000000",
+      "text": "Sell 16.24 SOL @ avg 109.72 on SOL-USDT (market), received ~1781.9 USDT, fee 1.78 USDT [order 3999481216605106177]"
+    },
+    {
+      "time": "2026-10-11T05:23:48.000000",
+      "text": "HOLD BTC (neutral, range 82200-83700, conf 55); HOLD ETH (neutral, conf 55)"
+    },
     {
       "time": "2026-10-10T23:26:00.000000",
       "text": "Cancelled 4 stale resting dip-buys (BTC 0.007@81900, SOL 3@106, ETH 0.24@2465, ETH 0.26@2465); freed ~2123.8 USDT"
