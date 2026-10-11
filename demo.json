@@ -4023,15 +4023,51 @@
     {
       "time": "2026-10-11T12:40:00.000000",
       "balance": 95558.8
+    },
+    {
+      "time": "2026-10-11T18:47:45.000000",
+      "balance": 96236.4
     }
   ],
   "assets": {
-    "BTC": 66382.1,
-    "ETH": 19762.8,
-    "SOL": 3200.6,
-    "USDT": 6213.2
+    "BTC": 62564.6,
+    "ETH": 16168.8,
+    "SOL": 2768.4,
+    "USDT": 14710.2
   },
   "trades": [
+    {
+      "time": "2026-10-11T18:47:45.000000",
+      "text": "Place limit BUY 0.4 ETH @ 2510 (order 4001107803599548417, scale-in dip-buy; deepest-oversold major)"
+    },
+    {
+      "time": "2026-10-11T18:47:45.000000",
+      "text": "Place limit BUY 0.01 BTC @ 82700 (order 4001107810478206977, small ladder rung; not chasing 83.5k)"
+    },
+    {
+      "time": "2026-10-11T18:47:45.000000",
+      "text": "Place limit SELL 0.5 ETH @ 2585 (order 4001107816853549057, take-profit tranche)"
+    },
+    {
+      "time": "2026-10-11T18:47:45.000000",
+      "text": "Place limit SELL 0.03 BTC @ 85800 (order 4001107823866425345, take-profit tranche)"
+    },
+    {
+      "time": "2026-10-11T18:47:45.000000",
+      "text": "Place limit SELL 5 SOL @ 116.5 (order 4001107831449726977, take-profit/trim)"
+    },
+    {
+      "time": "2026-10-11T18:47:45.000000",
+      "text": "Keep resting BUY 0.02 BTC @ 81900 (order 4000353673612374017, pre-existing dip-buy)"
+    },
+    {
+      "time": "2026-10-11T18:47:45.000000",
+      "text": "Keep resting BUY 0.6 ETH @ 2460 (order 4000353679685726209, pre-existing dip-buy)"
+    },
+    {
+      "time": "2026-10-11T18:47:45.000000",
+      "text": "HOLD BTC/ETH/SOL core - no SOL adds (weakest RS, below 20-SMA ~116.9, negative daily MACD); no cancellations"
+    },
     {
       "time": "2026-10-11T12:40:00.000000",
       "text": "Place limit BUY 0.02 BTC @ 81900 (order 4000353673612374017, resting dip-buy)"
