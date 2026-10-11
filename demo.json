@@ -4019,15 +4019,39 @@
     {
       "time": "2026-10-11T05:23:48.000000",
       "balance": 95526.7
+    },
+    {
+      "time": "2026-10-11T12:40:00.000000",
+      "balance": 95558.8
     }
   ],
   "assets": {
-    "BTC": 66322.1,
-    "ETH": 19787.3,
-    "SOL": 3204.6,
-    "USDT": 6212.7
+    "BTC": 66382.1,
+    "ETH": 19762.8,
+    "SOL": 3200.6,
+    "USDT": 6213.2
   },
   "trades": [
+    {
+      "time": "2026-10-11T12:40:00.000000",
+      "text": "Place limit BUY 0.02 BTC @ 81900 (order 4000353673612374017, resting dip-buy)"
+    },
+    {
+      "time": "2026-10-11T12:40:00.000000",
+      "text": "Place limit BUY 0.6 ETH @ 2460 (order 4000353679685726209, resting dip-buy)"
+    },
+    {
+      "time": "2026-10-11T12:40:00.000000",
+      "text": "Place limit SELL 4.38 SOL @ 111.8 on SOL-USDT (order 4000353685859741697, ~15% trim, resting)"
+    },
+    {
+      "time": "2026-10-11T12:40:00.000000",
+      "text": "Keep resting TP SELL 0.05 BTC @ 84000 (order 3994603626224431105) and SELL 1.5 ETH @ 2549 (order 3994603619949752321)"
+    },
+    {
+      "time": "2026-10-11T12:40:00.000000",
+      "text": "HOLD BTC/ETH/SOL core - no new SOL adds (weakest, below EMA99, negative daily MACD); no cancellations"
+    },
     {
       "time": "2026-10-11T05:23:48.000000",
       "text": "Sell 16.24 SOL @ avg 109.72 on SOL-USDT (market), received ~1781.9 USDT, fee 1.78 USDT [order 3999481216605106177]"
