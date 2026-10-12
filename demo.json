@@ -4035,15 +4035,39 @@
     {
       "time": "2026-10-12T15:10:33.000000",
       "balance": 95538.1
+    },
+    {
+      "time": "2026-10-12T23:10:00.000000",
+      "balance": 94421.7
     }
   ],
   "assets": {
-    "BTC": 63573.2,
-    "ETH": 14910.4,
-    "SOL": 2711.0,
-    "USDT": 14343.5
+    "BTC": 64621.9,
+    "ETH": 17942.0,
+    "SOL": 3539.1,
+    "USDT": 8318.8
   },
   "trades": [
+    {
+      "time": "2026-10-12T23:10:00.000000",
+      "text": "Placed 6 resting limit orders: BUY 0.01 BTC-USDT @ 80500 (botBtcDip1012), BUY 0.01 BTC-USDT @ 79500 (botBtcDip1012b), BUY 0.5 ETH-USDT @ 2395 (botEthDip1012), SELL 0.5 ETH-USDT @ 2585 (botEthTp1012), SELL 0.02 BTC-USDT @ 84000 (botBtcTp1012), SELL 4 SOL-USDT @ 111.5 (botSolTrim1012)"
+    },
+    {
+      "time": "2026-10-12T23:10:00.000000",
+      "text": "Kept resting take-profits SELL 5 SOL-USDT @ 116.5 (botSolTp1011) and SELL 0.03 BTC-USDT @ 85800 (botBtcTp1011); no cancellations"
+    },
+    {
+      "time": "2026-10-12T23:10:00.000000",
+      "text": "Noted prior-cycle fills: BUY 0.5 ETH-USDT @ 2460 + 0.4 ETH-USDT @ 2510 (dip-ladder adds), BUY 0.04 BTC-USDT @ 81900/82700/83000, BUY 8.5 SOL-USDT @ 108, SELL 0.5 ETH-USDT @ 2585 (TP)"
+    },
+    {
+      "time": "2026-10-12T23:10:00.000000",
+      "text": "Defensive de-levered tape (OKX loan ratios ~2.6-4.2, spot-ETF outflows); BTC HOLD (RS 58), ETH HOLD/accumulate (62, daily RSI ~30), SOL trim 4@111.5 (70, weakest - lost 99-EMA 111.15); ~5532 USDT dry powder retained"
+    },
+    {
+      "time": "2026-10-12T23:10:00.000000",
+      "text": "No fills this cycle; account ~91% invested, totalEq ~94422 USDT"
+    },
     {
       "time": "2026-10-12T15:10:33.000000",
       "text": "Placed limit BUY 8.5 SOL-USDT @ 108 (order 4003562334828638209, clOrdId botSolStarter1012) - small starter tranche near 108 support"
