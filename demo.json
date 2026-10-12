@@ -4031,15 +4031,43 @@
     {
       "time": "2026-10-12T05:34:57.000000",
       "balance": 96597.4
+    },
+    {
+      "time": "2026-10-12T15:10:33.000000",
+      "balance": 95538.1
     }
   ],
   "assets": {
-    "BTC": 62765.7,
-    "ETH": 16327.8,
-    "SOL": 2796.0,
-    "USDT": 14707.9
+    "BTC": 63573.2,
+    "ETH": 14910.4,
+    "SOL": 2711.0,
+    "USDT": 14343.5
   },
   "trades": [
+    {
+      "time": "2026-10-12T15:10:33.000000",
+      "text": "Placed limit BUY 8.5 SOL-USDT @ 108 (order 4003562334828638209, clOrdId botSolStarter1012) - small starter tranche near 108 support"
+    },
+    {
+      "time": "2026-10-12T15:10:33.000000",
+      "text": "Kept limit SELL 5 SOL-USDT @ 116.5 (botSolTp1011) take-profit; no cancelled orders"
+    },
+    {
+      "time": "2026-10-12T15:10:33.000000",
+      "text": "Kept limit BUY 0.4 ETH-USDT @ 2510 (botEthAdd1011), BUY 0.4 ETH-USDT @ 2485 (botEthAdd1012), BUY 0.6 ETH-USDT @ 2460 (botEthDip1011)"
+    },
+    {
+      "time": "2026-10-12T15:10:33.000000",
+      "text": "Kept limit BUY 0.02 BTC-USDT @ 81900 (botBtcDip1011) and SELL 0.03 BTC-USDT @ 85800 (botBtcTp1011)"
+    },
+    {
+      "time": "2026-10-12T15:10:33.000000",
+      "text": "No fills this cycle; defensive HOLD/selective accumulate, ~8,330 USDT dry powder retained"
+    },
+    {
+      "time": "2026-10-12T05:34:57.000000",
+      "text": "Place limit BUY 0.01 BTC @ 83000 (order 4002407848793878529, top-up strongest-RS BTC dip ladder to ~3% size)"
+    },
     {
       "time": "2026-10-12T05:34:57.000000",
       "text": "Place limit BUY 0.01 BTC @ 83000 (order 4002407848793878529, top-up strongest-RS BTC dip ladder to ~3% size)"
