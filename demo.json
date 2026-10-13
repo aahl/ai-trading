@@ -4043,15 +4043,51 @@
     {
       "time": "2026-10-13T06:40:00.000000",
       "balance": 96362.7
+    },
+    {
+      "time": "2026-10-13T21:15:00.000000",
+      "balance": 95972.3
     }
   ],
   "assets": {
-    "BTC": 65970.0,
-    "ETH": 18455.7,
-    "SOL": 3617.4,
-    "USDT": 8330.0
+    "BTC": 64106.0,
+    "ETH": 18298.7,
+    "SOL": 3568.8,
+    "USDT": 9998.8
   },
   "trades": [
+    {
+      "time": "2026-10-13T21:15:00.000000",
+      "text": "Cancel BTC-USDT sell 0.03 @85800 (botBtcTp1011)"
+    },
+    {
+      "time": "2026-10-13T21:15:00.000000",
+      "text": "Place BTC-USDT sell 0.05 @84300 (botBtcTp1013, order 4007188937131438081) - de-risk, raise USDT"
+    },
+    {
+      "time": "2026-10-13T21:15:00.000000",
+      "text": "Cancel ETH-USDT sell 0.5 @2585 (botEthTp1012)"
+    },
+    {
+      "time": "2026-10-13T21:15:00.000000",
+      "text": "Place ETH-USDT sell 0.5 @2540 (botEthTp1013, order 4007188943573889025) - lower trim to 99-EMA resistance"
+    },
+    {
+      "time": "2026-10-13T21:15:00.000000",
+      "text": "Cancel SOL-USDT sell 4 @111.5 (botSolTrim1012)"
+    },
+    {
+      "time": "2026-10-13T21:15:00.000000",
+      "text": "Place SOL-USDT sell 3 @110.5 (botSolTrim1013, order 4007188950016339969) - trim into resistance"
+    },
+    {
+      "time": "2026-10-13T21:15:00.000000",
+      "text": "Market neutral-bearish (CPI-week caution, RSI ~37-40 all majors); BTC over-concentrated at 67% of equity - de-risked the tape, freed sell orders toward 15-20% USDT"
+    },
+    {
+      "time": "2026-10-13T21:15:00.000000",
+      "text": "No new buys added; kept BTC dip-buys 0.01@80500/79500, ETH dip-buy 0.5@2395"
+    },
     {
       "time": "2026-10-13T06:40:00.000000",
       "text": "No fills this cycle; HOLD all positions (market analysis flagged HOLD for BTC, ETH and SOL)"
