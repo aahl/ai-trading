@@ -4047,15 +4047,59 @@
     {
       "time": "2026-10-13T21:15:00.000000",
       "balance": 95972.3
+    },
+    {
+      "time": "2026-10-14T13:40:00.000000",
+      "balance": 95418.1
     }
   ],
   "assets": {
-    "BTC": 64106.0,
-    "ETH": 18298.7,
-    "SOL": 3568.8,
-    "USDT": 9998.8
+    "BTC": 59565.7,
+    "ETH": 16846.2,
+    "SOL": 3533.5,
+    "USDT": 15472.7
   },
   "trades": [
+    {
+      "time": "2026-10-14T13:40:00.000000",
+      "text": "Cancel BTC-USDT buy 0.01 @79500 (botBtcDip1012b) - below 80.9k support, dead"
+    },
+    {
+      "time": "2026-10-14T13:40:00.000000",
+      "text": "Cancel ETH-USDT buy 0.5 @2395 (botEthDip1012) - off-market, replacing"
+    },
+    {
+      "time": "2026-10-14T13:40:00.000000",
+      "text": "Cancel SOL-USDT sell 3 @110.5 (botSolTrim1013) - far above market, dead"
+    },
+    {
+      "time": "2026-10-14T13:40:00.000000",
+      "text": "Cancel SOL-USDT sell 5 @116.5 (botSolTp1011) - far above market, dead"
+    },
+    {
+      "time": "2026-10-14T13:40:00.000000",
+      "text": "Place SELL 2.5 ETH-USDT @2509 (botEthTrim1014) - trim weakest name into 2509-2517 resistance band"
+    },
+    {
+      "time": "2026-10-14T13:40:00.000000",
+      "text": "Place BUY 0.8 ETH-USDT @2415 (botEthDip1014) - raise dip-buy toward support"
+    },
+    {
+      "time": "2026-10-14T13:40:00.000000",
+      "text": "Place SELL 3 SOL-USDT @108.8 (botSolTrim1014) - trim into resistance"
+    },
+    {
+      "time": "2026-10-14T13:40:00.000000",
+      "text": "Place BUY 0.01 BTC-USDT @80900 (botBtcDip1014n) - dip ladder at 80.9k support"
+    },
+    {
+      "time": "2026-10-14T13:40:00.000000",
+      "text": "Keep resting BUY 0.01 BTC-USDT @80500 (botBtcDip1012) - dip ladder top-up"
+    },
+    {
+      "time": "2026-10-14T13:40:00.000000",
+      "text": "Defensive risk-off tape (hot CPI 3.7%, all majors oversold at lower Bollinger bands); ETH SELL(62) weakest -> partial exit 2.5 @2509; BTC/SOL HOLD; USDT buffer ~11.9k (~12% of equity); totalEq ~95418 USDT"
+    },
     {
       "time": "2026-10-13T21:15:00.000000",
       "text": "Cancel BTC-USDT sell 0.03 @85800 (botBtcTp1011)"
