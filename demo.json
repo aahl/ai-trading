@@ -4059,15 +4059,43 @@
     {
       "time": "2026-10-15T11:20:00.000000",
       "balance": 93127.8
+    },
+    {
+      "time": "2026-10-15T16:50:00.000000",
+      "balance": 94557.8
     }
   ],
   "assets": {
-    "BTC": 59836.8,
-    "ETH": 17949.9,
-    "SOL": 3412.4,
-    "USDT": 11928.8
+    "BTC": 60688.6,
+    "ETH": 13121.1,
+    "SOL": 1832.9,
+    "USDT": 18915.2
   },
   "trades": [
+    {
+      "time": "2026-10-15T16:50:00.000000",
+      "text": "Place limit BUY 0.01 BTC-USDT @81000 (botBtcDip1015) - dip-buy at 80200 support; add strongest name"
+    },
+    {
+      "time": "2026-10-15T16:50:00.000000",
+      "text": "Place limit SELL 0.03 BTC-USDT @84200 (botBtcTrim1015) - trim over-concentrated (~64% of equity) BTC into 83900-84400 resistance"
+    },
+    {
+      "time": "2026-10-15T16:50:00.000000",
+      "text": "Place limit BUY 0.4 ETH-USDT @2395 (botEthDip1015) - dip-buy above 2360-2340 support; ETH 1D RSI 25 oversold"
+    },
+    {
+      "time": "2026-10-15T16:50:00.000000",
+      "text": "Place limit SELL 1.2 ETH-USDT @2540 (botEthTrim1015) - trim into 2540 resistance"
+    },
+    {
+      "time": "2026-10-15T16:50:00.000000",
+      "text": "Place limit SELL 4.36 SOL-USDT @110.5 (botSolTrimAvail1015) - trim weakest name into 110-112 resistance; 8 SOL blocked by 12.987 stuck frozen (not cancelable)"
+    },
+    {
+      "time": "2026-10-15T16:50:00.000000",
+      "text": "Neutral/risk-off tape (hot CPI 3.7%/PPI 6.3%, broad spot-ETF outflows, taker flow net sell, crowded OKX longs BTC 4.1/ETH 5.3/SOL 12.8); SOL weakest -> trim 4.36@110.5; ETH dip-buy 0.4@2395 / trim 1.2@2540; BTC HOLD + dip 0.01@81000 / trim 0.03@84200; USDT buffer ~$18.9k; totalEq ~94558 USDT"
+    },
     {
       "time": "2026-10-15T11:20:00.000000",
       "text": "Cancel stale limit SELL 10 SOL-USDT @106.5 (botSolTrim1015) - re-priced down into reduce zone"
