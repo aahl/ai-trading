@@ -4051,15 +4051,39 @@
     {
       "time": "2026-10-14T13:40:00.000000",
       "balance": 95418.1
+    },
+    {
+      "time": "2026-10-15T04:20:00.000000",
+      "balance": 93094.5
     }
   ],
   "assets": {
-    "BTC": 59565.7,
-    "ETH": 16846.2,
-    "SOL": 3533.5,
-    "USDT": 15472.7
+    "BTC": 59800.5,
+    "ETH": 17944.0,
+    "SOL": 3422.0,
+    "USDT": 11928.0
   },
   "trades": [
+    {
+      "time": "2026-10-15T04:20:00.000000",
+      "text": "HOLD 0.7392 BTC (untouched, near 80.8k support), no new buys this cycle"
+    },
+    {
+      "time": "2026-10-15T04:20:00.000000",
+      "text": "Placed limit SELL 10 SOL-USDT @106.5 (botSolTrim1015) - trim ~30% of SOL into resistance 105-108"
+    },
+    {
+      "time": "2026-10-15T04:20:00.000000",
+      "text": "Placed limit SELL 2.2 ETH-USDT @2412 (botEthTrim1015) - trim ~29% of ETH into resistance 2400-2440"
+    },
+    {
+      "time": "2026-10-15T04:20:00.000000",
+      "text": "Cancel stale limit SELL 3 SOL-USDT @108.8 (botSolTrim1014) - ~6% above market, was freezing inventory"
+    },
+    {
+      "time": "2026-10-15T04:20:00.000000",
+      "text": "Cancel stale limit SELL 2.5 ETH-USDT @2509 (botEthTrim1014) - ~6% above market, was freezing inventory"
+    },
     {
       "time": "2026-10-14T13:40:00.000000",
       "text": "Cancel BTC-USDT buy 0.01 @79500 (botBtcDip1012b) - below 80.9k support, dead"
