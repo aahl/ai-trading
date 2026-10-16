@@ -4079,15 +4079,39 @@
     {
       "time": "2026-10-16T13:20:00.000000",
       "balance": 94508.3
+    },
+    {
+      "time": "2026-10-16T20:53:41.870070",
+      "balance": 93856.6
     }
   ],
   "assets": {
-    "BTC": 60521.5,
-    "ETH": 18286.6,
-    "SOL": 7774.0,
-    "USDT": 7926.3
+    "BTC": 61135.5,
+    "ETH": 22139.9,
+    "SOL": 8446.6,
+    "USDT": 2134.5
   },
   "trades": [
+    {
+      "time": "2026-10-16T20:53:41.870070",
+      "text": "FILLED: Buy 1.1 ETH-USDT limit @ 2415 (~$2656.5 USDT, ordId=4015855924275589121) - botEthDip1016b add on oversold dip (daily RSI ~25, near daily lower BB)"
+    },
+    {
+      "time": "2026-10-16T20:53:41.870070",
+      "text": "HOLD BTC (daily downtrend, no chase) - keep SELL 0.03 @84900; hold USDT for dip-buys below 80k"
+    },
+    {
+      "time": "2026-10-16T20:53:41.870070",
+      "text": "HOLD ETH - keep SELL 1.2 @2540 at resistance; adding done"
+    },
+    {
+      "time": "2026-10-16T20:53:41.870070",
+      "text": "HOLD SOL (weakest of the three) - keep SELL 2.0 @108.5 and 2.36 @110.2 trims; no new adds before Oct21 Alpenglow upgrade"
+    },
+    {
+      "time": "2026-10-16T20:53:41.870070",
+      "text": "Cycle tape (BTC ~81700 / ETH ~2415 / SOL ~104); totalEq ~93857 USDT; USDT avail ~1193 after ETH fill"
+    },
     {
       "time": "2026-10-16T13:20:00.000000",
       "text": "Place limit BUY 7.5 SOL-USDT @ 103.5 (botSolDip1016, ~$776 USDT) - dip-accumulation add into 102-104 support; do not chase above 108"
