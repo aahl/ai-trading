@@ -4071,15 +4071,39 @@
     {
       "time": "2026-10-16T00:18:00.000000",
       "balance": 94727.3
+    },
+    {
+      "time": "2026-10-16T07:00:00.000000",
+      "balance": 94611.1
     }
   ],
   "assets": {
-    "BTC": 60807.3,
-    "ETH": 13177.9,
-    "SOL": 1829.8,
-    "USDT": 18912.4
+    "BTC": 60657.6,
+    "ETH": 18192.4,
+    "SOL": 1842.0,
+    "USDT": 13919.2
   },
   "trades": [
+    {
+      "time": "2026-10-16T07:00:00.000000",
+      "text": "Buy 2.04 ETH @ 2450 (~$4,998 USDT) - botEthBuy1016 (FILLED; ETH 5.40 -> 7.43)"
+    },
+    {
+      "time": "2026-10-16T07:00:00.000000",
+      "text": "Place limit BUY 56.5 SOL @ 106.2 (~$6,000 USDT) - botSolBuy1016 (LIVE, inside 105.0-106.4 entry zone)"
+    },
+    {
+      "time": "2026-10-16T07:00:00.000000",
+      "text": "HOLD BTC (downtrend, macro-capped by PPI 6.3% + ETF outflows ~$261M); keep dry USDT for dip-buys < $80k"
+    },
+    {
+      "time": "2026-10-16T07:00:00.000000",
+      "text": "Kept resting: BUY 0.01 BTC @81000, SELL 0.03 BTC @84900, BUY 0.25 ETH @2395, BUY 0.4 ETH @2395, BUY 0.4 ETH @2360, SELL 1.2 ETH @2540, SELL 2 SOL @108.5, SELL 2.36 SOL @110.2"
+    },
+    {
+      "time": "2026-10-16T07:00:00.000000",
+      "text": "Tape: majors correcting, alt momentum alive; SOL strongest RS (Alpenglow upgrade Oct 21) + ETH outperformer (whale rotation BTC->ETH, spot inflows) -> scale in; BTC HOLD. USDT dry ~$4.6k; totalEq ~94611 USDT"
+    },
     {
       "time": "2026-10-16T00:18:00.000000",
       "text": "Cancel stale limit SELL 0.03 BTC-USDT @84200 (botBtcTrim1015) - lifted exit into 84900-86100 resistance zone"
