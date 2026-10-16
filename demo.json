@@ -4075,15 +4075,43 @@
     {
       "time": "2026-10-16T07:00:00.000000",
       "balance": 94611.1
+    },
+    {
+      "time": "2026-10-16T13:20:00.000000",
+      "balance": 94508.3
     }
   ],
   "assets": {
-    "BTC": 60657.6,
-    "ETH": 18192.4,
-    "SOL": 1842.0,
-    "USDT": 13919.2
+    "BTC": 60521.5,
+    "ETH": 18286.6,
+    "SOL": 7774.0,
+    "USDT": 7926.3
   },
   "trades": [
+    {
+      "time": "2026-10-16T13:20:00.000000",
+      "text": "Place limit BUY 7.5 SOL-USDT @ 103.5 (botSolDip1016, ~$776 USDT) - dip-accumulation add into 102-104 support; do not chase above 108"
+    },
+    {
+      "time": "2026-10-16T13:20:00.000000",
+      "text": "FILLED since prior cycle: Buy 2.04 ETH @ 2450 (botEthBuy1016) and Buy 56.5 SOL @ 106.2 (botSolBuy1016) - ETH 5.40 -> 7.43, SOL 17.31 -> 73.81"
+    },
+    {
+      "time": "2026-10-16T13:20:00.000000",
+      "text": "HOLD BTC (over-concentrated ~64% of equity, daily downtrend, macro-capped) - keep core; SELL 0.03 @84900 resting; hold dry USDT for dip-buys below 80k"
+    },
+    {
+      "time": "2026-10-16T13:20:00.000000",
+      "text": "HOLD ETH (daily oversold, intraday overbought) - keep SELL 1.2 @2540 at resistance; add only on dip 2400-2430"
+    },
+    {
+      "time": "2026-10-16T13:20:00.000000",
+      "text": "SOL best structure of the three (4H MACD bull cross, Alpenglow mainnet-beta Oct 21) - small add only; keep SELL 2 @108.5 and 2.36 @110.2"
+    },
+    {
+      "time": "2026-10-16T13:20:00.000000",
+      "text": "Defensive-hold tape (daily downtrend, oversold bounce; BTC 82050 / ETH 2465 / SOL 105.6); BTC/ETH HOLD, small SOL dip-add; new risk ~$776; totalEq ~94508 USDT"
+    },
     {
       "time": "2026-10-16T07:00:00.000000",
       "text": "Buy 2.04 ETH @ 2450 (~$4,998 USDT) - botEthBuy1016 (FILLED; ETH 5.40 -> 7.43)"
