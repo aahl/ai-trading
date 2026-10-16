@@ -4067,15 +4067,39 @@
     {
       "time": "2026-10-15T21:30:00.000000",
       "balance": 94794.8
+    },
+    {
+      "time": "2026-10-16T00:18:00.000000",
+      "balance": 94727.3
     }
   ],
   "assets": {
-    "BTC": 60784.1,
-    "ETH": 13258.3,
-    "SOL": 1838.9,
-    "USDT": 18913.5
+    "BTC": 60807.3,
+    "ETH": 13177.9,
+    "SOL": 1829.8,
+    "USDT": 18912.4
   },
   "trades": [
+    {
+      "time": "2026-10-16T00:18:00.000000",
+      "text": "Cancel stale limit SELL 0.03 BTC-USDT @84200 (botBtcTrim1015) - lifted exit into 84900-86100 resistance zone"
+    },
+    {
+      "time": "2026-10-16T00:18:00.000000",
+      "text": "Place limit SELL 0.03 BTC-USDT @84900 (botBtcTrimUp1016) - trim over-concentrated (~64% of equity) BTC into 84900 resistance"
+    },
+    {
+      "time": "2026-10-16T00:18:00.000000",
+      "text": "Place limit BUY 0.25 ETH-USDT @2395 (botEthDipAdd1016) - add ~$599 to preferred oversold name at 2395 support rung"
+    },
+    {
+      "time": "2026-10-16T00:18:00.000000",
+      "text": "Keep resting BUY 0.01 BTC-USDT @81000, BUY 0.4 ETH-USDT @2395, BUY 0.4 ETH-USDT @2360, SELL 1.2 ETH-USDT @2540, SELL 2.0 SOL-USDT @108.5, SELL 2.36 SOL-USDT @110.2 - HOLD core"
+    },
+    {
+      "time": "2026-10-16T00:18:00.000000",
+      "text": "No fills this cycle. Constructive-but-cautious tape (hot CPI 3.7%/PPI 6.3%, spot-ETF outflows, corporate/treasury bid BTC & ETH); RS BTC>ETH>SOL; BTC strongest -> HOLD + lift trim 0.03 to 84900; ETH daily RSI 26 deeply oversold (best risk/reward) -> add 0.25@2395 atop 0.4@2395 & 0.4@2360 + trim 1.2@2540; SOL weakest but fully frozen (avail 0.0047, 17.347 blocked) -> trim 2.0@108.5 & 2.36@110.2 unchanged; USDT buffer ~$18.9k; totalEq ~94727 USDT"
+    },
     {
       "time": "2026-10-15T21:30:00.000000",
       "text": "Cancel stale limit SELL 4.36 SOL-USDT @110.5 (botSolTrimAvail1015) - re-priced down into 108.5-110.2 resistance"
