@@ -4095,15 +4095,47 @@
     {
       "time": "2026-10-17T17:05:09.004922",
       "balance": 93339.5
+    },
+    {
+      "time": "2026-10-17T20:33:00.000000",
+      "balance": 93861.5
     }
   ],
   "assets": {
-    "BTC": 60795.1,
-    "ETH": 22038.0,
-    "SOL": 8371.8,
-    "USDT": 2134.6
+    "BTC": 63932.3,
+    "ETH": 19293.4,
+    "SOL": 8457.2,
+    "USDT": 2178.7
   },
   "trades": [
+    {
+      "time": "2026-10-17T20:33:00.000000",
+      "text": "Re-placed SOL sell 2 @107.2 (from 108.5)"
+    },
+    {
+      "time": "2026-10-17T20:33:00.000000",
+      "text": "Re-placed BTC sell 0.03 @82600 (from 82800)"
+    },
+    {
+      "time": "2026-10-17T20:33:00.000000",
+      "text": "Bought 0.035 BTC @81635.6 (BTC-USDT)"
+    },
+    {
+      "time": "2026-10-17T20:33:00.000000",
+      "text": "Sold 1.2 ETH @2420.18 (ETH-USDT)"
+    },
+    {
+      "time": "2026-10-17T20:33:00.000000",
+      "text": "Canceled ETH sell order 1.2 @2540"
+    },
+    {
+      "time": "2026-10-17T20:33:00.000000",
+      "text": "Canceled SOL buy order 9 @102.6 (freed ~923 USDT)"
+    },
+    {
+      "time": "2026-10-17T20:33:00.000000",
+      "text": "Canceled ETH buy order 0.4 @2360 (freed ~944 USDT)"
+    },
     {
       "time": "2026-10-17T17:05:09.004922",
       "text": "No fills this cycle; kept all 6 resting orders; Cycle tape BTC ~81264 / ETH ~2404 / SOL ~103.2; totalEq ~93339 USDT; free USDT ~270"
