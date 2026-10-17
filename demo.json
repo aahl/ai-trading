@@ -4087,15 +4087,43 @@
     {
       "time": "2026-10-17T00:28:00.000000",
       "balance": 93851.5
+    },
+    {
+      "time": "2026-10-17T12:12:00.000000",
+      "balance": 93954.5
     }
   ],
   "assets": {
-    "BTC": 61044.7,
-    "ETH": 22201.6,
-    "SOL": 8470.8,
-    "USDT": 2134.4
+    "BTC": 61036.3,
+    "ETH": 22309.7,
+    "SOL": 8474.0,
+    "USDT": 2134.5
   },
   "trades": [
+    {
+      "time": "2026-10-17T12:12:00.000000",
+      "text": "No fills this cycle; kept 6 resting orders; Cycle tape BTC ~81560 / ETH ~2433 / SOL ~104.3; totalEq ~93955 USDT"
+    },
+    {
+      "time": "2026-10-17T12:12:00.000000",
+      "text": "No new buys this cycle (free USDT only ~$270, account already over-long/BTC-concentrated into risk-off tape) - defensive hold"
+    },
+    {
+      "time": "2026-10-17T12:12:00.000000",
+      "text": "HOLD SOL (daily oversold RSI 27, Oct 21 Alpenglow catalyst) - keep BUY 9 @102.6 dip bid and SELL 2.0 @108.5 / 2.36 @110.2 trims"
+    },
+    {
+      "time": "2026-10-17T12:12:00.000000",
+      "text": "HOLD ETH (relative-strength leader: 4H bullish MACD cross, daily RSI 26 oversold) - keep BUY 0.4 @2360 dip bid and SELL 1.2 @2540 trim"
+    },
+    {
+      "time": "2026-10-17T12:12:00.000000",
+      "text": "HOLD BTC (daily downtrend, 1D RSI 38, ~65% of equity overweight) - no adds; trim only on strength"
+    },
+    {
+      "time": "2026-10-17T12:12:00.000000",
+      "text": "REPRICED: Canceled SELL 0.03 BTC-USDT @ 84,900 (botBtcTrimUp1016) and placed SELL 0.03 BTC-USDT @ 82,800 (botBtcTrim1017, ordId=4017696427048710145) - move de-risk trim below EMA99/resistance so it can fill on a bounce"
+    },
     {
       "time": "2026-10-17T00:28:00.000000",
       "text": "Cycle tape (BTC ~81639 / ETH ~2423 / SOL ~104.4); totalEq ~93852 USDT; USDT avail ~270 after new SOL dip order"
