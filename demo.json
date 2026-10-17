@@ -4091,15 +4091,35 @@
     {
       "time": "2026-10-17T12:12:00.000000",
       "balance": 93954.5
+    },
+    {
+      "time": "2026-10-17T17:05:09.004922",
+      "balance": 93339.5
     }
   ],
   "assets": {
-    "BTC": 61036.3,
-    "ETH": 22309.7,
-    "SOL": 8474.0,
-    "USDT": 2134.5
+    "BTC": 60795.1,
+    "ETH": 22038.0,
+    "SOL": 8371.8,
+    "USDT": 2134.6
   },
   "trades": [
+    {
+      "time": "2026-10-17T17:05:09.004922",
+      "text": "No fills this cycle; kept all 6 resting orders; Cycle tape BTC ~81264 / ETH ~2404 / SOL ~103.2; totalEq ~93339 USDT; free USDT ~270"
+    },
+    {
+      "time": "2026-10-17T17:05:09.004922",
+      "text": "HOLD BTC (daily downtrend, short-term oversold; ~65% of equity overweight) - keep SELL 0.03 @ 82800; no adds"
+    },
+    {
+      "time": "2026-10-17T17:05:09.004922",
+      "text": "HOLD ETH (downtrend basing above 2317; daily RSI ~22 deeply oversold) - keep BUY 0.4 @ 2360 dip and SELL 1.2 @ 2540 trim"
+    },
+    {
+      "time": "2026-10-17T17:05:09.004922",
+      "text": "HOLD SOL (1D oversold, 4H coiling; Alpenglow upgrade Oct 21 catalyst) - keep BUY 9 @ 102.6 dip and SELL 2 @ 108.5 / 2.36 @ 110.2 trims"
+    },
     {
       "time": "2026-10-17T12:12:00.000000",
       "text": "No fills this cycle; kept 6 resting orders; Cycle tape BTC ~81560 / ETH ~2433 / SOL ~104.3; totalEq ~93955 USDT"
