@@ -4103,15 +4103,27 @@
     {
       "time": "2026-10-18T04:12:00.000000",
       "balance": 94111.8
+    },
+    {
+      "time": "2026-10-18T10:55:00.000000",
+      "balance": 94248.6
     }
   ],
   "assets": {
-    "BTC": 64148.3,
-    "ETH": 19314.2,
-    "SOL": 8470.6,
-    "USDT": 2178.8
+    "BTC": 64324.4,
+    "ETH": 19296.0,
+    "SOL": 8449.5,
+    "USDT": 2178.7
   },
   "trades": [
+    {
+      "time": "2026-10-18T10:55:00.000000",
+      "text": "Place BUY 0.008 BTC @ 81,300 USDT limit (orderId 4020438141836472321) - resting dip-accumulation order"
+    },
+    {
+      "time": "2026-10-18T10:55:00.000000",
+      "text": "Place BUY 3.0 SOL @ 102.80 USDT limit (orderId 4020438148983566337) - resting dip-accumulation order"
+    },
     {
       "time": "2026-10-18T04:12:00.000000",
       "text": "Placed BTC-USDT buy limit 0.0135 @ 80400 (dip-buy at $79.8k-80.4k support, ordId 4019629418285117441, clOrdId dipBuyBtc80400, live/unfilled)"
