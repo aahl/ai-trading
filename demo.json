@@ -4115,15 +4115,27 @@
     {
       "time": "2026-10-19T04:23:00.000000",
       "balance": 94682.3
+    },
+    {
+      "time": "2026-10-19T19:48:28.904924",
+      "balance": 93897.5
     }
   ],
   "assets": {
-    "BTC": 62816.4,
-    "ETH": 19310.6,
-    "SOL": 8861.0,
-    "USDT": 3694.3
+    "BTC": 62325.8,
+    "ETH": 19102.6,
+    "SOL": 10852.2,
+    "USDT": 1616.9
   },
   "trades": [
+    {
+      "time": "2026-10-19T19:48:28.904924",
+      "text": "Canceled resting BTC-USDT BUY 0.0135 @ 80400 (ordId 4019629418285117441) to cut concentration and free ~1085 USDT"
+    },
+    {
+      "time": "2026-10-19T19:48:28.904924",
+      "text": "Placed limit SELL 0.12 BTC-USDT @ 82700 (ordId 4024417940506423297) to trim overweight BTC into resistance; live"
+    },
     {
       "time": "2026-10-19T04:23:00.000000",
       "text": "Placed SOL-USDT limit BUY 20 SOL @ 104.00 (ordId 4022546721368715265) - dip accumulation ahead of Oct-21 Alpenglow mainnet upgrade"
