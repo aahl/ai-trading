@@ -4119,15 +4119,27 @@
     {
       "time": "2026-10-19T19:48:28.904924",
       "balance": 93897.5
+    },
+    {
+      "time": "2026-10-19T23:41:00.000000",
+      "balance": 94267.2
     }
   ],
   "assets": {
-    "BTC": 62325.8,
-    "ETH": 19102.6,
-    "SOL": 10852.2,
-    "USDT": 1616.9
+    "BTC": 62478.4,
+    "ETH": 19217.9,
+    "SOL": 10954.1,
+    "USDT": 1616.8
   },
   "trades": [
+    {
+      "time": "2026-10-19T23:41:00.000000",
+      "text": "Buy 13.9155 SOL-USDT limit @ $104.20 (~$1,450 USDT, ordId 4024870491446063105, clOrdId solAccum1042) - accumulate SOL on dip into EMA-99 support; state live"
+    },
+    {
+      "time": "2026-10-19T23:41:00.000000",
+      "text": "HOLD BTC & ETH; kept resting TP sells BTC 0.12@82700, ETH 1.5@2460, SOL 2@109.5 & 2.36@110.2; SOL relative leader -> small dip accumulation"
+    },
     {
       "time": "2026-10-19T19:48:28.904924",
       "text": "Canceled resting BTC-USDT BUY 0.0135 @ 80400 (ordId 4019629418285117441) to cut concentration and free ~1085 USDT"
