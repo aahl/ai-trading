@@ -4131,15 +4131,31 @@
     {
       "time": "2026-10-20T11:23:30.000000",
       "balance": 93490.4
+    },
+    {
+      "time": "2026-10-20T21:33:30.000000",
+      "balance": 95337.3
     }
   ],
   "assets": {
-    "BTC": 62022.3,
-    "ETH": 14721.7,
-    "SOL": 16363.8,
-    "USDT": 382.6
+    "BTC": 53157.4,
+    "ETH": 12610.8,
+    "SOL": 17695.7,
+    "USDT": 11873.3
   },
   "trades": [
+    {
+      "time": "2026-10-20T21:33:30.000000",
+      "text": "BUY 0.469186 ETH-USDT market @ $2,451.05 (~$1,150.00, fee 0.000469 ETH) - first tranche contrarian add; ETH bounced off ~$2,320 with recovering RSI/MACD; invalidation <$2,300"
+    },
+    {
+      "time": "2026-10-20T21:33:30.000000",
+      "text": "BUY 8.907641 SOL-USDT market @ $106.65 (~$950.00, fee 0.008908 SOL) - first tranche add on firm relative strength (RSI recovering, net taker buying); invalidation <$98"
+    },
+    {
+      "time": "2026-10-20T21:33:30.000000",
+      "text": "Portfolio: HOLD BTC (overweight ~56%, untouched); staged half-size adds into ETH & SOL; keep ~$11,886 USDT dry powder for 2nd tranche (ETH reclaim ~$2,520 / SOL breakout >$110.5). Post-trade total equity ~$95,337; each trade <5% of equity."
+    },
     {
       "time": "2026-10-20T11:23:30.000000",
       "text": "SELL 1.8 ETH-USDT market @ $2,383.60 (~$4,290.48 gross, fee 4.29 USDT) - reduce weakest major (ETH broke all MAs, ETH-spot-ETF outflows, long/short ratio collapse), net ~4,286.19 USDT"
