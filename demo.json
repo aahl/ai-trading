@@ -4147,15 +4147,31 @@
     {
       "time": "2026-10-21T13:56:47.798601",
       "balance": 95878.8
+    },
+    {
+      "time": "2026-10-21T18:33:00.000000",
+      "balance": 97301.2
     }
   ],
   "assets": {
-    "BTC": 53639.0,
-    "ETH": 12681.0,
-    "SOL": 17688.0,
-    "USDT": 11871.0
+    "BTC": 54375.5,
+    "ETH": 12949.6,
+    "SOL": 18101.2,
+    "USDT": 11875.0
   },
   "trades": [
+    {
+      "time": "2026-10-21T18:33:00.000000",
+      "text": "Placed limit BUY 0.75 ETH-USDT @ $2,468 (~$1,851) - preferred long buy-the-dip ladder at BOLL-mid retest; ETH best relative strength; did not chase overbought $2,516 high"
+    },
+    {
+      "time": "2026-10-21T18:33:00.000000",
+      "text": "Placed limit BUY 0.027 BTC-USDT @ $83,350 (~$2,250) - buy-the-dip ladder above existing $81,800 rung; did not chase overbought $84.7k high (1H RSI ~91)"
+    },
+    {
+      "time": "2026-10-21T18:33:00.000000",
+      "text": "SOL: no new buys (lagging relative strength, supply overhang); kept TP trims 2.00@109.5 and 2.36@110.2 intact"
+    },
     {
       "time": "2026-10-21T13:56:47.798601",
       "text": "HOLD - No new trades. Overbought relief bounce into resistance with falling long/short leverage ratios (deleveraging, not fresh conviction); declined to chase. Kept resting orders: BTC buy 0.033@81800, SOL sell 2@109.5 & 2.36@110.2. Dry powder retained. Total equity ~$95,879."
