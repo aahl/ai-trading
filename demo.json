@@ -4143,15 +4143,27 @@
     {
       "time": "2026-10-21T07:30:06.000000",
       "balance": 95225.5
+    },
+    {
+      "time": "2026-10-21T13:56:47.798601",
+      "balance": 95878.8
     }
   ],
   "assets": {
-    "BTC": 53141.1,
-    "ETH": 12581.2,
-    "SOL": 17631.4,
-    "USDT": 11871.8
+    "BTC": 53639.0,
+    "ETH": 12681.0,
+    "SOL": 17688.0,
+    "USDT": 11871.0
   },
   "trades": [
+    {
+      "time": "2026-10-21T13:56:47.798601",
+      "text": "HOLD - No new trades. Overbought relief bounce into resistance with falling long/short leverage ratios (deleveraging, not fresh conviction); declined to chase. Kept resting orders: BTC buy 0.033@81800, SOL sell 2@109.5 & 2.36@110.2. Dry powder retained. Total equity ~$95,879."
+    },
+    {
+      "time": "2026-10-21T09:20:00.000000",
+      "text": "HOLD - No new orders placed. All three majors extended at/above 4H upper Bollinger (4H RSI ~72-76). BTC core ~55.8% kept (leader, above daily mid-band; trim only on $87.4k rejection, add-back $81k, invalidation <$79,775). ETH ~13.2% held, 2nd tranche only on daily close >$2,520 (inv. <$2,400). SOL ~18.5% held, small add only on daily close >$110.5 (inv. <$100.4). Kept ~$11,874 USDT dry powder for the two staged triggers. ETH-BTC/SOL-BTC cross pairs in downtrend -> no conversion. Resting SOL sells 2.00@109.5 & 2.36@110.2; SOL frozen 17.347. Total equity ~$95,601."
+    },
     {
       "time": "2026-10-21T07:30:06.000000",
       "text": "Limit buy 0.033 BTC @ 81800 USDT (~$2699) - staged accumulation on pullback"
