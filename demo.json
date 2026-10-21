@@ -4139,15 +4139,23 @@
     {
       "time": "2026-10-21T09:20:00.000000",
       "balance": 95601.1
+    },
+    {
+      "time": "2026-10-21T07:30:06.000000",
+      "balance": 95225.5
     }
   ],
   "assets": {
-    "BTC": 53366.9,
-    "ETH": 12631.7,
-    "SOL": 17728.7,
-    "USDT": 11873.8
+    "BTC": 53141.1,
+    "ETH": 12581.2,
+    "SOL": 17631.4,
+    "USDT": 11871.8
   },
   "trades": [
+    {
+      "time": "2026-10-21T07:30:06.000000",
+      "text": "Limit buy 0.033 BTC @ 81800 USDT (~$2699) - staged accumulation on pullback"
+    },
     {
       "time": "2026-10-20T21:33:30.000000",
       "text": "BUY 0.469186 ETH-USDT market @ $2,451.05 (~$1,150.00, fee 0.000469 ETH) - first tranche contrarian add; ETH bounced off ~$2,320 with recovering RSI/MACD; invalidation <$2,300"
