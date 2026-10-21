@@ -4151,15 +4151,23 @@
     {
       "time": "2026-10-21T18:33:00.000000",
       "balance": 97301.2
+    },
+    {
+      "time": "2026-10-21T23:13:00.000000",
+      "balance": 96573.4
     }
   ],
   "assets": {
-    "BTC": 54375.5,
-    "ETH": 12949.6,
-    "SOL": 18101.2,
+    "BTC": 54127.5,
+    "ETH": 12771.6,
+    "SOL": 17799.3,
     "USDT": 11875.0
   },
   "trades": [
+    {
+      "time": "2026-10-21T23:13:00.000000",
+      "text": "Sell 0.05 BTC limit @ $85,100 - trim into strength/resistance (order 4030625117973786625, resting live, ~1% above mkt $84,270); reduced outsized/overbought BTC (~56% of book). Kept BTC dip-buys 0.027@83350 & 0.033@81800, ETH buy 0.75@2468, SOL trims 2@109.5 & 2.36@110.2. Total equity ~$96,573."
+    },
     {
       "time": "2026-10-21T18:33:00.000000",
       "text": "Placed limit BUY 0.75 ETH-USDT @ $2,468 (~$1,851) - preferred long buy-the-dip ladder at BOLL-mid retest; ETH best relative strength; did not chase overbought $2,516 high"
