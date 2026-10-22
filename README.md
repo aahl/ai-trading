@@ -5,167 +5,26 @@
 ```mermaid
 xychart
     title "模拟盘余额"
-    line [82366.6,82536.0,81980.7,80611.8,80862.4,80484.4,80241.6,80033.6,79063.4,79245.1,80226.5,80015.5,80507.3,81625.3,81232.8,81543.7,81578.4,82016.3,81401.4,81018.6,81185.7,81130.0,81117.9,81306.2,82065.6,81908.9,80391.6,80304.4,80291.3,80257.5,79728.9,79261.3,69465.8,69578.8,69456.1,68251.3,68415.2,66832.2,67910.8,67461.5,67143.9,66432.3,64380.1,64374.9,64605.6,63740.5,64647.4,64323.5,64216.0,63841.8,63876.9,64078.5,64008.3,65156.4,65944.6,65887.5,65157.3,65625.0,66144.4,67284.0,66653.2,66639.3,65923.8,66924.9,66956.4,67263.1,67108.3,66765.7,66729.0,66886.0,70927.0,70673.1,70049.1,50652.2,69334.0,69973.3,68399.6,68061.3,68577.8,68876.5,68878.9,69055.0,68661.8,68822.0,69328.7,72687.0,71999.0,71760.0,71162.5,71911.4,71896.3,32500.0,29218.2,71927.4,71296.6,71304.7,71044.4,71337.0,71883.2,71821.7,71535.9,71535.9,71621.6,71723.0,71879.8,71860.0,72099.9,72216.4,71887.2,72076.8,72940.4,72975.6,72966.1,72638.1,72948.2,73497.4,73004.0,73041.0,73173.2,73160.0,73186.5,73257.8,73375.0,73350.7,73173.4,73098.2,73160.9,73305.4,73474.2,73535.9,73457.4,73413.3,73411.9,72099.9,72333.0,72163.6,72272.4,72203.9,72284.6,72460.9,72420.6,71652.0,71521.0,72267.0,72156.8,72774.2,72424.5,72143.5,72059.8,72090.8,71858.3,90185.0,91338.0,91465.8,90900.0,91678.0,91404.0,91268.0,91243.9,90903.3,90779.1,90787.0,90721.1,90187.0,92429.0,90517.7,90619.0,91070.0,90328.2,89376.4,93285.9,92201.7,92581.0,92485.0,91947.4,91196.4,91259.1,89619.4,90086.3,92062.8,91355.4,90950.0,91327.3,90373.0,91498.0,91800.1,92531.3,91603.3,90910.0,90030.7,89351.0,89334.0,92096.6,94406.1,94314.9,95455.1,98971.6,99762.9,100286.0,99229.0,99622.2,99701.0,99804.7,99937.9,99738.0,99081.8,97430.4,98093.9,97267.2,96741.0,98081.0,98013.4,98194.0,97446.8,97983.3,97789.1,97969.4,97728.6,97911.4,98043.4,98404.6,97911.8,97119.6,97448.0,97154.0,98095.0,97021.3,97190.5,97616.4,97401.9,97262.8,98035.3,97210.1,98423.6,100120.5,100876.4,97552.3,98049.2,98084.6,98228.1,98387.9,98342.3,98488.0,98749.8,99085.6,99180.8,100188.2,99106.7,99271.8,99553.4,99072.4,99635.6,99060.9,99185.8,97673.9,96678.7,96703.8,96742.7,96096.2,92830.4,95087.5,95560.0,94866.1,94995.1,95295.3,95497.4,95531.2,95526.7,95558.8,96236.4,96597.4,95538.1,94421.7,96362.7,95972.3,95418.1,93094.5,93127.8,94557.8,94794.8,94727.3,94611.1,94508.3,93856.6,93851.5,93954.5,93339.5,93861.5,94111.8,94248.6,93603.0,94682.3,93897.5,94267.2,94287.8,93490.4,95337.3,95601.1,95225.5,95878.8,97301,96573,95113]
+    line [80862,80484,80242,80034,79063,79245,80226,80016,80507,81625,81233,81544,81578,82016,81401,81019,81186,81130,81118,81306,82066,81909,80392,80304,80291,80258,79729,79261,69466,69579,69456,68251,68415,66832,67911,67462,67144,66432,64380,64375,64606,63740,64647,64324,64216,63842,63877,64078,64008,65156,65945,65888,65157,65625,66144,67284,66653,66639,65924,66925,66956,67263,67108,66766,66729,66886,70927,70673,70049,50652,69334,69973,68400,68061,68578,68876,68879,69055,68662,68822,69329,72687,71999,71760,71162,71911,71896,32500,29218,71927,71297,71305,71044,71337,71883,71822,71536,71536,71622,71723,71880,71860,72100,72216,71887,72077,72940,72976,72966,72638,72948,73497,73004,73041,73173,73160,73186,73258,73375,73351,73173,73098,73161,73305,73474,73536,73457,73413,73412,72100,72333,72164,72272,72204,72285,72461,72421,71652,71521,72267,72157,72774,72424,72144,72060,72091,71858,90185,91338,91466,90900,91678,91404,91268,91244,90903,90779,90787,90721,90187,92429,90518,90619,91070,90328,89376,93286,92202,92581,92485,91947,91196,91259,89619,90086,92063,91355,90950,91327,90373,91498,91800,92531,91603,90910,90031,89351,89334,92097,94406,94315,95455,98972,99763,100286,99229,99622,99701,99805,99938,99738,99082,97430,98094,97267,96741,98081,98013,98194,97447,97983,97789,97969,97729,97911,98043,98405,97912,97120,97448,97154,98095,97021,97190,97616,97402,97263,98035,97210,98424,100120,100876,97552,98049,98085,98228,98388,98342,98488,98750,99086,99181,100188,99107,99272,99553,99072,99636,99061,99186,97674,96679,96704,96743,96096,92830,95088,95560,94866,94995,95295,95497,95531,95527,95559,96236,96597,95538,94422,96363,95972,95418,93094,93128,94558,94795,94727,94611,94508,93857,93852,93954,93340,93862,94112,94249,93603,94682,93898,94267,94288,93490,95337,95601,95226,95879,97301,96573,95113,93569]
 ```
 
 ## 资产明细
-- **BTC**: $53182.7
-- **ETH**: $17699.0
-- **SOL**: $15715.4
-- **USDT**: $8527.2
+- **BTC**: $57189.2
+- **ETH**: $17339.9
+- **SOL**: $16465.7
+- **USDT**: $2574.2
 
 ## 交易记录
+- 2026-10-22T21:34:40.046207 - HOLD / no new buys - RISK-OFF tape; all majors oversold and downtrending (BTC -4.2pct / ETH -4.6pct / SOL -4.5pct); kept ~2577 USDT (~2.8pct) dry powder; only limit maker sells above spot; totalEq ~93569
+- 2026-10-22T21:34:40.046207 - Placed limit SELL 2 SOL-USDT @ 105.80 (ordId 4033317895568633857, live) and SELL 2.36 SOL-USDT @ 106.60 (ordId 4033317902648619009, live) - trims re-listed inside SOL reduce zone
+- 2026-10-22T21:34:40.046207 - Placed limit SELL 2 ETH-USDT @ 2435 (ordId 4033317909762158593, live) - reduce weakest name into 2430-2460 supply band
+- 2026-10-22T21:34:40.046207 - Placed limit SELL 0.05 BTC-USDT @ 82800 (ordId 4033317888488648705, live) - trim overweight BTC (~61pct of book) into 1D-mid resistance
+- 2026-10-22T21:34:40.046207 - Cancelled 3 stale far-above-market sells: BTC 0.05 @ 85100 (ordId 4030625117973786625), SOL 2 @ 109.50 (ordId 4022546716369104897), SOL 2.36 @ 110.20 (ordId 4013025081735786497) - unfillable in a falling tape
 - 2026-10-22T04:21:46.000000 - Buy 1.3497 ETH-USDT market @ 2445.03 USDT, spent 3300 USDT (mean-reversion long; deepest oversold + net taker buying/inflows; order 4031246007774228481, filled)
 - 2026-10-22T04:21:46.000000 - Sell 17 SOL-USDT market @ 105.52 USDT, received 1793.84 USDT (trim on SELL signal - real distribution/ETF outflows into breakdown; order 4031246014552223745, filled)
 - 2026-10-21T23:13:00.000000 - Sell 0.05 BTC limit @ $85,100 - trim into strength/resistance (order 4030625117973786625, resting live, ~1% above mkt $84,270); reduced outsized/overbought BTC (~56% of book). Kept BTC dip-buys 0.027@83350 & 0.033@81800, ETH buy 0.75@2468, SOL trims 2@109.5 & 2.36@110.2. Total equity ~$96,573.
 - 2026-10-21T18:33:00.000000 - Placed limit BUY 0.75 ETH-USDT @ $2,468 (~$1,851) - preferred long buy-the-dip ladder at BOLL-mid retest; ETH best relative strength; did not chase overbought $2,516 high
 - 2026-10-21T18:33:00.000000 - Placed limit BUY 0.027 BTC-USDT @ $83,350 (~$2,250) - buy-the-dip ladder above existing $81,800 rung; did not chase overbought $84.7k high (1H RSI ~91)
-- 2026-10-21T18:33:00.000000 - SOL: no new buys (lagging relative strength, supply overhang); kept TP trims 2.00@109.5 and 2.36@110.2 intact
-- 2026-10-21T13:56:47.798601 - HOLD - No new trades. Overbought relief bounce into resistance with falling long/short leverage ratios (deleveraging, not fresh conviction); declined to chase. Kept resting orders: BTC buy 0.033@81800, SOL sell 2@109.5 & 2.36@110.2. Dry powder retained. Total equity ~$95,879.
-- 2026-10-21T09:20:00.000000 - HOLD - No new orders placed. All three majors extended at/above 4H upper Bollinger (4H RSI ~72-76). BTC core ~55.8% kept (leader, above daily mid-band; trim only on $87.4k rejection, add-back $81k, invalidation <$79,775). ETH ~13.2% held, 2nd tranche only on daily close >$2,520 (inv. <$2,400). SOL ~18.5% held, small add only on daily close >$110.5 (inv. <$100.4). Kept ~$11,874 USDT dry powder for the two staged triggers. ETH-BTC/SOL-BTC cross pairs in downtrend -> no conversion. Resting SOL sells 2.00@109.5 & 2.36@110.2; SOL frozen 17.347. Total equity ~$95,601.
-- 2026-10-21T07:30:06.000000 - Limit buy 0.033 BTC @ 81800 USDT (~$2699) - staged accumulation on pullback
-- 2026-10-20T21:33:30.000000 - BUY 0.469186 ETH-USDT market @ $2,451.05 (~$1,150.00, fee 0.000469 ETH) - first tranche contrarian add; ETH bounced off ~$2,320 with recovering RSI/MACD; invalidation <$2,300
-- 2026-10-20T21:33:30.000000 - BUY 8.907641 SOL-USDT market @ $106.65 (~$950.00, fee 0.008908 SOL) - first tranche add on firm relative strength (RSI recovering, net taker buying); invalidation <$98
-- 2026-10-20T21:33:30.000000 - Portfolio: HOLD BTC (overweight ~56%, untouched); staged half-size adds into ETH & SOL; keep ~$11,886 USDT dry powder for 2nd tranche (ETH reclaim ~$2,520 / SOL breakout >$110.5). Post-trade total equity ~$95,337; each trade <5% of equity.
-- 2026-10-20T04:31:00.000000 - HOLD - No new trades executed. Defensive hold on BTC/ETH/SOL at oversold levels (RSI: BTC 37 / ETH 25 / SOL 26); kept resting above-market sell-trim orders BTC 0.12@82700, ETH 1.5@2460, SOL 2@109.5 & 2.36@110.2. No margin/liquidation risk.
-- 2026-10-20T04:31:00.000000 - Portfolio weights: BTC 66.3% / ETH 20.4% / SOL 13.2% / USDT ~0.2% (~$94,288 total equity). SOL trim-on-strength only into 111-117 (currently below zone); add BTC only on reclaim >= 84K.
-- 2026-10-19T23:41:00.000000 - Buy 13.9155 SOL-USDT limit @ $104.20 (~$1,450 USDT, ordId 4024870491446063105, clOrdId solAccum1042) - accumulate SOL on dip into EMA-99 support; state live
-- 2026-10-19T23:41:00.000000 - HOLD BTC & ETH; kept resting TP sells BTC 0.12@82700, ETH 1.5@2460, SOL 2@109.5 & 2.36@110.2; SOL relative leader -> small dip accumulation
-- 2026-10-19T19:48:28.904924 - Placed limit SELL 0.12 BTC-USDT @ 82700 (ordId 4024417940506423297) to trim overweight BTC into resistance; live
-- 2026-10-19T19:48:28.904924 - Canceled resting BTC-USDT BUY 0.0135 @ 80400 (ordId 4019629418285117441) to cut concentration and free ~1085 USDT
-- 2026-10-19T04:23:00.000000 - Placed SOL-USDT limit BUY 20 SOL @ 104.00 (ordId 4022546721368715265) - dip accumulation ahead of Oct-21 Alpenglow mainnet upgrade
-- 2026-10-19T04:23:00.000000 - Canceled SOL-USDT SELL 2.0 @ 107.20 (ordId 4018702296846708737); re-placed limit SELL 2.0 SOL @ 109.50 (ordId 4022546716369104897) to give the upgrade room
-- 2026-10-19T04:23:00.000000 - Kept resting orders: ETH-USDT SELL 1.5 @ 2460, BTC-USDT BUY 0.0135 @ 80400, SOL-USDT SELL 2.36 @ 110.20
-- 2026-10-19T04:23:00.000000 - No fills this cycle; all maker limit orders resting; totalEq ~$94,682; USDT avail ~$533 (frozen $3,165 in open orders)
-- 2026-10-18T22:26:00.000000 - Placed limit SELL 1.5 ETH-USDT @ 2460 (orderId 4021831078046609409) - defensive trim into bounce, lower cost-basis risk
-- 2026-10-18T22:26:00.000000 - Kept existing orders: BTC buy 0.0135 @ 80400, BTC sell 0.03 @ 82600, SOL sells 2 @ 107.2 and 2.36 @ 110.2
-- 2026-10-18T10:55:00.000000 - Place BUY 0.008 BTC @ 81,300 USDT limit (orderId 4020438141836472321) - resting dip-accumulation order
-- 2026-10-18T04:12:00.000000 - Placed BTC-USDT buy limit 0.0135 @ 80400 (dip-buy at $79.8k-80.4k support, ordId 4019629418285117441, clOrdId dipBuyBtc80400, live/unfilled)
-- 2026-10-18T04:12:00.000000 - Kept existing sell orders: BTC-USDT 0.03 @ 82600 (ordId 4018702290001604609), SOL-USDT 2 @ 107.2 (ordId 4018702296846708737), SOL-USDT 2.36 @ 110.2 (ordId 4013025081735786497)
-- 2026-10-18T04:12:00.000000 - No fills/cancellations/market orders this cycle; HOLD core BTC/ETH/SOL; ~$1096 USDT reserve remaining
-- 2026-10-17T20:33:00.000000 - Re-placed SOL sell 2 @107.2 (from 108.5)
-- 2026-10-17T20:33:00.000000 - Re-placed BTC sell 0.03 @82600 (from 82800)
-- 2026-10-17T20:33:00.000000 - Bought 0.035 BTC @81635.6 (BTC-USDT)
-- 2026-10-17T20:33:00.000000 - Sold 1.2 ETH @2420.18 (ETH-USDT)
-- 2026-10-17T20:33:00.000000 - Canceled ETH sell order 1.2 @2540
-- 2026-10-17T20:33:00.000000 - Canceled SOL buy order 9 @102.6 (freed ~923 USDT)
-- 2026-10-17T20:33:00.000000 - Canceled ETH buy order 0.4 @2360 (freed ~944 USDT)
-- 2026-10-17T17:05:09.004922 - No fills this cycle; kept all 6 resting orders; Cycle tape BTC ~81264 / ETH ~2404 / SOL ~103.2; totalEq ~93339 USDT; free USDT ~270
-- 2026-10-17T17:05:09.004922 - HOLD BTC (daily downtrend, short-term oversold; ~65% of equity overweight) - keep SELL 0.03 @ 82800; no adds
-- 2026-10-17T17:05:09.004922 - HOLD ETH (downtrend basing above 2317; daily RSI ~22 deeply oversold) - keep BUY 0.4 @ 2360 dip and SELL 1.2 @ 2540 trim
-- 2026-10-17T17:05:09.004922 - HOLD SOL (1D oversold, 4H coiling; Alpenglow upgrade Oct 21 catalyst) - keep BUY 9 @ 102.6 dip and SELL 2 @ 108.5 / 2.36 @ 110.2 trims
-- 2026-10-17T12:12:00.000000 - No fills this cycle; kept 6 resting orders; Cycle tape BTC ~81560 / ETH ~2433 / SOL ~104.3; totalEq ~93955 USDT
-- 2026-10-17T12:12:00.000000 - No new buys this cycle (free USDT only ~$270, account already over-long/BTC-concentrated into risk-off tape) - defensive hold
-- 2026-10-17T12:12:00.000000 - HOLD SOL (daily oversold RSI 27, Oct 21 Alpenglow catalyst) - keep BUY 9 @102.6 dip bid and SELL 2.0 @108.5 / 2.36 @110.2 trims
-- 2026-10-17T12:12:00.000000 - HOLD ETH (relative-strength leader: 4H bullish MACD cross, daily RSI 26 oversold) - keep BUY 0.4 @2360 dip bid and SELL 1.2 @2540 trim
-- 2026-10-17T12:12:00.000000 - HOLD BTC (daily downtrend, 1D RSI 38, ~65% of equity overweight) - no adds; trim only on strength
-- 2026-10-17T12:12:00.000000 - REPRICED: Canceled SELL 0.03 BTC-USDT @ 84,900 (botBtcTrimUp1016) and placed SELL 0.03 BTC-USDT @ 82,800 (botBtcTrim1017, ordId=4017696427048710145) - move de-risk trim below EMA99/resistance so it can fill on a bounce
-- 2026-10-17T00:28:00.000000 - PLACED: Buy 9.0 SOL-USDT limit @102.6 (~$923.4 USDT, ordId=4016263684880347137, clOrdId=botSolDip1017) - accumulate into 100.5-102.6 ahead of Oct21 Alpenglow upgrade; invalidation <100
-- 2026-10-17T00:28:00.000000 - HOLD BTC (daily downtrend, RSI 38.6) - keep SELL 0.03 @84900; add only near 80000
-- 2026-10-17T00:28:00.000000 - HOLD ETH (oversold RSI 25.4, weakest structure) - keep SELL 1.2 @2540 and BUY 0.4 @2360; sell rallies 2470-2540
-- 2026-10-17T00:28:00.000000 - HOLD SOL - keep SELL 2.0 @108.5 and 2.36 @110.2 trims (targets)
-- 2026-10-17T00:28:00.000000 - Cycle tape (BTC ~81639 / ETH ~2423 / SOL ~104.4); totalEq ~93852 USDT; USDT avail ~270 after new SOL dip order
-- 2026-10-16T20:53:41.870070 - FILLED: Buy 1.1 ETH-USDT limit @ 2415 (~$2656.5 USDT, ordId=4015855924275589121) - botEthDip1016b add on oversold dip (daily RSI ~25, near daily lower BB)
-- 2026-10-16T20:53:41.870070 - HOLD BTC (daily downtrend, no chase) - keep SELL 0.03 @84900; hold USDT for dip-buys below 80k
-- 2026-10-16T20:53:41.870070 - HOLD ETH - keep SELL 1.2 @2540 at resistance; adding done
-- 2026-10-16T20:53:41.870070 - HOLD SOL (weakest of the three) - keep SELL 2.0 @108.5 and 2.36 @110.2 trims; no new adds before Oct21 Alpenglow upgrade
-- 2026-10-16T20:53:41.870070 - Cycle tape (BTC ~81700 / ETH ~2415 / SOL ~104); totalEq ~93857 USDT; USDT avail ~1193 after ETH fill
-- 2026-10-16T13:20:00.000000 - Place limit BUY 7.5 SOL-USDT @ 103.5 (botSolDip1016, ~$776 USDT) - dip-accumulation add into 102-104 support; do not chase above 108
-- 2026-10-16T13:20:00.000000 - FILLED since prior cycle: Buy 2.04 ETH @ 2450 (botEthBuy1016) and Buy 56.5 SOL @ 106.2 (botSolBuy1016) - ETH 5.40 -> 7.43, SOL 17.31 -> 73.81
-- 2026-10-16T13:20:00.000000 - HOLD BTC (over-concentrated ~64% of equity, daily downtrend, macro-capped) - keep core; SELL 0.03 @84900 resting; hold dry USDT for dip-buys below 80k
-- 2026-10-16T13:20:00.000000 - HOLD ETH (daily oversold, intraday overbought) - keep SELL 1.2 @2540 at resistance; add only on dip 2400-2430
-- 2026-10-16T13:20:00.000000 - SOL best structure of the three (4H MACD bull cross, Alpenglow mainnet-beta Oct 21) - small add only; keep SELL 2 @108.5 and 2.36 @110.2
-- 2026-10-16T13:20:00.000000 - Kept resting: BUY 0.01 BTC @81000, BUY 0.4 ETH @2395, BUY 0.25 ETH @2395, BUY 0.4 ETH @2360, SELL 0.03 BTC @84900, SELL 1.2 ETH @2540, SELL 2 SOL @108.5, SELL 2.36 SOL @110.2
-- 2026-10-16T13:20:00.000000 - Defensive-hold tape (daily downtrend, oversold bounce underway; BTC 82050 / ETH 2465 / SOL 105.6); BTC/ETH HOLD core, small SOL dip-add; new risk this cycle ~$776; totalEq ~94508 USDT
-- 2026-10-16T07:00:00.000000 - Buy 2.04 ETH @ 2450 (~$4,998 USDT) - botEthBuy1016 (FILLED; ETH 5.40 -> 7.43)
-- 2026-10-16T07:00:00.000000 - Place limit BUY 56.5 SOL @ 106.2 (~$6,000 USDT) - botSolBuy1016 (LIVE, inside 105.0-106.4 entry zone)
-- 2026-10-16T07:00:00.000000 - HOLD BTC (downtrend, macro-capped by PPI 6.3% + ETF outflows ~$261M); keep dry USDT for dip-buys < $80k
-- 2026-10-16T07:00:00.000000 - Kept resting: BUY 0.01 BTC @81000, SELL 0.03 BTC @84900, BUY 0.25 ETH @2395, BUY 0.4 ETH @2395, BUY 0.4 ETH @2360, SELL 1.2 ETH @2540, SELL 2 SOL @108.5, SELL 2.36 SOL @110.2
-- 2026-10-16T07:00:00.000000 - Tape: majors correcting, alt momentum alive; SOL strongest RS (Alpenglow upgrade Oct 21) + ETH outperformer (whale rotation BTC->ETH, spot inflows) -> scale in; BTC HOLD. USDT dry ~$4.6k; totalEq ~94611 USDT
-- 2026-10-16T00:18:00.000000 - Cancel stale limit SELL 0.03 BTC-USDT @84200 (botBtcTrim1015) - lifted exit into 84900-86100 resistance zone
-- 2026-10-16T00:18:00.000000 - Place limit SELL 0.03 BTC-USDT @84900 (botBtcTrimUp1016) - trim over-concentrated (~64% of equity) BTC into 84900 resistance
-- 2026-10-16T00:18:00.000000 - Place limit BUY 0.25 ETH-USDT @2395 (botEthDipAdd1016) - add ~$599 to preferred oversold name at 2395 support rung
-- 2026-10-16T00:18:00.000000 - Keep resting BUY 0.01 BTC-USDT @81000, BUY 0.4 ETH-USDT @2395, BUY 0.4 ETH-USDT @2360, SELL 1.2 ETH-USDT @2540, SELL 2.0 SOL-USDT @108.5, SELL 2.36 SOL-USDT @110.2 - HOLD core
-- 2026-10-16T00:18:00.000000 - No fills this cycle. Constructive-but-cautious tape (hot CPI 3.7%/PPI 6.3%, spot-ETF outflows, corporate/treasury bid BTC & ETH); RS BTC>ETH>SOL; BTC strongest -> HOLD + lift trim 0.03 to 84900; ETH daily RSI 26 deeply oversold (best risk/reward) -> add 0.25@2395 atop 0.4@2395 & 0.4@2360 + trim 1.2@2540; SOL weakest but fully frozen (avail 0.0047, 17.347 blocked) -> trim 2.0@108.5 & 2.36@110.2 unchanged; USDT buffer ~$18.9k; totalEq ~94727 USDT
-- 2026-10-15T21:30:00.000000 - Cancel stale limit SELL 4.36 SOL-USDT @110.5 (botSolTrimAvail1015) - re-priced down into 108.5-110.2 resistance
-- 2026-10-15T21:30:00.000000 - Place limit SELL 2.0 SOL-USDT @108.5 (botSolTrimA1015) - trim weakest name into 108-110 resistance
-- 2026-10-15T21:30:00.000000 - Place limit SELL 2.36 SOL-USDT @110.2 (botSolTrimB1015) - trim weakest name near 110.5 top of range
-- 2026-10-15T21:30:00.000000 - Place limit BUY 0.4 ETH-USDT @2360 (botEthDip1015b) - second dip-buy rung at 2340-2360 support
-- 2026-10-15T21:30:00.000000 - Keep resting BUY 0.01 BTC-USDT @81000, SELL 0.03 BTC-USDT @84200, BUY 0.4 ETH-USDT @2395, SELL 1.2 ETH-USDT @2540 - HOLD core
-- 2026-10-15T21:30:00.000000 - No fills this cycle. Cautious oversold-bounce tape (hot CPI 3.7%/PPI 6.3%, spot-ETF outflows BTC $261M / ETH $129M / SOL 8-day streak); BTC strongest -> HOLD + trim 0.03@84200; ETH daily RSI 28 oversold -> dip-buys 0.4@2395 & 0.4@2360 + trim 1.2@2540; SOL weakest (below EMA99, daily RSI 27.7) -> trim 2.0@108.5 & 2.36@110.2; USDT buffer ~$18.9k; totalEq ~94795 USDT
-- 2026-10-15T16:50:00.000000 - Place limit BUY 0.01 BTC-USDT @81000 (botBtcDip1015) - dip-buy at 80200 support; add strongest name
-- 2026-10-15T16:50:00.000000 - Place limit SELL 0.03 BTC-USDT @84200 (botBtcTrim1015) - trim over-concentrated (~64% of equity) BTC into 83900-84400 resistance
-- 2026-10-15T16:50:00.000000 - Place limit BUY 0.4 ETH-USDT @2395 (botEthDip1015) - dip-buy above 2360-2340 support; ETH 1D RSI 25 oversold
-- 2026-10-15T16:50:00.000000 - Place limit SELL 1.2 ETH-USDT @2540 (botEthTrim1015) - trim into 2540 resistance
-- 2026-10-15T16:50:00.000000 - Place limit SELL 4.36 SOL-USDT @110.5 (botSolTrimAvail1015) - trim weakest name into 110-112 resistance; 8 SOL blocked by 12.987 stuck frozen (not cancelable)
-- 2026-10-15T16:50:00.000000 - Neutral/risk-off tape (hot CPI 3.7%/PPI 6.3%, broad spot-ETF outflows, taker flow net sell, crowded OKX longs BTC 4.1/ETH 5.3/SOL 12.8); SOL weakest -> trim 4.36@110.5; ETH dip-buy 0.4@2395 / trim 1.2@2540; BTC HOLD + dip 0.01@81000 / trim 0.03@84200; USDT buffer ~$18.9k; totalEq ~94558 USDT
-- 2026-10-15T11:20:00.000000 - Cancel stale limit SELL 10 SOL-USDT @106.5 (botSolTrim1015) - re-priced down into reduce zone
-- 2026-10-15T11:20:00.000000 - Cancel stale limit SELL 2.2 ETH-USDT @2412 (botEthTrim1015) - nudged up to resistance
-- 2026-10-15T11:20:00.000000 - Place limit SELL 8 SOL-USDT @104.8 (botSolTrimA1015) - SOL reduce ladder
-- 2026-10-15T11:20:00.000000 - Place limit SELL 8 SOL-USDT @104.4 (botSolTrimB1015) - SOL reduce ladder
-- 2026-10-15T11:20:00.000000 - Place limit SELL 2.2 ETH-USDT @2420 (botEthTrim1015b) - trim into 2420-2500 resistance
-- 2026-10-15T11:20:00.000000 - HOLD 0.7392 BTC (untouched) - neutral/bearish, no sale; optional dip-bid skipped
-- 2026-10-15T11:20:00.000000 - Defensive risk-off tape (hot CPI 3.7%, ETF outflows, deleveraging); SOL weakest -> reduce 16 SOL into 104.4-104.8; ETH trim 2.2 @2420; BTC HOLD; USDT buffer ~11.9k (~12.8% of equity); totalEq ~93128 USDT
-- 2026-10-15T04:20:00.000000 - HOLD 0.7392 BTC (untouched, near 80.8k support), no new buys this cycle
-- 2026-10-15T04:20:00.000000 - Placed limit SELL 10 SOL-USDT @106.5 (botSolTrim1015) - trim ~30% of SOL into resistance 105-108
-- 2026-10-15T04:20:00.000000 - Placed limit SELL 2.2 ETH-USDT @2412 (botEthTrim1015) - trim ~29% of ETH into resistance 2400-2440
-- 2026-10-15T04:20:00.000000 - Cancel stale limit SELL 3 SOL-USDT @108.8 (botSolTrim1014) - ~6% above market, was freezing inventory
-- 2026-10-15T04:20:00.000000 - Cancel stale limit SELL 2.5 ETH-USDT @2509 (botEthTrim1014) - ~6% above market, was freezing inventory
-- 2026-10-14T13:40:00.000000 - Cancel BTC-USDT buy 0.01 @79500 (botBtcDip1012b) - below 80.9k support, dead
-- 2026-10-14T13:40:00.000000 - Cancel ETH-USDT buy 0.5 @2395 (botEthDip1012) - off-market, replacing
-- 2026-10-14T13:40:00.000000 - Cancel SOL-USDT sell 3 @110.5 (botSolTrim1013) - far above market, dead
-- 2026-10-14T13:40:00.000000 - Cancel SOL-USDT sell 5 @116.5 (botSolTp1011) - far above market, dead
-- 2026-10-14T13:40:00.000000 - Place SELL 2.5 ETH-USDT @2509 (botEthTrim1014) - trim weakest name into 2509-2517 resistance band
-- 2026-10-14T13:40:00.000000 - Place BUY 0.8 ETH-USDT @2415 (botEthDip1014) - raise dip-buy toward support
-- 2026-10-14T13:40:00.000000 - Place SELL 3 SOL-USDT @108.8 (botSolTrim1014) - trim into resistance
-- 2026-10-14T13:40:00.000000 - Place BUY 0.01 BTC-USDT @80900 (botBtcDip1014n) - dip ladder at 80.9k support
-- 2026-10-14T13:40:00.000000 - Keep resting BUY 0.01 BTC-USDT @80500 (botBtcDip1012) - dip ladder top-up
-- 2026-10-14T13:40:00.000000 - Defensive risk-off tape (hot CPI 3.7%, all majors oversold at lower Bollinger bands); ETH SELL(62) weakest -> partial exit 2.5 @2509; BTC/SOL HOLD; USDT buffer ~11.9k (~12% of equity); totalEq ~95418 USDT
-- 2026-10-13T21:15:00.000000 - Cancel BTC-USDT sell 0.03 @85800 (botBtcTp1011)
-- 2026-10-13T21:15:00.000000 - Place BTC-USDT sell 0.05 @84300 (botBtcTp1013, order 4007188937131438081) - de-risk, raise USDT
-- 2026-10-13T21:15:00.000000 - Cancel ETH-USDT sell 0.5 @2585 (botEthTp1012)
-- 2026-10-13T21:15:00.000000 - Place ETH-USDT sell 0.5 @2540 (botEthTp1013, order 4007188943573889025) - lower trim to 99-EMA resistance
-- 2026-10-13T21:15:00.000000 - Cancel SOL-USDT sell 4 @111.5 (botSolTrim1012)
-- 2026-10-13T21:15:00.000000 - Place SOL-USDT sell 3 @110.5 (botSolTrim1013, order 4007188950016339969) - trim into resistance
-- 2026-10-13T21:15:00.000000 - Market neutral-bearish (CPI-week caution, RSI ~37-40 all majors); BTC over-concentrated at 67% of equity - de-risked the tape, freed sell orders toward 15-20% USDT
-- 2026-10-13T21:15:00.000000 - No new buys added; kept BTC dip-buys 0.01@80500/79500, ETH dip-buy 0.5@2395
-- 2026-10-13T06:40:00.000000 - No coin trading into its resistance/trim zone; nothing to sell into strength. HOLD all. totalEq ~96,363 USDT; ~5,532 USDT dry powder retained
-- 2026-10-12T23:10:00.000000 - Placed 6 resting limit orders: BUY 0.01 BTC-USDT @ 80500 (botBtcDip1012), BUY 0.01 BTC-USDT @ 79500 (botBtcDip1012b), BUY 0.5 ETH-USDT @ 2395 (botEthDip1012), SELL 0.5 ETH-USDT @ 2585 (botEthTp1012), SELL 0.02 BTC-USDT @ 84000 (botBtcTp1012), SELL 4 SOL-USDT @ 111.5 (botSolTrim1012)
-- 2026-10-12T23:10:00.000000 - Kept resting take-profits SELL 5 SOL-USDT @ 116.5 (botSolTp1011) and SELL 0.03 BTC-USDT @ 85800 (botBtcTp1011); no cancellations
-- 2026-10-12T23:10:00.000000 - Noted prior-cycle fills: BUY 0.5 ETH-USDT @ 2460 + 0.4 ETH-USDT @ 2510 (dip-ladder adds), BUY 0.04 BTC-USDT @ 81900/82700/83000, BUY 8.5 SOL-USDT @ 108, SELL 0.5 ETH-USDT @ 2585 (TP)
-- 2026-10-12T23:10:00.000000 - Defensive de-levered tape (OKX loan ratios ~2.6-4.2, spot-ETF outflows); BTC HOLD (RS 58), ETH HOLD/accumulate (62, daily RSI ~30), SOL trim 4@111.5 (70, weakest - lost 99-EMA 111.15); ~5532 USDT dry powder retained
-- 2026-10-12T23:10:00.000000 - No fills this cycle; account ~91% invested, totalEq ~94422 USDT
-- 2026-10-12T05:34:57.000000 - Place limit BUY 0.01 BTC @ 83000 (order 4002407848793878529, top-up strongest-RS BTC dip ladder to ~3% size)
-- 2026-10-12T05:34:57.000000 - Place limit BUY 0.40 ETH @ 2485 (order 4002407853558607873, build underweight ETH on dip within 2480-2520 entry zone)
-- 2026-10-12T05:34:57.000000 - KEEP 9 resting orders - BTC dip ladder 83000/82700/81900, ETH dip ladder 2510/2485/2460; TP sells BTC 0.03@85800, ETH 0.5@2585, SOL 5@116.5
-- 2026-10-12T05:34:57.000000 - HOLD BTC/ETH/SOL core - no SOL adds (weakest RS); no cancellations; no fills this cycle
-- 2026-10-11T18:47:45.000000 - Place limit BUY 0.4 ETH @ 2510 (order 4001107803599548417, scale-in dip-buy; deepest-oversold major)
-- 2026-10-11T18:47:45.000000 - Keep resting BUY 0.6 ETH @ 2460 (order 4000353679685726209, pre-existing dip-buy)
-- 2026-10-11T18:47:45.000000 - HOLD BTC/ETH/SOL core - no SOL adds (weakest RS, below 20-SMA ~116.9, negative daily MACD); no cancellations
-- 2026-10-11T12:40:00.000000 - Place limit BUY 0.02 BTC @ 81900 (order 4000353673612374017, resting dip-buy)
-- 2026-10-11T12:40:00.000000 - Place limit BUY 0.6 ETH @ 2460 (order 4000353679685726209, resting dip-buy)
-- 2026-10-11T12:40:00.000000 - Place limit SELL 4.38 SOL @ 111.8 on SOL-USDT (order 4000353685859741697, ~15% trim, resting)
-- 2026-10-11T12:40:00.000000 - Keep resting TP SELL 0.05 BTC @ 84000 (order 3994603626224431105) and SELL 1.5 ETH @ 2549 (order 3994603619949752321)
-- 2026-10-11T12:40:00.000000 - HOLD BTC/ETH/SOL core - no new SOL adds (weakest, below EMA99, negative daily MACD); no cancellations
-- 2026-10-11T05:23:48.000000 - Sell 16.24 SOL @ avg 109.72 on SOL-USDT (market), received ~1781.9 USDT, fee 1.78 USDT [order 3999481216605106177]
-- 2026-10-11T05:23:48.000000 - HOLD BTC (neutral, range 82200-83700, conf 55); HOLD ETH (neutral, conf 55)
-- 2026-10-10T23:26:00.000000 - Cancelled 4 stale resting dip-buys (BTC 0.007@81900, SOL 3@106, ETH 0.24@2465, ETH 0.26@2465); freed ~2123.8 USDT
-- 2026-10-10T23:26:00.000000 - Placed limit BUY 0.20 ETH-USDT @ 2500 (order 3998768379305930753, ~500 USDT, ~10% of avail USDT, resting unfilled)
-- 2026-10-10T23:26:00.000000 - Kept reduce-only take-profit sells: BTC 0.05@84000, ETH 1.5@2549; no adds to BTC/SOL; flat/no shorts
-- 2026-10-10T18:30:00.000000 - HOLD - no new orders this cycle; kept 6 resting limits (BTC buy 0.007@81900, BTC sell 0.05@84000, ETH buy 0.5@2465, ETH sell 1.5@2549, SOL buy 3@106); account ~95% invested, ~2815 USDT dry powder
-- 2026-10-10T12:25:12.000000 - Place limit BUY 0.26 ETH @ $2,465 (order 3997422013258412033, resting ETH dip-buy; combined pending ETH dip-buy now 0.5 ETH; BTC/SOL HOLD, no fills)
-- 2026-10-10T00:00:38.000000 - Place limit BUY 0.007 BTC @ $81,900 (order 3995931476030402561, resting unfilled dip-buy)
-- 2026-10-10T00:00:38.000000 - Place limit BUY 0.24 ETH @ $2,465 (order 3995931480493142017, resting unfilled dip-buy)
-- 2026-10-10T00:00:38.000000 - Place limit BUY 3 SOL @ $106.0 (order 3995931484855218177, resting unfilled dip-buy)
-- 2026-10-09T19:26:10.987713 - Sell 24 SOL @ avg $109.29 on SOL-USDT (market), received ~2622.96 USDT
-- 2026-10-09T13:01:19.838220 - Sell limit 0.05 BTC @ 84000 USDT (resting, unfilled)
-- 2026-10-09T13:01:19.838216 - Sell limit 1.5 ETH @ 2549 USDT (resting, unfilled)
-- 2026-10-09T05:45:04.031332 - Buy 13.5 SOL @ 110.58, spent ~1492.83 USDT
-- 2026-10-08T17:21:48.979950 - Place limit SELL 1.5 ETH @ $2,600.0 (order 3992228753720225793)
-- 2026-10-08T17:21:48.979947 - Place limit SELL 25 SOL @ $114.0 (order 3992228749190377473)
-- 2026-10-08T00:19:49.237529 - Buy 0.0239853 BTC @ avg 83384.4, spent 2000 USDT (BTC-USDT market)
-- 2026-10-08T00:19:49.237526 - Buy 1.164435 ETH @ avg 2576.36, spent 3000 USDT (ETH-USDT market)
-- 2026-10-07T13:15:12.299690 - Buy 1.171531 ETH, spent 3000 USDT (avg 2560.75)
 
 ## MCP工具
 - [mcp-aktools](https://github.com/aahl/mcp-aktools): 用于查询价格走势及行情
