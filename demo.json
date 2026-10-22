@@ -4155,15 +4155,27 @@
     {
       "time": "2026-10-21T23:13:00.000000",
       "balance": 96573.4
+    },
+    {
+      "time": "2026-10-22T04:21:46.000000",
+      "balance": 95113.3
     }
   ],
   "assets": {
-    "BTC": 54127.5,
-    "ETH": 12771.6,
-    "SOL": 17799.3,
-    "USDT": 11875.0
+    "BTC": 53182.7,
+    "ETH": 17699.0,
+    "SOL": 15715.4,
+    "USDT": 8527.2
   },
   "trades": [
+    {
+      "time": "2026-10-22T04:21:46.000000",
+      "text": "Buy 1.3497 ETH-USDT market @ 2445.03 USDT, spent 3300 USDT (mean-reversion long; deepest oversold + net taker buying/inflows; order 4031246007774228481, filled)"
+    },
+    {
+      "time": "2026-10-22T04:21:46.000000",
+      "text": "Sell 17 SOL-USDT market @ 105.52 USDT, received 1793.84 USDT (trim on SELL signal - real distribution/ETF outflows into breakdown; order 4031246014552223745, filled)"
+    },
     {
       "time": "2026-10-21T23:13:00.000000",
       "text": "Sell 0.05 BTC limit @ $85,100 - trim into strength/resistance (order 4030625117973786625, resting live, ~1% above mkt $84,270); reduced outsized/overbought BTC (~56% of book). Kept BTC dip-buys 0.027@83350 & 0.033@81800, ETH buy 0.75@2468, SOL trims 2@109.5 & 2.36@110.2. Total equity ~$96,573."
