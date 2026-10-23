@@ -1,10 +1,6 @@
 {
   "balances": [
     {
-      "time": "2026-02-14T22:34:53.293417",
-      "balance": 84037.0
-    },
-    {
       "time": "2026-02-15T02:55:14.302108",
       "balance": 83402.3
     },
@@ -3999,15 +3995,31 @@
     {
       "time": "2026-10-22T21:34:40.046207",
       "balance": 93568.9
+    },
+    {
+      "time": "2026-10-23T18:19:42.000000",
+      "balance": 93680.9
     }
   ],
   "assets": {
-    "BTC": 57189.2,
-    "ETH": 17339.9,
-    "SOL": 16465.7,
-    "USDT": 2574.2
+    "BTC": 57233.2,
+    "ETH": 12592.6,
+    "SOL": 16531.2,
+    "USDT": 7323.8
   },
   "trades": [
+    {
+      "time": "2026-10-23T18:19:42.000000",
+      "text": "Sold 2.0 ETH-USDT market @ avg $2,380.08, received ~$4,755 USDT (order 4035831891022589953, filled) - trimmed weakest name (weakest technicals, heavy long unwind, soft catalysts) to rebuild cash buffer; kept core 5.2487 ETH"
+    },
+    {
+      "time": "2026-10-23T18:19:42.000000",
+      "text": "Cancelled live ETH-USDT limit SELL 2.0 ETH @ $2,435 (ordId 4033317909762158593) - low fill odds above spot; de-risked via market instead"
+    },
+    {
+      "time": "2026-10-23T18:19:42.000000",
+      "text": "Kept take-profit ladder: BTC 0.05 @ $82,800, SOL 2.36 @ $106.6, SOL 2.0 @ $105.8 (all live). HOLD / no new buys - book was ~97pct crypto / 2.7pct cash into a broad daily downtrend; USDT buffer lifted to ~7.8pct; totalEq ~93681"
+    },
     {
       "time": "2026-10-22T21:34:40.046207",
       "text": "HOLD / no new buys - RISK-OFF tape; all majors oversold and downtrending (BTC -4.2pct / ETH -4.6pct / SOL -4.5pct); kept ~2577 USDT (~2.8pct) dry powder; only limit maker sells above spot; totalEq ~93569"
@@ -4395,18 +4407,6 @@
     {
       "time": "2026-10-15T11:20:00.000000",
       "text": "Place limit SELL 8 SOL-USDT @104.4 (botSolTrimB1015) - SOL reduce ladder"
-    },
-    {
-      "time": "2026-10-15T11:20:00.000000",
-      "text": "Place limit SELL 2.2 ETH-USDT @2420 (botEthTrim1015b) - trim into 2420-2500 resistance"
-    },
-    {
-      "time": "2026-10-15T11:20:00.000000",
-      "text": "HOLD 0.7392 BTC (untouched) - neutral/bearish, no sale; optional dip-bid skipped"
-    },
-    {
-      "time": "2026-10-15T11:20:00.000000",
-      "text": "Defensive risk-off tape (hot CPI 3.7%, ETF outflows, deleveraging); SOL weakest -> reduce 16 SOL into 104.4-104.8; ETH trim 2.2 @2420; BTC HOLD; USDT buffer ~11.9k (~12.8% of equity); totalEq ~93128 USDT"
     }
   ]
 }
