@@ -4023,15 +4023,39 @@
     {
       "time": "2026-10-25T04:20:00.000000",
       "balance": 92636.7
+    },
+    {
+      "time": "2026-10-25T22:35:00.000000",
+      "balance": 92208.8
     }
   ],
   "assets": {
-    "BTC": 56699.1,
-    "ETH": 10033.2,
-    "SOL": 16253.4,
-    "USDT": 9651.0
+    "BTC": 56484.0,
+    "ETH": 11126.2,
+    "SOL": 4945.2,
+    "USDT": 19653.4
   },
   "trades": [
+    {
+      "time": "2026-10-25T22:35:00.000000",
+      "text": "HOLD / selective-accumulate - daily downtrend with early 4H/1H oversold stabilization in a macro-event week; relative strength SOL>BTC>ETH; kept core BTC/ETH/SOL, no chasing; USDT reserve ~21% (~$19.65k); totalEq ~$92,209"
+    },
+    {
+      "time": "2026-10-25T22:35:00.000000",
+      "text": "Cancelled 3 stale orders: ETH add-bid 0.45 @ 2,300 (strategy = do not add ETH), SOL SELL 2.36 @ 106.6 & 2.0 @ 105.8 (trims too far above 104-105 zone)"
+    },
+    {
+      "time": "2026-10-25T22:35:00.000000",
+      "text": "Placed post-only (maker) scale-in bids: BTC 0.005 @ 79,800 / 79,400 / 79,000 and SOL 8 @ 100.5 / 8 @ 99.5 (~$2.8k new bid liquidity); no fills"
+    },
+    {
+      "time": "2026-10-25T22:35:00.000000",
+      "text": "Rebuilt SOL trim ladder - post-only SELL 2.18 @ 104 and 2.18 @ 105 (ordId 4042137521488408577 / 4042137526286692353)"
+    },
+    {
+      "time": "2026-10-25T22:35:00.000000",
+      "text": "Kept: deep BTC flush bids 0.0189 @ 76,400 & 0.01 @ 76,800; BTC trim SELL 0.05 @ 81,200 / 82,150 / 82,400; ETH trim SELL 1.0 @ 2,390 & 1.0 @ 2,410"
+    },
     {
       "time": "2026-10-25T04:20:00.000000",
       "text": "Cancelled 2 stale bottom bids: SOL BUY 23 @ 101 (4039231248518361089) and BTC BUY 0.0189 @ 79,500 (4039231255195693057) - both too close to spot after the oversold bounce; no fills"
