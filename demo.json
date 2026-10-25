@@ -4019,15 +4019,31 @@
     {
       "time": "2026-10-24T22:28:00.000000",
       "balance": 92130.2
+    },
+    {
+      "time": "2026-10-25T04:20:00.000000",
+      "balance": 92636.7
     }
   ],
   "assets": {
-    "BTC": 56451.0,
-    "ETH": 9939.7,
-    "SOL": 16088.6,
-    "USDT": 9650.9
+    "BTC": 56699.1,
+    "ETH": 10033.2,
+    "SOL": 16253.4,
+    "USDT": 9651.0
   },
   "trades": [
+    {
+      "time": "2026-10-25T04:20:00.000000",
+      "text": "Cancelled 2 stale bottom bids: SOL BUY 23 @ 101 (4039231248518361089) and BTC BUY 0.0189 @ 79,500 (4039231255195693057) - both too close to spot after the oversold bounce; no fills"
+    },
+    {
+      "time": "2026-10-25T04:20:00.000000",
+      "text": "Re-placed maker-only (post_only) bids deeper at support: SOL BUY 23 @ 100.0 (4039941115981869057) and BTC BUY 0.0189 @ 79,300 (4039941120612380673); kept ETH BUY 0.45 @ 2,300 (4039231262175014913) - only accumulate deeper, no chasing"
+    },
+    {
+      "time": "2026-10-25T04:20:00.000000",
+      "text": "HOLD / de-risk - relief bounce within a daily downtrend; relative strength ETH>BTC>SOL, 1H overbought into supply; kept all 6 trim sells (BTC 0.05@81,200 & 0.05@82,150; ETH 1.0@2,390 & 1.0@2,410; SOL 2.0@105.8 & 2.36@106.6), no market orders, no fills; BTC still ~61pct of book, USDT dry powder ~$9.65k (~10.4pct); totalEq ~$92,637"
+    },
     {
       "time": "2026-10-24T22:28:00.000000",
       "text": "Placed post-only BUYs at deep support: SOL 23 @ 101.0 (~$2,323, ordId 4039231248518361089), BTC 0.0189 @ 79,500 (~$1,503, ordId 4039231255195693057), ETH 0.45 @ 2,300 (~$1,035, ordId 4039231262175014913) - accumulation only at support, no chasing spot; all live, no fills"
