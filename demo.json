@@ -4035,15 +4035,31 @@
     {
       "time": "2026-10-27T12:00:00.000000",
       "balance": 91462.4
+    },
+    {
+      "time": "2026-10-27T22:06:05.000000",
+      "balance": 92531.5
     }
   ],
   "assets": {
-    "BTC": 56785.0,
-    "ETH": 10970.2,
-    "SOL": 6455.4,
-    "USDT": 17251.7
+    "BTC": 57576.9,
+    "USDT": 17259.2,
+    "ETH": 11148.8,
+    "SOL": 6546.6
   },
   "trades": [
+    {
+      "time": "2026-10-27T22:06:05.000000",
+      "text": "RESULT: totalEq ~$92,532; free USDT ~$11,616 (frozen ~$5,667 in resting bids); core BTC/ETH/SOL held, no market sells. (Simulated account.)"
+    },
+    {
+      "time": "2026-10-27T22:06:05.000000",
+      "text": "ORDER MAINTENANCE: No cancels; kept all 10 resting orders (BTC buys 78,300/78,200; SOL buy 99.2; BTC sells 84,500/82,400/82,150; ETH sells 2,410/2,390; SOL sells 108/105). Added 3 post-only trims/adds into resistance: SELL BTC 0.05@81,300 (ordId 4047883653510344705); SELL SOL 2.18@102.8 (ordId 4047883853628977153); BUY ETH 0.45@2,305 (ordId 4047884064585691137). 13 live orders, no fills."
+    },
+    {
+      "time": "2026-10-27T22:06:05.000000",
+      "text": "MARKET VIEW: Defensive bounce into resistance ahead of FOMC (Oct 28). All majors recovering from oversold; 1H overbought; ETF flows mixed (BTC +$110M, ETH -$89M, SOL -$8M). Relative strength ETH>BTC>SOL. Maker-only, trim rips, keep dry powder."
+    },
     {
       "time": "2026-10-27T12:00:00.000000",
       "text": "MARKET VIEW: Risk-off broad downtrend. All majors below 25/99 EMA; daily RSI ~33-37. FOMC/rate decision this week = event risk. Relative strength BTC>SOL>ETH. Defensive posture: protect accumulated gains, no market-chasing, hold USDT dry powder."
