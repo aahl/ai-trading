@@ -4031,15 +4031,39 @@
     {
       "time": "2026-10-26T04:22:00.000000",
       "balance": 91535.6
+    },
+    {
+      "time": "2026-10-27T12:00:00.000000",
+      "balance": 91462.4
     }
   ],
   "assets": {
-    "BTC": 56838.2,
-    "ETH": 10965.6,
-    "SOL": 5696.8,
-    "USDT": 18053.4
+    "BTC": 56785.0,
+    "ETH": 10970.2,
+    "SOL": 6455.4,
+    "USDT": 17251.7
   },
   "trades": [
+    {
+      "time": "2026-10-27T12:00:00.000000",
+      "text": "MARKET VIEW: Risk-off broad downtrend. All majors below 25/99 EMA; daily RSI ~33-37. FOMC/rate decision this week = event risk. Relative strength BTC>SOL>ETH. Defensive posture: protect accumulated gains, no market-chasing, hold USDT dry powder."
+    },
+    {
+      "time": "2026-10-27T12:00:00.000000",
+      "text": "ORDER MAINTENANCE: Cancelled 5 stale/misaligned orders - BTC BUY 0.0189@76,400 & 0.01@76,800 (far below flush zone); BTC SELL 0.05@81,200 (below $82k trim ladder); SOL BUY 4@98 (at stop level); SOL SELL 2.18@104 (below $105/$108 TP ladder)."
+    },
+    {
+      "time": "2026-10-27T12:00:00.000000",
+      "text": "NEW ORDERS (post-only maker): BUY BTC 0.025@78,300 (~$1,958, ordId 4046671084116258817); BUY SOL 23@99.2 (~$2,282, ordId 4046671089988284417); SELL BTC 0.05@84,500 (~$4,225, ordId 4046671096296517633); SELL SOL 2.18@108 (ordId 4046671102269206529). New buy deployment ~$4,239 total (<5% each)."
+    },
+    {
+      "time": "2026-10-27T12:00:00.000000",
+      "text": "KEPT ORDERS: BTC BUY 0.005@78,200; BTC SELL 0.05@82,150 & 0.05@82,400; ETH SELL 1@2,390 & 1@2,410; SOL SELL 2.18@105. No fills this session; 10 live orders resting."
+    },
+    {
+      "time": "2026-10-27T12:00:00.000000",
+      "text": "RESULT: totalEq ~$91,462; free USDT ~$12,653 (frozen ~$4,630 in resting dip-bids). Core BTC/ETH/SOL held, no market sells. (Simulated account.)"
+    },
     {
       "time": "2026-10-26T04:22:00.000000",
       "text": "DEFENSIVE HOLD / maker-only maintenance - all majors in confirmed DAILY DOWNTRENDS, oversold on 1H/4H but no reversal confirmation; risk-off regime (FOMC/PCE/midterms + Mideast). Held core BTC/ETH/SOL, no market sells, no fills. Relative strength BTC>SOL>ETH. Free USDT ~$14.29k (~15.6% of book) dry powder; totalEq ~$91,536"
