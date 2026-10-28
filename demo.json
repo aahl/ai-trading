@@ -4039,15 +4039,27 @@
     {
       "time": "2026-10-27T22:06:05.000000",
       "balance": 92531.5
+    },
+    {
+      "time": "2026-10-28T05:16:02.000000",
+      "balance": 92561.5
     }
   ],
   "assets": {
-    "BTC": 57576.9,
-    "USDT": 17259.2,
-    "ETH": 11148.8,
-    "SOL": 6546.6
+    "BTC": 57559.3,
+    "USDT": 17257.3,
+    "ETH": 11161.0,
+    "SOL": 6584.0
   },
   "trades": [
+    {
+      "time": "2026-10-28T05:16:02.000000",
+      "text": "ACTION: Placed post-only SELL 3 SOL @ 102.35 (ordId 4048749422246899713) as a small trim into resistance; resting/unfilled. No BTC/ETH/SOL market buys. Full existing grid of resting orders kept intact. USDT avail ~11,616 (dry powder), totalEq ~92,561."
+    },
+    {
+      "time": "2026-10-28T05:16:02.000000",
+      "text": "MARKET VIEW: All three majors (BTC/ETH/SOL) at intraday highs & short-term overbought ahead of FOMC (Oct 28). BTC ~80,970 (RSI ~65, res 81.3k), ETH ~2,356 (above 99EMA, res 2,367-2,370), SOL ~102.0 (most overbought, RSI-6 ~80, res 102.3-102.4). Stance: hold + trim rips + buy dips, no chasing."
+    },
     {
       "time": "2026-10-27T22:06:05.000000",
       "text": "RESULT: totalEq ~$92,532; free USDT ~$11,616 (frozen ~$5,667 in resting bids); core BTC/ETH/SOL held, no market sells. (Simulated account.)"
