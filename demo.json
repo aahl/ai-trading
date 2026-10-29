@@ -4047,15 +4047,35 @@
     {
       "time": "2026-10-28T19:34:52.000000",
       "balance": 92874.8
+    },
+    {
+      "time": "2026-10-29T05:39:23.747708",
+      "balance": 92085.8
     }
   ],
   "assets": {
-    "BTC": 53739.8,
-    "USDT": 21856.9,
-    "ETH": 11200.1,
-    "SOL": 6078.0
+    "BTC": 54741.6,
+    "USDT": 20673.0,
+    "ETH": 10692.5,
+    "SOL": 5978.8
   },
   "trades": [
+    {
+      "time": "2026-10-29T05:39:23.747708",
+      "text": "ACTION: Placed 2 post-only BTC orders - BUY 0.02 @ 79,500 (ordId 4051692318537297921, dip-accumulation in 79,400-79,600 zone, BTC strongest + MACD bottoming) and SELL 0.03 @ 81,300 (ordId 4051692324677758977, trim into resistance below 20MA ~80,820). No cancels; all 8 prior resting orders kept. No fills."
+    },
+    {
+      "time": "2026-10-29T05:39:23.747708",
+      "text": "MARKET VIEW: Neutral-to-risk-off. BTC ~$80,300 (RSI ~47, MACD histogram bottoming, relatively strongest); ETH ~$2,328 (range-bound, below EMA-99 2,346); SOL ~$100.6 (weakest, persistent ETF outflows, rejected 103.9). Relative strength BTC>ETH>SOL. Maker-only, keep USDT dry powder."
+    },
+    {
+      "time": "2026-10-29T05:39:23.747708",
+      "text": "ORDER MAINTENANCE: No cancels - verified all 8 resting orders aligned with spot (BTC sells 82,150/82,400/83,500/84,500; SOL sells 105/108; SOL buy 99.2; ETH sell 2,410). Added 2 post-only BTC orders (see ACTION). 10 live orders, no fills."
+    },
+    {
+      "time": "2026-10-29T05:39:23.747708",
+      "text": "RESULT: totalEq ~$92,086; USDT avail ~$16,829 (~$3,872 frozen in resting orders); core BTC/ETH/SOL held, no market sells. (Simulated account.)"
+    },
     {
       "time": "2026-10-28T19:34:52.000000",
       "text": "RESULT: totalEq ~$92,875; free USDT ~$16,208 (~$5,667 frozen in 12 resting maker orders); core BTC/ETH/SOL held, no market sells. (Simulated account.)"
