@@ -4075,15 +4075,31 @@
     {
       "time": "2026-11-21T00:15:00.000000",
       "balance": 68631.9
+    },
+    {
+      "time": "2026-11-21T02:00:00.000000",
+      "balance": 67833.4
     }
   ],
   "assets": {
-    "BTC": 44882.0,
-    "ETH": 10543.0,
-    "SOL": 6438.0,
-    "USDT": 6901.0
+    "BTC": 45240.0,
+    "ETH": 10779.0,
+    "SOL": 7387.0,
+    "USDT": 4526.0
   },
   "trades": [
+    {
+      "time": "2026-11-21T02:00:00.000000",
+      "text": "RESULT: totalEq ~$67,833 (simulated SPOT, acctLv 1, no leverage/borrowing). No fills this session. Core holdings unchanged: BTC 0.78500 / ETH 6.49611 / SOL 108.42743; available USDT $4,533.60. 5 resting orders (3 take-profit sells + 2 new dip bids). Account marked up ~0.84% vs prior snapshot on the bounce."
+    },
+    {
+      "time": "2026-11-21T02:00:00.000000",
+      "text": "ACTION: Maker-only, no chasing the vertical 5m spike (BTC 1m RSI 89.9, SOL 1m RSI 90.6 = short-term overbought). Placed 2 post-only dip bids: BTC buy 0.01 @ 56,300 (ordId 4118515763874639873, clOrdId btcdip02) and SOL buy 10 @ 65.80 (ordId 4118515767968280577, clOrdId soldip02). Total notional ~$1,221 = 1.8% of equity. Kept 3 take-profit sells untouched: BTC 0.023 @ 60,500, ETH 2.0 @ 1,690, SOL 15 @ 72.90. No market orders, no core sales, no leverage."
+    },
+    {
+      "time": "2026-11-21T02:00:00.000000",
+      "text": "MARKET VIEW: Violent risk-off deleveraging / capitulation phase, not a confirmed bottom. BTC ~$57,400 (24h -7.4%, range $55,102-62,400), ETH ~$1,629, SOL ~$67.9. All three in confirmed daily downtrends (below every major MA, daily MACD hist expanding negative) but daily RSI at 120-day extremes: BTC 5.4, ETH 10.2, SOL 16.8. $1.893B liquidated in 24h, 91% longs, 292k traders; OI-weighted funding reset to ~0.003% = leverage largely flushed, bounce fuel. 1H/5m turning up: BTC 1H RSI 13.3->33.6, MACD hist -539->-383; sharp snapback off lows. Resistance BTC 59,500-60,000 then 62,400; ETH 1,740; SOL 72.9-74. Support/invalidation: BTC 55,100, ETH 1,528, SOL 64.8. Fundamentals still hostile: BTC spot ETF -$582M/day, ETH ETF -$130M, ETH Glamsterdam delayed to late Jan, 197k ETH exploit overhang, SOL VSOL custody risk; Binance BTC wallet -54k BTC in 7d while OKX/Bybit see inflows. Cross-pairs: ETH-BTC 0.02829 (small long only above 0.0290, invalidation 0.0275); SOL-BTC stretched (KDJ J ~110) - trim SOL into BTC rather than rotate; SOL-ETH spot on OKX is dead (zero volume, stale 0.04) - not executable. Plan: hold core BTC-weighted, accumulate only on dips below support, trim on strength, do not average down into a long-flush. Note: okx_taker_volume and okx_loan_ratios returned empty this session - order-flow confirmation missing."
+    },
     {
       "time": "2026-11-21T00:15:00.000000",
       "text": "RESULT: totalEq ~$68,632 (simulated SPOT, acctLv 1, no leverage/borrowing). Free USDT $6,901 -> $4,534 after order freezes. Holdings: BTC 0.762 / ETH 6.496 / SOL 93.439. 6 live limit orders, 0 filled at verification."
