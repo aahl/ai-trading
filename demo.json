@@ -4071,15 +4071,27 @@
     {
       "time": "2026-10-31T21:24:00.000000",
       "balance": 89428.7
+    },
+    {
+      "time": "2026-11-21T00:15:00.000000",
+      "balance": 68631.9
     }
   ],
   "assets": {
-    "BTC": 57028.3,
-    "ETH": 11925.5,
-    "SOL": 8834.8,
-    "USDT": 11640.2
+    "BTC": 44882.0,
+    "ETH": 10543.0,
+    "SOL": 6438.0,
+    "USDT": 6901.0
   },
   "trades": [
+    {
+      "time": "2026-11-21T00:15:00.000000",
+      "text": "RESULT: totalEq ~$68,632 (simulated SPOT, acctLv 1, no leverage/borrowing). Free USDT $6,901 -> $4,534 after order freezes. Holdings: BTC 0.762 / ETH 6.496 / SOL 93.439. 6 live limit orders, 0 filled at verification."
+    },
+    {
+      "time": "2026-11-21T00:15:00.000000",
+      "text": "ACTION: Oversold tape (BTC -4.96% 58,911, ETH -9.0% 1,622.8, SOL -5.7% 68.90; daily RSI 5.8/10.2/18.4; OKX loan ratios ~13 vs 27-54 two days prior = extreme short crowding). Small mean-reversion scalp only, no trend chasing. Placed: BTC buy 0.012 @58,950 + buy 0.011 @58,200, TP sell 0.023 @60,500; SOL buy 15 @68.00, TP sell 15 @72.90; ETH trim sell 2.0 @1,690. Total new exposure ~3.5% of equity. Stops could not be placed - place_order has no conditional/trigger ordType (sCode 51000) - watch BTC 56,300 / SOL 65.90 manually."
+    },
     {
       "time": "2026-10-31T21:24:00.000000",
       "text": "RESULT: totalEq ~$89,428.7 (simulated SPOT). USDT cash $11,653.8, available ~$2,747, frozen ~$8,907 (10 resting post-only orders). Core holdings unchanged: BTC 0.73705 / ETH 5.29707 / SOL 92.43763; no fills. (Simulated account.)"
