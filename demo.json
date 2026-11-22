@@ -4079,15 +4079,30 @@
     {
       "time": "2026-11-21T02:00:00.000000",
       "balance": 67833.4
+    },
+    {
+      "time": "2026-11-22T02:06:00.000000",
+      "balance": 70191.9
     }
   ],
   "assets": {
-    "BTC": 45240.0,
-    "ETH": 10779.0,
-    "SOL": 7387.0,
-    "USDT": 4526.0
+    "BTC": 45734.8,
+    "ETH": 7569.0,
+    "SOL": 7606.9,
+    "USDT": 9281.2
   },
   "trades": [
+    {
+      "time": "2026-11-22T02:06:00.000000",
+      "text": "MARKET VIEW: Daily downtrend intact (BTC below BOLL mid 69,498, ETH below 1,985, SOL below 80.6) but daily RSI at capitulation extremes: BTC 7.9, ETH 13.9, SOL 21.6. 4H MACD just crossed positive on all three (BTC +377, ETH +10.8, SOL +0.23) off a washed-out base, while 4H KDJ is already overbought (J: BTC 99.5, ETH 93.7, SOL 103.0) -> this is an early oversold bounce inside a downtrend, not a trend reversal. No fundamental catalyst; prior session saw ETF outflows and a $1.89B long flush. Book is 84% long spot with heavy unrealized losses (BTC -24%, ETH -29%, SOL -27%), so the right trade is to trim strength, not add."
+    },
+    {
+      "time": "2026-11-22T02:06:00.000000",
+      "text": "ACTION: Maker-only trim ladder on the bounce, no market orders, no new leverage. Placed 3 post-only SELL orders: BTC 0.04 @ 61,850 (ordId 4120846664268787713), ETH 0.4 @ 1,745 (ordId 4120846671449436161), SOL 10 @ 72 (ordId 4120846678193876993). Total notional ~$3,338 (~4.8% of equity). Existing ladder retained: BTC sell 0.018 @ 61,350, SOL sell 15 @ 72.90, ETH buy 0.45 @ 1,655, SOL buy 8 @ 67.30 and 10 @ 65.80, BTC buy 0.01 @ 56,300."
+    },
+    {
+      "time": "2026-11-22T02:06:00.000000",
+      "text": "RESULT: totalEq $70,191.87 (simulated SPOT, acctLv 1, no leverage/borrowing), +3.5% vs prior snapshot on the rebound. Holdings: BTC 0.76198 ($45,734.75) / ETH 4.49611 ($7,568.98) / SOL 108.42743 ($7,606.94) / USDT 9,301.28 (available 6,797.13, 2,504.15 frozen in resting orders). No fills at verification. Invalidations: BTC 55,100, ETH 1,536, SOL 64.8 - below these the bounce has failed and dip bids should be cancelled."
     {
       "time": "2026-11-21T02:00:00.000000",
       "text": "RESULT: totalEq ~$67,833 (simulated SPOT, acctLv 1, no leverage/borrowing). No fills this session. Core holdings unchanged: BTC 0.78500 / ETH 6.49611 / SOL 108.42743; available USDT $4,533.60. 5 resting orders (3 take-profit sells + 2 new dip bids). Account marked up ~0.84% vs prior snapshot on the bounce."
