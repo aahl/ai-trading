@@ -4083,15 +4083,39 @@
     {
       "time": "2026-11-22T02:06:00.000000",
       "balance": 70191.9
+    },
+    {
+      "time": "2026-11-22T09:20:00.000000",
+      "balance": 70919.1
     }
   ],
   "assets": {
-    "BTC": 45734.8,
-    "ETH": 7569.0,
-    "SOL": 7606.9,
-    "USDT": 9281.2
+    "BTC": 45183.1,
+    "ETH": 8466.8,
+    "SOL": 7622.6,
+    "USDT": 9646.6
   },
   "trades": [
+    {
+      "time": "2026-11-22T09:20:00.000000",
+      "text": "MARKET VIEW: 1H uptrend intact on all three (BTC 60,820 / ETH 1,714 / SOL 70.42) but momentum decelerating - BTC MACD hist three bars down, ETH RSI 73.5 piercing upper BOLL, SOL rejected at 71.4 under descending 99-EMA. OKX long/short ratios at multi-week lows (BTC 17.8, ETH 18.4, SOL 23.6) = squeezed shorts fuel the grind, but the book is already 92% in spot and heavy, so this cycle is order hygiene, not fresh risk."
+    },
+    {
+      "time": "2026-11-22T09:20:00.000000",
+      "text": "Cancelled stale dip buys outside plan zones: BTC 0.015@58600 (too close to 58,400 invalidation), BTC 0.01@56300, SOL 8@67.30, SOL 10@65.80, ETH 0.4@1655"
+    },
+    {
+      "time": "2026-11-22T09:20:00.000000",
+      "text": "Place limit BUY 0.02 BTC-USDT @60000 post-only (btcdip04) - inside 60,300-59,800 dip zone, ~1,200 USDT if filled"
+    },
+    {
+      "time": "2026-11-22T09:20:00.000000",
+      "text": "Place limit SELL 0.4 ETH-USDT @1748 post-only (ethtrim03) - take-profit trim in 1,740-1,760 zone, no chasing at 1,714"
+    },
+    {
+      "time": "2026-11-22T09:20:00.000000",
+      "text": "HOLD core BTC/ETH/SOL. No SOL entry - no edge until 68.9-71.3 range breaks on volume above 71.5. totalEq ~70,919 USDT, USDT ~9,660 (3,846 frozen)"
+    },
     {
       "time": "2026-11-22T02:06:00.000000",
       "text": "MARKET VIEW: Daily downtrend intact (BTC below BOLL mid 69,498, ETH below 1,985, SOL below 80.6) but daily RSI at capitulation extremes: BTC 7.9, ETH 13.9, SOL 21.6. 4H MACD just crossed positive on all three (BTC +377, ETH +10.8, SOL +0.23) off a washed-out base, while 4H KDJ is already overbought (J: BTC 99.5, ETH 93.7, SOL 103.0) -> this is an early oversold bounce inside a downtrend, not a trend reversal. No fundamental catalyst; prior session saw ETF outflows and a $1.89B long flush. Book is 84% long spot with heavy unrealized losses (BTC -24%, ETH -29%, SOL -27%), so the right trade is to trim strength, not add."
