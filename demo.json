@@ -4091,15 +4091,35 @@
     {
       "time": "2026-11-22T23:38:00.000000",
       "balance": 71340.1
+    },
+    {
+      "time": "2026-11-23T20:07:43.000000",
+      "balance": 71542.8
     }
   ],
   "assets": {
-    "BTC": 45535.9,
-    "ETH": 8514.1,
-    "SOL": 7647.5,
-    "USDT": 9642.7
+    "BTC": 43594.1,
+    "ETH": 7149.6,
+    "SOL": 6079.7,
+    "USDT": 14719.4
   },
   "trades": [
+    {
+      "time": "2026-11-23T20:07:43.000000",
+      "text": "RESULT: totalEq $71,542.82 (simulated SPOT, acctLv 1, no leverage/borrowing, no fills this cycle). Holdings: BTC 0.71397 ($43,594.08, avail 0.61397) / ETH 4.14575 ($7,149.60) / SOL 83.42743 ($6,079.69) / USDT 14,736.10 ($14,719.45, avail 13,536.10). Spot uPnL: BTC -22.4%, ETH -24.9%, SOL -24.4%. 3 live orders: 2 BTC sell trims + 1 BTC buy dip bid."
+    },
+    {
+      "time": "2026-11-23T20:07:43.000000",
+      "text": "ACTION: Cancelled 3 resting bids - SOL buy 6 @71.10 (ordId 4124355722711937025), ETH buy 0.5 @1700 (ordId 4124355716437258241), SOL buy 8 @69.60 (soldip04b, ordId 4123443313113575425). Freed 1,833.40 USDT. SOL has the weakest relative strength (SOL-ETH falling 0.052->0.042, SOL-BTC rolling over) so no dip bids there; ETH has no MACD bullish cross and 8 straight weeks of ETF redemptions. Kept btcdip04 (BTC buy 0.02 @60,000) - strongest chart, 1.7% of equity."
+    },
+    {
+      "time": "2026-11-23T20:07:43.000000",
+      "text": "ACTION: Placed 2 post-only BTC trim offers to cut concentration from ~61% to ~52% of book. SELL 0.06 BTC-USDT @62,500 (btctrim05, ordId 4125921431967510529) and SELL 0.04 BTC-USDT @63,500 (btctrim06, ordId 4125921437940199425). Total 0.10 BTC (~$6,150) sold INTO strength, not at market. No new buys. ETH and SOL held untouched."
+    },
+    {
+      "time": "2026-11-23T20:07:43.000000",
+      "text": "ANALYSIS: All three majors in confirmed daily downtrends and deeply oversold (BTC daily RSI ~21, ETH ~28, SOL ~37) after a high-volume bounce was sold at resistance (BTC rejected 64,600, ETH 1,845, SOL 78.5). Taker flow showed distribution into the spike; OKX BTC long/short borrow ratio at extreme ~56; BTC ETF >$1.1B weekly outflow, ETH 8th straight week. BTC 61,280 / ETH 1,731.5 / SOL 73.0. Stance: counter-trend bounce, do NOT chase or average down. Keep dry powder (USDT 20.6% of book). Dry powder deployment only on triggers: BTC daily close >64,600 on volume -> $2,000; BTC retest 57,500-58,800 with reversal candle -> $2,000; ETH reclaim 1,850 -> $1,500. Invalidation: BTC losing 59,300 opens 55,134."
+    },
     {
       "time": "2026-11-22T23:38:00.000000",
       "text": "RESULT: totalEq $71,340.13 (simulated SPOT, acctLv 1, no leverage/borrowing). No fills this cycle. Holdings: BTC 0.74398 ($45,535.92) / ETH 4.94575 ($8,514.06) / SOL 108.42743 ($7,647.50) / USDT 9,659.95 ($9,642.66). Available USDT 7,299.15 (2,360.80 frozen across 3 bids). 7 live orders: 5 sells + 2 BTC buys + 1 SOL buy. Spot uPnL: BTC -22.5%, ETH -25.1%, SOL -26.8%."
@@ -4143,6 +4163,7 @@
     {
       "time": "2026-11-22T02:06:00.000000",
       "text": "RESULT: totalEq $70,191.87 (simulated SPOT, acctLv 1, no leverage/borrowing), +3.5% vs prior snapshot on the rebound. Holdings: BTC 0.76198 ($45,734.75) / ETH 4.49611 ($7,568.98) / SOL 108.42743 ($7,606.94) / USDT 9,301.28 (available 6,797.13, 2,504.15 frozen in resting orders). No fills at verification. Invalidations: BTC 55,100, ETH 1,536, SOL 64.8 - below these the bounce has failed and dip bids should be cancelled."
+    },
     {
       "time": "2026-11-21T02:00:00.000000",
       "text": "RESULT: totalEq ~$67,833 (simulated SPOT, acctLv 1, no leverage/borrowing). No fills this session. Core holdings unchanged: BTC 0.78500 / ETH 6.49611 / SOL 108.42743; available USDT $4,533.60. 5 resting orders (3 take-profit sells + 2 new dip bids). Account marked up ~0.84% vs prior snapshot on the bounce."
