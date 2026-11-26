@@ -4099,18 +4099,34 @@
     {
       "time": "2026-11-24T04:01:00.000000",
       "balance": 70350.8
+    },
+    {
+      "time": "2026-11-26T11:01:38.000000",
+      "balance": 70782.9
     }
   ],
   "assets": {
-    "BTC": 43854.1,
-    "ETH": 6915.1,
-    "SOL": 5782.3,
-    "USDT": 13536.1
+    "BTC": 44355.6,
+    "ETH": 4307.9,
+    "SOL": 5878.1,
+    "USDT": 16241.3
   },
   "trades": [
     {
-      "time": "2026-11-24T04:01:00.000000",
-      "text": "RESULT: totalEq $70,350.80 (simulated SPOT acctLv 1, no spots/shorting, no fills this cycle). Holdings: BTC 0.73396 ($43,854) / ETH 4.14575 ($6,915) / SOL 83.42743 ($5,782) / USDT 13,536.10 (avail 10,030.62, frozen 3,505.48). Spot uPnL: BTC -23.5%, ETH -26.9%, SOL -28.0%. 4 live orders: 2 legacy BTC sell trims, 1 BTC dip bid, plus today's 2 new orders."
+      "time": "2026-11-26T11:01:38.000000",
+      "text": "ACTION: Cancelled 2 stale BTC trims (btctrim05 0.06@62,500 / btctrim06 0.04@63,500) and re-laddered into the 61,500-62,000 strength zone - SELL 0.06 BTC @61,500 (btctrim07, ordId 4133507459360239617) + SELL 0.04 BTC @62,000 (btctrim08, ordId 4133507466876432385)."
+    },
+    {
+      "time": "2026-11-26T11:01:38.000000",
+      "text": "ACTION: Placed 2 dip bids on analyzer pullback zones - BUY 3.0 ETH @1,670 (ethdip02, ordId 4133507473922863105, ~$5,010) and BUY 72 SOL @69.0 (soldip03, ordId 4133507480734412801, ~$4,968). No market orders, no chase at mid-band."
+    },
+    {
+      "time": "2026-11-26T11:01:38.000000",
+      "text": "RESULT: totalEq $70,782.9 (simulated SPOT acctLv 1, no leverage/borrowing). Holdings: BTC 0.73396 ($44,355.6) / ETH 2.54575 ($4,307.9) / SOL 83.42743 ($5,878.1) / USDT 16,261.9 (6,283.9 avail, 9,978 frozen in 4 new orders). Prior-cycle fills: sold ETH 1.6 @1,705 (ethtrim01) + bought BTC 0.02 @60,000 (btcdip04). Spot uPnL: BTC -22.7%, ETH -26.3%, SOL -26.9%."
+    },
+    {
+      "time": "2026-11-26T11:01:38.000000",
+      "text": "MARKET VIEW: Neutral range-bound bounce inside a bear trend. BTC ~60,505 (+2.8%), ETH ~1,694 (+3.1%), SOL ~70.57 (+4.3%). Analyzer: buy ETH 1,660-1,675 & SOL 68.5-69.5 pullbacks, hold + trim BTC into 61,500-62,000, keep ~38% cash. Loan ratios deleveraged to a base (BTC ~18-19) = no leveraged breakout fuel; SBI Solana JV strongest catalyst; BTC ETF outflows cap upside. Invalidations: BTC <58,000 / ETH <1,625 / SOL <66.5."
     },
     {
       "time": "2026-11-24T04:01:00.000000",
