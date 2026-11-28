@@ -4107,15 +4107,31 @@
     {
       "time": "2026-11-26T21:30:00.000000",
       "balance": 71376.6
+    },
+    {
+      "time": "2026-11-28T07:30:00.000000",
+      "balance": 70433.6
     }
   ],
   "assets": {
-    "BTC": 44701.2,
-    "ETH": 9461.6,
-    "SOL": 5976.2,
-    "USDT": 11237.5
+    "BTC": 38994.8,
+    "ETH": 7180.0,
+    "SOL": 4150.3,
+    "USDT": 20107.8
   },
   "trades": [
+    {
+      "time": "2026-11-28T07:30:00.000000",
+      "text": "MARKET VIEW: Confirmed daily downtrend with an oversold capitulation bounce. BTC ~59,690 (1D RSI 32.7, daily MACD hist just turned +182), ETH ~1,653 (1D RSI 33.1, weakest structure), SOL ~71.07 (1D RSI 45.6, best momentum). BTC spot ETF outflows ~$5B in November, 11 straight redemption sessions; ETH ETF -$69M Nov 27 plus Chainflip exploit; SOL whale unstaked 527.8k. Leverage flushed (OKX BTC loan ratio 146 -> 19). Stance: defensive - one ~1% BTC starter max, no new ETH/SOL risk, prefer BTC over ETH. Invalidations: BTC daily close <55,134 / ETH <1,536 / SOL <67.38."
+    },
+    {
+      "time": "2026-11-28T07:30:00.000000",
+      "text": "ACTION: All five legacy orders filled since the last snapshot. Kept soldip03 BUY 72 SOL @69.00 post-only inside the 68.5-69.5 dip zone. Restored the exhausted BTC trim ladder with btctrim10 SELL 0.03 BTC @62,000 post-only (ordId 4138891568790122497, ~$1,860) at resistance. Placed the single permitted risk-adding order btcdip06 BUY 0.018 BTC @59,550 post-only (ordId 4138891573387079681, ~$1,071.90 = 1.52% of equity), maker bid ~0.25% under last to avoid crossing. No new ETH/SOL risk, no market orders, no leverage."
+    },
+    {
+      "time": "2026-11-28T07:30:00.000000",
+      "text": "RESULT: totalEq $70,433.61 (simulated SPOT, acctLv 1, no leverage). Fills since prior snapshot: btcdip05 BUY 0.02 BTC @60,100; btctrim08 SELL 0.04 BTC @62,000; btctrim09 SELL 0.03850044 BTC @61,700; soltrim01 SELL 25 SOL @72.90; ethtrim04 SELL 1.2 ETH @1,735. Holdings: BTC 0.65393919 ($38,994.85) / ETH 4.34335263 ($7,180.04) / SOL 58.4274346 ($4,150.33) / USDT 20,128.35 ($20,107.82; avail 14,088.45, frozen 6,039.90). BTC 55.4% of equity, cash 28.6%. No fills this cycle; 3 resting maker orders."
+    },
     {
       "time": "2026-11-26T21:30:00.000000",
       "text": "MARKET VIEW: Bear-market counter-trend bounce stalling at supply on collapsing volume. BTC 60,849 (+0.9%) / ETH 1,704.8 (+1.1%) / SOL 71.49 (+1.0%). Relative strength SOL > BTC > ETH (SOL completed a 4H MACD zero-line cross, -5.1% vs 1D 20MA; BTC -6.9%; ETH -7.3%). 1H momentum already negative on all three while price is pinned to the upper bands = fade setup, not breakout. Volume collapse: BTC daily bar 507 BTC vs 7,264 prior session; newest 4H candle 62 BTC vs 800-2,000 norm. OKX BTC borrow ratio ~96% (long crowding rebuilt), ETH only ~18.7%. November BTC spot ETF outflows >$5B, ETH ETF -$520M over 8 sessions, core PCE 3.3% reviving December hike odds. Resistances BTC 61,630-61,810 / ETH 1,732.8-1,734.3 / SOL 72.80-73.33; invalidations (daily close) BTC <58,000 / ETH <1,625 / SOL <67.70."
